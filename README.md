@@ -137,7 +137,3 @@ Avoid running `UPDATE`, `DELETE`, `INSERT`, or other modifying queries unless yo
 The database schema, including the available tables and columns, can be inspected directly in DB Browser for SQLite.
 
 Replace the SQL placeholders in this guide with the actual table and column names from `wiki.db`.
-
-## Repository
-
-[GitHub Repository](https://github.com/ryufps/SekiroSpeedrun.com-Database/)
