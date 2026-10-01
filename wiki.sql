@@ -374,6 +374,187 @@ Edited
 
 
 ',1,1,'2026-09-29 02:37:18.434774','rejected','2026-09-29 02:37:18.433259','2026-09-29 02:41:11.895733',1,'Test',NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(8,63,'Dojo Skip','## Dojo Skip
+Dojo Skip refers to a trick that skips going inside Ashina Castle and allows early access to the roof. This is most commonly used in glitchless categories before Genichiro. There''s two versions of the skip, Backside & Frontside 
+
+## Backside Dojo Skip
+This version makes use of a window near the intended path to make it onto the roof. This is the easier but slower version of the skip, although it still saves decent time compared to the intended path. This version also allows the player to grab one quick Fistful of Ash found near the window, making it a good option for beginners as it also allows for an easy 5 ash [Corrupted Monk Cheese](https://sekirospeedrun.com/wiki/corrupted-monk-cheese).
+
+koko838 made a tutorial on this version of the skip:
+[youtube]aTMXl5NShj4[/youtube]
+
+## Frontside Dojo Skip
+This is the harder version of the skip, making use of the collision on the front side of the roof and saving around 7 seconds over backside. Note that this can also be performed to reach the roof faster after the first invasion, but the time save there is much smaller.
+
+Pennek has made 2 tutorials on the skip:
+[youtube]Fb3tdwepZnE[/youtube]
+[youtube]vjTOwn6XHaU[/youtube]',3,7,'2026-09-30 16:47:04.996806','approved','2026-09-30 16:47:04.993615','2026-09-30 17:10:44.627663',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(9,50,'Corrupted Monk Cheese','## Corrupted Monk Cheese
+Corrupted Monk Cheese refers to performing a stealth deathblow on Corrupted Monk (illusion) after stunning her with enough Snap Seeds and Fistfuls of Ash. It is not considered a glitch in either Speedruns or Hitless Runs.
+
+## 4 Ash Corrupted Monk Cheese
+This is the fastest and the hardest way to perform this strat, as the window in which you need to start using your consumables is very precise. It consists of using 3 Snap Seeds and 4 Fistfuls of Ash to make Corrupted Monk backstep just far enough to get a stealth deathblow. There is a tutorial for this cheese by ponetchmas:
+[youtube]3IMBc2EcGiQ[/youtube]
+
+## 5/6 Ash Variations
+You can make the timing window for this strat more forgiving by using more Fistfuls of Ash. Beginners will use 5 or 6 of them to make the cheese consistent for them.',3,7,'2026-09-30 16:54:15.172993','approved','2026-09-30 16:54:15.172633','2026-09-30 17:11:04.368843',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(10,50,'Corrupted Monk Cheese','## Corrupted Monk Cheese
+Corrupted Monk Cheese refers to performing an Aerial Stealth Deathblow on [Corrupted Monk (False)](/wiki/corrupted-monk-false) encountered in Ashina Depths. It is not considered a glitch in either Speedruns or Hitless Runs.
+
+## Ash, Snap Seed & Firecrackers Variation
+The most common way of killing Corrupted Monk. Just after the Corrupted Monk is triggered, you can interrupt her movement and stagger he backwards, without her detecting you, by hitting her with [Fistfuls of Ash](/wiki/fistful-of-ash), [Snap Seeds](/wiki/snap-seed) or Firecrackers from behind.
+
+In most Speedruns, 3 Snap Seeds and 4-10 Ash will be used. It is highly recommended for beginners, to use 5 or more Ash. Firecrackers can be used like an Ash for this method. That means that the maximum possible usable items is however many Firecracker uses you have emblems for, plus 10 Ash and 3 Snap Seeds.
+There is a tutorial for this cheese by ponetchmas:
+[youtube]3IMBc2EcGiQ[/youtube]
+
+Ash Pickup locations:
+[youtube]RO5AVSdmHHQ[/youtube]
+
+### 4 Ash
+The fastest and hardest way to perform the strat is with 3 Snap Seeds and 4 Ash, which saves around 2-3s over using 6 Ash in most categories.
+
+## Mist Raven Variation
+An alternative method for Corrupted Monk Cheese is using Mist Raven and [Contact Medicine](/wiki/contact-medicine) to perform [Mist Raven On-Demand](/wiki/mist-raven-on-demand). With this strategy, you use the Contact Medicine before triggering the fight, then run behind her and use the Mist Raven vertically (no directional inputs held) and then attempt to get the Aerial Stealth Deathblow. Note this is not 100% consistent due to the Mist Raven teleport height/distance being inconsistent.',3,2,'2026-09-30 18:18:09.455314','approved','2026-09-30 18:18:09.454220','2026-09-30 18:20:07.053479',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(11,10,'LiveSplit','## LiveSplit
+LiveSplit is a timer program for speedrunners that is both easy to use and full of features.
+
+You can download the latest version of LiveSplit [here](https://livesplit.org/). The downloaded file will have to be extracted and the folder placed somewhere you will remember.
+
+Right clicking the LiveSplit window and going to settings allows you to edit various settings. it''s highly recommended to enable Global Hotkeys, as this allows you to split, reset, undo split and skip split while in-game. You can also change the keybinds while you''re here.
+![image](https://i.imgur.com/RezD2Uy.png)
+
+Note: The numpad buttons won''t work while shift is pressed. This is good to know if you play with keyboard and mouse and use shift to sprint, as you won''t be able to manual split/reset/undo/skip while holding shift. But that should be fine thought, since most players will use autosplitting.
+
+## SoulSplitter
+SoulSplitter is a LiveSplit plugin developed by [Wasted](/wiki/wasted) that is designed to provide autosplitting and timekeeping across all the FromSoftware games available on PC. It is also the official leaderboard timer for Sekiro speedruns and includes various fixes that the community has agreed upon. Enabling it and using it is **required** for PC speedrun leaderboard submissions.
+
+SoulSplitter''s included mods and fixes:
+* Timer auto start and stop
+
+* No intro movies mod
+
+* IGT fix by B3LYP
+
+* Cutscene blackscreen removal by Wasted
+
+* Autosplitting by Wasted
+
+* Event Flag logger and tracker by Wasted
+
+* Improved tutorial pop-up removal by Wasted
+
+* SteamID check bypass for save files by Uberhalit
+
+**Note: Do not use other versions of these mods for leaderboard submissions. Only use them as provided automatically through LiveSplit**.
+
+### How to Setup LiveSplit for Speedrunning (SoulSplitter Setup)
+Read section above about LiveSplit and LiveSplit installation first.
+1. Open LiveSplit, right-click it and select Edit Splits.
+2. Find Sekiro in the Game Name Field.
+![image](https://i.imgur.com/amQ9HMr.png)
+3. Activate the integrated game time component.
+![image](https://i.imgur.com/R1d3TTL.png)
+4. Right-click LiveSplit and select Compare Against --> Game Time.
+![image](https://i.imgur.com/J6yByQy.png)
+5. Done!
+
+## In-Game Time (IGT)
+Sekiro has a built in timer, usually referred to as IGT (In-Game Time or In-Game Timer). However, the default behavior of it is not ideal. Its biggest problem is that there''s an issue with the way the time is incremented, which makes the timer count at a rate that is both slower than real time is supposed to run and hardware dependent in an unfair way.
+
+The community has solved this on PC with the IGT Fix by B3LYP. The fixed version of IGT is usually referred to as modified In-Game Time, or mIGT for short. It has also been referred to as wIGT, or Wasted IGT, after Wasted took over maintaining and developing the Sekiro plugin, under the SoulSplitter project. Importantly, modified IGT is designed to run 1:1 with real time, assuming no game slowdowns due to lag or loading screens. Each second of actual gameplay equates to 1 second on the timer.
+
+For the leaderboards, PC runs use modified IGT through LiveSplit, while console runs use the default IGT.
+
+## Autosplitting
+With SoulSplitter activated in the Edit Splits menu, you can make custom autosplits. The autosplitter gives the user freedom to setup autosplit triggers for almost anything in the game, allowing you to customize them to how you see fit. Most beginners will want to download a pre-configured .lss split file that has everything already set up and running. Below is a section on where to download splits of other players.
+
+### How to Create Autosplits
+to be added
+
+### How to Find Event Flags (Event Flag Logger)
+to be added
+
+### What Makes a Good Autosplit?
+Generally speaking, you should make a split where ever you feel like it. However, there are some considerations you should make to get the most out of LiveSplit. LiveSplit is supposed to enhance your progress as a player. It''s not supposed to be an obstacle you have to wrestle with.
+
+* Consider splitting in the same places as others, so that you can compare with them more easily to better tell where you could save time. Below is a section that explains how to download the splits that other players use.
+* Always test newly added autosplits before doing a run.
+* Place autosplits at bottlenecks and be careful of autosplit points that can vary. An example is splitting on Gyoubu kill. If Gyoubu is killed close to where you need to go, then the next split will be shorter, and if he is killed far from where you need to go, then the next split will be longer. This is why most people choose to split on opening the gate after killing Gyoubu in glitchless, instead of splitting directly on kill. The door is a bottleneck that you have to go through (unless you''re doing [AP1 Bull](/wiki/attack-power-1-bull).
+* Consider the precision of the autosplit you have made. The autosplitter itself is precise and accurate, but some in-game things aren''t. This is an extension of the point above, but applies more to how you choose to implement the split rather than where you place it. You can never have a precise split on Gyoubu kill, but it''s possible to have an imprecise autosplit on a spot that should otherwise be a good point to split at. Such as if you have a position split with a way too large size, or a size so small that you may run by it and miss it entirely. Test the autosplit to make sure it always triggers at the same point/time.
+
+## Downloading Splits
+Some premade .lss split files with autosplits can be downloaded [here](https://www.speedrun.com/sekiro/resources).
+
+You can also use the website [therun.gg](https://therun.gg/games/Sekiro%3A%20Shadows%20Die%20Twice) to view and download the splits of other runners.
+
+When you download someone else''s splits, it can be a good idea to go to Edit Splits --> Other and then Clear History and Clear Times. This will reset all the stats and times from the splits.
+
+## Recording LiveSplit in Videos
+The most popular program for recording and livestreaming is [Open Broadcaster Software (OBS)](https://obsproject.com/). It allows adding multiple layers to your scene, where you would usually use a Game Capture for Sekiro with a Window Capture for LiveSplit put on top of it.
+
+To make a Game Capture Source in OBS:
+
+1. Press the + in the Sources box and choose Game Capture Source. Shown below:
+![image](https://www.speedrun.com/static/blob/rz2x1ke0.png)
+
+Game Capture will only show the game, therefore we need to add a separate Source for LiveSplit itself. For capturing LiveSplit, we use a Window Capture Source.
+
+2. Add the Window Capture in the same way you added the Game Capture in the step above (make sure that LiveSplit is open while doing this).
+
+3. After naming it, the following window will appear. Select LiveSplit as the window.
+![image](https://www.speedrun.com/static/blob/qzp2mle3.png)
+
+I recommend setting the **"Window Match Priority"** to **"Match title, otherwise find window of same executable"**. This ensures that the Source will exclusively look for the LiveSplit window to capture.
+
+4. Done!
+
+### Making LiveSplit Transparent
+The usual way that people make LiveSplit transparent is through a filter in OBS, which will only make it look transparent in the recording and NOT for you. Alternatively, you can use the Transparent LiveSplit fork, which makes LiveSplit''s own background transparent, instead of filtering it out in the recording.
+
+Follow the tutorial below to make LiveSplit transparent in the recording (not needed if using the Transparent LiveSplit fork).
+1. **You want to use a black background on LiveSplit. Do not use a color like green, blue or anything like that**, as this will mess with the other elements. Using the default black/dark grey background works as well.
+![image](https://www.speedrun.com/static/blob/rz2x18e0.png)
+
+The background color can be changed in layout settings.
+![image](https://www.speedrun.com/static/blob/yzrrgjz4.png)
+
+2. Right click the Window Capture you created for LiveSplit (mine is called Splits) and press Filters.
+![image](https://www.speedrun.com/static/blob/5e1kpvn0.png)
+
+3. Add a **Color Key** (not a Chroma Key). Set the type to Custom Colour and choose black. Then finally, adjust the Similarity slider until the background disappears. You will get the best looking result with a solid black LiveSplit background.
+![image](https://www.speedrun.com/static/blob/xz0og0zl.png)
+
+4. Done!
+
+## Troubleshooting
+If you have issues with the timer not automatically starting or not correctly showing the game time, triple check you are comparing against Game Time. Otherwise try restarting LiveSplit, running LiveSplit as Administrator or restarting your PC. If you need help feel free to ask in the #support channel on the [Sekiro Speedrunning Discord server](https://discord.gg/A7kWEPkKEq).
+
+### LiveSplit Error: "The Auto Splitter could not be activated"
+The most common cause of this error is that anti-virus will sometimes falsely flag SoulSplitter as an unwatend program and can quarantine the files without giving you a notification. [Here is the guide on how to create an anti-virus exclusion](https://soulsspeedruns.com/livesplit/#troubleshooting).
+
+### LiveSplit Error: "Incomplete installation. Missing files"
+Sometimes, the anti-virus fix isn''t enough. If you get an error about missing files, then you need to manually download the SoulSplitter component files from Github via the following steps:
+1. Close LiveSplit.
+2. Go to the [SoulSplitter Github downloads page](https://github.com/FrankvdStam/SoulSplitter/releases).
+3. Download the .zip file from whatever is the latest release (do not download the ones named "source code").
+4. Extract the .zip file.
+5. Navigate to your LiveSplit components folder.
+6. Drag the extracted files into the LiveSplit/components folder (replace files if asked).
+7. Apply the anti-virus fix explained [here](https://soulsspeedruns.com/livesplit/#troubleshooting).
+8. Done!
+
+## Extra Tools for LiveSplit
+to be added
+
+## Credits
+Thanks to XeroGoesFast for authoring the original LiveSplit guide.
+Thanks to B3LYP for releasing the initial Sekiro timer plugin for LiveSplit.
+Thanks to RefinedHornet for contributions to the old Sekiro timer.
+Thanks to CapitaineToinon for contributions to the old Sekiro timer.
+Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-09-30 20:30:19.734654','approved','2026-09-30 20:30:19.733480','2026-09-30 20:30:34.988359',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(12,23,'Pennek','## Pennek
+Pennek is a Sekiro Speedrunner and glitch hunter.',2,2,'2026-09-30 21:19:43.527285','approved','2026-09-30 21:19:43.526379','2026-09-30 21:19:48.453494',2,NULL,NULL,NULL,NULL);
 CREATE TABLE users (
 	id INTEGER NOT NULL, 
 	username VARCHAR(80) NOT NULL, 
@@ -392,7 +573,7 @@ INSERT INTO "users" VALUES(5,'Silentsolid','','verified',NULL,'2026-09-16 19:35:
 INSERT INTO "users" VALUES(6,'kierran','','user',NULL,'2026-09-16 19:37:32.265247',0);
 INSERT INTO "users" VALUES(7,'koko838','','verified','https://static-cdn.jtvnw.net/jtv_user_pictures/154ce9bf-642b-4284-853e-4ab682b5b7ed-profile_image-70x70.png','2026-09-16 19:45:50.240738',0);
 INSERT INTO "users" VALUES(8,'kellyskater','','verified','https://files.catbox.moe/e1luf4.png','2026-09-16 23:33:30.422490',0);
-INSERT INTO "users" VALUES(9,'pay_','','user','https://static-cdn.jtvnw.net/jtv_user_pictures/e8d4e53c-2589-4d12-82ce-c78208ff674a-profile_image-70x70.png','2026-09-17 03:36:33.380742',0);
+INSERT INTO "users" VALUES(9,'pay_','','verified','https://static-cdn.jtvnw.net/jtv_user_pictures/e8d4e53c-2589-4d12-82ce-c78208ff674a-profile_image-70x70.png','2026-09-17 03:36:33.380742',0);
 INSERT INTO "users" VALUES(10,'Yv999','','user',NULL,'2026-09-17 16:40:09.973183',0);
 INSERT INTO "users" VALUES(11,'Typical','','user',NULL,'2026-09-18 03:22:38.313999',0);
 INSERT INTO "users" VALUES(12,'XiaoXiangYeYu','','user','https://files.catbox.moe/9w5ayl.jpeg','2026-09-18 09:19:46.471228',0);
@@ -630,10 +811,10 @@ Right clicking the LiveSplit window and going to settings allows you to edit var
 Note: The numpad buttons won''t work while shift is pressed. This is good to know if you play with keyboard and mouse and use shift to sprint, as you won''t be able to manual split/reset/undo/skip while holding shift. But that should be fine thought, since most players will use autosplitting.
 
 ## SoulSplitter
-SoulSplitter is a LiveSplit plugin developed by [Wasted](/wiki/wasted) that is designed to provide autosplitting and timekeeping across all the FromSoftware games available on PC. It is also the official leaderboard timer for Sekiro speedruns and includes various fixes that the community has agreed upon. Enabling it and using it is required for PC speedrun leaderboard submissions.
+SoulSplitter is a LiveSplit plugin developed by [Wasted](/wiki/wasted) that is designed to provide autosplitting and timekeeping across all the FromSoftware games available on PC. It is also the official leaderboard timer for Sekiro speedruns and includes various fixes that the community has agreed upon. Enabling it and using it is **required** for PC speedrun leaderboard submissions.
 
 SoulSplitter''s included mods and fixes:
-* Auto start and stop
+* Timer auto start and stop
 
 * No intro movies mod
 
@@ -755,7 +936,7 @@ Thanks to XeroGoesFast for authoring the original LiveSplit guide.
 Thanks to B3LYP for releasing the initial Sekiro timer plugin for LiveSplit.
 Thanks to RefinedHornet for contributions to the old Sekiro timer.
 Thanks to CapitaineToinon for contributions to the old Sekiro timer.
-Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.','approved',NULL,NULL,NULL,1,2,'2026-03-10 20:21:52.467295','2026-07-19 02:53:22.944144','livesplit',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.','approved',NULL,NULL,NULL,1,2,'2026-03-10 20:21:52.467295','2026-09-30 20:30:34.989899','livesplit',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(11,'Delayed Jump','## Delayed Jump
 A Delayed Jump is a jump done at the very last moment possible when going off a ledge, in a way that makes you do the jump after having already fallen off the ledge. This type of jump allows the player to gain more distance than a standard jump.
 
@@ -967,7 +1148,7 @@ Wormdog is a Sekiro Speedrunner, who has the record for the holding the most Sek
 INSERT INTO "wiki_pages" VALUES(22,'B3LYP','## B3LYP
 B3LYP, also known as just B3, is a Fromsoft game mod maker, who discovered that In-Game Time in certain Fromsoft games, including Sekiro, has an FPS-dependent clockdrift that makes the timer run in a hardware dependent and inaccurate way. B3LYP created the IGT fix that solves the issue and forms the basis of the timing method that Sekiro PC Speedruns use called Modified In-Game Time.','approved',NULL,NULL,NULL,2,2,'2026-07-15 12:52:00.686223','2026-09-19 05:37:00.315640','b3lyp',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(23,'Pennek','## Pennek
-Pennek is a Sekiro Speedrunner.','approved',NULL,NULL,NULL,2,2,'2026-07-19 01:25:58.636895','2026-07-19 01:26:08.015453','pennek',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Pennek is a Sekiro Speedrunner and glitch hunter.','approved',NULL,NULL,NULL,2,2,'2026-07-19 01:25:58.636895','2026-09-30 21:19:48.455204','pennek',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(24,'Shura Glitchless','## Shura Glitchless
 Shura Glitchless is Sekiro''s most popular speedrun. It''s often recommended as a good starting point for new speedrunners, as it requires a relatively small amount of time investment to learn the basics and isn''t too long of a run.
 
@@ -1188,14 +1369,23 @@ Contact Medicine is a Consumable Quick Item that when used applies a weak Poison
 
 In Speedrunning, Contact Medicine is often used when a strategy requires taking damage or dying because it''s one of the most convenient ways to deal a specific amount of damage yourself.','approved',NULL,NULL,NULL,4,2,'2026-08-07 00:00:46.926944','2026-09-16 04:25:11.904528','contact-medicine',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(50,'Corrupted Monk Cheese','## Corrupted Monk Cheese
-Corrupted Monk Cheese refers to performing a stealth deathblow on Corrupted Monk (illusion) after stunning him with enough Snap Seeds and Fistfuls of Ash. It is not considered a glitch in either Speedruns or Hitless Runs.
+Corrupted Monk Cheese refers to performing an Aerial Stealth Deathblow on [Corrupted Monk (False)](/wiki/corrupted-monk-false) encountered in Ashina Depths. It is not considered a glitch in either Speedruns or Hitless Runs.
 
-## 4 Ash Corrupted Monk Cheese
-This is the fastest and the hardest way to perform this strat, as the window in which you need to start using your consumables is very precise. It consists of using 3 Snap Seeds and 4 Fistfuls of Ash to make Corrupted Monk backstep just far enough to get a stealth deathblow. There is a tutorial for this cheese by ponetchmas:
+## Ash, Snap Seed & Firecrackers Variation
+The most common way of killing Corrupted Monk. Just after the Corrupted Monk is triggered, you can interrupt her movement and stagger he backwards, without her detecting you, by hitting her with [Fistfuls of Ash](/wiki/fistful-of-ash), [Snap Seeds](/wiki/snap-seed) or Firecrackers from behind.
+
+In most Speedruns, 3 Snap Seeds and 4-10 Ash will be used. It is highly recommended for beginners, to use 5 or more Ash. Firecrackers can be used like an Ash for this method. That means that the maximum possible usable items is however many Firecracker uses you have emblems for, plus 10 Ash and 3 Snap Seeds.
+There is a tutorial for this cheese by ponetchmas:
 [youtube]3IMBc2EcGiQ[/youtube]
 
-## 5/6 Ash Variations
-You can make the timing window for this strat more forgiving by using more Fistfuls of Ash. Beginners will use 5 or 6 of them to make the cheese consistent for them.','approved',NULL,NULL,NULL,3,8,'2026-09-17 14:54:24.419583','2026-09-17 17:05:09.857642','corrupted-monk-cheese',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Ash Pickup locations:
+[youtube]RO5AVSdmHHQ[/youtube]
+
+### 4 Ash
+The fastest and hardest way to perform the strat is with 3 Snap Seeds and 4 Ash, which saves around 2-3s over using 6 Ash in most categories.
+
+## Mist Raven Variation
+An alternative method for Corrupted Monk Cheese is using Mist Raven and [Contact Medicine](/wiki/contact-medicine) to perform [Mist Raven On-Demand](/wiki/mist-raven-on-demand). With this strategy, you use the Contact Medicine before triggering the fight, then run behind her and use the Mist Raven vertically (no directional inputs held) and then attempt to get the Aerial Stealth Deathblow. Note this is not 100% consistent due to the Mist Raven teleport height/distance being inconsistent.','approved',NULL,NULL,NULL,3,8,'2026-09-17 14:54:24.419583','2026-09-30 18:20:07.053998','corrupted-monk-cheese',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(51,'Ogre Skip','## Ogre Skip
 Ogre Skip is a technique used to skip the fight with Chained Ogre in Ashina Outskirts.
 
@@ -1212,7 +1402,7 @@ The technique is used most commonly in boss fights with:
 - Owl
 - Isshin (Walk My Isshin strat)
 - Lone Shadow Longswordsman
-- Snake Eyes','pending',NULL,NULL,NULL,3,8,'2026-09-17 15:59:26.758009','2026-09-17 15:59:26.758012','dead-angling',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+- Snake Eyes','rejected',NULL,NULL,NULL,3,8,'2026-09-17 15:59:26.758009','2026-09-30 05:05:57.332058','dead-angling',NULL,'2026-09-30 05:05:57.331725',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(53,'Airswim','## Airswim
 Airswim is a major glitch that allows the player to fly in the air while the game thinks the player is swimming in water.
 
@@ -1247,13 +1437,27 @@ INSERT INTO "wiki_pages" VALUES(61,'Black Gunpowder','## Black Gunpowder
 Black Gunpowder is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:03:42.766712','2026-09-17 18:04:10.599255','black-gunpowder',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(62,'Pine Resin Ember','## Pine Resin Ember
 Pine Resin Ember is a unique Upgrade Material Item used in Prosthetic Upgrading to unlock Okinaga''s Flame Vent.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:07:54.778827','2026-09-17 18:08:00.519366','pine-resin-ember',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
-INSERT INTO "wiki_pages" VALUES(63,'Frontdojo Skip','## Frontdojo Skip
+INSERT INTO "wiki_pages" VALUES(63,'Dojo Skip','## Dojo Skip
+Dojo Skip refers to a trick that skips going inside Ashina Castle and allows early access to the roof. This is most commonly used in glitchless categories before Genichiro. There''s two versions of the skip, Backside & Frontside 
+
+## Backside Dojo Skip
+This version makes use of a window near the intended path to make it onto the roof. This is the easier but slower version of the skip, although it still saves decent time compared to the intended path. This version also allows the player to grab one quick Fistful of Ash found near the window, making it a good option for beginners as it also allows for an easy 5 ash [Corrupted Monk Cheese](https://sekirospeedrun.com/wiki/corrupted-monk-cheese).
+
+koko838 made a tutorial on this version of the skip:
+[youtube]aTMXl5NShj4[/youtube]
+
+## Frontside Dojo Skip
+This is the harder version of the skip, making use of the collision on the front side of the roof and saving around 7 seconds over backside. Note that this can also be performed to reach the roof faster after the first invasion, but the time save there is much smaller.
+
+Pennek has made 2 tutorials on the skip:
+[youtube]Fb3tdwepZnE[/youtube]
+[youtube]vjTOwn6XHaU[/youtube]','approved',NULL,NULL,NULL,3,7,'2026-09-18 17:47:09.166261','2026-09-30 17:10:44.629270','frontdojo-skip',NULL,'2026-09-30 04:49:19.546420',2,NULL,'Frontdojo Skip','## Frontdojo Skip
 Frontdojo Skip refers to a trick that skips going inside Ashina Castle and allows early access to the roof. This is most commonly used in glitchless categories before Genichiro. Note that it can also be performed to reach the roof faster after the first invasion, but the time save there is much smaller.
 
 ## Execution
 Pennek has made 2 tutorials on the skip.
 [youtube]Fb3tdwepZnE[/youtube]
-[youtube]vjTOwn6XHaU[/youtube]','pending',NULL,NULL,NULL,3,7,'2026-09-18 17:47:09.166261','2026-09-18 17:47:09.166264','frontdojo-skip',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+[youtube]vjTOwn6XHaU[/youtube]',3);
 INSERT INTO "wiki_pages" VALUES(64,'Blazing Bull','## Blazing Bull
 Blazing Bull is a Miniboss that appears in Ashina Castle.','approved',NULL,NULL,NULL,4,2,'2026-09-19 05:17:15.128890','2026-09-19 05:31:15.977712','blazing-bull',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(65,'General Naomori Kawarada','## General Naomori Kawarada
@@ -1363,6 +1567,31 @@ INSERT INTO "wiki_pages" VALUES(71,'UmN1k','## UmN1k
 UmN1k is a Sekiro Glitch Hunter.','approved',NULL,NULL,NULL,2,2,'2026-09-20 07:01:21.644759','2026-09-20 07:01:26.589771','umn1k',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(72,'Dead Angle','## Dead angle
 
+Dead angle is a common mechanic that can happen coincidentally or can be performed intentionally to prevent the enemy from blocking/deflecting attacks. Player attacks send an attack signal in front of them right before the damage hitbox spawns. Enemies who receive this attack signal will in turn raise their guard to block/deflect. If the player is turned away from the enemy when the attack signal is sent, then the attack will be a dead angle and will directly hit for vitality damage.
+
+## Corner Cheeses
+The most popular type of Dead Angle is a corner cheese, with the most known example being Genichiro Corner Cheese, where the player gets an enemy stuck in a corner and attacks a wall next to them with the hitbox hitting the enemy.
+
+## 180 Dead Angle
+180 Dead Angle, or 180 for short, is done by first getting an attack blocked by an enemy, queuing up another attack, turning away from the enemy during the attack animation and turning back to face them at the end of it. It is most commonly used in fights with Snake Eyes and Emma, the Gentle Blade.
+
+## Block 180 Dead Angle
+Block 180 Dead Angle uses the attack animation triggered by trying to use a Combat Art with none equipped (pressing attack while blocking) and doing the same turn as in a regular 180 Dead Angle.
+
+## Crouch 180 Dead Angle
+Crouch 180 Dead Angle uses the attack animation triggered by attacking while in the crouched state and doing the same turn as in a regular 180 Dead Angle.
+
+## Dead Range
+Dead Range can be performed when being far from an enemy that can close the distance quickly. The player needs to queue up an attack at a moment when the enemy is too far away to receive the attack signal but will rush in just in time to get hit. For example, Dead Range can be used against Isshin Ashina''s opening attack, where Isshin does a quick dash attack to the player.
+
+## Common Use Cases
+Dead Angles can be seen all throughout Sekiro speedruns, but the most prominent examples are:
+* Genichiro corner cheese/Walk My Geni strat
+* Emma, the Gentle Blade 180 strat
+* Snake Eyes corner cheese/180 strat
+* Lone Shadow Longswordsman corner cheese strat
+* Owl corner cheese strat','approved',NULL,NULL,NULL,4,8,'2026-09-22 11:00:42.167062','2026-09-30 05:05:48.711004','dead-angle',NULL,'2026-09-30 05:05:48.709111',2,NULL,'Dead Angle','## Dead angle
+
 Dead angle is a common mechanic that allows the player to attack an enemy without them blocking, in turn dealing Vitality damage, by being turned away before or during an attack.
 
 ## Detailed Explanation
@@ -1389,7 +1618,7 @@ Dead Angles can be seen all throughout Sekiro speedruns, but the most prominent 
 * Emma, the Gentle Blade 180 strat
 * Snake Eyes corner cheese/180 strat
 * Lone Shadow Longswordsman corner cheese strat
-* Owl corner cheese strat','pending',NULL,NULL,NULL,4,8,'2026-09-22 11:00:42.167062','2026-09-22 11:00:42.167074','dead-angle',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+* Owl corner cheese strat',4);
 INSERT INTO "wiki_pages" VALUES(73,'Dead Angle','## Dead Angle
 
 Dead Angle is a common mechanic that allows the player to attack an enemy without them blocking, in turn dealing Vitality damage, by being turned away before or during an attack.
@@ -1415,7 +1644,34 @@ Dead Angles can be seen all throughout Sekiro speedruns, but the most prominent 
 * Emma, the Gentle Blade 180 strat
 * Snake Eyes corner cheese/180 strat
 * Lone Shadow Longswordsman corner cheese strat
-* Owl corner cheese strat','pending',NULL,NULL,NULL,4,8,'2026-09-22 11:18:36.547492','2026-09-22 11:18:36.547495','dead-angle-2',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+* Owl corner cheese strat','rejected',NULL,NULL,NULL,4,8,'2026-09-22 11:18:36.547492','2026-09-30 05:05:55.094584','dead-angle-2',NULL,'2026-09-30 05:05:55.092528',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(74,'Fistful of Ash','## Fistful of Ash
+Fistful of Ash is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-09-30 17:52:04.662364','2026-09-30 17:52:39.434902','fistful-of-ash','2026-09-30 17:52:04.659331','2026-09-30 17:52:39.432672',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(75,'Healing Gourd','## Healing Gourd
+The Healing Gourd is a reusable Quick Item that heals the player on use.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:26:47.096124','2026-09-30 18:28:24.439937','healing-gourd-2','2026-09-30 18:26:47.095253','2026-09-30 18:28:24.439600',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(76,'Homeward Idol','## Homeward Idol
+The Homeward Idol is a reusable Quick Item that on use allows the player to teleport to their last communed Idol or to the Dilapidated Temple.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:28:15.886468','2026-09-30 18:28:32.695283','homeward-idol','2026-09-30 18:28:15.885299','2026-09-30 18:28:32.694856',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(77,'Mibu Balloon of Soul','## Mibu Balloon of Soul
+Mibu Balloon of Soul is a Consumable Quick Item that makes the player acquire restorative power at a higher rate for a limited amount of time.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:35:39.128856','2026-09-30 18:35:44.241065','mibu-balloon-of-soul','2026-09-30 18:35:39.126969','2026-09-30 18:35:44.240018',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(78,'Bite Down','## Bite Down
+Bite Down is a Consumable Quick Item that kills the player on use.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:36:26.941960','2026-09-30 18:41:12.080778','bite-down','2026-09-30 18:36:26.941319','2026-09-30 18:41:12.080118',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(79,'Red Lump','## Red Lump
+Red Lump is a Consumable Quick Item that on use makes the player nearly unstaggerable but unable to resurrect for 30s.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:41:01.635189','2026-09-30 18:41:15.699161','red-lump','2026-09-30 18:41:01.634290','2026-09-30 18:41:15.698510',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(80,'Heavy Coin Purse','## Heavy Coin Purse
+Heavy Coin Purse is a Consumable Quick Item that gives 500 [Sen](/wiki/sen) on use. Light Coin Purses, Heavy Coin Purses and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:49:34.302926','2026-09-30 18:54:54.931391','heavy-coin-purse','2026-09-30 18:49:34.301706','2026-09-30 18:54:54.928941',2,NULL,'Heavy Coin Purse','## Heavy Coin Purse
+Heavy Coin Purse is a Consumable Quick Item that gives 500 Sen on use. Light Coin Purses, Heavy Coin Purses or Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.',4);
+INSERT INTO "wiki_pages" VALUES(81,'Light Coin Purse','## Light Coin Purse
+Light Coin Purse is a Consumable Quick Item that gives 100 [Sen](/wiki/sen) on use. Light Coin Purses, Heavy Coin Purses and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:51:37.008176','2026-09-30 18:54:51.257511','light-coin-purse','2026-09-30 18:51:37.007733','2026-09-30 18:54:51.256493',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(82,'Bulging Coin Purse','## Bulging Coin Purse
+Bulging Coin Purse is a Consumable Quick Item that gives 1000 [Sen](/wiki/sen) on use. Light Coin Purses, Heavy Coin Purses and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:52:39.715580','2026-09-30 18:54:58.688317','bulging-coin-purse','2026-09-30 18:52:39.715149','2026-09-30 18:54:58.687294',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(83,'SaraToga','## SaraToga
+SaraToga is a Sekiro speedrunner and strat finder. They are most known for their NG+7 speedruns.','approved',NULL,NULL,NULL,2,2,'2026-09-30 20:33:02.400576','2026-09-30 20:33:07.499409','saratoga','2026-09-30 20:33:02.399377','2026-09-30 20:33:07.497894',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(84,'Guardian Ape','## Guardian Ape
+Guardian Ape is a Boss that appears in Sunken Valley.','approved',NULL,NULL,NULL,4,2,'2026-09-30 20:40:30.258957','2026-09-30 21:08:18.709090','guardian-ape','2026-09-30 20:40:30.258542','2026-09-30 21:08:18.707914',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(85,'Divine Dragon','## Divine Dragon
+Divine Dragon is a Boss that appears in Fountainhead Palace.','approved',NULL,NULL,NULL,4,2,'2026-09-30 20:41:02.990331','2026-09-30 21:17:25.267702','divine-dragon','2026-09-30 20:41:02.989927','2026-09-30 21:17:25.267351',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(86,'Armored Warrior','## Armored Warrior
+Armored Warrior is a Miniboss that appears in Senpou Temple.','approved',NULL,NULL,NULL,4,2,'2026-09-30 20:41:39.178644','2026-09-30 21:17:33.510122','armored-warrior','2026-09-30 20:41:39.177011','2026-09-30 21:17:33.509411',2,NULL,NULL,NULL,NULL);
 CREATE TABLE wiki_revisions (
 	id INTEGER NOT NULL, 
 	page_id INTEGER, 
@@ -3457,6 +3713,169 @@ INSERT INTO "wiki_revisions" VALUES(73,33,'Yashariku''s Sugar','## Yashariku''s 
 Yashariku''s Sugar, also known as just Yash, is a Consumable Quick Item that buffs the player''s vitality damage by 25% and posture damage by 50% for 30s. If the player has the Devotion skill, the duration will be 45s instead.
 
 Only one Sugar buff can be active at a time. If a new Sugar is used while Yash is already active, it will remove the Yash''s buff and apply the new Sugar''s buff.',4,2,'2026-09-20 06:32:19.749471');
+INSERT INTO "wiki_revisions" VALUES(74,63,'Dojo Skip','## Frontside Dojo Skip
+Frontdojo Skip refers to a trick that skips going inside Ashina Castle and allows early access to the roof. This is most commonly used in glitchless categories before Genichiro. Note that it can also be performed to reach the roof faster after the first invasion, but the time save there is much smaller.
+
+Pennek has made 2 tutorials on the skip.
+[youtube]Fb3tdwepZnE[/youtube]
+[youtube]vjTOwn6XHaU[/youtube]',3,7,'2026-09-30 17:10:44.630744');
+INSERT INTO "wiki_revisions" VALUES(75,50,'Corrupted Monk Cheese','## Corrupted Monk Cheese
+Corrupted Monk Cheese refers to performing a stealth deathblow on Corrupted Monk (illusion) after stunning him with enough Snap Seeds and Fistfuls of Ash. It is not considered a glitch in either Speedruns or Hitless Runs.
+
+## 4 Ash Corrupted Monk Cheese
+This is the fastest and the hardest way to perform this strat, as the window in which you need to start using your consumables is very precise. It consists of using 3 Snap Seeds and 4 Fistfuls of Ash to make Corrupted Monk backstep just far enough to get a stealth deathblow. There is a tutorial for this cheese by ponetchmas:
+[youtube]3IMBc2EcGiQ[/youtube]
+
+## 5/6 Ash Variations
+You can make the timing window for this strat more forgiving by using more Fistfuls of Ash. Beginners will use 5 or 6 of them to make the cheese consistent for them.',3,7,'2026-09-30 17:11:04.369716');
+INSERT INTO "wiki_revisions" VALUES(76,50,'Corrupted Monk Cheese','## Corrupted Monk Cheese
+Corrupted Monk Cheese refers to performing a stealth deathblow on Corrupted Monk (illusion) after stunning her with enough Snap Seeds and Fistfuls of Ash. It is not considered a glitch in either Speedruns or Hitless Runs.
+
+## 4 Ash Corrupted Monk Cheese
+This is the fastest and the hardest way to perform this strat, as the window in which you need to start using your consumables is very precise. It consists of using 3 Snap Seeds and 4 Fistfuls of Ash to make Corrupted Monk backstep just far enough to get a stealth deathblow. There is a tutorial for this cheese by ponetchmas:
+[youtube]3IMBc2EcGiQ[/youtube]
+
+## 5/6 Ash Variations
+You can make the timing window for this strat more forgiving by using more Fistfuls of Ash. Beginners will use 5 or 6 of them to make the cheese consistent for them.',3,2,'2026-09-30 18:20:07.054376');
+INSERT INTO "wiki_revisions" VALUES(77,10,'LiveSplit','## LiveSplit
+LiveSplit is a timer program for speedrunners that is both easy to use and full of features.
+
+You can download the latest version of LiveSplit [here](https://livesplit.org/). The downloaded file will have to be extracted and the folder placed somewhere you will remember.
+
+Right clicking the LiveSplit window and going to settings allows you to edit various settings. it''s highly recommended to enable Global Hotkeys, as this allows you to split, reset, undo split and skip split while in-game. You can also change the keybinds while you''re here.
+![image](https://i.imgur.com/RezD2Uy.png)
+
+Note: The numpad buttons won''t work while shift is pressed. This is good to know if you play with keyboard and mouse and use shift to sprint, as you won''t be able to manual split/reset/undo/skip while holding shift. But that should be fine thought, since most players will use autosplitting.
+
+## SoulSplitter
+SoulSplitter is a LiveSplit plugin developed by [Wasted](/wiki/wasted) that is designed to provide autosplitting and timekeeping across all the FromSoftware games available on PC. It is also the official leaderboard timer for Sekiro speedruns and includes various fixes that the community has agreed upon. Enabling it and using it is required for PC speedrun leaderboard submissions.
+
+SoulSplitter''s included mods and fixes:
+* Auto start and stop
+
+* No intro movies mod
+
+* IGT fix by B3LYP
+
+* Cutscene blackscreen removal by Wasted
+
+* Autosplitting by Wasted
+
+* Event Flag logger and tracker by Wasted
+
+* Improved tutorial pop-up removal by Wasted
+
+* SteamID check bypass for save files by Uberhalit
+
+**Note: Do not use other versions of these mods for leaderboard submissions. Only use them as provided automatically through LiveSplit**.
+
+### How to Setup LiveSplit for Speedrunning (SoulSplitter Setup)
+Read section above about LiveSplit and LiveSplit installation first.
+1. Open LiveSplit, right-click it and select Edit Splits.
+2. Find Sekiro in the Game Name Field.
+![image](https://i.imgur.com/amQ9HMr.png)
+3. Activate the integrated game time component.
+![image](https://i.imgur.com/R1d3TTL.png)
+4. Right-click LiveSplit and select Compare Against --> Game Time.
+![image](https://i.imgur.com/J6yByQy.png)
+5. Done!
+
+## In-Game Time (IGT)
+Sekiro has a built in timer, usually referred to as IGT (In-Game Time or In-Game Timer). However, the default behavior of it is not ideal. Its biggest problem is that there''s an issue with the way the time is incremented, which makes the timer count at a rate that is both slower than real time is supposed to run and hardware dependent in an unfair way.
+
+The community has solved this on PC with the IGT Fix by B3LYP. The fixed version of IGT is usually referred to as modified In-Game Time, or mIGT for short. It has also been referred to as wIGT, or Wasted IGT, after Wasted took over maintaining and developing the Sekiro plugin, under the SoulSplitter project. Importantly, modified IGT is designed to run 1:1 with real time, assuming no game slowdowns due to lag or loading screens. Each second of actual gameplay equates to 1 second on the timer.
+
+For the leaderboards, PC runs use modified IGT through LiveSplit, while console runs use the default IGT.
+
+## Autosplitting
+With SoulSplitter activated in the Edit Splits menu, you can make custom autosplits. The autosplitter gives the user freedom to setup autosplit triggers for almost anything in the game, allowing you to customize them to how you see fit. Most beginners will want to download a pre-configured .lss split file that has everything already set up and running. Below is a section on where to download splits of other players.
+
+### How to Create Autosplits
+to be added
+
+### How to Find Event Flags (Event Flag Logger)
+to be added
+
+### What Makes a Good Autosplit?
+Generally speaking, you should make a split where ever you feel like it. However, there are some considerations you should make to get the most out of LiveSplit. LiveSplit is supposed to enhance your progress as a player. It''s not supposed to be an obstacle you have to wrestle with.
+
+* Consider splitting in the same places as others, so that you can compare with them more easily to better tell where you could save time. Below is a section that explains how to download the splits that other players use.
+* Always test newly added autosplits before doing a run.
+* Place autosplits at bottlenecks and be careful of autosplit points that can vary. An example is splitting on Gyoubu kill. If Gyoubu is killed close to where you need to go, then the next split will be shorter, and if he is killed far from where you need to go, then the next split will be longer. This is why most people choose to split on opening the gate after killing Gyoubu in glitchless, instead of splitting directly on kill. The door is a bottleneck that you have to go through (unless you''re doing [AP1 Bull](/wiki/attack-power-1-bull).
+* Consider the precision of the autosplit you have made. The autosplitter itself is precise and accurate, but some in-game things aren''t. This is an extension of the point above, but applies more to how you choose to implement the split rather than where you place it. You can never have a precise split on Gyoubu kill, but it''s possible to have an imprecise autosplit on a spot that should otherwise be a good point to split at. Such as if you have a position split with a way too large size, or a size so small that you may run by it and miss it entirely. Test the autosplit to make sure it always triggers at the same point/time.
+
+## Downloading Splits
+Some premade .lss split files with autosplits can be downloaded [here](https://www.speedrun.com/sekiro/resources).
+
+You can also use the website [therun.gg](https://therun.gg/games/Sekiro%3A%20Shadows%20Die%20Twice) to view and download the splits of other runners.
+
+When you download someone else''s splits, it can be a good idea to go to Edit Splits --> Other and then Clear History and Clear Times. This will reset all the stats and times from the splits.
+
+## Recording LiveSplit in Videos
+The most popular program for recording and livestreaming is [Open Broadcaster Software (OBS)](https://obsproject.com/). It allows adding multiple layers to your scene, where you would usually use a Game Capture for Sekiro with a Window Capture for LiveSplit put on top of it.
+
+To make a Game Capture Source in OBS:
+
+1. Press the + in the Sources box and choose Game Capture Source. Shown below:
+![image](https://www.speedrun.com/static/blob/rz2x1ke0.png)
+
+Game Capture will only show the game, therefore we need to add a separate Source for LiveSplit itself. For capturing LiveSplit, we use a Window Capture Source.
+
+2. Add the Window Capture in the same way you added the Game Capture in the step above (make sure that LiveSplit is open while doing this).
+
+3. After naming it, the following window will appear. Select LiveSplit as the window.
+![image](https://www.speedrun.com/static/blob/qzp2mle3.png)
+
+I recommend setting the **"Window Match Priority"** to **"Match title, otherwise find window of same executable"**. This ensures that the Source will exclusively look for the LiveSplit window to capture.
+
+4. Done!
+
+### Making LiveSplit Transparent
+The usual way that people make LiveSplit transparent is through a filter in OBS, which will only make it look transparent in the recording and NOT for you. Alternatively, you can use the Transparent LiveSplit fork, which makes LiveSplit''s own background transparent, instead of filtering it out in the recording.
+
+Follow the tutorial below to make LiveSplit transparent in the recording (not needed if using the Transparent LiveSplit fork).
+1. **You want to use a black background on LiveSplit. Do not use a color like green, blue or anything like that**, as this will mess with the other elements. Using the default black/dark grey background works as well.
+![image](https://www.speedrun.com/static/blob/rz2x18e0.png)
+
+The background color can be changed in layout settings.
+![image](https://www.speedrun.com/static/blob/yzrrgjz4.png)
+
+2. Right click the Window Capture you created for LiveSplit (mine is called Splits) and press Filters.
+![image](https://www.speedrun.com/static/blob/5e1kpvn0.png)
+
+3. Add a **Color Key** (not a Chroma Key). Set the type to Custom Colour and choose black. Then finally, adjust the Similarity slider until the background disappears. You will get the best looking result with a solid black LiveSplit background.
+![image](https://www.speedrun.com/static/blob/xz0og0zl.png)
+
+4. Done!
+
+## Troubleshooting
+If you have issues with the timer not automatically starting or not correctly showing the game time, triple check you are comparing against Game Time. Otherwise try restarting LiveSplit, running LiveSplit as Administrator or restarting your PC. If you need help feel free to ask in the #support channel on the [Sekiro Speedrunning Discord server](https://discord.gg/A7kWEPkKEq).
+
+### LiveSplit Error: "The Auto Splitter could not be activated"
+The most common cause of this error is that anti-virus will sometimes falsely flag SoulSplitter as an unwatend program and can quarantine the files without giving you a notification. [Here is the guide on how to create an anti-virus exclusion](https://soulsspeedruns.com/livesplit/#troubleshooting).
+
+### LiveSplit Error: "Incomplete installation. Missing files"
+Sometimes, the anti-virus fix isn''t enough. If you get an error about missing files, then you need to manually download the SoulSplitter component files from Github via the following steps:
+1. Close LiveSplit.
+2. Go to the [SoulSplitter Github downloads page](https://github.com/FrankvdStam/SoulSplitter/releases).
+3. Download the .zip file from whatever is the latest release (do not download the ones named "source code").
+4. Extract the .zip file.
+5. Navigate to your LiveSplit components folder.
+6. Drag the extracted files into the LiveSplit/components folder (replace files if asked).
+7. Apply the anti-virus fix explained [here](https://soulsspeedruns.com/livesplit/#troubleshooting).
+8. Done!
+
+## Extra Tools for LiveSplit
+to be added
+
+## Credits
+Thanks to XeroGoesFast for authoring the original LiveSplit guide.
+Thanks to B3LYP for releasing the initial Sekiro timer plugin for LiveSplit.
+Thanks to RefinedHornet for contributions to the old Sekiro timer.
+Thanks to CapitaineToinon for contributions to the old Sekiro timer.
+Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-09-30 20:30:34.991043');
+INSERT INTO "wiki_revisions" VALUES(78,23,'Pennek','## Pennek
+Pennek is a Sekiro Speedrunner.',2,2,'2026-09-30 21:19:48.456274');
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
 COMMIT;
