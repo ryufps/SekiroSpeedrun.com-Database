@@ -6,7 +6,6 @@ CREATE TABLE bookmarks (
         created_at DATETIME,
         CONSTRAINT uq_bookmark_user_page UNIQUE (user_id, page_id)
     );
-INSERT INTO "bookmarks" VALUES(1,1,1,'2026-07-19 01:20:13.482874');
 CREATE TABLE categories (
 	id INTEGER NOT NULL, 
 	title VARCHAR(100) NOT NULL, 
