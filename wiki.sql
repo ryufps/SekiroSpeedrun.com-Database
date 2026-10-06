@@ -690,6 +690,73 @@ There are 37 Miniboss encounters.
 * Tutorial Genichiro
 * Great Serpent
 * Great Colored Carp',4,2,'2026-10-04 12:30:15.284466','approved','2026-10-04 12:30:15.284110','2026-10-04 12:30:20.594836',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(15,19,'Gourd Seed','## Gourd Seed
+
+A Gourd Seed is a Key Item that can be given to Emma to upgrade the [Healing Gourd](/wiki/healing-gourd). Each Gourd Seed given increases the Healing Gourd''s number of uses by 1, up to a maximum of 10.
+
+## Acquisition
+
+There are 9 Gourd Seeds in the game. Each one can only be acquired once, so in order to upgrade the Healing Gourd to its maximum of 10 uses, all 9 of them need to be found. All 9 can be acquired in one New Game cycle and are not missable, except when going for Shura ending. In which case, the 9th Gourd Seed, located in Fountainhead Palace, is not obtainable. Any Gourd Seeds not collected can be collected on New Game+. On New Game+, if a Gourd Seed has already been acquired, it will be replaced with a different item.
+
+1. In Ashina Outskirts, dropped by [General Naomori Kawarada](/wiki/general-naomori-kawarada). When Invasion 2 is triggered, if Kawarada was not defeated, he will disappear and his Gourd Seed will become purchasable for 2400 Sen from the [Offering Box](/wiki/offering-box) at Dilapidated Temple.
+
+2. In Ashina Outskirts, after [Chained Ogre](/wiki/chained-ogre-outskirts), in the building above, on the left, the item pick-up will be by two soldier uniforms hanging on a wall.
+
+3. In Ashina Outskirts, after [Gyoubu Oniwa](/wiki/gyoubu-oniwa), 1 Gourd Seed can be purchased for 1000 Sen from the Battlefield Memorial Mob.
+
+4. In Ashina Castle, in a chest by the Castle Antechamber Idol.
+
+5. At Dilapidated Temple, after Genichiro is defeated, Fujioka the Info Broker will appear and sell 1 Gourd Seed for 2000 Sen.
+
+6. In Senpou Temple, after the cricket room, the item pick-up will be in front of an immortal monk.
+
+7. In Sunken Valley, after the Serpent''s Shrine, on the way towards Gunfort, take a sidepath on the left. Continue and climb up, the item pick-up will be in a corner in a wall cavity.
+
+8. In Ashina Depths, Mibu Village, the item pick-up will be in the middle at the base of a large lit up tree.
+
+9. In Fountainhead Palace, in a chest near the Palace Grounds Idol.
+
+## Gourd Seed Duplication
+
+It is possible to gain infinite Gourd Seeds by exploiting a glitch with the Reflections of Strength. The [Offering Box](/wiki/offering-box), where normally up to 1 Gourd Seed can be bought from, exists during Reflections and Gauntlets. In this state, the Offering Box doesn''t have the flags for disabling items that have already been acquired or purchased, letting you purchase all of the items that it can possible sell, even if they have already been acquired.
+
+By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.',4,2,'2026-10-05 13:15:37.722443','approved','2026-10-05 13:15:37.722108','2026-10-05 13:18:16.292701',2,NULL,'Gourd Seed','## Gourd Seed
+
+A Gourd Seed is a Key Item that can be given to Emma to upgrade the [Healing Gourd](/wiki/healing-gourd). Each Gourd Seed given increases the Healing Gourd''s number of uses by 1, up to a maximum of 10.
+
+## Acquisition
+
+There are 9 Gourd Seeds in the game. Each one can only be acquired once, so in order to upgrade the Healing Gourd to its maximum of 10 uses, all 9 of them need to be found. All 9 can be acquired in one New Game cycle and are not missable, except when going for Shura ending. In which case, the 9th Gourd Seed, located in Fountainhead Palace, is not obtainable. Any Gourd Seeds not collected can be collected on New Game+. On New Game+, if a Gourd Seed has already been acquired, it will be replaced with a different item.
+
+1. In Ashina Outskirts, dropped by [General Naomori Kawarada](/wiki/general-naomori-kawarada). When Invasion 2 is triggered, if Kawarada was not defeated, he will disappear and his Gourd Seed will become purchasable for 2400 Sen from the Offering Box at Dilapidated Temple.
+
+2. In Ashina Outskirts, after [Chained Ogre](/wiki/chained-ogre-outskirts), in the building above, on the left, the item pick-up will be by two soldier uniforms hanging on a wall.
+
+3. In Ashina Outskirts, after [Gyoubu Oniwa](/wiki/gyoubu-oniwa), 1 Gourd Seed can be purchased for 1000 Sen from the Battlefield Memorial Mob.
+
+4. In Ashina Castle, in a chest by the Castle Antechamber Idol.
+
+5. At Dilapidated Temple, after Genichiro is defeated, Fujioka the Info Broker will appear and sell 1 Gourd Seed for 2000 Sen.
+
+6. In Senpou Temple, after the cricket room, the item pick-up will be in front of an immortal monk.
+
+7. In Sunken Valley, after the Serpent''s Shrine, on the way towards Gunfort, take a sidepath on the left. Continue and climb up, the item pick-up will be in a corner in a wall cavity.
+
+8. In Ashina Depths, Mibu Village, the item pick-up will be in the middle at the base of a large lit up tree.
+
+9. In Fountainhead Palace, in a chest near the Palace Grounds Idol.
+
+## Gourd Seed Duplication
+
+It is possible to gain infinite Gourd Seeds by exploiting a glitch with the Reflections of Strength. The Offering Box, where normally up to 1 Gourd Seed can be bought from, exists during Reflections and Gauntlets. In this state, the Offering Box doesn''t have the flags for disabling items that have already been acquired or purchased, letting you purchase all of the items that it can possible sell, even if they have already been acquired.
+
+By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.',4);
+INSERT INTO "pending_edits" VALUES(16,11,'Delayed Jump','## Delayed Jump
+A Delayed Jump is a jump done at the very last moment possible when going off a ledge, in a way that makes you do the jump after having already fallen off the ledge. This type of jump allows the player to gain more distance than a standard jump.
+
+It''s possible to both do a sprinting and a walking speed delayed jump, but in most circumstances the term Delayed Jump will be used to specifically mean the sprinting variation.
+
+A common misconception is that all delayed jumps have a frame perfect timing window. In reality, each type of ledge will have a different timing and different window of opportunity for a successful jump.',4,2,'2026-10-05 13:20:40.126790','approved','2026-10-05 13:20:40.126439','2026-10-05 13:20:45.181142',2,NULL,NULL,NULL,NULL);
 CREATE TABLE users (
 	id INTEGER NOT NULL, 
 	username VARCHAR(80) NOT NULL, 
@@ -1075,11 +1142,9 @@ Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter pro
 INSERT INTO "wiki_pages" VALUES(11,'Delayed Jump','## Delayed Jump
 A Delayed Jump is a jump done at the very last moment possible when going off a ledge, in a way that makes you do the jump after having already fallen off the ledge. This type of jump allows the player to gain more distance than a standard jump.
 
-It''s possible to both do a sprinting and a walking speed delayed jump, but in most circumstances, talk about delayed jumps refer to the sprinting variation.
+It''s possible to both do a sprinting and a walking speed delayed jump, but in most circumstances the term Delayed Jump will be used to specifically mean the sprinting variation.
 
-A common misconception is that all delayed jumps have a frame perfect timing window. In reality, each type of ledge will have a different timing and different window of opportunity for a success jump.
-
-## Ledges and Terrain','approved',NULL,NULL,NULL,4,2,'2026-03-11 07:25:03.692619','2026-03-14 08:16:30.445271','delayed-jump',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+A common misconception is that all delayed jumps have a frame perfect timing window. In reality, each type of ledge will have a different timing and different window of opportunity for a successful jump.','approved',NULL,NULL,NULL,4,2,'2026-03-11 07:25:03.692619','2026-10-05 13:20:45.181680','delayed-jump',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(12,'LilAggy','## LilAggy
 LilAggy is a Twitch and Youtube content creator focusing on FromSoftware games. He held many World Records in Sekiro speedruns during the period 2019-2021. Most notably he was the first player to beat Sekiro in under 20 minutes.','approved',NULL,NULL,NULL,2,2,'2026-03-11 15:35:59.607268','2026-03-11 15:36:11.345995','lilaggy',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(13,'27-hit Ogre (Chinese Ogre)','# 27-hit Ogre (Chinese Ogre)
@@ -1247,13 +1312,13 @@ Double Canyon usually refers to doing both Canyon Skips back to back, but someti
 The timing window for the delayed jump is generally believed to be close to frame perfect.','approved',NULL,NULL,NULL,3,2,'2026-03-15 06:08:20.988320','2026-03-15 08:24:21.904992','canyon-skip',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(19,'Gourd Seed','## Gourd Seed
 
-A Gourd Seed is a Key Item that can be given to Emma to upgrade the Healing Gourd. Each Gourd Seed given increases the Healing Gourd''s number of uses by 1, up to a maximum of 10.
+A Gourd Seed is a Key Item that can be given to Emma to upgrade the [Healing Gourd](/wiki/healing-gourd). Each Gourd Seed given increases the Healing Gourd''s number of uses by 1, up to a maximum of 10.
 
 ## Acquisition
 
 There are 9 Gourd Seeds in the game. Each one can only be acquired once, so in order to upgrade the Healing Gourd to its maximum of 10 uses, all 9 of them need to be found. All 9 can be acquired in one New Game cycle and are not missable, except when going for Shura ending. In which case, the 9th Gourd Seed, located in Fountainhead Palace, is not obtainable. Any Gourd Seeds not collected can be collected on New Game+. On New Game+, if a Gourd Seed has already been acquired, it will be replaced with a different item.
 
-1. In Ashina Outskirts, dropped by [General Naomori Kawarada](/wiki/general-naomori-kawarada). When Invasion 2 is triggered, if Kawarada was not defeated, he will disappear and his Gourd Seed will become purchasable for 2400 Sen from the Offering Box at Dilapidated Temple.
+1. In Ashina Outskirts, dropped by [General Naomori Kawarada](/wiki/general-naomori-kawarada). When Invasion 2 is triggered, if Kawarada was not defeated, he will disappear and his Gourd Seed will become purchasable for 2400 Sen from the [Offering Box](/wiki/offering-box) at Dilapidated Temple.
 
 2. In Ashina Outskirts, after [Chained Ogre](/wiki/chained-ogre-outskirts), in the building above, on the left, the item pick-up will be by two soldier uniforms hanging on a wall.
 
@@ -1273,9 +1338,9 @@ There are 9 Gourd Seeds in the game. Each one can only be acquired once, so in o
 
 ## Gourd Seed Duplication
 
-It is possible to gain infinite Gourd Seeds by exploiting a glitch with the Reflections of Strength. The Offering Box, where normally up to 1 Gourd Seed can be bought from, exists during Reflections and Gauntlets. In this state, the Offering Box doesn''t have the flags for disabling items that have already been acquired or purchased, letting you purchase all of the items that it can possible sell, even if they have already been acquired.
+It is possible to gain infinite Gourd Seeds by exploiting a glitch with the Reflections of Strength. The [Offering Box](/wiki/offering-box), where normally up to 1 Gourd Seed can be bought from, exists during Reflections and Gauntlets. In this state, the Offering Box doesn''t have the flags for disabling items that have already been acquired or purchased, letting you purchase all of the items that it can possible sell, even if they have already been acquired.
 
-By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.','approved',NULL,NULL,NULL,4,2,'2026-07-15 12:18:25.955263','2026-09-19 06:54:08.634807','gourd-seed',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.','approved',NULL,NULL,NULL,4,2,'2026-07-15 12:18:25.955263','2026-10-05 13:18:16.293813','gourd-seed',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(20,'Distortion2','## Distortion2
 Distortion2 is a Twitch and Youtube content creator, who is famous for pioneering Sekiro speedrunning in the early days.','approved',NULL,NULL,NULL,2,2,'2026-07-15 12:43:13.496054','2026-07-15 12:43:18.011696','distortion2',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(21,'WormdogBS','## WormdogBS
@@ -1478,8 +1543,6 @@ INSERT INTO "wiki_pages" VALUES(41,'Robert''s Firecrackers','## Robert''s Firecr
 Robert''s Firecrackers is a unique Upgrade Material that can be Fitted to Wolf''s Prosthetic Arm in order to unlock the Shinobi Firecrackers Prosthetic.
 
 Robert''s Firecrackers are obtained by purchasing them. They can be bought for 500 from either the Crow''s Bed Memorial Mob in Ashina Outskirts or the Battlefield Memorial Mob by Gyoubu''s arena. Once they have been bought from either Memorial Mob, they cannot be purchased again.','approved',NULL,NULL,NULL,4,2,'2026-08-06 08:04:57.320053','2026-08-06 08:05:10.182935','robert-s-firecrackers',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
-INSERT INTO "wiki_pages" VALUES(42,'Ceramic Shard','## Ceramic Shard
-A Ceramic Shard is a Consumable Quick Item that can be thrown in order to distract enemies.','approved',NULL,NULL,NULL,4,2,'2026-08-06 08:11:25.374281','2026-08-06 08:15:25.502797','ceramic-shard-2',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(43,'Sen','## Sen
 Sen is the currency used in-game to buy things.','approved',NULL,NULL,NULL,4,2,'2026-08-06 08:12:39.452229','2026-08-06 08:15:30.763276','sen',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(44,'Shuriken Wheel','## Shuriken Wheel
@@ -1782,8 +1845,6 @@ Dead Angles can be seen all throughout Sekiro speedruns, but the most prominent 
 * Owl corner cheese strat','rejected',NULL,NULL,NULL,4,8,'2026-09-22 11:18:36.547492','2026-09-30 05:05:55.094584','dead-angle-2',NULL,'2026-09-30 05:05:55.092528',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(74,'Fistful of Ash','## Fistful of Ash
 Fistful of Ash is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-09-30 17:52:04.662364','2026-09-30 17:52:39.434902','fistful-of-ash','2026-09-30 17:52:04.659331','2026-09-30 17:52:39.432672',2,NULL,NULL,NULL,NULL);
-INSERT INTO "wiki_pages" VALUES(75,'Healing Gourd','## Healing Gourd
-The Healing Gourd is a reusable Quick Item that heals the player on use.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:26:47.096124','2026-09-30 18:28:24.439937','healing-gourd-2','2026-09-30 18:26:47.095253','2026-09-30 18:28:24.439600',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(76,'Homeward Idol','## Homeward Idol
 The Homeward Idol is a reusable Quick Item that on use allows the player to teleport to their last communed Idol or to the Dilapidated Temple.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:28:15.886468','2026-09-30 18:28:32.695283','homeward-idol','2026-09-30 18:28:15.885299','2026-09-30 18:28:32.694856',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(77,'Mibu Balloon of Soul','## Mibu Balloon of Soul
@@ -1955,6 +2016,31 @@ INSERT INTO "wiki_pages" VALUES(93,'Tokujiro the Glutton','## Tokujiro the Glutt
 Tokujiro the Glutton is a Miniboss that appears in Ashina Depths.','approved',NULL,NULL,NULL,4,2,'2026-10-04 12:18:22.290242','2026-10-04 12:22:07.739468','tokujiro-the-glutton','2026-10-04 12:18:22.289823','2026-10-04 12:22:07.738776',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(94,'Lone Shadow Vilehand','## Lone Shadow Vilehand
 Lone Shadow Vilehand is a Miniboss that appears in the Ashina Castle Dojo after Invasion 1.','approved',NULL,NULL,NULL,4,2,'2026-10-04 12:22:01.632914','2026-10-04 12:22:11.117638','lone-shadow-vilehand','2026-10-04 12:22:01.632076','2026-10-04 12:22:11.116926',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(95,'Kusabimaru','## Kusabimaru
+Kusabimaru is the player''s sword and is obtained in the tutorial section after talking to Kuro for the first time.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:13:00.665346','2026-10-05 13:16:49.558249','kusabimaru','2026-10-05 13:13:00.664913','2026-10-05 13:16:49.557727',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(96,'Offering Box','## Offering Box
+The Offering Box is located at Dilapidated Temple and lets the player buy some items that have been missed.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:16:38.449491','2026-10-05 13:16:52.153790','offering-box','2026-10-05 13:16:38.449047','2026-10-05 13:16:52.153429',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(97,'Shelter Stone','## Shelter Stone
+The Shelter Stone is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:21:12.611846','2026-10-05 13:26:48.701747','shelter-stone','2026-10-05 13:21:12.611420','2026-10-05 13:26:48.701376',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(98,'Shinobi Prosthetic','## Shinobi Prosthetic
+The Shinobi Prosthetic is a Key item that is given to the player after the tutorial by the Sculptor.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:22:35.558078','2026-10-05 13:26:50.771887','shinobi-prosthetic','2026-10-05 13:22:35.557669','2026-10-05 13:26:50.771555',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(99,'Mibu Balloon of Spirit','## Mibu Balloon of Spirit
+Mibu Balloon of Spirit is a Consumable Quick Item that on use increases the rate at which Spirit Emblems are acquired for a time.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:24:05.764978','2026-10-05 13:26:52.610501','mibu-balloon-of-spirit','2026-10-05 13:24:05.764364','2026-10-05 13:26:52.610158',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(100,'Gokan''s Sugar','## Gokan''s Sugar
+Gokan''s Sugar, also known as just Gokan, is a Consumable Quick Item that buffs the player for 30s. If the player has the Devotion skill, the duration will be 45s instead.
+
+Only one Sugar buff can be active at a time. If a new Sugar is used while Ako is already active, it will remove the Ako''s buff and apply the new Sugar''s buff.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:37:27.107567','2026-10-05 13:37:42.662841','gokan-s-sugar','2026-10-05 13:37:27.107149','2026-10-05 13:37:42.662402',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(101,'Genichiro Door Cheese','## Genichiro Door Cheese
+This refers to a common cheese performed on phases 1 & 2 of Genichiro , where a setup is used to get him stuck in a corner so the player can attack indefinitely.
+
+## 5 Hits Method
+Ponetchmas made a tutorial explaining the cheese:
+[youtube]shdnn-LEp_s[/youtube]
+
+On some categories like [Shura Restricted](https://sekirospeedrun.com/wiki/shura-restricted), players may need to use Divine Confetti while performing the cheese. To do so, simply replace the 2 attacks used in the setup explained in the tutorial with using the confetti.
+
+## 180s Variation
+An alternate method exists, most commonly seen in Glitchless categories, where instead of baiting Genichiro into the corner, the player drags him inside by performing 180s and slowly pushing him.','pending',NULL,NULL,NULL,3,7,'2026-10-06 01:36:23.003352','2026-10-06 01:36:23.003355','genichiro-door-cheese','2026-10-06 01:36:23.002915',NULL,NULL,NULL,NULL,NULL,NULL);
 CREATE TABLE wiki_revisions (
 	id INTEGER NOT NULL, 
 	page_id INTEGER, 
@@ -4295,6 +4381,45 @@ There are 37 Miniboss encounters.
 * Tutorial Genichiro
 * Great Serpent
 * Great Colored Carp',4,2,'2026-10-04 12:30:20.595727');
+INSERT INTO "wiki_revisions" VALUES(81,19,'Gourd Seed','## Gourd Seed
+
+A Gourd Seed is a Key Item that can be given to Emma to upgrade the Healing Gourd. Each Gourd Seed given increases the Healing Gourd''s number of uses by 1, up to a maximum of 10.
+
+## Acquisition
+
+There are 9 Gourd Seeds in the game. Each one can only be acquired once, so in order to upgrade the Healing Gourd to its maximum of 10 uses, all 9 of them need to be found. All 9 can be acquired in one New Game cycle and are not missable, except when going for Shura ending. In which case, the 9th Gourd Seed, located in Fountainhead Palace, is not obtainable. Any Gourd Seeds not collected can be collected on New Game+. On New Game+, if a Gourd Seed has already been acquired, it will be replaced with a different item.
+
+1. In Ashina Outskirts, dropped by [General Naomori Kawarada](/wiki/general-naomori-kawarada). When Invasion 2 is triggered, if Kawarada was not defeated, he will disappear and his Gourd Seed will become purchasable for 2400 Sen from the Offering Box at Dilapidated Temple.
+
+2. In Ashina Outskirts, after [Chained Ogre](/wiki/chained-ogre-outskirts), in the building above, on the left, the item pick-up will be by two soldier uniforms hanging on a wall.
+
+3. In Ashina Outskirts, after [Gyoubu Oniwa](/wiki/gyoubu-oniwa), 1 Gourd Seed can be purchased for 1000 Sen from the Battlefield Memorial Mob.
+
+4. In Ashina Castle, in a chest by the Castle Antechamber Idol.
+
+5. At Dilapidated Temple, after Genichiro is defeated, Fujioka the Info Broker will appear and sell 1 Gourd Seed for 2000 Sen.
+
+6. In Senpou Temple, after the cricket room, the item pick-up will be in front of an immortal monk.
+
+7. In Sunken Valley, after the Serpent''s Shrine, on the way towards Gunfort, take a sidepath on the left. Continue and climb up, the item pick-up will be in a corner in a wall cavity.
+
+8. In Ashina Depths, Mibu Village, the item pick-up will be in the middle at the base of a large lit up tree.
+
+9. In Fountainhead Palace, in a chest near the Palace Grounds Idol.
+
+## Gourd Seed Duplication
+
+It is possible to gain infinite Gourd Seeds by exploiting a glitch with the Reflections of Strength. The Offering Box, where normally up to 1 Gourd Seed can be bought from, exists during Reflections and Gauntlets. In this state, the Offering Box doesn''t have the flags for disabling items that have already been acquired or purchased, letting you purchase all of the items that it can possible sell, even if they have already been acquired.
+
+By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.',4,2,'2026-10-05 13:18:16.295024');
+INSERT INTO "wiki_revisions" VALUES(82,11,'Delayed Jump','## Delayed Jump
+A Delayed Jump is a jump done at the very last moment possible when going off a ledge, in a way that makes you do the jump after having already fallen off the ledge. This type of jump allows the player to gain more distance than a standard jump.
+
+It''s possible to both do a sprinting and a walking speed delayed jump, but in most circumstances, talk about delayed jumps refer to the sprinting variation.
+
+A common misconception is that all delayed jumps have a frame perfect timing window. In reality, each type of ledge will have a different timing and different window of opportunity for a success jump.
+
+## Ledges and Terrain',4,2,'2026-10-05 13:20:45.182050');
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
 COMMIT;
