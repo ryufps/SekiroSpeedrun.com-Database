@@ -757,6 +757,96 @@ A Delayed Jump is a jump done at the very last moment possible when going off a 
 It''s possible to both do a sprinting and a walking speed delayed jump, but in most circumstances the term Delayed Jump will be used to specifically mean the sprinting variation.
 
 A common misconception is that all delayed jumps have a frame perfect timing window. In reality, each type of ledge will have a different timing and different window of opportunity for a successful jump.',4,2,'2026-10-05 13:20:40.126790','approved','2026-10-05 13:20:40.126439','2026-10-05 13:20:45.181142',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(17,56,'Mibu Breathing Technique','## Mibu Breathing Technique
+The Mibu Breathing Technique is a Skill that is unlocked by killing the [Corrupted Monk (False)](/wiki/corrupted-monk-false) in Ashina Depths.
+
+When the skill is unlocked, the player gains the ability to dive under water.',4,2,'2026-10-06 04:15:16.105374','approved','2026-10-06 04:15:16.105025','2026-10-06 04:15:22.015462',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(18,34,'Shura Restricted','## Shura Restricted
+Shura Restricted is generally referred to as Any% or Any% Restricted.
+
+## Shura Restricted Guides
+Gin42_ has made a full guide for Shura Restricted.
+[youtube]wHK3qTTV_pY[/youtube]
+
+## Shura Restricted Route
+This guide for Shura Restricted is made by the editors of the wiki.
+
+### Tutorial Section
+Talk to Kuro, and after receiving the Healing Gourd, you can press the menu button to cancel out of the dialogue early.
+
+After speaking to Kuro, you use the [Tutorial Grapple Glitch](/wiki/tutorial-grapple-glitch) to exit the Moonview Tower faster.
+[youtube]zFL1mjWWVfA[/youtube]
+
+Before leaving the tutorial remember to get the 2x Ash pickup right after running past [Leader Shigenori Yamauchi](/wiki/leader-shigenori-yamauchi).
+
+### Ashina Outskirts
+### Ogre Skip
+Ogre Skip takes a lot of time to learn, but is around 35s faster than fighting [Chained Ogre (Outskirts)](/wiki/chained-ogre-outskirts). 
+[youtube]jwto28bmImA[/youtube]
+
+Fighting Ogre instead is also fine. When you''re getting started it can be a great idea, as it allows for more run completions and lets you prioritize practicing more important things like Emma/Isshin and Ape Skip.
+ 
+### Canyon
+You can optionally use [Canyon Skip](/wiki/canyon-skip) to save 7s or Double Canyon Skip to save 14s.
+
+### Gyoubu Skip
+When entering [Gyoubu Oniwa](/wiki/gyoubu-oniwa)''s arena, you want to get the 2x Ash pickup in his arena. You need to pick it up quickly, as the pick-up will be unavailable for a while once Gyoubu starts his scripted opening dialogue where he screams his name.
+
+### Bull Skip
+[youtube]lAKV66fW4A0[/youtube]
+
+### Lone Shadow Skip
+Alternatively, you can fight Lone Shadow Longswordsman, which is around 12s slower.
+
+### Snake Eyes
+
+### Mibu Village
+
+### Corrupted Monk
+[youtube]3IMBc2EcGiQ[/youtube]
+Doing the Stealth Deathblow with only 4 ash is very precise. It is a good idea to pick up 6 or more to make it easier. You can find the extra Ash pickups here.
+[youtube]RO5AVSdmHHQ[/youtube]
+
+After getting the [Shelter Stone](/wiki/shelter-stone), [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Ashina Castle Idol.
+
+### Genichiro
+Genichiro corner cheese tutorial.
+[youtube]shdnn-LEp_s[/youtube]
+
+### Senpou Airswim
+When quitting out at the elevator, make sure you are not too high up. If you quit out and reload in a wrong spot while airswimming, the game won''t load the map that the player is in, which will result in a blackscreen that will kill the player after some time. This is a big timeloss that should be avoided.
+
+After exiting airswim, you want to make sure to keep aggro from enemies, so that your stable ground position is not updated. After getting the Senpou Temple Grounds Idol and quitting out, you should be placed back in airswim if your last stable ground position was still when you were airswimming.
+
+### Ape Skip
+Ape Skip is required for the route to work. If you mess it up, it takes around 3 minutes to get back and try it again, so it''s highly recommended to spend a lot of time to make it consistent.
+[youtube]NXTK-FEluL8[/youtube]
+[youtube]Ptcm94MuvJ8[/youtube]
+
+After getting the Lotus of the Palace, [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Senpou Temple Grounds.
+
+### Monkey Skip
+[Monkey Skip](/wiki/monkey-skip) is required for the route to work. However, you can retry it with only minor timeloss if you miss it. It is extremely difficult to become consistent at Monkey Skip. It is okay to have a 10% or lower success rate. A success rate of 25% or higher would be considered extremely high level. Mitchriz has a tutorial on how to do Monkey Skip:
+[youtube]56g7lWP0utY[/youtube]
+
+After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it is obtained, the Invasion Event will start and your Last Communed Idol will be set as Ashina Castle - Abandoned Dungeon. Use the [Homeward Idol](/wiki/homeward-idol) to go to Last Communed Idol after picking up the Mortal Draw to go to Emma/Isshin.
+
+### Emma
+
+### Isshin',5,2,'2026-10-06 04:22:49.438787','approved','2026-10-06 04:22:49.437900','2026-10-06 04:22:55.825277',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(19,77,'Mibu Balloon of Soul','## Mibu Balloon of Soul
+Mibu Balloon of Soul is a Consumable Quick Item that on use makes the player acquire restorative power at a higher rate for 2m30s.',4,2,'2026-10-06 18:11:25.522489','approved','2026-10-06 18:11:25.522000','2026-10-06 18:11:54.969952',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(20,99,'Mibu Balloon of Spirit','## Mibu Balloon of Spirit
+Mibu Balloon of Spirit is a Consumable Quick Item that on use increases the rate at which Spirit Emblems are acquired for 2min30s.',4,2,'2026-10-06 18:11:45.106426','approved','2026-10-06 18:11:45.106076','2026-10-06 18:11:57.433702',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(21,80,'Heavy Coin Purse','## Heavy Coin Purse
+Heavy Coin Purse is a Consumable Quick Item that gives 500 [Sen](/wiki/sen) on use. [Light Coin Purses](/wiki/light-coin-purse), Heavy Coin Purses and [Bulging Coin Purses](/wiki/bulging-coin-purse) serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.',4,2,'2026-10-06 18:17:19.091481','approved','2026-10-06 18:17:19.091120','2026-10-06 18:19:04.060302',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(22,81,'Light Coin Purse','## Light Coin Purse
+Light Coin Purse is a Consumable Quick Item that gives 100 [Sen](/wiki/sen) on use. Light Coin Purses, [Heavy Coin Purses](/wiki/heavy-coin-purse) and [Bulging Coin Purse](/wiki/bulging-coin-purse) serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.',4,2,'2026-10-06 18:18:10.008345','approved','2026-10-06 18:18:10.007964','2026-10-06 18:19:06.305386',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(23,82,'Bulging Coin Purse','## Bulging Coin Purse
+Bulging Coin Purse is a Consumable Quick Item that gives 1000 [Sen](/wiki/sen) on use. [Light Coin Purses](/wiki/light-coin-purse), [Heavy Coin Purses](/wiki/heavy-coin-purse) and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.',4,2,'2026-10-06 18:18:59.802084','approved','2026-10-06 18:18:59.801743','2026-10-06 18:19:08.502357',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(24,66,'Gyoubu Oniwa','## Gyoubu Oniwa
+Gyoubu Oniwa is a [Boss](/wiki/boss) that appears in Ashina Outskirts.',4,2,'2026-10-06 21:14:53.625362','approved','2026-10-06 21:14:53.625011','2026-10-06 21:15:08.989521',2,NULL,'Gyoubu Oniwa','## Gyoubu Oniwa
+Gyoubu Oniwa is a [Boss](/wiki/boss)that appears in Ashina Outskirts.',4);
 CREATE TABLE users (
 	id INTEGER NOT NULL, 
 	username VARCHAR(80) NOT NULL, 
@@ -1468,11 +1558,11 @@ Talk to Kuro, and after receiving the Healing Gourd, you can press the menu butt
 After speaking to Kuro, you use the [Tutorial Grapple Glitch](/wiki/tutorial-grapple-glitch) to exit the Moonview Tower faster.
 [youtube]zFL1mjWWVfA[/youtube]
 
-Before leaving the tutorial remember to get the 2x Ash pickup right after running past Leader Shigenori Yamauchi.
+Before leaving the tutorial remember to get the 2x Ash pickup right after running past [Leader Shigenori Yamauchi](/wiki/leader-shigenori-yamauchi).
 
 ### Ashina Outskirts
 ### Ogre Skip
-Ogre Skip takes a lot of time to learn, but is around 35s faster than fighting Ogre. 
+Ogre Skip takes a lot of time to learn, but is around 35s faster than fighting [Chained Ogre (Outskirts)](/wiki/chained-ogre-outskirts). 
 [youtube]jwto28bmImA[/youtube]
 
 Fighting Ogre instead is also fine. When you''re getting started it can be a great idea, as it allows for more run completions and lets you prioritize practicing more important things like Emma/Isshin and Ape Skip.
@@ -1481,7 +1571,7 @@ Fighting Ogre instead is also fine. When you''re getting started it can be a gre
 You can optionally use [Canyon Skip](/wiki/canyon-skip) to save 7s or Double Canyon Skip to save 14s.
 
 ### Gyoubu Skip
-When entering Gyoubu''s arena, you want to get the 2x Ash pickup in his arena. You need to pick it up quickly, as the pick-up will be unavailable for a while once Gyoubu starts his scripted opening dialogue where he screams his name.
+When entering [Gyoubu Oniwa](/wiki/gyoubu-oniwa)''s arena, you want to get the 2x Ash pickup in his arena. You need to pick it up quickly, as the pick-up will be unavailable for a while once Gyoubu starts his scripted opening dialogue where he screams his name.
 
 ### Bull Skip
 [youtube]lAKV66fW4A0[/youtube]
@@ -1498,6 +1588,8 @@ Alternatively, you can fight Lone Shadow Longswordsman, which is around 12s slow
 Doing the Stealth Deathblow with only 4 ash is very precise. It is a good idea to pick up 6 or more to make it easier. You can find the extra Ash pickups here.
 [youtube]RO5AVSdmHHQ[/youtube]
 
+After getting the [Shelter Stone](/wiki/shelter-stone), [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Ashina Castle Idol.
+
 ### Genichiro
 Genichiro corner cheese tutorial.
 [youtube]shdnn-LEp_s[/youtube]
@@ -1512,17 +1604,17 @@ Ape Skip is required for the route to work. If you mess it up, it takes around 3
 [youtube]NXTK-FEluL8[/youtube]
 [youtube]Ptcm94MuvJ8[/youtube]
 
-After getting the Shelter Stone, Homeward Idol to last Communed Idol. This will place you at the Senpou Temple Grounds.
+After getting the Lotus of the Palace, [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Senpou Temple Grounds.
 
 ### Monkey Skip
-Monkey Skip is required for the route to work. However, you can retry it with only minor timeloss if you miss it. It is extremely difficult to become consistent at Monkey Skip. It is okay to have a 10% or lower success rate. A success rate of 25% or higher would be considered extremely high level. Mitchriz has a tutorial on how to do Monkey Skip:
+[Monkey Skip](/wiki/monkey-skip) is required for the route to work. However, you can retry it with only minor timeloss if you miss it. It is extremely difficult to become consistent at Monkey Skip. It is okay to have a 10% or lower success rate. A success rate of 25% or higher would be considered extremely high level. Mitchriz has a tutorial on how to do Monkey Skip:
 [youtube]56g7lWP0utY[/youtube]
 
-After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it is obtained, the Invasion Event will start and your Last Communed Idol will be set as Ashina Castle - Abandoned Dungeon. Use the Homeward Idol to go to Last Communed Idol after picking up the Mortal Draw to go to Emma/Isshin.
+After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it is obtained, the Invasion Event will start and your Last Communed Idol will be set as Ashina Castle - Abandoned Dungeon. Use the [Homeward Idol](/wiki/homeward-idol) to go to Last Communed Idol after picking up the Mortal Draw to go to Emma/Isshin.
 
 ### Emma
 
-### Isshin','approved',NULL,NULL,NULL,5,2,'2026-07-19 12:33:39.893829','2026-07-19 12:33:43.599413','shura-restricted',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+### Isshin','approved',NULL,NULL,NULL,5,2,'2026-07-19 12:33:39.893829','2026-10-06 04:22:55.826146','shura-restricted',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(35,'Phantom Kunai (Upgrade Material)','## Phantom Kunai (Upgrade Material)
 The Phantom Kunai is a Unique Upgrade Material used for unlocking the Phantom Kunai Prosthetic Tool Upgrade.
 
@@ -1620,9 +1712,9 @@ The mechanic is most commonly used in the Airswim glitch in Any% to grab the Tem
 INSERT INTO "wiki_pages" VALUES(55,'Loaded Shuriken','## Loaded Shuriken
 The Loaded Shuriken is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-09-17 17:06:36.062334','2026-09-17 17:06:41.829220','loaded-shuriken',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(56,'Mibu Breathing Technique','## Mibu Breathing Technique
-The Mibu Breathing Technique is a Skill that is unlocked by killing the Corrupted Monk in Ashina Depths.
+The Mibu Breathing Technique is a Skill that is unlocked by killing the [Corrupted Monk (False)](/wiki/corrupted-monk-false) in Ashina Depths.
 
-When the skill is unlocked, the player gains the ability to dive under water.','approved',NULL,NULL,NULL,4,2,'2026-09-17 17:16:49.144400','2026-09-17 17:16:57.496107','mibu-breathing-technique',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+When the skill is unlocked, the player gains the ability to dive under water.','approved',NULL,NULL,NULL,4,2,'2026-09-17 17:16:49.144400','2026-10-06 04:15:22.016275','mibu-breathing-technique',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(57,'Lump of Grave Wax','## Lump of Grave Wax
 Lump of Grave Wax is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:00:19.157704','2026-09-17 18:00:57.051684','lump-of-grave-wax',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(58,'Lump of Fat Wax','## Lump of Fat Wax
@@ -1661,7 +1753,7 @@ Blazing Bull is a Miniboss that appears in Ashina Castle.','approved',NULL,NULL,
 INSERT INTO "wiki_pages" VALUES(65,'General Naomori Kawarada','## General Naomori Kawarada
 General Naomori Kawarada is a Miniboss that appears in Ashina Outskirts.','approved',NULL,NULL,NULL,4,2,'2026-09-19 06:47:12.577666','2026-09-19 06:47:19.809131','general-naomori-kawarada',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(66,'Gyoubu Oniwa','## Gyoubu Oniwa
-Gyoubu Oniwa is a Boss that appears in Ashina Outskirts.','approved',NULL,NULL,NULL,4,2,'2026-09-19 06:51:26.655710','2026-09-19 06:51:33.564912','gyoubu-oniwa',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Gyoubu Oniwa is a [Boss](/wiki/boss) that appears in Ashina Outskirts.','approved',NULL,NULL,NULL,4,2,'2026-09-19 06:51:26.655710','2026-10-06 21:15:08.990070','gyoubu-oniwa',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(67,'T2k5','## T2k5
 T2k5 was a glitch hunter active during the early days of the speedrun in 2019.','approved',NULL,NULL,NULL,2,2,'2026-09-19 06:56:32.862529','2026-09-19 06:56:37.114259','t2k5',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(68,'Mr Bundarian','## Mr Bundarian
@@ -1848,18 +1940,18 @@ Fistful of Ash is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-
 INSERT INTO "wiki_pages" VALUES(76,'Homeward Idol','## Homeward Idol
 The Homeward Idol is a reusable Quick Item that on use allows the player to teleport to their last communed Idol or to the Dilapidated Temple.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:28:15.886468','2026-09-30 18:28:32.695283','homeward-idol','2026-09-30 18:28:15.885299','2026-09-30 18:28:32.694856',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(77,'Mibu Balloon of Soul','## Mibu Balloon of Soul
-Mibu Balloon of Soul is a Consumable Quick Item that makes the player acquire restorative power at a higher rate for a limited amount of time.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:35:39.128856','2026-09-30 18:35:44.241065','mibu-balloon-of-soul','2026-09-30 18:35:39.126969','2026-09-30 18:35:44.240018',2,NULL,NULL,NULL,NULL);
+Mibu Balloon of Soul is a Consumable Quick Item that on use makes the player acquire restorative power at a higher rate for 2m30s.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:35:39.128856','2026-10-06 18:11:54.970462','mibu-balloon-of-soul','2026-09-30 18:35:39.126969','2026-09-30 18:35:44.240018',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(78,'Bite Down','## Bite Down
 Bite Down is a Consumable Quick Item that kills the player on use.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:36:26.941960','2026-09-30 18:41:12.080778','bite-down','2026-09-30 18:36:26.941319','2026-09-30 18:41:12.080118',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(79,'Red Lump','## Red Lump
 Red Lump is a Consumable Quick Item that on use makes the player nearly unstaggerable but unable to resurrect for 30s.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:41:01.635189','2026-09-30 18:41:15.699161','red-lump','2026-09-30 18:41:01.634290','2026-09-30 18:41:15.698510',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(80,'Heavy Coin Purse','## Heavy Coin Purse
-Heavy Coin Purse is a Consumable Quick Item that gives 500 [Sen](/wiki/sen) on use. Light Coin Purses, Heavy Coin Purses and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:49:34.302926','2026-09-30 18:54:54.931391','heavy-coin-purse','2026-09-30 18:49:34.301706','2026-09-30 18:54:54.928941',2,NULL,'Heavy Coin Purse','## Heavy Coin Purse
+Heavy Coin Purse is a Consumable Quick Item that gives 500 [Sen](/wiki/sen) on use. [Light Coin Purses](/wiki/light-coin-purse), Heavy Coin Purses and [Bulging Coin Purses](/wiki/bulging-coin-purse) serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:49:34.302926','2026-10-06 18:19:04.060926','heavy-coin-purse','2026-09-30 18:49:34.301706','2026-09-30 18:54:54.928941',2,NULL,'Heavy Coin Purse','## Heavy Coin Purse
 Heavy Coin Purse is a Consumable Quick Item that gives 500 Sen on use. Light Coin Purses, Heavy Coin Purses or Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.',4);
 INSERT INTO "wiki_pages" VALUES(81,'Light Coin Purse','## Light Coin Purse
-Light Coin Purse is a Consumable Quick Item that gives 100 [Sen](/wiki/sen) on use. Light Coin Purses, Heavy Coin Purses and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:51:37.008176','2026-09-30 18:54:51.257511','light-coin-purse','2026-09-30 18:51:37.007733','2026-09-30 18:54:51.256493',2,NULL,NULL,NULL,NULL);
+Light Coin Purse is a Consumable Quick Item that gives 100 [Sen](/wiki/sen) on use. Light Coin Purses, [Heavy Coin Purses](/wiki/heavy-coin-purse) and [Bulging Coin Purse](/wiki/bulging-coin-purse) serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:51:37.008176','2026-10-06 18:19:06.305927','light-coin-purse','2026-09-30 18:51:37.007733','2026-09-30 18:54:51.256493',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(82,'Bulging Coin Purse','## Bulging Coin Purse
-Bulging Coin Purse is a Consumable Quick Item that gives 1000 [Sen](/wiki/sen) on use. Light Coin Purses, Heavy Coin Purses and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:52:39.715580','2026-09-30 18:54:58.688317','bulging-coin-purse','2026-09-30 18:52:39.715149','2026-09-30 18:54:58.687294',2,NULL,NULL,NULL,NULL);
+Bulging Coin Purse is a Consumable Quick Item that gives 1000 [Sen](/wiki/sen) on use. [Light Coin Purses](/wiki/light-coin-purse), [Heavy Coin Purses](/wiki/heavy-coin-purse) and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:52:39.715580','2026-10-06 18:19:08.502893','bulging-coin-purse','2026-09-30 18:52:39.715149','2026-09-30 18:54:58.687294',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(83,'SaraToga','## SaraToga
 SaraToga is a Sekiro speedrunner and strat finder. They are most known for their NG+7 speedruns.','approved',NULL,NULL,NULL,2,2,'2026-09-30 20:33:02.400576','2026-09-30 20:33:07.499409','saratoga','2026-09-30 20:33:02.399377','2026-09-30 20:33:07.497894',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(84,'Guardian Ape','## Guardian Ape
@@ -2025,7 +2117,7 @@ The Shelter Stone is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:2
 INSERT INTO "wiki_pages" VALUES(98,'Shinobi Prosthetic','## Shinobi Prosthetic
 The Shinobi Prosthetic is a Key item that is given to the player after the tutorial by the Sculptor.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:22:35.558078','2026-10-05 13:26:50.771887','shinobi-prosthetic','2026-10-05 13:22:35.557669','2026-10-05 13:26:50.771555',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(99,'Mibu Balloon of Spirit','## Mibu Balloon of Spirit
-Mibu Balloon of Spirit is a Consumable Quick Item that on use increases the rate at which Spirit Emblems are acquired for a time.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:24:05.764978','2026-10-05 13:26:52.610501','mibu-balloon-of-spirit','2026-10-05 13:24:05.764364','2026-10-05 13:26:52.610158',2,NULL,NULL,NULL,NULL);
+Mibu Balloon of Spirit is a Consumable Quick Item that on use increases the rate at which Spirit Emblems are acquired for 2min30s.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:24:05.764978','2026-10-06 18:11:57.434211','mibu-balloon-of-spirit','2026-10-05 13:24:05.764364','2026-10-05 13:26:52.610158',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(100,'Gokan''s Sugar','## Gokan''s Sugar
 Gokan''s Sugar, also known as just Gokan, is a Consumable Quick Item that buffs the player for 30s. If the player has the Devotion skill, the duration will be 45s instead.
 
@@ -2041,6 +2133,52 @@ On some categories like [Shura Restricted](https://sekirospeedrun.com/wiki/shura
 
 ## 180s Variation
 An alternate method exists, most commonly seen in Glitchless categories, where instead of baiting Genichiro into the corner, the player drags him inside by performing 180s and slowly pushing him.','pending',NULL,NULL,NULL,3,7,'2026-10-06 01:36:23.003352','2026-10-06 01:36:23.003355','genichiro-door-cheese','2026-10-06 01:36:23.002915',NULL,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(102,'Mibu Possession Balloon','## Mibu Possession Balloon
+Mibu Possession Balloon is a Consumable Quick Item that on use makes the player receive item drops from enemies at a higher rate for 2m30s (not affected by the Devotion skill).','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:07:19.293600','2026-10-06 18:11:51.950903','mibu-possession-balloon','2026-10-06 18:07:19.293165','2026-10-06 18:11:51.950556',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(103,'Mibu Balloon of Wealth','## Mibu Balloon of Wealth
+Mibu Balloon of Wealth is a Consumable Quick Item that on use makes the player acquire Sen from enemies at a higher rate for 2min30s.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:14:05.538628','2026-10-06 18:14:15.562060','mibu-balloon-of-wealth','2026-10-06 18:14:05.538198','2026-10-06 18:14:15.561672',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(104,'Illusive Hall Bell','## Illusive Hall Bell
+The Illusive Hall Bell is a Reusable Quick Item that when used in the Folding Screen Monkeys Boss arena resets the position of the player and of the remaining Folding Screen Monkeys.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:21:14.106686','2026-10-06 18:27:17.708276','illusive-hall-bell','2026-10-06 18:21:14.106258','2026-10-06 18:27:17.707905',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(105,'Gatehouse Key','## Gatehouse Key
+The Gatehouse Key, also known as the Spear Key, is a Key Item that grants access to the building in the Ashina Reservoir where Gyoubu''s Broken Horn can be acquired.
+
+The Gatehouse Key is obtained by killing the spear-wielding soldier on the bridge leading to the Abandoned Dungeon.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:27:11.086428','2026-10-06 18:27:19.838644','gatehouse-key','2026-10-06 18:27:11.086020','2026-10-06 18:27:19.838115',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(106,'Adamantite Scrap','## Adamantite Scrap
+Adamantite Scrap is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:28:47.245615','2026-10-06 18:28:51.413353','adamantite-scrap','2026-10-06 18:28:47.244682','2026-10-06 18:28:51.413019',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(107,'Spinning Shuriken','## Spinning Shuriken
+The Spinning Shuriken is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:29:44.206919','2026-10-06 18:31:39.786882','spinning-shuriken','2026-10-06 18:29:44.206344','2026-10-06 18:31:39.786543',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(108,'Gouging Top','## Gouging Top
+The Gouging Top is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:30:00.804850','2026-10-06 18:31:42.168126','gouging-top','2026-10-06 18:30:00.804431','2026-10-06 18:31:42.167631',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(109,'Sen Throw','## Sen Throw
+Sen Throw is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:30:27.783153','2026-10-06 18:31:44.399508','sen-throw','2026-10-06 18:30:27.782744','2026-10-06 18:31:44.399159',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(110,'Lazulite Shuriken','## Lazulite Shuriken
+The Lazulite Shuriken is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:30:57.680957','2026-10-06 18:31:46.572966','lazulite-shuriken','2026-10-06 18:30:57.680539','2026-10-06 18:31:46.572626',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(111,'Loaded Axe','## Loaded Axe
+The Loaded Axe is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:31:22.043132','2026-10-06 18:31:48.520667','loaded-axe','2026-10-06 18:31:22.042706','2026-10-06 18:31:48.520237',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(112,'Spring-load Axe','## Spring-load Axe
+The Spring-load Axe is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:36:35.223716','2026-10-06 18:39:17.140155','spring-load-axe','2026-10-06 18:36:35.223280','2026-10-06 18:39:17.139814',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(113,'Sparking Axe','## Sparking Axe
+The Sparking Axe is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:36:59.685644','2026-10-06 18:39:19.773147','sparking-axe','2026-10-06 18:36:59.685015','2026-10-06 18:39:19.772802',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(114,'Lazulite Axe','## Lazulite Axe
+The Lazulite Axe is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:37:17.797416','2026-10-06 18:39:25.590085','lazulite-axe','2026-10-06 18:37:17.797010','2026-10-06 18:39:25.589751',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(115,'Loaded Spear','## Loaded Spear
+The Loaded Spear is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:37:46.790006','2026-10-06 18:39:27.785657','loaded-spear','2026-10-06 18:37:46.789603','2026-10-06 18:39:27.785289',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(116,'Loaded Spear Thrust Type','## Loaded Spear Thrust Type
+The Loaded Spear Thrust Type is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:38:15.363642','2026-10-06 18:39:30.097056','loaded-spear-thrust-type','2026-10-06 18:38:15.363220','2026-10-06 18:39:30.096521',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(117,'Loaded Spear Cleave Type','## Loaded Spear Cleave Type
+The Loaded Spear Cleave Type is a Prosthetic Tool','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:38:33.766618','2026-10-06 18:39:36.120438','loaded-spear-cleave-type','2026-10-06 18:38:33.766192','2026-10-06 18:39:36.119918',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(118,'Spiral Spear','## Spiral Spear
+The Spiral Spear is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:41:46.595615','2026-10-06 18:43:29.556714','spiral-spear','2026-10-06 18:41:46.595179','2026-10-06 18:43:29.556364',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(119,'Leaping Flame','## Leaping Flame
+The Leaping Flame is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:44:17.621249','2026-10-06 18:47:33.656148','leaping-flame','2026-10-06 18:44:17.620845','2026-10-06 18:47:33.655769',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(120,'Sabimaru','## Sabimaru
+Sabimaru is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:46:45.996886','2026-10-06 18:47:35.694434','sabimaru','2026-10-06 18:46:45.996478','2026-10-06 18:47:35.694096',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(121,'Sabimaru (Upgrade Material)','## Sabimaru
+Sabimaru is a Unique Upgrade Material Item used to unlock the Sabimaru Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:47:27.799574','2026-10-06 18:47:37.641767','sabimaru-upgrade-material','2026-10-06 18:47:27.799159','2026-10-06 18:47:37.641427',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(122,'Mechanical Barrel','## Mechanical Barrel
+The Mechanical Barrel is a Key Item that be given to the Sculptor to unlock Prosthetic Upgrades.
+
+The Mechanical Barrel is acquired by killing [Gyoubu Oniwa](/wiki/gyoubu-oniwa).','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:49:32.933338','2026-10-06 18:49:37.681299','mechanical-barrel','2026-10-06 18:49:32.932946','2026-10-06 18:49:37.680809',2,NULL,NULL,NULL,NULL);
 CREATE TABLE wiki_revisions (
 	id INTEGER NOT NULL, 
 	page_id INTEGER, 
@@ -4420,6 +4558,93 @@ It''s possible to both do a sprinting and a walking speed delayed jump, but in m
 A common misconception is that all delayed jumps have a frame perfect timing window. In reality, each type of ledge will have a different timing and different window of opportunity for a success jump.
 
 ## Ledges and Terrain',4,2,'2026-10-05 13:20:45.182050');
+INSERT INTO "wiki_revisions" VALUES(83,56,'Mibu Breathing Technique','## Mibu Breathing Technique
+The Mibu Breathing Technique is a Skill that is unlocked by killing the Corrupted Monk in Ashina Depths.
+
+When the skill is unlocked, the player gains the ability to dive under water.',4,2,'2026-10-06 04:15:22.016788');
+INSERT INTO "wiki_revisions" VALUES(84,34,'Shura Restricted','## Shura Restricted
+Shura Restricted is generally referred to as Any% or Any% Restricted.
+
+## Shura Restricted Guides
+Gin42_ has made a full guide for Shura Restricted.
+[youtube]wHK3qTTV_pY[/youtube]
+
+## Shura Restricted Route
+This guide for Shura Restricted is made by the editors of the wiki.
+
+### Tutorial Section
+Talk to Kuro, and after receiving the Healing Gourd, you can press the menu button to cancel out of the dialogue early.
+
+After speaking to Kuro, you use the [Tutorial Grapple Glitch](/wiki/tutorial-grapple-glitch) to exit the Moonview Tower faster.
+[youtube]zFL1mjWWVfA[/youtube]
+
+Before leaving the tutorial remember to get the 2x Ash pickup right after running past Leader Shigenori Yamauchi.
+
+### Ashina Outskirts
+### Ogre Skip
+Ogre Skip takes a lot of time to learn, but is around 35s faster than fighting Ogre. 
+[youtube]jwto28bmImA[/youtube]
+
+Fighting Ogre instead is also fine. When you''re getting started it can be a great idea, as it allows for more run completions and lets you prioritize practicing more important things like Emma/Isshin and Ape Skip.
+ 
+### Canyon
+You can optionally use [Canyon Skip](/wiki/canyon-skip) to save 7s or Double Canyon Skip to save 14s.
+
+### Gyoubu Skip
+When entering Gyoubu''s arena, you want to get the 2x Ash pickup in his arena. You need to pick it up quickly, as the pick-up will be unavailable for a while once Gyoubu starts his scripted opening dialogue where he screams his name.
+
+### Bull Skip
+[youtube]lAKV66fW4A0[/youtube]
+
+### Lone Shadow Skip
+Alternatively, you can fight Lone Shadow Longswordsman, which is around 12s slower.
+
+### Snake Eyes
+
+### Mibu Village
+
+### Corrupted Monk
+[youtube]3IMBc2EcGiQ[/youtube]
+Doing the Stealth Deathblow with only 4 ash is very precise. It is a good idea to pick up 6 or more to make it easier. You can find the extra Ash pickups here.
+[youtube]RO5AVSdmHHQ[/youtube]
+
+### Genichiro
+Genichiro corner cheese tutorial.
+[youtube]shdnn-LEp_s[/youtube]
+
+### Senpou Airswim
+When quitting out at the elevator, make sure you are not too high up. If you quit out and reload in a wrong spot while airswimming, the game won''t load the map that the player is in, which will result in a blackscreen that will kill the player after some time. This is a big timeloss that should be avoided.
+
+After exiting airswim, you want to make sure to keep aggro from enemies, so that your stable ground position is not updated. After getting the Senpou Temple Grounds Idol and quitting out, you should be placed back in airswim if your last stable ground position was still when you were airswimming.
+
+### Ape Skip
+Ape Skip is required for the route to work. If you mess it up, it takes around 3 minutes to get back and try it again, so it''s highly recommended to spend a lot of time to make it consistent.
+[youtube]NXTK-FEluL8[/youtube]
+[youtube]Ptcm94MuvJ8[/youtube]
+
+After getting the Shelter Stone, Homeward Idol to last Communed Idol. This will place you at the Senpou Temple Grounds.
+
+### Monkey Skip
+Monkey Skip is required for the route to work. However, you can retry it with only minor timeloss if you miss it. It is extremely difficult to become consistent at Monkey Skip. It is okay to have a 10% or lower success rate. A success rate of 25% or higher would be considered extremely high level. Mitchriz has a tutorial on how to do Monkey Skip:
+[youtube]56g7lWP0utY[/youtube]
+
+After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it is obtained, the Invasion Event will start and your Last Communed Idol will be set as Ashina Castle - Abandoned Dungeon. Use the Homeward Idol to go to Last Communed Idol after picking up the Mortal Draw to go to Emma/Isshin.
+
+### Emma
+
+### Isshin',5,2,'2026-10-06 04:22:55.826713');
+INSERT INTO "wiki_revisions" VALUES(85,77,'Mibu Balloon of Soul','## Mibu Balloon of Soul
+Mibu Balloon of Soul is a Consumable Quick Item that makes the player acquire restorative power at a higher rate for a limited amount of time.',4,2,'2026-10-06 18:11:54.970829');
+INSERT INTO "wiki_revisions" VALUES(86,99,'Mibu Balloon of Spirit','## Mibu Balloon of Spirit
+Mibu Balloon of Spirit is a Consumable Quick Item that on use increases the rate at which Spirit Emblems are acquired for a time.',4,2,'2026-10-06 18:11:57.434581');
+INSERT INTO "wiki_revisions" VALUES(87,80,'Heavy Coin Purse','## Heavy Coin Purse
+Heavy Coin Purse is a Consumable Quick Item that gives 500 [Sen](/wiki/sen) on use. Light Coin Purses, Heavy Coin Purses and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.',4,2,'2026-10-06 18:19:04.061345');
+INSERT INTO "wiki_revisions" VALUES(88,81,'Light Coin Purse','## Light Coin Purse
+Light Coin Purse is a Consumable Quick Item that gives 100 [Sen](/wiki/sen) on use. Light Coin Purses, Heavy Coin Purses and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.',4,2,'2026-10-06 18:19:06.306299');
+INSERT INTO "wiki_revisions" VALUES(89,82,'Bulging Coin Purse','## Bulging Coin Purse
+Bulging Coin Purse is a Consumable Quick Item that gives 1000 [Sen](/wiki/sen) on use. Light Coin Purses, Heavy Coin Purses and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.',4,2,'2026-10-06 18:19:08.503254');
+INSERT INTO "wiki_revisions" VALUES(90,66,'Gyoubu Oniwa','## Gyoubu Oniwa
+Gyoubu Oniwa is a Boss that appears in Ashina Outskirts.',4,2,'2026-10-06 21:15:08.990430');
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
 COMMIT;
