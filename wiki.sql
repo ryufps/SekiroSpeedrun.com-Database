@@ -919,11 +919,159 @@ After getting the Lotus of the Palace, [Homeward Idol](/wiki/homeward-idol) to l
 After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it is obtained, the Invasion Event will start and your Last Communed Idol will be set as Ashina Castle - Abandoned Dungeon. Use the [Homeward Idol](/wiki/homeward-idol) to go to Last Communed Idol after picking up the Mortal Draw to go to Emma/Isshin.
 
 ### Emma
+You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
+
+### Isshin',5,8,'2026-10-11 16:42:27.291779','approved','2026-10-11 16:42:27.290225','2026-10-14 10:56:41.762986',2,NULL,'Shura Restricted','## Shura Restricted
+Shura Restricted is generally referred to as Any% or Any% Restricted.
+
+## Shura Restricted Guides
+Gin42_ has made a full guide for Shura Restricted.
+[youtube]wHK3qTTV_pY[/youtube]
+
+## Shura Restricted Route
+This guide for Shura Restricted is made by the editors of the wiki.
+
+### Tutorial Section
+Talk to Kuro, and after receiving the Healing Gourd, you can press the menu button to cancel out of the dialogue early.
+
+After speaking to Kuro, you use the [Tutorial Grapple Glitch](/wiki/tutorial-grapple-glitch) to exit the Moonview Tower faster.
+[youtube]zFL1mjWWVfA[/youtube]
+
+Before leaving the tutorial remember to get the 2x Ash pickup right after running past [Leader Shigenori Yamauchi](/wiki/leader-shigenori-yamauchi).
+
+### Ashina Outskirts
+### Ogre Skip
+Ogre Skip takes a lot of time to learn, but is around 35s faster than fighting [Chained Ogre (Outskirts)](/wiki/chained-ogre-outskirts). 
+[youtube]jwto28bmImA[/youtube]
+
+Fighting Ogre instead is also fine. When you''re getting started it can be a great idea, as it allows for more run completions and lets you prioritize practicing more important things like Emma/Isshin and Ape Skip.
+ 
+### Canyon
+You can optionally use [Canyon Skip](/wiki/canyon-skip) to save 7s or Double Canyon Skip to save 14s.
+
+### Gyoubu Skip
+When entering [Gyoubu Oniwa](/wiki/gyoubu-oniwa)''s arena, you want to get the 2x Ash pickup in his arena. You need to pick it up quickly, as the pick-up will be unavailable for a while once Gyoubu starts his scripted opening dialogue where he screams his name.
+
+### Bull Skip
+[youtube]lAKV66fW4A0[/youtube]
+
+### Lone Shadow Skip
+Alternatively, you can fight Lone Shadow Longswordsman, which is around 12s slower.
+
+### Snake Eyes
+
+### Mibu Village
+In Mibu Village you want to pick up the 1x Divine Confetti in one of the houses
+
+### Corrupted Monk
+[youtube]3IMBc2EcGiQ[/youtube]
+Doing the [Stealth Deathblow](/wiki/corrupted-monk-cheese) with only 4 ash is very precise. It is a good idea to pick up 6 or more to make it easier. You can find the extra Ash pickups here.
+[youtube]RO5AVSdmHHQ[/youtube]
+
+After getting the [Shelter Stone](/wiki/shelter-stone), [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Ashina Castle Idol.
+
+### Genichiro
+Genichiro corner cheese tutorial.
+[youtube]shdnn-LEp_s[/youtube]
+
+### Senpou Airswim
+When quitting out at the elevator, make sure you are not too high up. If you quit out and reload in a wrong spot while [airswimming](wiki/airswim), the game won''t load the map that the player is in, which will result in a blackscreen that will kill the player after some time. This is a big timeloss that should be avoided.
+
+After exiting airswim, you want to make sure to keep aggro from enemies, so that your stable ground position is not updated. After getting the Senpou Temple Grounds Idol and quitting out, you should be placed back in airswim if your last stable ground position was still when you were airswimming.
+
+### Ape Skip
+Ape Skip is required for the route to work. If you mess it up, it takes around 3 minutes to get back and try it again, so it''s highly recommended to spend a lot of time to make it consistent.
+[youtube]NXTK-FEluL8[/youtube]
+[youtube]Ptcm94MuvJ8[/youtube]
+
+After getting the Lotus of the Palace, [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Senpou Temple Grounds.
+
+### Monkey Skip
+[Monkey Skip](/wiki/monkey-skip) is required for the route to work. However, you can retry it with only minor timeloss if you miss it. It is extremely difficult to become consistent at Monkey Skip. It is okay to have a 10% or lower success rate. A success rate of 25% or higher would be considered extremely high level. Mitchriz has a tutorial on how to do Monkey Skip:
+[youtube]56g7lWP0utY[/youtube]
+
+After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it is obtained, the Invasion Event will start and your Last Communed Idol will be set as Ashina Castle - Abandoned Dungeon. Use the [Homeward Idol](/wiki/homeward-idol) to go to Last Communed Idol after picking up the Mortal Draw to go to Emma/Isshin.
+
+### Emma
 You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her once and parrying her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
 
-### Isshin',5,8,'2026-10-11 16:42:27.291779','pending','2026-10-11 16:42:27.290225',NULL,NULL,NULL,NULL,NULL,NULL);
+### Isshin',5);
 INSERT INTO "pending_edits" VALUES(26,16,'Mitchriz','## Mitchriz
 Mitchriz is a speedrun content creator with a focus on Sekiro, Elden Ring and Lies of P.',2,8,'2026-10-11 16:44:04.001015','pending','2026-10-11 16:44:03.999738',NULL,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(27,6,'Gyoubu Skip','## Gyoubu Skip
+Gyoubu Skip, also known as Horse Skip, is a skip with multiple variations that involves circumventing needing to fight [Gyoubu Oniwa](/wiki/gyoubu-oniwa).
+
+## Tower Jump Variation
+Using a [Delayed Jump](https://sekirospeedrun.com/wiki/delayed-jump) the top of the tower near the Ashina Castle Gate, you can reach the top of the wall with a ledgegrab.
+
+## Mist Raven Variation
+Using [Contact Medicine](/wiki/contact-medicine) to poison yourself and then using Mist Raven lets you do [Mist Raven On-Demand](/wiki/mist-raven-on-demand), which can give a vertical teleport if used while standing still on the ground. Normally, you cannot wall jump after using Mist Raven. But if you block mid air after getting the vertical teleport, you regain the ability to wall jump. This requires the Mid-air Deflection Skill. After the vertical teleport, you can wall jump up high enough to reach the roof with a ledgegrab.
+Video Example:
+[youtube]eIv7gEKePEQ[/youtube]
+
+On version 1.04 and below, you can also add in a ledge grab before the block to allow the player to walljump earlier, making it easier to reach the top.
+The exact inputs are: use Mist Raven, ledgegrab, block, walljump. As soon as the ledgegrab starts, you press block to cancel out of the ledge grab and walljump.
+Video Example:
+[youtube]Y9IxrDVZtNk [/youtube]
+
+Note: The height gained from a vertical Mist Raven teleport is inconsistent, sometimes you will get a low teleport for seemingly no reason. This has not been figured out yet, but is theorized to be impacted by framerate.
+
+This has been used in Mortal Journey Gauntlet Restricted, and in any other category where you have the necessary items and need to kill Gyoubu and immediately interact with the Ashina Castle Gate Sculptor''s Idol, where going to the tower would be a detour. However, it is not popular due to its inconsistency.
+
+## In Glitchless
+Gyoubu Skip is not allowed in Glitchless Speedruns. However, the Tower Jump is allowed after Gyoubu has been defeated. When done in Glitchless, this is usually referred to as "Tower Jump" and can be used to skip having to open the gate. In Glitchless, you generally want to go to the gate and upgrade Attack Power at the [Sculptor''s Idol](/wiki/sculptor-s-idol) before the [Blazing Bull](/wiki/blazing-bull) fight, wherefrom opening the door is faster than Tower Jump. However, Tower Jump can be done as part of the [Attack Power 1 Bull](/wiki/attack-power-1-bull), which can be faster. It can also be used to save time in runs where the attack power upgrade is not necessary such as in NG+ Glitchless Speedruns. In other cases, Tower Jump is generally slower for Glitchless runs.
+
+## History
+Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,2,'2026-10-14 10:52:07.518109','approved','2026-10-14 10:52:07.517754','2026-10-14 10:52:16.150824',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(28,1,'Save File Organizer','# Save File Organizer by Kahmul
+
+The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
+
+### Usage tutorial:
+[youtube]-m1PwqIZLyo[/youtube]
+
+Download Kahmul''s Save Organizer [here](https://github.com/Kahmul/SoulsSpeedruns-Save-Organizer/releases).
+
+Pick the .zip that corresponds to your operating system. The bundled windows version can be used if the regular windows version does not work.
+
+### Import, Load & Replace
+Import, load and replace are the main functions of the Save Organizer. Knowing how they work is important to be able to use the program effectively.
+
+Importing means taking your current active save file and storing it in the Organizer.
+
+Loading means replacing your current active save file with whichever save you loaded. Loading a save from the Organizer works like a save state, where each time you load that save, you will be put at the exact state that save was in when it was imported.
+
+Replacing is like importing, but it works for overwriting save files that you want to make changes to. Note that this button will permanently delete the replaced save file, so make sure you think before you click it if any important save files are being used.
+
+
+### Additional Tips
+- It''s important to know that one save file contains ALL your save data, all your saved games and settings. It is not currently possible to import a saved game from one save file onto another. Before you start playing around with save files, you should import your own main save file into the Save Organizer, in order to make sure that it''s backed up. It is also recommended to make a copy of that file and store it somewhere safe.
+- When importing or replacing your save into the save organizer, you generally need to quit out beforehand to make sure the game has successfully saved your progress first.
+- When quitting out to make a save, make sure you are on stable ground and not in combat. Otherwise, your position won''t be saved as you intend.
+- Save files can only be loaded while you are on the **title screen**, the screen that says PRESS ANY BUTTON. You cannot load a save while you are on the main menu.
+- If you are fast and play in windowed mode, you can PRESS ANY BUTTON and then load a save from the Save Organizer before you get to the main menu. This can save some time when practicing, but can also lead to corrupted save data if you load the save file too late (no problem, just restart the game and load the save again from the Save Organizer).
+- It''s recommended to add numbers to the names of the saves, so that your list will have the same order as it will be in the run. e.g, 01. Ogre, 02. Canyon, 03. Gyoubu, etc.
+- It''s recommended to create multiple Profiles to sort your save files. One Profile per speedrun category is a good starting point.
+- If you are editing settings on a save file, then you don''t need to load a saved game to do so. You can load the save file on the title screen, enter the main menu, change settings and then replace in the Save Organizer.
+
+### Downloading Save Files
+If you want to download and use a save file from another player, you need to do the following steps: (Make sure to backup your own save file first, as this process will completely overwrite your save data).
+
+1. Download and setup LiveSplit with the Sekiro plugin "SoulSplitter" activated. It includes a mod that allows you to load save files tied to other Steam accounts. Simply having LiveSplit and Sekiro open will make the mod take effect.
+
+2. Download the save file(s), usually you will get a zip file that can be extracted out to a folder.
+
+3. Move the downloaded save file into the folder where you keep your Save Organizer save files. If you downloaded a folder full of saves, you can also put that folder there. Each folder under the main one will form a Profile in the Save Organizer.
+
+4. If you moved the files to the right place, they should appear in your Save Organizer after restarting it.
+
+5. Launch the game and get to the title screen. (not the main menu).
+
+6. Load a save file, change the settings to your taste on the main menu then replace the save.
+
+7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
+
+',1,2,'2026-10-14 13:00:03.598917','approved','2026-10-14 13:00:03.598458','2026-10-14 13:01:19.200037',2,NULL,NULL,NULL,NULL);
 CREATE TABLE users (
 	id INTEGER NOT NULL, 
 	username VARCHAR(80) NOT NULL, 
@@ -977,8 +1125,7 @@ Download Kahmul''s Save Organizer [here](https://github.com/Kahmul/SoulsSpeedrun
 Pick the .zip that corresponds to your operating system. The bundled windows version can be used if the regular windows version does not work.
 
 ### Import, Load & Replace
-
-Import, load and replace are the main functions of the Save Organizer that you use. Knowing how they work are important to using the program effectively.
+Import, load and replace are the main functions of the Save Organizer. Knowing how they work is important to be able to use the program effectively.
 
 Importing means taking your current active save file and storing it in the Organizer.
 
@@ -988,13 +1135,14 @@ Replacing is like importing, but it works for overwriting save files that you wa
 
 
 ### Additional Tips
-
-- It''s important to know that one save file contains ALL your save data, all your saved games and settings. It is not currently possible to import a saved game from one save file onto another. You should import your own main save file into the Save Organizer before starting to play around with save files, in order to make sure that it''s saved. It is also recommended to make a copy of that file and store it somewhere safe.
-- When trying to import your save into the save organizer, you generally need to quit out before pressing import to make sure it has successfully saved your progress first.
+- It''s important to know that one save file contains ALL your save data, all your saved games and settings. It is not currently possible to import a saved game from one save file onto another. Before you start playing around with save files, you should import your own main save file into the Save Organizer, in order to make sure that it''s backed up. It is also recommended to make a copy of that file and store it somewhere safe.
+- When importing or replacing your save into the save organizer, you generally need to quit out beforehand to make sure the game has successfully saved your progress first.
 - When quitting out to make a save, make sure you are on stable ground and not in combat. Otherwise, your position won''t be saved as you intend.
-- Save files can only be loaded while you are on the title screen. You cannot load a save while you are on the main menu. However, if you are fast, you can press continue and then tab out of the game and load a save before you get to the main menu.
+- Save files can only be loaded while you are on the **title screen**, the screen that says PRESS ANY BUTTON. You cannot load a save while you are on the main menu.
+- If you are fast and play in windowed mode, you can PRESS ANY BUTTON and then load a save from the Save Organizer before you get to the main menu. This can save some time when practicing, but can also lead to corrupted save data if you load the save file too late (no problem, just restart the game and load the save again from the Save Organizer).
 - It''s recommended to add numbers to the names of the saves, so that your list will have the same order as it will be in the run. e.g, 01. Ogre, 02. Canyon, 03. Gyoubu, etc.
 - It''s recommended to create multiple Profiles to sort your save files. One Profile per speedrun category is a good starting point.
+- If you are editing settings on a save file, then you don''t need to load a saved game to do so. You can load the save file on the title screen, enter the main menu, change settings and then replace in the Save Organizer.
 
 ### Downloading Save Files
 If you want to download and use a save file from another player, you need to do the following steps: (Make sure to backup your own save file first, as this process will completely overwrite your save data).
@@ -1013,7 +1161,7 @@ If you want to download and use a save file from another player, you need to do 
 
 7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
 
-','approved',NULL,NULL,NULL,1,2,'2026-02-22 12:17:05.314734','2026-07-19 00:56:45.587741','save-file-organizer',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+','approved',NULL,NULL,NULL,1,2,'2026-02-22 12:17:05.314734','2026-10-14 13:01:19.200542','save-file-organizer',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(2,'Practice Tools','## Practice Tools
 Practice tools are used to practice more efficiently. Multiple different tools are available, all of which have different benefits.
 
@@ -1071,19 +1219,18 @@ This is a list of the recommended public cheat tables:
 INSERT INTO "wiki_pages" VALUES(5,'Wasted','## Wasted
 Wasted is a community member famous for developing the autosplitter for Sekiro, [SoulSplitter](/wiki/livesplit#soulsplitter).','approved',NULL,NULL,NULL,2,2,'2026-03-10 17:48:31.694466','2026-09-17 17:10:17.356938','wasted',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(6,'Gyoubu Skip','## Gyoubu Skip
-Gyoubu Skip, also known as Horse Skip, is a skip with multiple variations that involves circumventing needing to fight Gyoubu Oniwa.
+Gyoubu Skip, also known as Horse Skip, is a skip with multiple variations that involves circumventing needing to fight [Gyoubu Oniwa](/wiki/gyoubu-oniwa).
 
 ## Tower Jump Variation
-
 Using a [Delayed Jump](https://sekirospeedrun.com/wiki/delayed-jump) the top of the tower near the Ashina Castle Gate, you can reach the top of the wall with a ledgegrab.
 
 ## Mist Raven Variation
-
-Using Mist Raven together with Contact Medicine let''s you do [Mist Raven On-Demand](/wiki/mist-raven-on-demand), which can give a vertical teleport if used while standing still on the ground. Normally, you cannot wall jump after using Mist Raven. But if you block mid air after getting the vertical teleport, you regain the ability to wall jump. This requires the Mid-air Deflection Skill. After the vertical teleport, you can wall jump up high enough to reach the roof with a ledgegrab.
+Using [Contact Medicine](/wiki/contact-medicine) to poison yourself and then using Mist Raven lets you do [Mist Raven On-Demand](/wiki/mist-raven-on-demand), which can give a vertical teleport if used while standing still on the ground. Normally, you cannot wall jump after using Mist Raven. But if you block mid air after getting the vertical teleport, you regain the ability to wall jump. This requires the Mid-air Deflection Skill. After the vertical teleport, you can wall jump up high enough to reach the roof with a ledgegrab.
 Video Example:
 [youtube]eIv7gEKePEQ[/youtube]
 
-On version 1.04 and below, you can also add in a ledge grab to regain the ability to jump even faster, which makes it easier to reach the top.
+On version 1.04 and below, you can also add in a ledge grab before the block to allow the player to walljump earlier, making it easier to reach the top.
+The exact inputs are: use Mist Raven, ledgegrab, block, walljump. As soon as the ledgegrab starts, you press block to cancel out of the ledge grab and walljump.
 Video Example:
 [youtube]Y9IxrDVZtNk [/youtube]
 
@@ -1092,12 +1239,10 @@ Note: The height gained from a vertical Mist Raven teleport is inconsistent, som
 This has been used in Mortal Journey Gauntlet Restricted, and in any other category where you have the necessary items and need to kill Gyoubu and immediately interact with the Ashina Castle Gate Sculptor''s Idol, where going to the tower would be a detour. However, it is not popular due to its inconsistency.
 
 ## In Glitchless
-
-Gyoubu Skip is not allowed in glitchless speedruns. However, the tower jump is allowed if Gyoubu is dead. When used in glitchless, this is usually referred to as "Tower Jump". This can be used to skip having to open the gate and would usually be done as part of the [Attack Power 1 Bull](/wiki/attack-power-1-bull).
+Gyoubu Skip is not allowed in Glitchless Speedruns. However, the Tower Jump is allowed after Gyoubu has been defeated. When done in Glitchless, this is usually referred to as "Tower Jump" and can be used to skip having to open the gate. In Glitchless, you generally want to go to the gate and upgrade Attack Power at the [Sculptor''s Idol](/wiki/sculptor-s-idol) before the [Blazing Bull](/wiki/blazing-bull) fight, wherefrom opening the door is faster than Tower Jump. However, Tower Jump can be done as part of the [Attack Power 1 Bull](/wiki/attack-power-1-bull), which can be faster. It can also be used to save time in runs where the attack power upgrade is not necessary such as in NG+ Glitchless Speedruns. In other cases, Tower Jump is generally slower for Glitchless runs.
 
 ## History
-
-Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.','approved',NULL,NULL,NULL,3,2,'2026-03-10 17:59:05.393876','2026-09-17 16:59:13.738588','gyoubu-skip',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.','approved',NULL,NULL,NULL,3,2,'2026-03-10 17:59:05.393876','2026-10-14 10:52:16.152375','gyoubu-skip',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(7,'Attack Power 1 Bull','## Attack Power 1 Bull
 
 Attack Power 1 Bull, or AP1 Bull, is a strategy for Glitchless that involves fighting Blazing Bull at 1 Attack Power after using the tower to perform Gyoubu Skip to skip opening the gate. This is only allowed in Glitchless after Gyoubu has been killed. When used in this way in glitchless, Gyoubu Skip is usually referred to as Tower Jump instead because you are not actually skipping Gyoubu.
@@ -1659,10 +1804,11 @@ Alternatively, you can fight Lone Shadow Longswordsman, which is around 12s slow
 ### Snake Eyes
 
 ### Mibu Village
+In Mibu Village you want to pick up the 1x Divine Confetti in one of the houses
 
 ### Corrupted Monk
 [youtube]3IMBc2EcGiQ[/youtube]
-Doing the Stealth Deathblow with only 4 ash is very precise. It is a good idea to pick up 6 or more to make it easier. You can find the extra Ash pickups here.
+Doing the [Stealth Deathblow](/wiki/corrupted-monk-cheese) with only 4 ash is very precise. It is a good idea to pick up 6 or more to make it easier. You can find the extra Ash pickups here.
 [youtube]RO5AVSdmHHQ[/youtube]
 
 After getting the [Shelter Stone](/wiki/shelter-stone), [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Ashina Castle Idol.
@@ -1672,7 +1818,7 @@ Genichiro corner cheese tutorial.
 [youtube]shdnn-LEp_s[/youtube]
 
 ### Senpou Airswim
-When quitting out at the elevator, make sure you are not too high up. If you quit out and reload in a wrong spot while airswimming, the game won''t load the map that the player is in, which will result in a blackscreen that will kill the player after some time. This is a big timeloss that should be avoided.
+When quitting out at the elevator, make sure you are not too high up. If you quit out and reload in a wrong spot while [airswimming](wiki/airswim), the game won''t load the map that the player is in, which will result in a blackscreen that will kill the player after some time. This is a big timeloss that should be avoided.
 
 After exiting airswim, you want to make sure to keep aggro from enemies, so that your stable ground position is not updated. After getting the Senpou Temple Grounds Idol and quitting out, you should be placed back in airswim if your last stable ground position was still when you were airswimming.
 
@@ -1690,8 +1836,9 @@ After getting the Lotus of the Palace, [Homeward Idol](/wiki/homeward-idol) to l
 After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it is obtained, the Invasion Event will start and your Last Communed Idol will be set as Ashina Castle - Abandoned Dungeon. Use the [Homeward Idol](/wiki/homeward-idol) to go to Last Communed Idol after picking up the Mortal Draw to go to Emma/Isshin.
 
 ### Emma
+You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
 
-### Isshin','approved',NULL,NULL,NULL,5,2,'2026-07-19 12:33:39.893829','2026-10-06 04:22:55.826146','shura-restricted',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+### Isshin','approved',NULL,NULL,NULL,5,2,'2026-07-19 12:33:39.893829','2026-10-14 10:56:41.764025','shura-restricted',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(35,'Phantom Kunai (Upgrade Material)','## Phantom Kunai (Upgrade Material)
 The Phantom Kunai is a Unique Upgrade Material used for unlocking the Phantom Kunai Prosthetic Tool Upgrade.
 
@@ -2256,6 +2403,8 @@ INSERT INTO "wiki_pages" VALUES(122,'Mechanical Barrel','## Mechanical Barrel
 The Mechanical Barrel is a Key Item that be given to the Sculptor to unlock Prosthetic Upgrades.
 
 The Mechanical Barrel is acquired by killing [Gyoubu Oniwa](/wiki/gyoubu-oniwa).','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:49:32.933338','2026-10-06 18:49:37.681299','mechanical-barrel','2026-10-06 18:49:32.932946','2026-10-06 18:49:37.680809',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(123,'Lotus of the Palace','## Lotus of the Palace
+Lotus of the Palace is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-14 10:57:40.193805','2026-10-14 10:57:50.959758','lotus-of-the-palace','2026-10-14 10:57:40.190967','2026-10-14 10:57:50.957763',2,NULL,NULL,NULL,NULL);
 CREATE TABLE wiki_revisions (
 	id INTEGER NOT NULL, 
 	page_id INTEGER, 
@@ -4722,6 +4871,156 @@ INSERT INTO "wiki_revisions" VALUES(89,82,'Bulging Coin Purse','## Bulging Coin 
 Bulging Coin Purse is a Consumable Quick Item that gives 1000 [Sen](/wiki/sen) on use. Light Coin Purses, Heavy Coin Purses and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.',4,2,'2026-10-06 18:19:08.503254');
 INSERT INTO "wiki_revisions" VALUES(90,66,'Gyoubu Oniwa','## Gyoubu Oniwa
 Gyoubu Oniwa is a Boss that appears in Ashina Outskirts.',4,2,'2026-10-06 21:15:08.990430');
+INSERT INTO "wiki_revisions" VALUES(91,6,'Gyoubu Skip','## Gyoubu Skip
+Gyoubu Skip, also known as Horse Skip, is a skip with multiple variations that involves circumventing needing to fight Gyoubu Oniwa.
+
+## Tower Jump Variation
+
+Using a [Delayed Jump](https://sekirospeedrun.com/wiki/delayed-jump) the top of the tower near the Ashina Castle Gate, you can reach the top of the wall with a ledgegrab.
+
+## Mist Raven Variation
+
+Using Mist Raven together with Contact Medicine let''s you do [Mist Raven On-Demand](/wiki/mist-raven-on-demand), which can give a vertical teleport if used while standing still on the ground. Normally, you cannot wall jump after using Mist Raven. But if you block mid air after getting the vertical teleport, you regain the ability to wall jump. This requires the Mid-air Deflection Skill. After the vertical teleport, you can wall jump up high enough to reach the roof with a ledgegrab.
+Video Example:
+[youtube]eIv7gEKePEQ[/youtube]
+
+On version 1.04 and below, you can also add in a ledge grab to regain the ability to jump even faster, which makes it easier to reach the top.
+Video Example:
+[youtube]Y9IxrDVZtNk [/youtube]
+
+Note: The height gained from a vertical Mist Raven teleport is inconsistent, sometimes you will get a low teleport for seemingly no reason. This has not been figured out yet, but is theorized to be impacted by framerate.
+
+This has been used in Mortal Journey Gauntlet Restricted, and in any other category where you have the necessary items and need to kill Gyoubu and immediately interact with the Ashina Castle Gate Sculptor''s Idol, where going to the tower would be a detour. However, it is not popular due to its inconsistency.
+
+## In Glitchless
+
+Gyoubu Skip is not allowed in glitchless speedruns. However, the tower jump is allowed if Gyoubu is dead. When used in glitchless, this is usually referred to as "Tower Jump". This can be used to skip having to open the gate and would usually be done as part of the [Attack Power 1 Bull](/wiki/attack-power-1-bull).
+
+## History
+
+Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,2,'2026-10-14 10:52:16.153798');
+INSERT INTO "wiki_revisions" VALUES(92,34,'Shura Restricted','## Shura Restricted
+Shura Restricted is generally referred to as Any% or Any% Restricted.
+
+## Shura Restricted Guides
+Gin42_ has made a full guide for Shura Restricted.
+[youtube]wHK3qTTV_pY[/youtube]
+
+## Shura Restricted Route
+This guide for Shura Restricted is made by the editors of the wiki.
+
+### Tutorial Section
+Talk to Kuro, and after receiving the Healing Gourd, you can press the menu button to cancel out of the dialogue early.
+
+After speaking to Kuro, you use the [Tutorial Grapple Glitch](/wiki/tutorial-grapple-glitch) to exit the Moonview Tower faster.
+[youtube]zFL1mjWWVfA[/youtube]
+
+Before leaving the tutorial remember to get the 2x Ash pickup right after running past [Leader Shigenori Yamauchi](/wiki/leader-shigenori-yamauchi).
+
+### Ashina Outskirts
+### Ogre Skip
+Ogre Skip takes a lot of time to learn, but is around 35s faster than fighting [Chained Ogre (Outskirts)](/wiki/chained-ogre-outskirts). 
+[youtube]jwto28bmImA[/youtube]
+
+Fighting Ogre instead is also fine. When you''re getting started it can be a great idea, as it allows for more run completions and lets you prioritize practicing more important things like Emma/Isshin and Ape Skip.
+ 
+### Canyon
+You can optionally use [Canyon Skip](/wiki/canyon-skip) to save 7s or Double Canyon Skip to save 14s.
+
+### Gyoubu Skip
+When entering [Gyoubu Oniwa](/wiki/gyoubu-oniwa)''s arena, you want to get the 2x Ash pickup in his arena. You need to pick it up quickly, as the pick-up will be unavailable for a while once Gyoubu starts his scripted opening dialogue where he screams his name.
+
+### Bull Skip
+[youtube]lAKV66fW4A0[/youtube]
+
+### Lone Shadow Skip
+Alternatively, you can fight Lone Shadow Longswordsman, which is around 12s slower.
+
+### Snake Eyes
+
+### Mibu Village
+
+### Corrupted Monk
+[youtube]3IMBc2EcGiQ[/youtube]
+Doing the Stealth Deathblow with only 4 ash is very precise. It is a good idea to pick up 6 or more to make it easier. You can find the extra Ash pickups here.
+[youtube]RO5AVSdmHHQ[/youtube]
+
+After getting the [Shelter Stone](/wiki/shelter-stone), [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Ashina Castle Idol.
+
+### Genichiro
+Genichiro corner cheese tutorial.
+[youtube]shdnn-LEp_s[/youtube]
+
+### Senpou Airswim
+When quitting out at the elevator, make sure you are not too high up. If you quit out and reload in a wrong spot while airswimming, the game won''t load the map that the player is in, which will result in a blackscreen that will kill the player after some time. This is a big timeloss that should be avoided.
+
+After exiting airswim, you want to make sure to keep aggro from enemies, so that your stable ground position is not updated. After getting the Senpou Temple Grounds Idol and quitting out, you should be placed back in airswim if your last stable ground position was still when you were airswimming.
+
+### Ape Skip
+Ape Skip is required for the route to work. If you mess it up, it takes around 3 minutes to get back and try it again, so it''s highly recommended to spend a lot of time to make it consistent.
+[youtube]NXTK-FEluL8[/youtube]
+[youtube]Ptcm94MuvJ8[/youtube]
+
+After getting the Lotus of the Palace, [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Senpou Temple Grounds.
+
+### Monkey Skip
+[Monkey Skip](/wiki/monkey-skip) is required for the route to work. However, you can retry it with only minor timeloss if you miss it. It is extremely difficult to become consistent at Monkey Skip. It is okay to have a 10% or lower success rate. A success rate of 25% or higher would be considered extremely high level. Mitchriz has a tutorial on how to do Monkey Skip:
+[youtube]56g7lWP0utY[/youtube]
+
+After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it is obtained, the Invasion Event will start and your Last Communed Idol will be set as Ashina Castle - Abandoned Dungeon. Use the [Homeward Idol](/wiki/homeward-idol) to go to Last Communed Idol after picking up the Mortal Draw to go to Emma/Isshin.
+
+### Emma
+
+### Isshin',5,8,'2026-10-14 10:56:41.765603');
+INSERT INTO "wiki_revisions" VALUES(93,1,'Save File Organizer','# Save File Organizer by Kahmul
+
+The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
+
+### Usage tutorial:
+[youtube]-m1PwqIZLyo[/youtube]
+
+Download Kahmul''s Save Organizer [here](https://github.com/Kahmul/SoulsSpeedruns-Save-Organizer/releases).
+
+Pick the .zip that corresponds to your operating system. The bundled windows version can be used if the regular windows version does not work.
+
+### Import, Load & Replace
+
+Import, load and replace are the main functions of the Save Organizer that you use. Knowing how they work are important to using the program effectively.
+
+Importing means taking your current active save file and storing it in the Organizer.
+
+Loading means replacing your current active save file with whichever save you loaded. Loading a save from the Organizer works like a save state, where each time you load that save, you will be put at the exact state that save was in when it was imported.
+
+Replacing is like importing, but it works for overwriting save files that you want to make changes to. Note that this button will permanently delete the replaced save file, so make sure you think before you click it if any important save files are being used.
+
+
+### Additional Tips
+
+- It''s important to know that one save file contains ALL your save data, all your saved games and settings. It is not currently possible to import a saved game from one save file onto another. You should import your own main save file into the Save Organizer before starting to play around with save files, in order to make sure that it''s saved. It is also recommended to make a copy of that file and store it somewhere safe.
+- When trying to import your save into the save organizer, you generally need to quit out before pressing import to make sure it has successfully saved your progress first.
+- When quitting out to make a save, make sure you are on stable ground and not in combat. Otherwise, your position won''t be saved as you intend.
+- Save files can only be loaded while you are on the title screen. You cannot load a save while you are on the main menu. However, if you are fast, you can press continue and then tab out of the game and load a save before you get to the main menu.
+- It''s recommended to add numbers to the names of the saves, so that your list will have the same order as it will be in the run. e.g, 01. Ogre, 02. Canyon, 03. Gyoubu, etc.
+- It''s recommended to create multiple Profiles to sort your save files. One Profile per speedrun category is a good starting point.
+
+### Downloading Save Files
+If you want to download and use a save file from another player, you need to do the following steps: (Make sure to backup your own save file first, as this process will completely overwrite your save data).
+
+1. Download and setup LiveSplit with the Sekiro plugin "SoulSplitter" activated. It includes a mod that allows you to load save files tied to other Steam accounts. Simply having LiveSplit and Sekiro open will make the mod take effect.
+
+2. Download the save file(s), usually you will get a zip file that can be extracted out to a folder.
+
+3. Move the downloaded save file into the folder where you keep your Save Organizer save files. If you downloaded a folder full of saves, you can also put that folder there. Each folder under the main one will form a Profile in the Save Organizer.
+
+4. If you moved the files to the right place, they should appear in your Save Organizer after restarting it.
+
+5. Launch the game and get to the title screen. (not the main menu).
+
+6. Load a save file, change the settings to your taste on the main menu then replace the save.
+
+7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
+
+',1,2,'2026-10-14 13:01:19.200917');
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
 COMMIT;
