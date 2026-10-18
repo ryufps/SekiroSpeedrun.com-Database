@@ -1072,6 +1072,12 @@ If you want to download and use a save file from another player, you need to do 
 7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
 
 ',1,2,'2026-10-14 13:00:03.598917','approved','2026-10-14 13:00:03.598458','2026-10-14 13:01:19.200037',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(29,13,'27-hit Ogre (Chinese Ogre)','# 27-hit Ogre (Chinese Ogre)
+27-hit Ogre, also known as Chinese Ogre, is a strategy for Chained Ogre that allows you to kill him in 1 hit less than the normal 28-hit fight. When Ogre pivots, he recovers posture, so by preventing him from turning you can save 1 hit on the fight.
+
+Because you have to stay in front of him, you need to do creative attack strafing to avoid getting hit, it would be pointless to try to do 27-hit ogre and then dodge his moves as that would end up both losing way more time than just circlestrafing around him, and would likely also result in him recovering enough posture to make it a 28-hit kill.
+
+There is currently no tutorial for it, but you can use [this Youtube playlist showing Yeruka''s method](https://www.youtube.com/playlist?list=PL3tpZPmeokQqC5Ni77w93g5EGFrll-IZh) by Emma and [this Bilibili playlist](https://www.bilibili.com/video/BV1T7Je6tEjm/) by Shiechi. A common issue for the strat is that you will have something that works for some of Ogre''s attack patterns, but won''t for others. It is not merely a matter of reacting to whatever he does, you will also need to setup your position and attack animation so that you can be in the right position for any of the follow ups. Ideally, you should have something that works against most patterns. But there will be some patterns that you may have to dodge on.',3,2,'2026-10-17 10:48:14.290677','approved','2026-10-17 10:48:14.290309','2026-10-17 10:48:23.741733',2,NULL,NULL,NULL,NULL);
 CREATE TABLE users (
 	id INTEGER NOT NULL, 
 	username VARCHAR(80) NOT NULL, 
@@ -1464,7 +1470,7 @@ INSERT INTO "wiki_pages" VALUES(13,'27-hit Ogre (Chinese Ogre)','# 27-hit Ogre (
 
 Because you have to stay in front of him, you need to do creative attack strafing to avoid getting hit, it would be pointless to try to do 27-hit ogre and then dodge his moves as that would end up both losing way more time than just circlestrafing around him, and would likely also result in him recovering enough posture to make it a 28-hit kill.
 
-There is currently no tutorial for it, but a good resource to learn it is [this Bilibili playlist](https://www.bilibili.com/video/BV1FYqUYKEn5/) by Chinese runner Asphyxiansz. A common issue for the strat is that you will have something that works for some of Ogre''s attack patterns, but won''t for others. It is not merely a matter of reacting to whatever he does, you will also need to setup your position and attack animation so that you can be in the right position for any of the follow ups. Ideally, you should have something that works against most patterns. But there will be some rare patterns that you may have to dodge on.','approved',NULL,NULL,NULL,3,2,'2026-03-11 16:51:43.600072','2026-03-11 16:51:48.885926','27-hit-ogre-chinese-ogre',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+There is currently no tutorial for it, but you can use [this Youtube playlist showing Yeruka''s method](https://www.youtube.com/playlist?list=PL3tpZPmeokQqC5Ni77w93g5EGFrll-IZh) by Emma and [this Bilibili playlist](https://www.bilibili.com/video/BV1T7Je6tEjm/) by Shiechi. A common issue for the strat is that you will have something that works for some of Ogre''s attack patterns, but won''t for others. It is not merely a matter of reacting to whatever he does, you will also need to setup your position and attack animation so that you can be in the right position for any of the follow ups. Ideally, you should have something that works against most patterns. But there will be some patterns that you may have to dodge on.','approved',NULL,NULL,NULL,3,2,'2026-03-11 16:51:43.600072','2026-10-17 10:48:23.742943','27-hit-ogre-chinese-ogre',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(14,'Tutorial Window Jump','## Tutorial Window Jump
 Tutorial Window Jump is a jump that lets you exit the Moonview Tower in the tutorial/intro section around 0.5s faster than usual.
 
@@ -5021,6 +5027,12 @@ If you want to download and use a save file from another player, you need to do 
 7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
 
 ',1,2,'2026-10-14 13:01:19.200917');
+INSERT INTO "wiki_revisions" VALUES(94,13,'27-hit Ogre (Chinese Ogre)','# 27-hit Ogre (Chinese Ogre)
+27-hit Ogre, also known as Chinese Ogre, is a strategy for Chained Ogre that allows you to kill him in 1 hit less than the normal 28-hit fight. When Ogre pivots, he recovers posture, so by preventing him from turning you can save 1 hit on the fight.
+
+Because you have to stay in front of him, you need to do creative attack strafing to avoid getting hit, it would be pointless to try to do 27-hit ogre and then dodge his moves as that would end up both losing way more time than just circlestrafing around him, and would likely also result in him recovering enough posture to make it a 28-hit kill.
+
+There is currently no tutorial for it, but a good resource to learn it is [this Bilibili playlist](https://www.bilibili.com/video/BV1FYqUYKEn5/) by Chinese runner Asphyxiansz. A common issue for the strat is that you will have something that works for some of Ogre''s attack patterns, but won''t for others. It is not merely a matter of reacting to whatever he does, you will also need to setup your position and attack animation so that you can be in the right position for any of the follow ups. Ideally, you should have something that works against most patterns. But there will be some rare patterns that you may have to dodge on.',3,2,'2026-10-17 10:48:23.743808');
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
 COMMIT;
