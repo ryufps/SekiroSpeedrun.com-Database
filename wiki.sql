@@ -997,7 +997,7 @@ You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the
 
 ### Isshin',5);
 INSERT INTO "pending_edits" VALUES(26,16,'Mitchriz','## Mitchriz
-Mitchriz is a speedrun content creator with a focus on Sekiro, Elden Ring and Lies of P.',2,8,'2026-10-11 16:44:04.001015','pending','2026-10-11 16:44:03.999738',NULL,NULL,NULL,NULL,NULL,NULL);
+Mitchriz is a speedrun content creator with a focus on Sekiro, Elden Ring and Lies of P.',2,8,'2026-10-11 16:44:04.001015','approved','2026-10-11 16:44:03.999738','2026-10-22 06:05:59.481931',2,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(27,6,'Gyoubu Skip','## Gyoubu Skip
 Gyoubu Skip, also known as Horse Skip, is a skip with multiple variations that involves circumventing needing to fight [Gyoubu Oniwa](/wiki/gyoubu-oniwa).
 
@@ -1493,8 +1493,8 @@ Video Tutorial:
 
 ## History
 Discovered by accident by Mommyemma77','approved',NULL,NULL,NULL,3,2,'2026-03-12 05:25:39.784618','2026-07-19 03:01:37.831834','tutorial-grapple-glitch',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
-INSERT INTO "wiki_pages" VALUES(16,'MItchriz','## Mitchriz
-Mitchriz is a speedrun content creator with a focus on Sekiro, Elden Ring and Lies of P.','approved',NULL,NULL,NULL,2,2,'2026-03-14 08:15:00.060467','2026-03-14 08:15:08.097786','mitchriz',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(16,'Mitchriz','## Mitchriz
+Mitchriz is a speedrun content creator with a focus on Sekiro, Elden Ring and Lies of P.','approved',NULL,NULL,NULL,2,2,'2026-03-14 08:15:00.060467','2026-10-22 06:05:59.487338','mitchriz',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(17,'Sculptor''s Idol','## Sculptor''s Idol
 Sculptor''s Idols serve as checkpoints and allow the player a variety of options including to rest.
 
@@ -2411,6 +2411,8 @@ The Mechanical Barrel is a Key Item that be given to the Sculptor to unlock Pros
 The Mechanical Barrel is acquired by killing [Gyoubu Oniwa](/wiki/gyoubu-oniwa).','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:49:32.933338','2026-10-06 18:49:37.681299','mechanical-barrel','2026-10-06 18:49:32.932946','2026-10-06 18:49:37.680809',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(123,'Lotus of the Palace','## Lotus of the Palace
 Lotus of the Palace is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-14 10:57:40.193805','2026-10-14 10:57:50.959758','lotus-of-the-palace','2026-10-14 10:57:40.190967','2026-10-14 10:57:50.957763',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(124,'Mortal Blade','## Mortal Blade
+The Mortal Blade is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-22 06:07:55.262388','2026-10-22 06:08:02.615761','mortal-blade','2026-10-22 06:07:55.259432','2026-10-22 06:08:02.613759',2,NULL,NULL,NULL,NULL);
 CREATE TABLE wiki_revisions (
 	id INTEGER NOT NULL, 
 	page_id INTEGER, 
@@ -5033,6 +5035,8 @@ INSERT INTO "wiki_revisions" VALUES(94,13,'27-hit Ogre (Chinese Ogre)','# 27-hit
 Because you have to stay in front of him, you need to do creative attack strafing to avoid getting hit, it would be pointless to try to do 27-hit ogre and then dodge his moves as that would end up both losing way more time than just circlestrafing around him, and would likely also result in him recovering enough posture to make it a 28-hit kill.
 
 There is currently no tutorial for it, but a good resource to learn it is [this Bilibili playlist](https://www.bilibili.com/video/BV1FYqUYKEn5/) by Chinese runner Asphyxiansz. A common issue for the strat is that you will have something that works for some of Ogre''s attack patterns, but won''t for others. It is not merely a matter of reacting to whatever he does, you will also need to setup your position and attack animation so that you can be in the right position for any of the follow ups. Ideally, you should have something that works against most patterns. But there will be some rare patterns that you may have to dodge on.',3,2,'2026-10-17 10:48:23.743808');
+INSERT INTO "wiki_revisions" VALUES(95,16,'MItchriz','## Mitchriz
+Mitchriz is a speedrun content creator with a focus on Sekiro, Elden Ring and Lies of P.',2,8,'2026-10-22 06:05:59.494228');
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
 COMMIT;
