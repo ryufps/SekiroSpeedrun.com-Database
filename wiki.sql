@@ -1078,6 +1078,28 @@ INSERT INTO "pending_edits" VALUES(29,13,'27-hit Ogre (Chinese Ogre)','# 27-hit 
 Because you have to stay in front of him, you need to do creative attack strafing to avoid getting hit, it would be pointless to try to do 27-hit ogre and then dodge his moves as that would end up both losing way more time than just circlestrafing around him, and would likely also result in him recovering enough posture to make it a 28-hit kill.
 
 There is currently no tutorial for it, but you can use [this Youtube playlist showing Yeruka''s method](https://www.youtube.com/playlist?list=PL3tpZPmeokQqC5Ni77w93g5EGFrll-IZh) by Emma and [this Bilibili playlist](https://www.bilibili.com/video/BV1T7Je6tEjm/) by Shiechi. A common issue for the strat is that you will have something that works for some of Ogre''s attack patterns, but won''t for others. It is not merely a matter of reacting to whatever he does, you will also need to setup your position and attack animation so that you can be in the right position for any of the follow ups. Ideally, you should have something that works against most patterns. But there will be some patterns that you may have to dodge on.',3,2,'2026-10-17 10:48:14.290677','approved','2026-10-17 10:48:14.290309','2026-10-17 10:48:23.741733',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(30,79,'Red Lump','## Red Lump
+Red Lump is a Consumable Quick Item that on use makes the player nearly unstaggerable but unable to resurrect for 30s.
+
+## Acquisition
+### Abandoned Dungeon
+1x can be picked up in the Dungeon by a pile of corpses with crickets on them just before the water section.
+
+### Fountainhead Palace
+1x can be picked up in the water under the bridge near the Flower Viewing Stage Idol.',4,2,'2026-10-23 08:26:35.393732','approved','2026-10-23 08:26:35.390622','2026-10-23 08:26:41.710099',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(31,40,'Snap Seed','## Snap Seed
+A Snap Seed is a Consumable Quick Item that on use can break illusions.
+
+## Acquisition
+### Ashina Depths
+3x can be picked up in the Hidden Forest above the Headless miniboss when heading towards Mist Noble.
+### Sunken Valley
+1x can be picked up next to the Toxic Memorial Mob.
+3x can be picked up at the Gunfort under some wooden battlements before the cave leading to [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).',4,2,'2026-10-23 08:29:34.505050','approved','2026-10-23 08:29:34.504460','2026-10-23 08:29:43.346596',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(32,44,'Shuriken Wheel','## Shuriken Wheel
+The Shuriken Wheel is a unique Upgrade Material that can be Fitted to Wolf''s Prosthetic Arm in order to unlock the [Loaded Shuriken Prosthetic](/wiki/loaded-shuriken).
+
+The Shuriken Wheel can be picked up in Ashina Outskirts near [General Naomori Kawarada](/wiki/general-naomori-kawarada).',4,2,'2026-10-23 08:41:47.536886','approved','2026-10-23 08:41:47.534430','2026-10-23 08:41:53.048408',2,NULL,NULL,NULL,NULL);
 CREATE TABLE users (
 	id INTEGER NOT NULL, 
 	username VARCHAR(80) NOT NULL, 
@@ -1860,7 +1882,14 @@ Long-arm Centipede Giraffe is a Miniboss that appears in Sunken Valley at the Gu
 INSERT INTO "wiki_pages" VALUES(39,'Chained Ogre (Outskirts)','## Chained Ogre (Outskirts)
 Chained Ogre is a Miniboss that appears in Ashina Outskirts. He disappears once Invasion 2 starts.','approved',NULL,NULL,NULL,4,2,'2026-08-04 20:31:58.116657','2026-08-04 20:32:04.886888','chained-ogre-outskirts',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(40,'Snap Seed','## Snap Seed
-A Snap Seed is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-08-06 07:55:32.515516','2026-08-06 08:05:06.836999','snap-seed',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+A Snap Seed is a Consumable Quick Item that on use can break illusions.
+
+## Acquisition
+### Ashina Depths
+3x can be picked up in the Hidden Forest above the Headless miniboss when heading towards Mist Noble.
+### Sunken Valley
+1x can be picked up next to the Toxic Memorial Mob.
+3x can be picked up at the Gunfort under some wooden battlements before the cave leading to [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).','approved',NULL,NULL,NULL,4,2,'2026-08-06 07:55:32.515516','2026-10-23 08:29:43.348998','snap-seed',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(41,'Robert''s Firecrackers','## Robert''s Firecrackers
 Robert''s Firecrackers is a unique Upgrade Material that can be Fitted to Wolf''s Prosthetic Arm in order to unlock the Shinobi Firecrackers Prosthetic.
 
@@ -1868,9 +1897,9 @@ Robert''s Firecrackers are obtained by purchasing them. They can be bought for 5
 INSERT INTO "wiki_pages" VALUES(43,'Sen','## Sen
 Sen is the currency used in-game to buy things.','approved',NULL,NULL,NULL,4,2,'2026-08-06 08:12:39.452229','2026-08-06 08:15:30.763276','sen',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(44,'Shuriken Wheel','## Shuriken Wheel
-The Shuriken Wheel is a unique Upgrade Material that can be Fitted to Wolf''s Prosthetic Arm in order to unlock the Loaded Shuriken Prosthetic.
+The Shuriken Wheel is a unique Upgrade Material that can be Fitted to Wolf''s Prosthetic Arm in order to unlock the [Loaded Shuriken Prosthetic](/wiki/loaded-shuriken).
 
-The Shuriken Wheel can be picked up in Ashina Outskirts near General Naomori Kawarada.','approved',NULL,NULL,NULL,4,2,'2026-08-06 08:15:15.929687','2026-08-06 08:15:35.436740','shuriken-wheel',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+The Shuriken Wheel can be picked up in Ashina Outskirts near [General Naomori Kawarada](/wiki/general-naomori-kawarada).','approved',NULL,NULL,NULL,4,2,'2026-08-06 08:15:15.929687','2026-10-23 08:41:53.050043','shuriken-wheel',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(45,'Dousing Powder','## Dousing Powder
 Dousing Powder is a Consumable Quick Item that heals the Burn status effect, and for a time decreases Burn buildup, increases Burn resistance and reduces damage from incoming Burn attacks.','approved',NULL,NULL,NULL,4,2,'2026-08-06 15:53:20.378159','2026-08-06 16:25:04.012674','dousing-powder',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(46,'Antidote Powder','## Antidote Powder
@@ -2174,7 +2203,14 @@ Mibu Balloon of Soul is a Consumable Quick Item that on use makes the player acq
 INSERT INTO "wiki_pages" VALUES(78,'Bite Down','## Bite Down
 Bite Down is a Consumable Quick Item that kills the player on use.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:36:26.941960','2026-09-30 18:41:12.080778','bite-down','2026-09-30 18:36:26.941319','2026-09-30 18:41:12.080118',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(79,'Red Lump','## Red Lump
-Red Lump is a Consumable Quick Item that on use makes the player nearly unstaggerable but unable to resurrect for 30s.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:41:01.635189','2026-09-30 18:41:15.699161','red-lump','2026-09-30 18:41:01.634290','2026-09-30 18:41:15.698510',2,NULL,NULL,NULL,NULL);
+Red Lump is a Consumable Quick Item that on use makes the player nearly unstaggerable but unable to resurrect for 30s.
+
+## Acquisition
+### Abandoned Dungeon
+1x can be picked up in the Dungeon by a pile of corpses with crickets on them just before the water section.
+
+### Fountainhead Palace
+1x can be picked up in the water under the bridge near the Flower Viewing Stage Idol.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:41:01.635189','2026-10-23 08:26:41.715460','red-lump','2026-09-30 18:41:01.634290','2026-09-30 18:41:15.698510',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(80,'Heavy Coin Purse','## Heavy Coin Purse
 Heavy Coin Purse is a Consumable Quick Item that gives 500 [Sen](/wiki/sen) on use. [Light Coin Purses](/wiki/light-coin-purse), Heavy Coin Purses and [Bulging Coin Purses](/wiki/bulging-coin-purse) serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:49:34.302926','2026-10-06 18:19:04.060926','heavy-coin-purse','2026-09-30 18:49:34.301706','2026-09-30 18:54:54.928941',2,NULL,'Heavy Coin Purse','## Heavy Coin Purse
 Heavy Coin Purse is a Consumable Quick Item that gives 500 Sen on use. Light Coin Purses, Heavy Coin Purses or Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.',4);
@@ -2413,6 +2449,27 @@ INSERT INTO "wiki_pages" VALUES(123,'Lotus of the Palace','## Lotus of the Palac
 Lotus of the Palace is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-14 10:57:40.193805','2026-10-14 10:57:50.959758','lotus-of-the-palace','2026-10-14 10:57:40.190967','2026-10-14 10:57:50.957763',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(124,'Mortal Blade','## Mortal Blade
 The Mortal Blade is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-22 06:07:55.262388','2026-10-22 06:08:02.615761','mortal-blade','2026-10-22 06:07:55.259432','2026-10-22 06:08:02.613759',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(125,'Poise','## Poise
+Poise, also known as superarmor (not to be confused with hyperarmor or Posture), is a hidden healthbar that determines enemy stagger.','approved',NULL,NULL,NULL,4,2,'2026-10-23 07:51:57.351900','2026-10-23 07:52:04.006860','poise','2026-10-23 07:51:57.350595','2026-10-23 07:52:04.005837',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(126,'Green Mossy Gourd','## Green Mossy Gourd
+The Green Mossy Gourd is a Quick Item. It can be purchased from the Toxic Memorial Mob for 1800 [Sen](/wiki/sen).','approved',NULL,NULL,NULL,4,2,'2026-10-23 08:08:26.250909','2026-10-23 08:16:54.309813','green-mossy-gourd','2026-10-23 08:08:26.249692','2026-10-23 08:16:54.308715',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(127,'Dried Serpent Viscera','## Dried Serpent Viscera
+The Dried Serpent Viscera is a Key Item. It can be picked up at the end of the Great Serpent''s Cave.','approved',NULL,NULL,NULL,4,2,'2026-10-23 08:16:49.942420','2026-10-23 08:19:22.966600','dried-serpent-viscera','2026-10-23 08:16:49.941195','2026-10-23 08:19:22.963704',2,NULL,'Dried Serpent Viscera','## Dried Serpent Viscera
+The Dried Serpent Viscera is a Key Item.',4);
+INSERT INTO "wiki_pages" VALUES(128,'Alannad','## Alannad
+Alannad is a Sekiro Speedrunner.','approved',NULL,NULL,NULL,2,2,'2026-10-23 08:34:27.887795','2026-10-23 08:37:50.983585','alannad','2026-10-23 08:34:27.884879','2026-10-23 08:37:50.982548',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(129,'GraysonFlows','## GraysonFlows
+GraysonFlows is a Sekiro Speedrunner.','approved',NULL,NULL,NULL,2,2,'2026-10-23 08:36:00.769932','2026-10-23 08:37:53.864062','graysonflows','2026-10-23 08:36:00.768610','2026-10-23 08:37:53.862086',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(130,'Headless (Ako)','## Headless (Ako)
+Headless (Ako) is a [Miniboss](/wiki/boss) that appears in Ashina Outskirts. He is one of 5 Minibosses in the game with the name "Headless". When defeated, he drops the Ako''s Spiritfall.','approved',NULL,NULL,NULL,4,2,'2026-10-23 09:09:02.833603','2026-10-23 09:16:41.290597','headless-ako','2026-10-23 09:09:02.832347','2026-10-23 09:16:41.289512',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(131,'Headless (Gachiin)','## Headless (Gachiin)
+Headless (Gachiin) is a [Miniboss](/wiki/boss) that appears in Ashina Depths. He is one of 5 Minibosses in the game with the name "Headless". When defeated, he drops the Gachiin''s Spiritfall.','approved',NULL,NULL,NULL,4,2,'2026-10-23 09:09:47.687565','2026-10-23 09:16:43.493978','headless-gachiin','2026-10-23 09:09:47.686283','2026-10-23 09:16:43.492980',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(132,'Headless (Yashariku)','## Headless (Yashariku)
+Headless (Yashariku) is a [Miniboss](/wiki/boss) that appears in Fountainhead Palace. He is one of 5 Minibosses in the game with the name "Headless". When defeated, he drops the Yashariku''s Spiritfall.','approved',NULL,NULL,NULL,4,2,'2026-10-23 09:10:54.914912','2026-10-23 09:16:39.118770','headless-yashariku','2026-10-23 09:10:54.914165','2026-10-23 09:16:39.118107',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(133,'Headless (Gokan)','## Headless (Gokan)
+Headless (Gokan) is a [Miniboss](/wiki/boss) that appears in Sunken Valley. He is one of 5 Minibosses in the game with the name "Headless". When defeated, he drops the Gokan''s Spiritfall.','approved',NULL,NULL,NULL,4,2,'2026-10-23 09:11:35.662344','2026-10-23 09:16:45.233726','headless-gokan','2026-10-23 09:11:35.661941','2026-10-23 09:16:45.232704',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(134,'Headless (Ungo)','## Headless (Ungo)
+Headless (Ungo) is a [Miniboss](/wiki/boss) that appears in Ashina Castle. He is one of 5 Minibosses in the game with the name "Headless". When defeated, he drops the Ungo''s Spiritfall.','approved',NULL,NULL,NULL,4,2,'2026-10-23 09:14:52.585329','2026-10-23 09:16:36.586438','headless-ungo','2026-10-23 09:14:52.584109','2026-10-23 09:16:36.586081',2,NULL,NULL,NULL,NULL);
 CREATE TABLE wiki_revisions (
 	id INTEGER NOT NULL, 
 	page_id INTEGER, 
@@ -5037,6 +5094,14 @@ Because you have to stay in front of him, you need to do creative attack strafin
 There is currently no tutorial for it, but a good resource to learn it is [this Bilibili playlist](https://www.bilibili.com/video/BV1FYqUYKEn5/) by Chinese runner Asphyxiansz. A common issue for the strat is that you will have something that works for some of Ogre''s attack patterns, but won''t for others. It is not merely a matter of reacting to whatever he does, you will also need to setup your position and attack animation so that you can be in the right position for any of the follow ups. Ideally, you should have something that works against most patterns. But there will be some rare patterns that you may have to dodge on.',3,2,'2026-10-17 10:48:23.743808');
 INSERT INTO "wiki_revisions" VALUES(95,16,'MItchriz','## Mitchriz
 Mitchriz is a speedrun content creator with a focus on Sekiro, Elden Ring and Lies of P.',2,8,'2026-10-22 06:05:59.494228');
+INSERT INTO "wiki_revisions" VALUES(96,79,'Red Lump','## Red Lump
+Red Lump is a Consumable Quick Item that on use makes the player nearly unstaggerable but unable to resurrect for 30s.',4,2,'2026-10-23 08:26:41.720458');
+INSERT INTO "wiki_revisions" VALUES(97,40,'Snap Seed','## Snap Seed
+A Snap Seed is a Consumable Quick Item.',4,2,'2026-10-23 08:29:43.350312');
+INSERT INTO "wiki_revisions" VALUES(98,44,'Shuriken Wheel','## Shuriken Wheel
+The Shuriken Wheel is a unique Upgrade Material that can be Fitted to Wolf''s Prosthetic Arm in order to unlock the Loaded Shuriken Prosthetic.
+
+The Shuriken Wheel can be picked up in Ashina Outskirts near General Naomori Kawarada.',4,2,'2026-10-23 08:41:53.051147');
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
 COMMIT;
