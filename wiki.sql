@@ -1100,6 +1100,486 @@ INSERT INTO "pending_edits" VALUES(32,44,'Shuriken Wheel','## Shuriken Wheel
 The Shuriken Wheel is a unique Upgrade Material that can be Fitted to Wolf''s Prosthetic Arm in order to unlock the [Loaded Shuriken Prosthetic](/wiki/loaded-shuriken).
 
 The Shuriken Wheel can be picked up in Ashina Outskirts near [General Naomori Kawarada](/wiki/general-naomori-kawarada).',4,2,'2026-10-23 08:41:47.536886','approved','2026-10-23 08:41:47.534430','2026-10-23 08:41:53.048408',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(33,140,'Test','## Test
+<iframe src="https://drive.google.com/file/d/1ZbJVewvVdxdKV3C7fjMf0XtTDwtswcFu/preview" width="768" height="432"></iframe>',2,2,'2026-10-24 09:24:19.730876','approved','2026-10-24 09:24:19.729875','2026-10-24 09:24:28.016885',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(34,34,'Shura Restricted','## Shura Restricted
+Shura Restricted is generally referred to as Any% or Any% Restricted.
+
+## Shura Restricted Guides
+Gin42_ has made a full video guide for Shura Restricted. The guide is a few years old by now, but a lot of the strats and information inside is still useful.
+[youtube]wHK3qTTV_pY[/youtube]
+
+Krrag, a high ranking Any% runner, has made his own text guide that you can find [here](https://www.speedrun.com/sekiro/guides/mo8a4). His guide covers a wide range of skill levels by including both high level and beginner level variations of the strats.
+
+## Shura Restricted Route
+This guide for Shura Restricted is made by the editors of the wiki.
+
+### Setup & Settings
+Subtitles should be disabled in Sound & Display Settings.
+The voice language and text language can be whatever you prefer.
+You can use any patch of the game you want. Using the current patch is fine.
+
+### Tutorial Section
+Talk to Kuro, and after receiving the Healing Gourd, you can press the menu button to cancel out of the dialogue early.
+
+After speaking to Kuro, you use the [Tutorial Grapple Glitch](/wiki/tutorial-grapple-glitch) to exit the Moonview Tower faster.
+[youtube]zFL1mjWWVfA[/youtube]
+
+Before leaving the tutorial remember to get the 2x Ash pickup right after running past [Leader Shigenori Yamauchi](/wiki/leader-shigenori-yamauchi).
+
+### Ashina Outskirts
+### Ogre Skip
+Ogre Skip takes a lot of time to learn, but is around 35s faster than fighting [Chained Ogre (Outskirts)](/wiki/chained-ogre-outskirts). 
+[youtube]jwto28bmImA[/youtube]
+
+Fighting Ogre instead is also fine. When you''re getting started it can be a great idea, as it allows for more run completions and lets you prioritize practicing more important things like Emma/Isshin and Ape Skip.
+ 
+### Canyon
+You can optionally use [Canyon Skip](/wiki/canyon-skip) to save 7s or Double Canyon Skip to save 14s.
+
+### Gyoubu Skip
+When entering [Gyoubu Oniwa](/wiki/gyoubu-oniwa)''s arena, you want to get the 2x Ash pickup in his arena. You need to pick it up quickly, as the pick-up will be unavailable for a while once Gyoubu starts his scripted opening dialogue where he screams his name.
+
+### Bull Skip
+[youtube]lAKV66fW4A0[/youtube]
+
+### Lone Shadow Skip
+Alternatively, you can fight Lone Shadow Longswordsman, which is around 12s slower.
+
+### Snake Eyes
+
+### Mibu Village
+In Mibu Village you want to pick up the 1x Divine Confetti in one of the houses
+
+### Corrupted Monk
+[youtube]3IMBc2EcGiQ[/youtube]
+Doing the [Stealth Deathblow](/wiki/corrupted-monk-cheese) with only 4 ash is very precise. It is a good idea to pick up 6 or more to make it easier. You can find the extra Ash pickups here.
+[youtube]RO5AVSdmHHQ[/youtube]
+
+After getting the [Shelter Stone](/wiki/shelter-stone), [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Ashina Castle Idol.
+
+### Genichiro
+Genichiro corner cheese tutorial.
+[youtube]shdnn-LEp_s[/youtube]
+
+### Senpou Airswim
+When quitting out at the elevator, make sure you are not too high up. If you quit out and reload in a wrong spot while [airswimming](wiki/airswim), the game won''t load the map that the player is in, which will result in a blackscreen that will kill the player after some time. This is a big timeloss that should be avoided.
+
+After exiting airswim, you want to make sure to keep aggro from enemies, so that your stable ground position is not updated. After getting the Senpou Temple Grounds Idol and quitting out, you should be placed back in airswim if your last stable ground position was still when you were airswimming.
+
+### Ape Skip
+Ape Skip is required for the route to work. If you mess it up, it takes around 3 minutes to get back and try it again, so it''s highly recommended to spend a lot of time to make it consistent.
+[youtube]NXTK-FEluL8[/youtube]
+[youtube]Ptcm94MuvJ8[/youtube]
+
+After getting the Lotus of the Palace, [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Senpou Temple Grounds.
+
+### Monkey Skip
+[Monkey Skip](/wiki/monkey-skip) is required for the route to work. However, you can retry it with only minor timeloss if you miss it. It is extremely difficult to become consistent at Monkey Skip. It is okay to have a 10% or lower success rate. A success rate of 25% or higher would be considered extremely high level. Mitchriz has a tutorial on how to do Monkey Skip:
+[youtube]56g7lWP0utY[/youtube]
+
+After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it is obtained, the Invasion Event will start and your Last Communed Idol will be set as Ashina Castle - Abandoned Dungeon. Use the [Homeward Idol](/wiki/homeward-idol) to go to Last Communed Idol after picking up the Mortal Draw to go to Emma/Isshin.
+
+### Emma
+You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
+
+### Isshin',5,2,'2026-10-24 12:10:42.285851','approved','2026-10-24 12:10:42.285016','2026-10-24 12:10:47.606026',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(35,17,'Sculptor''s Idol','## Sculptor''s Idol
+Sculptor''s Idols serve as checkpoints and allow the player a variety of options including to rest.
+
+## List of Idols
+As grouped by the Travel Menu.
+
+Ashina Outskirts
+- Dilapidated Temple
+- Ashina Outskirts
+- Outskirts Wall - Gate Path
+- Outskirts Wall - Stairway
+- Underbridge Valley
+- Ashina Castle Gate Fortress
+- Ashina Castle Gate
+
+Ashina Castle
+- Ashina Castle
+- Upper Tower - Antechamber
+- Upper Tower - Ashina Dojo
+- Castle Tower Lookout
+- Upper Tower - Kuro''s Room
+- Old Grave
+- Abandoned Dungeon Entrance
+- Ashina Reservoir
+- Near Secret Passage
+
+Abandoned Dungeon
+- Underground Waterway
+- Bottomless Hole
+
+Senpou Temple, Mt. Kongo
+- Senpou Temple, Mt. Kongo
+- Shugendo
+- Temple Grounds
+- Main Hall
+- Inner Sanctum
+- Sunken Valley Cavern
+- Bell Demon''s Temple
+
+Sunken Valley
+- Riven Cave
+- Bodhisattva Valley
+- Guardian Ape''s Watering Hole
+
+Ashina Depths
+- Ashina Depths
+- Poison Pool
+- Hidden Forest
+- Mibu Village
+- Water Mill
+- Wedding Cave Door
+
+Fountainhead Palace
+- Fountainhead Palace
+- Vermillion Bridge
+- Mibu Manor
+- Flower Viewing Stage
+- Great Sakura
+- Palace Grounds
+- Feeding Grounds
+- Near Pot Noble
+- Sanctuary
+
+Hirata Estate
+- Dragonspring - Hirata Estate
+- Estate Path
+- Bamboo Thicket Slope
+- Hirata Estate - Main Hall
+- Hirata Audience Chamber
+- Hirata Estate - Hidden Temple
+
+## Last Idol IDs
+Internally, the game has IDs for the location of your last Idol. This not only includes locations of actual Sculptor''s Idols but also of default map locations and checkpoints (such as the location inside the Temple at Dilapidated Temple after the tutorial section).
+
+### In-use List
+This in-use list contains the IDs that the game will use during normal operation.
+
+(to be added)
+
+### Full list
+This full list contains all **known** working IDs.
+
+1002949 - Hirata Map Default Location
+1002950 - Dragonspring - Hirata Estate
+1002951 - Estate Path
+1002952 - Bamboo Thicket Slope
+1002953 - Hirata Estate - Main Hall
+1002954 - Hirata Estate - Hidden Temple
+1002955 - Hirata Audience Chamber
+1002956 - Hirata Map Default Location
+1002957 - Hirata Map Default Location
+1002959 - Hitara Map Default Location
+
+1102949 - Ashina Outskirts Map Default Location
+1102950 - Dilapidated Temple
+1102951 - Outskirts Wall - Gate Path
+1102952 - Outskirts Wall - Stairway
+1102953 - Underbridge Valley
+1102954 - Ashina Castle Gate Fortress
+1102955 - Ashina Castle Gate
+1102956 - Ashina Outskirts 
+1102957 - Flames of Hatred
+1102958 - Ashina Outskirts Broken Bridge
+1102959 - Ashina Outskirts After Chained Ogre
+1102960 - Ashina Castle Gate
+1102961 - Ashina Outskirts Map Default Location
+1102962 - Ashina Outskirts Map Default Location
+1102963 - Ashina Outskirts Map Default Location
+1102964 - Ashina Outskirts Map Default Location
+
+1112949 - Ashina Castle Map Default Location
+1112950 - Ashina Castle
+1112951 - Upper Tower - Antechamber
+1112952 - Castle Tower Lookout
+1112953 - Upper Tower - Kuro’s Room
+1112954 - Great Serpent Shrine
+1112955 - Abandoned Dungeon Entrance
+1112956 - Old Grave
+1112957 - Upper Tower - Ashina Dojo
+1112958 - Ashina Castle Map Default Location
+1112959 - Ashina Castle Map Default Location
+
+1122949 - Game Start Location
+1122950 - Near Secret Passage
+1122951 - Ashina Reservoir
+1122952 - Game Start Location
+1122953 - Game Start Location
+1122954 - Game Start Location
+
+1302948 - Abandoned Dungeon Map Default Location
+1302949 - Abandoned Dungeon Map Default Location
+1302950 - Underground Waterway
+1302951 - Bottomless Hole
+1302952 - Abandoned Dungeon Map Default Location
+1302953 - Abandoned Dungeon Map Default Location
+1302954 - Abandoned Dungeon Map Default Location	
+
+1502949 - Ashina Depths Map Default Location
+1502950 - Hidden Forest
+1502951 - Mibu Village
+1502952 - Water Mill
+1502953 - Wedding Cave
+1502954 - Ashina Depths Map Default Location
+1502955 - Ashina Depths Map Default Location
+
+1702948 - Sunken Valley Default Location
+1702949 - Sunken Valley Default Location
+1702950 - Sunken Valley
+1702951 - Gun Fort
+1702952 - Riven Cave
+1702953 - Guardian Ape’s Watering Hole
+1702954 - Poison Pool
+1702955 - Ashina Depths
+1702956 - Guardian Ape’s Burrow
+1702957 - Under-Shrine Valley
+1702958 - Bodhisattva Valley
+1702959 - Sunken Valley Default Location
+1702960 - Sunken Valley Default Location
+
+2002948 - Senpou Map Default Location
+2002949 - Senpou Map Default Location
+2002950 - Senpou Temple, Mt. Kongo
+2002951 - Shugendo
+2002952 - Temple Grounds
+2002953 - Main Hall
+2002954 - Inner Sanctum
+2002955 - Sunken Valley Cavern
+2002956 - Bell Demon’s Temple
+2002957 - Inner Sanctum Post-Monkeys Location
+2002958 - Monkeys Arena
+2002959 - Senpou Map Default Location
+2002960 - Senpou Map Default Location
+
+2502948 - Fountainhead Palace Map Default Location
+2502949 - Fountainhead Palace Map Default Location
+2502950 - Fountainhead Palace
+2502951 - Vermilion Bridge
+2502952 - Flower Viewing Stage
+2502953 - Great Sakura
+2502954 - Palace Grounds
+2502955 - Sanctuary
+2502956 - Mibu Manor
+2502957 - Feeding Grounds
+2502958 - Near Pot Noble
+2502959 - Fountainhead Palace Map Default Location
+2502960 - Fountainhead Palace Map Default Location',4,2,'2026-10-24 13:06:42.646079','approved','2026-10-24 13:06:42.644987','2026-10-24 13:11:20.242379',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(36,17,'Sculptor''s Idol','## Sculptor''s Idol
+Sculptor''s Idols serve as checkpoints and allow the player a variety of options including to rest.
+
+## List of Idols
+As grouped by the Travel Menu.
+
+#### Ashina Outskirts
+- Dilapidated Temple
+- Ashina Outskirts
+- Outskirts Wall - Gate Path
+- Outskirts Wall - Stairway
+- Underbridge Valley
+- Ashina Castle Gate Fortress
+- Ashina Castle Gate
+
+#### Ashina Castle
+- Ashina Castle
+- Upper Tower - Antechamber
+- Upper Tower - Ashina Dojo
+- Castle Tower Lookout
+- Upper Tower - Kuro''s Room
+- Old Grave
+- Abandoned Dungeon Entrance
+- Ashina Reservoir
+- Near Secret Passage
+
+#### Abandoned Dungeon
+- Underground Waterway
+- Bottomless Hole
+
+#### Senpou Temple, Mt. Kongo
+- Senpou Temple, Mt. Kongo
+- Shugendo
+- Temple Grounds
+- Main Hall
+- Inner Sanctum
+- Sunken Valley Cavern
+- Bell Demon''s Temple
+
+#### Sunken Valley
+- Riven Cave
+- Bodhisattva Valley
+- Guardian Ape''s Watering Hole
+
+#### Ashina Depths
+- Ashina Depths
+- Poison Pool
+- Hidden Forest
+- Mibu Village
+- Water Mill
+- Wedding Cave Door
+
+#### Fountainhead Palace
+- Fountainhead Palace
+- Vermillion Bridge
+- Mibu Manor
+- Flower Viewing Stage
+- Great Sakura
+- Palace Grounds
+- Feeding Grounds
+- Near Pot Noble
+- Sanctuary
+
+#### Hirata Estate
+- Dragonspring - Hirata Estate
+- Estate Path
+- Bamboo Thicket Slope
+- Hirata Estate - Main Hall
+- Hirata Audience Chamber
+- Hirata Estate - Hidden Temple
+
+## Last Idol IDs
+Internally, the game has IDs for the location of your last Idol. This not only includes locations of actual Sculptor''s Idols but also of default map locations and checkpoints (such as the location inside the Temple at Dilapidated Temple after the tutorial section).
+
+### In-use List
+This in-use list contains the IDs that the game will use during normal operation.
+
+(to be added)
+
+### Full list
+This full list contains all **known** working IDs.
+
+1002949 - Hirata Map Default Location
+1002950 - Dragonspring - Hirata Estate
+1002951 - Estate Path
+1002952 - Bamboo Thicket Slope
+1002953 - Hirata Estate - Main Hall
+1002954 - Hirata Estate - Hidden Temple
+1002955 - Hirata Audience Chamber
+1002956 - Hirata Map Default Location
+1002957 - Hirata Map Default Location
+1002959 - Hitara Map Default Location
+
+1102949 - Ashina Outskirts Map Default Location
+1102950 - Dilapidated Temple
+1102951 - Outskirts Wall - Gate Path
+1102952 - Outskirts Wall - Stairway
+1102953 - Underbridge Valley
+1102954 - Ashina Castle Gate Fortress
+1102955 - Ashina Castle Gate
+1102956 - Ashina Outskirts 
+1102957 - Flames of Hatred
+1102958 - Ashina Outskirts Broken Bridge
+1102959 - Ashina Outskirts After Chained Ogre
+1102960 - Ashina Castle Gate
+1102961 - Ashina Outskirts Map Default Location
+1102962 - Ashina Outskirts Map Default Location
+1102963 - Ashina Outskirts Map Default Location
+1102964 - Ashina Outskirts Map Default Location
+
+1112949 - Ashina Castle Map Default Location
+1112950 - Ashina Castle
+1112951 - Upper Tower - Antechamber
+1112952 - Castle Tower Lookout
+1112953 - Upper Tower - Kuro’s Room
+1112954 - Great Serpent Shrine
+1112955 - Abandoned Dungeon Entrance
+1112956 - Old Grave
+1112957 - Upper Tower - Ashina Dojo
+1112958 - Ashina Castle Map Default Location
+1112959 - Ashina Castle Map Default Location
+
+1122949 - Game Start Location
+1122950 - Near Secret Passage
+1122951 - Ashina Reservoir
+1122952 - Game Start Location
+1122953 - Game Start Location
+1122954 - Game Start Location
+
+1302948 - Abandoned Dungeon Map Default Location
+1302949 - Abandoned Dungeon Map Default Location
+1302950 - Underground Waterway
+1302951 - Bottomless Hole
+1302952 - Abandoned Dungeon Map Default Location
+1302953 - Abandoned Dungeon Map Default Location
+1302954 - Abandoned Dungeon Map Default Location	
+
+1502949 - Ashina Depths Map Default Location
+1502950 - Hidden Forest
+1502951 - Mibu Village
+1502952 - Water Mill
+1502953 - Wedding Cave
+1502954 - Ashina Depths Map Default Location
+1502955 - Ashina Depths Map Default Location
+
+1702948 - Sunken Valley Default Location
+1702949 - Sunken Valley Default Location
+1702950 - Sunken Valley
+1702951 - Gun Fort
+1702952 - Riven Cave
+1702953 - Guardian Ape’s Watering Hole
+1702954 - Poison Pool
+1702955 - Ashina Depths
+1702956 - Guardian Ape’s Burrow
+1702957 - Under-Shrine Valley
+1702958 - Bodhisattva Valley
+1702959 - Sunken Valley Default Location
+1702960 - Sunken Valley Default Location
+
+2002948 - Senpou Map Default Location
+2002949 - Senpou Map Default Location
+2002950 - Senpou Temple, Mt. Kongo
+2002951 - Shugendo
+2002952 - Temple Grounds
+2002953 - Main Hall
+2002954 - Inner Sanctum
+2002955 - Sunken Valley Cavern
+2002956 - Bell Demon’s Temple
+2002957 - Inner Sanctum Post-Monkeys Location
+2002958 - Monkeys Arena
+2002959 - Senpou Map Default Location
+2002960 - Senpou Map Default Location
+
+2502948 - Fountainhead Palace Map Default Location
+2502949 - Fountainhead Palace Map Default Location
+2502950 - Fountainhead Palace
+2502951 - Vermilion Bridge
+2502952 - Flower Viewing Stage
+2502953 - Great Sakura
+2502954 - Palace Grounds
+2502955 - Sanctuary
+2502956 - Mibu Manor
+2502957 - Feeding Grounds
+2502958 - Near Pot Noble
+2502959 - Fountainhead Palace Map Default Location
+2502960 - Fountainhead Palace Map Default Location',4,2,'2026-10-24 13:15:17.601430','approved','2026-10-24 13:15:17.600280','2026-10-24 13:15:29.759672',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(37,142,'Gamefowl','## Gamefowl
+The Gamefowl, also called Chicken or Rooster, is a type of enemy that appears in Hirata Estate, Ashina Outskirts and Ashina Depths. There are a total of 18 Gamefowl in the game.
+
+## Enemy Placement
+### Hirata Estate
+A group of 5 Gamefowl can be encountered in the early part of Hirata Estate in the walled in part across from where the Axe prosthetic can be found.
+
+### Ashina Outskirts
+There are 4 Gamefowl in Ashina Outskirts. They appear in the Morning and disappear after Invasion 2.
+
+1 can be encountered before [General Naomori Kawarada](/wiki/general-naomori-kawarada).
+2 can be encountered behind the house, where you get the [Young Lord''s Bell Charm](/wiki/young-lord-s-bell-charm).
+1 can be encountered before the [Outskirts Wall - Stairway](/wiki/sculptor-s-idol#ashina-outskirts) Idol.
+
+### Ashina Depths
+There are 9 Gamefowl in Ashina Depths. 6 of them are located in the Hidden Forest and 3 are in Mibu Village.
+
+1 can be encountered in the Hidden Forest by the big tree on the left.
+1 can be encountered in the Hidden Forest on the big tree in the middle.
+1 can be encountered in the Hidden Forest high up on a platform on the right.
+1 can be encountered in the Hidden Forest on the hill by the giant Buddha statue.
+2 can be encountered in the Hidden Forest on the right path towards [Mist Noble](/wiki/mist-noble)
+1 can be encountered in Mibu Village ontop of the big house closest to the lit up tree.
+2 can be encountered in Mibu Village on the other side of the Mibu Lake by the waterfall.',4,2,'2026-10-24 14:53:16.315469','approved','2026-10-24 14:53:16.315122','2026-10-24 14:53:21.556796',2,NULL,NULL,NULL,NULL);
 CREATE TABLE users (
 	id INTEGER NOT NULL, 
 	username VARCHAR(80) NOT NULL, 
@@ -1523,15 +2003,82 @@ Sculptor''s Idols serve as checkpoints and allow the player a variety of options
 ## List of Idols
 As grouped by the Travel Menu.
 
+#### Ashina Outskirts
+- Dilapidated Temple
+- Ashina Outskirts
+- Outskirts Wall - Gate Path
+- Outskirts Wall - Stairway
+- Underbridge Valley
+- Ashina Castle Gate Fortress
+- Ashina Castle Gate
+
+#### Ashina Castle
+- Ashina Castle
+- Upper Tower - Antechamber
+- Upper Tower - Ashina Dojo
+- Castle Tower Lookout
+- Upper Tower - Kuro''s Room
+- Old Grave
+- Abandoned Dungeon Entrance
+- Ashina Reservoir
+- Near Secret Passage
+
+#### Abandoned Dungeon
+- Underground Waterway
+- Bottomless Hole
+
+#### Senpou Temple, Mt. Kongo
+- Senpou Temple, Mt. Kongo
+- Shugendo
+- Temple Grounds
+- Main Hall
+- Inner Sanctum
+- Sunken Valley Cavern
+- Bell Demon''s Temple
+
+#### Sunken Valley
+- Riven Cave
+- Bodhisattva Valley
+- Guardian Ape''s Watering Hole
+
+#### Ashina Depths
+- Ashina Depths
+- Poison Pool
+- Hidden Forest
+- Mibu Village
+- Water Mill
+- Wedding Cave Door
+
+#### Fountainhead Palace
+- Fountainhead Palace
+- Vermillion Bridge
+- Mibu Manor
+- Flower Viewing Stage
+- Great Sakura
+- Palace Grounds
+- Feeding Grounds
+- Near Pot Noble
+- Sanctuary
+
+#### Hirata Estate
+- Dragonspring - Hirata Estate
+- Estate Path
+- Bamboo Thicket Slope
+- Hirata Estate - Main Hall
+- Hirata Audience Chamber
+- Hirata Estate - Hidden Temple
+
 ## Last Idol IDs
 Internally, the game has IDs for the location of your last Idol. This not only includes locations of actual Sculptor''s Idols but also of default map locations and checkpoints (such as the location inside the Temple at Dilapidated Temple after the tutorial section).
 
-An In-use list is provided containing only the IDs that are used during regular gameplay, and a separate full list of all working IDs is listed below that.
-
 ### In-use List
+This in-use list contains the IDs that the game will use during normal operation.
 
+(to be added)
 
 ### Full list
+This full list contains all **known** working IDs.
+
 1002949 - Hirata Map Default Location
 1002950 - Dragonspring - Hirata Estate
 1002951 - Estate Path
@@ -1635,7 +2182,7 @@ An In-use list is provided containing only the IDs that are used during regular 
 2502957 - Feeding Grounds
 2502958 - Near Pot Noble
 2502959 - Fountainhead Palace Map Default Location
-2502960 - Fountainhead Palace Map Default Location','approved',NULL,NULL,NULL,4,2,'2026-03-14 08:29:19.127232','2026-09-16 19:34:09.080293','sculptor-s-idol',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+2502960 - Fountainhead Palace Map Default Location','approved',NULL,NULL,NULL,4,2,'2026-03-14 08:29:19.127232','2026-10-24 13:15:29.761182','sculptor-s-idol',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(18,'Canyon Skip','## Canyon Skip
 Not to be confused with Snake Skip. Canyon Skip refers to two possible skips that are performed in the canyon area of Ashina Outskirts where the Great Serpent is encountered for the first time.
 
@@ -1796,11 +2343,18 @@ INSERT INTO "wiki_pages" VALUES(34,'Shura Restricted','## Shura Restricted
 Shura Restricted is generally referred to as Any% or Any% Restricted.
 
 ## Shura Restricted Guides
-Gin42_ has made a full guide for Shura Restricted.
+Gin42_ has made a full video guide for Shura Restricted. The guide is a few years old by now, but a lot of the strats and information inside is still useful.
 [youtube]wHK3qTTV_pY[/youtube]
+
+Krrag, a high ranking Any% runner, has made his own text guide that you can find [here](https://www.speedrun.com/sekiro/guides/mo8a4). His guide covers a wide range of skill levels by including both high level and beginner level variations of the strats.
 
 ## Shura Restricted Route
 This guide for Shura Restricted is made by the editors of the wiki.
+
+### Setup & Settings
+Subtitles should be disabled in Sound & Display Settings.
+The voice language and text language can be whatever you prefer.
+You can use any patch of the game you want. Using the current patch is fine.
 
 ### Tutorial Section
 Talk to Kuro, and after receiving the Healing Gourd, you can press the menu button to cancel out of the dialogue early.
@@ -1866,7 +2420,7 @@ After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it 
 ### Emma
 You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
 
-### Isshin','approved',NULL,NULL,NULL,5,2,'2026-07-19 12:33:39.893829','2026-10-14 10:56:41.764025','shura-restricted',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+### Isshin','approved',NULL,NULL,NULL,5,2,'2026-07-19 12:33:39.893829','2026-10-24 12:10:47.606884','shura-restricted',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(35,'Phantom Kunai (Upgrade Material)','## Phantom Kunai (Upgrade Material)
 The Phantom Kunai is a Unique Upgrade Material used for unlocking the Phantom Kunai Prosthetic Tool Upgrade.
 
@@ -2470,6 +3024,47 @@ INSERT INTO "wiki_pages" VALUES(133,'Headless (Gokan)','## Headless (Gokan)
 Headless (Gokan) is a [Miniboss](/wiki/boss) that appears in Sunken Valley. He is one of 5 Minibosses in the game with the name "Headless". When defeated, he drops the Gokan''s Spiritfall.','approved',NULL,NULL,NULL,4,2,'2026-10-23 09:11:35.662344','2026-10-23 09:16:45.233726','headless-gokan','2026-10-23 09:11:35.661941','2026-10-23 09:16:45.232704',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(134,'Headless (Ungo)','## Headless (Ungo)
 Headless (Ungo) is a [Miniboss](/wiki/boss) that appears in Ashina Castle. He is one of 5 Minibosses in the game with the name "Headless". When defeated, he drops the Ungo''s Spiritfall.','approved',NULL,NULL,NULL,4,2,'2026-10-23 09:14:52.585329','2026-10-23 09:16:36.586438','headless-ungo','2026-10-23 09:14:52.584109','2026-10-23 09:16:36.586081',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(135,'Isshin''s Letter','## Isshin''s Letter
+Isshin''s Letter is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-24 07:08:35.210927','2026-10-24 07:12:09.500945','isshin-s-letter','2026-10-24 07:08:35.209250','2026-10-24 07:12:09.499454',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(136,'Aromatic Branch','## Aromatic Branch
+The Aromatic Branch is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-24 07:31:42.091860','2026-10-24 08:42:34.078681','aromatic-branch','2026-10-24 07:31:42.090358','2026-10-24 08:42:34.078344',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(137,'Aromatic Flower','## Aromatic Flower
+The Aromatic Flower is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-24 07:32:06.537966','2026-10-24 08:42:31.830652','aromatic-flower','2026-10-24 07:32:06.536094','2026-10-24 08:42:31.830310',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(138,'Sakura Droplet','## Sakura Droplet
+The Sakura Droplet is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-24 07:32:59.926502','2026-10-24 08:42:29.283949','sakura-droplet','2026-10-24 07:32:59.926107','2026-10-24 08:42:29.283565',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(139,'Young Lord''s Bell Charm','## Young Lord''s Bell Charm
+The Young Lord''s Bell Charm is a Key Item','approved',NULL,NULL,NULL,4,2,'2026-10-24 08:42:24.136326','2026-10-24 08:42:39.951811','young-lord-s-bell-charm','2026-10-24 08:42:24.135910','2026-10-24 08:42:39.951472',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(140,'Test','## Test
+<iframe src="https://drive.google.com/file/d/1ZbJVewvVdxdKV3C7fjMf0XtTDwtswcFu/preview" width="768" height="432"></iframe>','approved',NULL,NULL,NULL,2,2,'2026-10-24 09:03:06.691284','2026-10-24 09:24:28.018027','test','2026-10-24 09:03:06.690866','2026-10-24 09:03:14.264128',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(141,'Wrong Warp','## Wrong Warp
+A Wrong Warp is a glitch that can change the player''s destination to an unintended location when teleporting.
+
+## Force Quit Wrong Warp
+A Force Quit Wrong Warp (FQWW) is performed by dying and force quitting the game after the loading screen appears, usually via alt+f4, the task manager or a dedicated game restart macro.','approved',NULL,NULL,NULL,3,2,'2026-10-24 11:43:18.513163','2026-10-24 11:43:23.543029','wrong-warp','2026-10-24 11:43:18.512748','2026-10-24 11:43:23.542521',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(142,'Gamefowl','## Gamefowl
+The Gamefowl, also called Chicken or Rooster, is a type of enemy that appears in Hirata Estate, Ashina Outskirts and Ashina Depths. There are a total of 18 Gamefowl in the game.
+
+## Enemy Placement
+### Hirata Estate
+A group of 5 Gamefowl can be encountered in the early part of Hirata Estate in the walled in part across from where the Axe prosthetic can be found.
+
+### Ashina Outskirts
+There are 4 Gamefowl in Ashina Outskirts. They appear in the Morning and disappear after Invasion 2.
+
+1 can be encountered before [General Naomori Kawarada](/wiki/general-naomori-kawarada).
+2 can be encountered behind the house, where you get the [Young Lord''s Bell Charm](/wiki/young-lord-s-bell-charm).
+1 can be encountered before the [Outskirts Wall - Stairway](/wiki/sculptor-s-idol#ashina-outskirts) Idol.
+
+### Ashina Depths
+There are 9 Gamefowl in Ashina Depths. 6 of them are located in the Hidden Forest and 3 are in Mibu Village.
+
+1 can be encountered in the Hidden Forest by the big tree on the left.
+1 can be encountered in the Hidden Forest on the big tree in the middle.
+1 can be encountered in the Hidden Forest high up on a platform on the right.
+1 can be encountered in the Hidden Forest on the hill by the giant Buddha statue.
+2 can be encountered in the Hidden Forest on the right path towards [Mist Noble](/wiki/mist-noble)
+1 can be encountered in Mibu Village ontop of the big house closest to the lit up tree.
+2 can be encountered in Mibu Village on the other side of the Mibu Lake by the waterfall.','approved',NULL,NULL,NULL,4,2,'2026-10-24 14:48:58.659340','2026-10-24 14:53:21.557299','gamefowl','2026-10-24 14:48:58.658931','2026-10-24 14:49:07.002915',2,NULL,NULL,NULL,NULL);
 CREATE TABLE wiki_revisions (
 	id INTEGER NOT NULL, 
 	page_id INTEGER, 
@@ -5102,6 +5697,412 @@ INSERT INTO "wiki_revisions" VALUES(98,44,'Shuriken Wheel','## Shuriken Wheel
 The Shuriken Wheel is a unique Upgrade Material that can be Fitted to Wolf''s Prosthetic Arm in order to unlock the Loaded Shuriken Prosthetic.
 
 The Shuriken Wheel can be picked up in Ashina Outskirts near General Naomori Kawarada.',4,2,'2026-10-23 08:41:53.051147');
+INSERT INTO "wiki_revisions" VALUES(99,140,'Test','## Test
+![image](https://drive.google.com/file/d/1ZbJVewvVdxdKV3C7fjMf0XtTDwtswcFu/view?usp=sharing)',2,2,'2026-10-24 09:24:28.019526');
+INSERT INTO "wiki_revisions" VALUES(100,34,'Shura Restricted','## Shura Restricted
+Shura Restricted is generally referred to as Any% or Any% Restricted.
+
+## Shura Restricted Guides
+Gin42_ has made a full guide for Shura Restricted.
+[youtube]wHK3qTTV_pY[/youtube]
+
+## Shura Restricted Route
+This guide for Shura Restricted is made by the editors of the wiki.
+
+### Tutorial Section
+Talk to Kuro, and after receiving the Healing Gourd, you can press the menu button to cancel out of the dialogue early.
+
+After speaking to Kuro, you use the [Tutorial Grapple Glitch](/wiki/tutorial-grapple-glitch) to exit the Moonview Tower faster.
+[youtube]zFL1mjWWVfA[/youtube]
+
+Before leaving the tutorial remember to get the 2x Ash pickup right after running past [Leader Shigenori Yamauchi](/wiki/leader-shigenori-yamauchi).
+
+### Ashina Outskirts
+### Ogre Skip
+Ogre Skip takes a lot of time to learn, but is around 35s faster than fighting [Chained Ogre (Outskirts)](/wiki/chained-ogre-outskirts). 
+[youtube]jwto28bmImA[/youtube]
+
+Fighting Ogre instead is also fine. When you''re getting started it can be a great idea, as it allows for more run completions and lets you prioritize practicing more important things like Emma/Isshin and Ape Skip.
+ 
+### Canyon
+You can optionally use [Canyon Skip](/wiki/canyon-skip) to save 7s or Double Canyon Skip to save 14s.
+
+### Gyoubu Skip
+When entering [Gyoubu Oniwa](/wiki/gyoubu-oniwa)''s arena, you want to get the 2x Ash pickup in his arena. You need to pick it up quickly, as the pick-up will be unavailable for a while once Gyoubu starts his scripted opening dialogue where he screams his name.
+
+### Bull Skip
+[youtube]lAKV66fW4A0[/youtube]
+
+### Lone Shadow Skip
+Alternatively, you can fight Lone Shadow Longswordsman, which is around 12s slower.
+
+### Snake Eyes
+
+### Mibu Village
+In Mibu Village you want to pick up the 1x Divine Confetti in one of the houses
+
+### Corrupted Monk
+[youtube]3IMBc2EcGiQ[/youtube]
+Doing the [Stealth Deathblow](/wiki/corrupted-monk-cheese) with only 4 ash is very precise. It is a good idea to pick up 6 or more to make it easier. You can find the extra Ash pickups here.
+[youtube]RO5AVSdmHHQ[/youtube]
+
+After getting the [Shelter Stone](/wiki/shelter-stone), [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Ashina Castle Idol.
+
+### Genichiro
+Genichiro corner cheese tutorial.
+[youtube]shdnn-LEp_s[/youtube]
+
+### Senpou Airswim
+When quitting out at the elevator, make sure you are not too high up. If you quit out and reload in a wrong spot while [airswimming](wiki/airswim), the game won''t load the map that the player is in, which will result in a blackscreen that will kill the player after some time. This is a big timeloss that should be avoided.
+
+After exiting airswim, you want to make sure to keep aggro from enemies, so that your stable ground position is not updated. After getting the Senpou Temple Grounds Idol and quitting out, you should be placed back in airswim if your last stable ground position was still when you were airswimming.
+
+### Ape Skip
+Ape Skip is required for the route to work. If you mess it up, it takes around 3 minutes to get back and try it again, so it''s highly recommended to spend a lot of time to make it consistent.
+[youtube]NXTK-FEluL8[/youtube]
+[youtube]Ptcm94MuvJ8[/youtube]
+
+After getting the Lotus of the Palace, [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Senpou Temple Grounds.
+
+### Monkey Skip
+[Monkey Skip](/wiki/monkey-skip) is required for the route to work. However, you can retry it with only minor timeloss if you miss it. It is extremely difficult to become consistent at Monkey Skip. It is okay to have a 10% or lower success rate. A success rate of 25% or higher would be considered extremely high level. Mitchriz has a tutorial on how to do Monkey Skip:
+[youtube]56g7lWP0utY[/youtube]
+
+After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it is obtained, the Invasion Event will start and your Last Communed Idol will be set as Ashina Castle - Abandoned Dungeon. Use the [Homeward Idol](/wiki/homeward-idol) to go to Last Communed Idol after picking up the Mortal Draw to go to Emma/Isshin.
+
+### Emma
+You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
+
+### Isshin',5,2,'2026-10-24 12:10:47.608279');
+INSERT INTO "wiki_revisions" VALUES(101,17,'Sculptor''s Idol','## Sculptor''s Idol
+Sculptor''s Idols serve as checkpoints and allow the player a variety of options including to rest.
+
+## List of Idols
+As grouped by the Travel Menu.
+
+## Last Idol IDs
+Internally, the game has IDs for the location of your last Idol. This not only includes locations of actual Sculptor''s Idols but also of default map locations and checkpoints (such as the location inside the Temple at Dilapidated Temple after the tutorial section).
+
+An In-use list is provided containing only the IDs that are used during regular gameplay, and a separate full list of all working IDs is listed below that.
+
+### In-use List
+
+
+### Full list
+1002949 - Hirata Map Default Location
+1002950 - Dragonspring - Hirata Estate
+1002951 - Estate Path
+1002952 - Bamboo Thicket Slope
+1002953 - Hirata Estate - Main Hall
+1002954 - Hirata Estate - Hidden Temple
+1002955 - Hirata Audience Chamber
+1002956 - Hirata Map Default Location
+1002957 - Hirata Map Default Location
+1002959 - Hitara Map Default Location
+
+1102949 - Ashina Outskirts Map Default Location
+1102950 - Dilapidated Temple
+1102951 - Outskirts Wall - Gate Path
+1102952 - Outskirts Wall - Stairway
+1102953 - Underbridge Valley
+1102954 - Ashina Castle Gate Fortress
+1102955 - Ashina Castle Gate
+1102956 - Ashina Outskirts 
+1102957 - Flames of Hatred
+1102958 - Ashina Outskirts Broken Bridge
+1102959 - Ashina Outskirts After Chained Ogre
+1102960 - Ashina Castle Gate
+1102961 - Ashina Outskirts Map Default Location
+1102962 - Ashina Outskirts Map Default Location
+1102963 - Ashina Outskirts Map Default Location
+1102964 - Ashina Outskirts Map Default Location
+
+1112949 - Ashina Castle Map Default Location
+1112950 - Ashina Castle
+1112951 - Upper Tower - Antechamber
+1112952 - Castle Tower Lookout
+1112953 - Upper Tower - Kuro’s Room
+1112954 - Great Serpent Shrine
+1112955 - Abandoned Dungeon Entrance
+1112956 - Old Grave
+1112957 - Upper Tower - Ashina Dojo
+1112958 - Ashina Castle Map Default Location
+1112959 - Ashina Castle Map Default Location
+
+1122949 - Game Start Location
+1122950 - Near Secret Passage
+1122951 - Ashina Reservoir
+1122952 - Game Start Location
+1122953 - Game Start Location
+1122954 - Game Start Location
+
+1302948 - Abandoned Dungeon Map Default Location
+1302949 - Abandoned Dungeon Map Default Location
+1302950 - Underground Waterway
+1302951 - Bottomless Hole
+1302952 - Abandoned Dungeon Map Default Location
+1302953 - Abandoned Dungeon Map Default Location
+1302954 - Abandoned Dungeon Map Default Location	
+
+1502949 - Ashina Depths Map Default Location
+1502950 - Hidden Forest
+1502951 - Mibu Village
+1502952 - Water Mill
+1502953 - Wedding Cave
+1502954 - Ashina Depths Map Default Location
+1502955 - Ashina Depths Map Default Location
+
+1702948 - Sunken Valley Default Location
+1702949 - Sunken Valley Default Location
+1702950 - Sunken Valley
+1702951 - Gun Fort
+1702952 - Riven Cave
+1702953 - Guardian Ape’s Watering Hole
+1702954 - Poison Pool
+1702955 - Ashina Depths
+1702956 - Guardian Ape’s Burrow
+1702957 - Under-Shrine Valley
+1702958 - Bodhisattva Valley
+1702959 - Sunken Valley Default Location
+1702960 - Sunken Valley Default Location
+
+2002948 - Senpou Map Default Location
+2002949 - Senpou Map Default Location
+2002950 - Senpou Temple, Mt. Kongo
+2002951 - Shugendo
+2002952 - Temple Grounds
+2002953 - Main Hall
+2002954 - Inner Sanctum
+2002955 - Sunken Valley Cavern
+2002956 - Bell Demon’s Temple
+2002957 - Inner Sanctum Post-Monkeys Location
+2002958 - Monkeys Arena
+2002959 - Senpou Map Default Location
+2002960 - Senpou Map Default Location
+
+2502948 - Fountainhead Palace Map Default Location
+2502949 - Fountainhead Palace Map Default Location
+2502950 - Fountainhead Palace
+2502951 - Vermilion Bridge
+2502952 - Flower Viewing Stage
+2502953 - Great Sakura
+2502954 - Palace Grounds
+2502955 - Sanctuary
+2502956 - Mibu Manor
+2502957 - Feeding Grounds
+2502958 - Near Pot Noble
+2502959 - Fountainhead Palace Map Default Location
+2502960 - Fountainhead Palace Map Default Location',4,2,'2026-10-24 13:11:20.245393');
+INSERT INTO "wiki_revisions" VALUES(102,17,'Sculptor''s Idol','## Sculptor''s Idol
+Sculptor''s Idols serve as checkpoints and allow the player a variety of options including to rest.
+
+## List of Idols
+As grouped by the Travel Menu.
+
+Ashina Outskirts
+- Dilapidated Temple
+- Ashina Outskirts
+- Outskirts Wall - Gate Path
+- Outskirts Wall - Stairway
+- Underbridge Valley
+- Ashina Castle Gate Fortress
+- Ashina Castle Gate
+
+Ashina Castle
+- Ashina Castle
+- Upper Tower - Antechamber
+- Upper Tower - Ashina Dojo
+- Castle Tower Lookout
+- Upper Tower - Kuro''s Room
+- Old Grave
+- Abandoned Dungeon Entrance
+- Ashina Reservoir
+- Near Secret Passage
+
+Abandoned Dungeon
+- Underground Waterway
+- Bottomless Hole
+
+Senpou Temple, Mt. Kongo
+- Senpou Temple, Mt. Kongo
+- Shugendo
+- Temple Grounds
+- Main Hall
+- Inner Sanctum
+- Sunken Valley Cavern
+- Bell Demon''s Temple
+
+Sunken Valley
+- Riven Cave
+- Bodhisattva Valley
+- Guardian Ape''s Watering Hole
+
+Ashina Depths
+- Ashina Depths
+- Poison Pool
+- Hidden Forest
+- Mibu Village
+- Water Mill
+- Wedding Cave Door
+
+Fountainhead Palace
+- Fountainhead Palace
+- Vermillion Bridge
+- Mibu Manor
+- Flower Viewing Stage
+- Great Sakura
+- Palace Grounds
+- Feeding Grounds
+- Near Pot Noble
+- Sanctuary
+
+Hirata Estate
+- Dragonspring - Hirata Estate
+- Estate Path
+- Bamboo Thicket Slope
+- Hirata Estate - Main Hall
+- Hirata Audience Chamber
+- Hirata Estate - Hidden Temple
+
+## Last Idol IDs
+Internally, the game has IDs for the location of your last Idol. This not only includes locations of actual Sculptor''s Idols but also of default map locations and checkpoints (such as the location inside the Temple at Dilapidated Temple after the tutorial section).
+
+### In-use List
+This in-use list contains the IDs that the game will use during normal operation.
+
+(to be added)
+
+### Full list
+This full list contains all **known** working IDs.
+
+1002949 - Hirata Map Default Location
+1002950 - Dragonspring - Hirata Estate
+1002951 - Estate Path
+1002952 - Bamboo Thicket Slope
+1002953 - Hirata Estate - Main Hall
+1002954 - Hirata Estate - Hidden Temple
+1002955 - Hirata Audience Chamber
+1002956 - Hirata Map Default Location
+1002957 - Hirata Map Default Location
+1002959 - Hitara Map Default Location
+
+1102949 - Ashina Outskirts Map Default Location
+1102950 - Dilapidated Temple
+1102951 - Outskirts Wall - Gate Path
+1102952 - Outskirts Wall - Stairway
+1102953 - Underbridge Valley
+1102954 - Ashina Castle Gate Fortress
+1102955 - Ashina Castle Gate
+1102956 - Ashina Outskirts 
+1102957 - Flames of Hatred
+1102958 - Ashina Outskirts Broken Bridge
+1102959 - Ashina Outskirts After Chained Ogre
+1102960 - Ashina Castle Gate
+1102961 - Ashina Outskirts Map Default Location
+1102962 - Ashina Outskirts Map Default Location
+1102963 - Ashina Outskirts Map Default Location
+1102964 - Ashina Outskirts Map Default Location
+
+1112949 - Ashina Castle Map Default Location
+1112950 - Ashina Castle
+1112951 - Upper Tower - Antechamber
+1112952 - Castle Tower Lookout
+1112953 - Upper Tower - Kuro’s Room
+1112954 - Great Serpent Shrine
+1112955 - Abandoned Dungeon Entrance
+1112956 - Old Grave
+1112957 - Upper Tower - Ashina Dojo
+1112958 - Ashina Castle Map Default Location
+1112959 - Ashina Castle Map Default Location
+
+1122949 - Game Start Location
+1122950 - Near Secret Passage
+1122951 - Ashina Reservoir
+1122952 - Game Start Location
+1122953 - Game Start Location
+1122954 - Game Start Location
+
+1302948 - Abandoned Dungeon Map Default Location
+1302949 - Abandoned Dungeon Map Default Location
+1302950 - Underground Waterway
+1302951 - Bottomless Hole
+1302952 - Abandoned Dungeon Map Default Location
+1302953 - Abandoned Dungeon Map Default Location
+1302954 - Abandoned Dungeon Map Default Location	
+
+1502949 - Ashina Depths Map Default Location
+1502950 - Hidden Forest
+1502951 - Mibu Village
+1502952 - Water Mill
+1502953 - Wedding Cave
+1502954 - Ashina Depths Map Default Location
+1502955 - Ashina Depths Map Default Location
+
+1702948 - Sunken Valley Default Location
+1702949 - Sunken Valley Default Location
+1702950 - Sunken Valley
+1702951 - Gun Fort
+1702952 - Riven Cave
+1702953 - Guardian Ape’s Watering Hole
+1702954 - Poison Pool
+1702955 - Ashina Depths
+1702956 - Guardian Ape’s Burrow
+1702957 - Under-Shrine Valley
+1702958 - Bodhisattva Valley
+1702959 - Sunken Valley Default Location
+1702960 - Sunken Valley Default Location
+
+2002948 - Senpou Map Default Location
+2002949 - Senpou Map Default Location
+2002950 - Senpou Temple, Mt. Kongo
+2002951 - Shugendo
+2002952 - Temple Grounds
+2002953 - Main Hall
+2002954 - Inner Sanctum
+2002955 - Sunken Valley Cavern
+2002956 - Bell Demon’s Temple
+2002957 - Inner Sanctum Post-Monkeys Location
+2002958 - Monkeys Arena
+2002959 - Senpou Map Default Location
+2002960 - Senpou Map Default Location
+
+2502948 - Fountainhead Palace Map Default Location
+2502949 - Fountainhead Palace Map Default Location
+2502950 - Fountainhead Palace
+2502951 - Vermilion Bridge
+2502952 - Flower Viewing Stage
+2502953 - Great Sakura
+2502954 - Palace Grounds
+2502955 - Sanctuary
+2502956 - Mibu Manor
+2502957 - Feeding Grounds
+2502958 - Near Pot Noble
+2502959 - Fountainhead Palace Map Default Location
+2502960 - Fountainhead Palace Map Default Location',4,2,'2026-10-24 13:15:29.762336');
+INSERT INTO "wiki_revisions" VALUES(103,142,'Gamefowl','## Gamefowl
+The Gamefowl is a type of enemy that appears in Hirata Estate, Ashina Outskirts and Ashina Depths. There are a total of 18 Gamefowl in the game.
+
+## Enemy Placement
+### Hirata Estate
+A group of 5 Gamefowl can be encountered in the early part of Hirata Estate in the walled in part across from where the Axe prosthetic can be found.
+
+### Ashina Outskirts
+There are 4 Gamefowl in Ashina Outskirts. They appear in the Morning and disappear after Invasion 2.
+
+1 can be encountered before [General Naomori Kawarada](/wiki/general-naomori-kawarada).
+2 can be encountered behind the house, where you get the [Young Lord''s Bell Charm](/wiki/young-lord-s-bell-charm).
+1 can be encountered before the [Outskirts Wall - Stairway](/wiki/sculptor-s-idol#ashina-outskirts) Idol.
+
+### Ashina Depths
+There are 9 Gamefowl in Ashina Depths. 6 of them are located in the Hidden Forest and 3 are in Mibu Village.
+
+1 can be encountered in the Hidden Forest by the big tree on the left.
+1 can be encountered in the Hidden Forest on the big tree in the middle.
+1 can be encountered in the Hidden Forest high up on a platform on the right.
+1 can be encountered in the Hidden Forest on the hill by the giant Buddha statue.
+2 can be encountered in the Hidden Forest on the right path towards [Mist Noble](/wiki/mist-noble)
+1 can be encountered in Mibu Village ontop of the big house closest to the lit up tree.
+2 can be encountered in Mibu Village on the other side of the Mibu Lake by the waterfall.',4,2,'2026-10-24 14:53:21.557664');
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
 COMMIT;
