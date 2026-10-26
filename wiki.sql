@@ -1580,6 +1580,67 @@ There are 9 Gamefowl in Ashina Depths. 6 of them are located in the Hidden Fores
 2 can be encountered in the Hidden Forest on the right path towards [Mist Noble](/wiki/mist-noble)
 1 can be encountered in Mibu Village ontop of the big house closest to the lit up tree.
 2 can be encountered in Mibu Village on the other side of the Mibu Lake by the waterfall.',4,2,'2026-10-24 14:53:16.315469','approved','2026-10-24 14:53:16.315122','2026-10-24 14:53:21.556796',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(38,40,'Snap Seed','## Snap Seed
+A Snap Seed is a Consumable Quick Item that on use can break illusions.
+
+## Acquisition
+### Ashina Depths
+3x can be picked up in the Hidden Forest above the Headless miniboss when heading towards Mist Noble.
+### Sunken Valley
+1x can be picked up next to the Toxic Memorial Mob.
+3x can be picked up at the Gunfort ontop of the wooden battlements before the cave leading to [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).
+### Hirata Estate
+1x can be acquired by talking to the NPC before Lady Butterfly.',4,2,'2026-10-25 13:22:37.662862','approved','2026-10-25 13:22:37.661761','2026-10-25 13:22:43.946658',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(39,1,'Save File Organizer','# Save File Organizer by Kahmul
+
+The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
+
+### Usage tutorial:
+[youtube]-m1PwqIZLyo[/youtube]
+
+Download Kahmul''s Save Organizer [here](https://github.com/Kahmul/SoulsSpeedruns-Save-Organizer/releases).
+
+Pick the .zip that corresponds to your operating system. The bundled windows version can be used if the regular windows version does not work.
+
+### Import, Load & Replace
+Import, load and replace are the main functions of the Save Organizer. Knowing how they work is important to be able to use the program effectively.
+
+Importing means taking your current active save file and storing it in the Organizer.
+
+Loading means replacing your current active save file with whichever save you loaded. Loading a save from the Organizer works like a save state, where each time you load that save, you will be put at the exact state that save was in when it was imported.
+
+Replacing is like importing, but it works for overwriting save files that you want to make changes to. Note that this button will permanently delete the replaced save file, so make sure you think before you click it if any important save files are being used.
+**
+Sigma**
+
+### Additional Tips
+- It''s important to know that one save file contains ALL your save data, all your saved games and settings. It is not currently possible to import a saved game from one save file onto another. Before you start playing around with save files, you should import your own main save file into the Save Organizer, in order to make sure that it''s backed up. It is also recommended to make a copy of that file and store it somewhere safe.
+- When importing or replacing your save into the save organizer, you generally need to quit out beforehand to make sure the game has successfully saved your progress first.
+- When quitting out to make a save, make sure you are on stable ground and not in combat. Otherwise, your position won''t be saved as you intend.
+- Save files can only be loaded while you are on the **title screen**, the screen that says PRESS ANY BUTTON. You cannot load a save while you are on the main menu.
+- If you are fast and play in windowed mode, you can PRESS ANY BUTTON and then load a save from the Save Organizer before you get to the main menu. This can save some time when practicing, but can also lead to corrupted save data if you load the save file too late (no problem, just restart the game and load the save again from the Save Organizer).
+- It''s recommended to add numbers to the names of the saves, so that your list will have the same order as it will be in the run. e.g, 01. Ogre, 02. Canyon, 03. Gyoubu, etc.
+- It''s recommended to create multiple Profiles to sort your save files. One Profile per speedrun category is a good starting point.
+- If you are editing settings on a save file, then you don''t need to load a saved game to do so. You can load the save file on the title screen, enter the main menu, change settings and then replace in the Save Organizer.
+
+### Downloading Save Files
+If you want to download and use a save file from another player, you need to do the following steps: (Make sure to backup your own save file first, as this process will completely overwrite your save data).
+
+1. Download and setup LiveSplit with the Sekiro plugin "SoulSplitter" activated. It includes a mod that allows you to load save files tied to other Steam accounts. Simply having LiveSplit and Sekiro open will make the mod take effect.
+
+2. Download the save file(s), usually you will get a zip file that can be extracted out to a folder.
+
+3. Move the downloaded save file into the folder where you keep your Save Organizer save files. If you downloaded a folder full of saves, you can also put that folder there. Each folder under the main one will form a Profile in the Save Organizer.
+
+4. If you moved the files to the right place, they should appear in your Save Organizer after restarting it.
+
+5. Launch the game and get to the title screen. (not the main menu).
+
+6. Load a save file, change the settings to your taste on the main menu then replace the save.
+
+7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
+
+',1,1,'2026-10-25 20:05:38.334929','rejected','2026-10-25 20:05:38.334577','2026-10-25 20:06:54.908932',1,'test',NULL,NULL,NULL);
 CREATE TABLE users (
 	id INTEGER NOT NULL, 
 	username VARCHAR(80) NOT NULL, 
@@ -2443,7 +2504,9 @@ A Snap Seed is a Consumable Quick Item that on use can break illusions.
 3x can be picked up in the Hidden Forest above the Headless miniboss when heading towards Mist Noble.
 ### Sunken Valley
 1x can be picked up next to the Toxic Memorial Mob.
-3x can be picked up at the Gunfort under some wooden battlements before the cave leading to [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).','approved',NULL,NULL,NULL,4,2,'2026-08-06 07:55:32.515516','2026-10-23 08:29:43.348998','snap-seed',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+3x can be picked up at the Gunfort ontop of the wooden battlements before the cave leading to [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).
+### Hirata Estate
+1x can be acquired by talking to the NPC before Lady Butterfly.','approved',NULL,NULL,NULL,4,2,'2026-08-06 07:55:32.515516','2026-10-25 13:22:43.947524','snap-seed',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(41,'Robert''s Firecrackers','## Robert''s Firecrackers
 Robert''s Firecrackers is a unique Upgrade Material that can be Fitted to Wolf''s Prosthetic Arm in order to unlock the Shinobi Firecrackers Prosthetic.
 
@@ -6103,6 +6166,15 @@ There are 9 Gamefowl in Ashina Depths. 6 of them are located in the Hidden Fores
 2 can be encountered in the Hidden Forest on the right path towards [Mist Noble](/wiki/mist-noble)
 1 can be encountered in Mibu Village ontop of the big house closest to the lit up tree.
 2 can be encountered in Mibu Village on the other side of the Mibu Lake by the waterfall.',4,2,'2026-10-24 14:53:21.557664');
+INSERT INTO "wiki_revisions" VALUES(104,40,'Snap Seed','## Snap Seed
+A Snap Seed is a Consumable Quick Item that on use can break illusions.
+
+## Acquisition
+### Ashina Depths
+3x can be picked up in the Hidden Forest above the Headless miniboss when heading towards Mist Noble.
+### Sunken Valley
+1x can be picked up next to the Toxic Memorial Mob.
+3x can be picked up at the Gunfort under some wooden battlements before the cave leading to [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).',4,2,'2026-10-25 13:22:43.947906');
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
 COMMIT;
