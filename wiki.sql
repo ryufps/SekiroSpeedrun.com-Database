@@ -1641,6 +1641,74 @@ If you want to download and use a save file from another player, you need to do 
 7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
 
 ',1,1,'2026-10-25 20:05:38.334929','rejected','2026-10-25 20:05:38.334577','2026-10-25 20:06:54.908932',1,'test',NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(40,87,'Boss','## Boss
+A Boss is generally defined as an enemy with an on-screen Boss health that is embedded in the HUD.
+
+## Memory Boss
+### List of Memory Boss Encounters
+There are 14 Memory Boss Encounters. Note: the Emma Isshin encounter in the final bossfight of the Shura Ending can''t be done on the same NG Cycle as the other 13.
+* [Gyoubu Oniwa](/wiki/gyoubu-oniwa)
+* Lady Butterfly
+* Genichiro Ashina
+* Folding Screen Monkeys
+* [Guardian Ape](/wiki/guardian-ape)
+* Headless Ape
+* Corrupted Monk
+* True Corrupted Monk
+* Great Shinobi Owl
+* Owl (Father)
+* [Divine Dragon](/wiki/divine-dragon)
+* Genichiro, Way of Tomoe & Isshin, the Sword Saint
+* [Demon of Hatred](/wiki/demon-of-hatred)
+* Emma, the Gentle Blade & Isshin Ashina
+
+## Miniboss
+A Miniboss is characterized by its smaller version of the on-screen Boss healthbar.
+
+### List of Miniboss Encounters
+There are 37 Miniboss encounters.
+* [Leader Shigenori Yamauchi](/wiki/leader-shigenori-yamauchi)
+* [General Naomori Kawarada](/wiki/general-naomori-kawarada)
+* [Chained Ogre (Outskirts)](/wiki/chained-ogre-outskirts)
+* [Blazing Bull](/wiki/blazing-bull)
+* Lone Shadow Longswordsman
+* [Snake Eyes Shirahagi](/wiki/snake-eyes-shirahagi)
+* [Mist Noble](/wiki/mist-noble)
+* Shichimen (Abandoned Dungeon)
+* [Armored Warrior](/wiki/armored-warrior)
+* Ashina Elite Jinsuke Saze
+* General Kuranosuke Matsumoto
+* [Snake Eyes Shirafuji](/wiki/snake-eyes-shirafuji)
+* [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe)
+* Seven Ashina Spears - Shikibu Toshikatsu Yamauchi
+* Okami Leader Shizu
+* [Headless (Yashariku)](/wiki/headless-yashariku)
+* Sakura Bull of the Palace
+* [General Tenzen Yamauchi](/wiki/general-tenzen-yamauchi)
+* [Headless (Ako)](/wiki/headless-ako)
+* [Headless (Ungo)](/wiki/headless-ungo)
+* Lone Shadow Masanaga the Spear-Bearer (Serpent’s Shrine)
+* [Headless (Gokan)](/wiki/headless-gokan)
+* Shigekichi of the Red Guard
+* Shinobi Hunter Enshin of Misen
+* Juzou the Drunkard (Hirata 1)
+* Long-arm Centipede Sen’un
+* Lone Shadow Masanaga the Spear-Bearer (Hirata 2)
+* Juzou the Drunkard (Hirata 2)
+* Ashina Elite Ujinari Mizuo
+* [Lone Shadow Vilehand](/wiki/lone-shadow-vilehand)
+* Chained Ogre (Ashina Castle)
+* Seven Ashina Spears - Shume Masaji Oniwa
+* O’Rin of the Water
+* [Headless (Gachiin)](/wiki/headless-gachiin)
+* [Tokujiro the Glutton](/wiki/tokujiro-the-glutton)
+* Shichimen (Ape’s Burrow)
+* Shichimen (Fountainhead)
+
+## Misc Bosses
+* Tutorial Genichiro
+* Great Serpent
+* Great Colored Carp',4,2,'2026-10-26 22:19:32.472769','approved','2026-10-26 22:19:32.472409','2026-10-26 22:19:37.257926',2,NULL,NULL,NULL,NULL);
 CREATE TABLE users (
 	id INTEGER NOT NULL, 
 	username VARCHAR(80) NOT NULL, 
@@ -2884,13 +2952,13 @@ There are 37 Miniboss encounters.
 * [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe)
 * Seven Ashina Spears - Shikibu Toshikatsu Yamauchi
 * Okami Leader Shizu
-* Headless (Yashariku)
+* [Headless (Yashariku)](/wiki/headless-yashariku)
 * Sakura Bull of the Palace
 * [General Tenzen Yamauchi](/wiki/general-tenzen-yamauchi)
-* Headless (Ako)
-* Headless (Ungo)
+* [Headless (Ako)](/wiki/headless-ako)
+* [Headless (Ungo)](/wiki/headless-ungo)
 * Lone Shadow Masanaga the Spear-Bearer (Serpent’s Shrine)
-* Headless (Gokan)
+* [Headless (Gokan)](/wiki/headless-gokan)
 * Shigekichi of the Red Guard
 * Shinobi Hunter Enshin of Misen
 * Juzou the Drunkard (Hirata 1)
@@ -2902,7 +2970,7 @@ There are 37 Miniboss encounters.
 * Chained Ogre (Ashina Castle)
 * Seven Ashina Spears - Shume Masaji Oniwa
 * O’Rin of the Water
-* Headless (Gachiin)
+* [Headless (Gachiin)](/wiki/headless-gachiin)
 * [Tokujiro the Glutton](/wiki/tokujiro-the-glutton)
 * Shichimen (Ape’s Burrow)
 * Shichimen (Fountainhead)
@@ -2910,7 +2978,7 @@ There are 37 Miniboss encounters.
 ## Misc Bosses
 * Tutorial Genichiro
 * Great Serpent
-* Great Colored Carp','approved',NULL,NULL,NULL,4,2,'2026-10-03 11:02:07.437714','2026-10-04 12:30:20.595346','boss','2026-10-03 11:02:07.435847','2026-10-04 05:54:49.361038',2,NULL,'Boss','## Boss
+* Great Colored Carp','approved',NULL,NULL,NULL,4,2,'2026-10-03 11:02:07.437714','2026-10-26 22:19:37.258461','boss','2026-10-03 11:02:07.435847','2026-10-04 05:54:49.361038',2,NULL,'Boss','## Boss
 A Boss is generally defined as an enemy with an on-screen Boss health that is embedded in the HUD.
 
 ## Memory Boss
@@ -6175,6 +6243,74 @@ A Snap Seed is a Consumable Quick Item that on use can break illusions.
 ### Sunken Valley
 1x can be picked up next to the Toxic Memorial Mob.
 3x can be picked up at the Gunfort under some wooden battlements before the cave leading to [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).',4,2,'2026-10-25 13:22:43.947906');
+INSERT INTO "wiki_revisions" VALUES(105,87,'Boss','## Boss
+A Boss is generally defined as an enemy with an on-screen Boss health that is embedded in the HUD.
+
+## Memory Boss
+### List of Memory Boss Encounters
+There are 14 Memory Boss Encounters. Note: the Emma Isshin encounter in the final bossfight of the Shura Ending can''t be done on the same NG Cycle as the other 13.
+* [Gyoubu Oniwa](/wiki/gyoubu-oniwa)
+* Lady Butterfly
+* Genichiro Ashina
+* Folding Screen Monkeys
+* [Guardian Ape](/wiki/guardian-ape)
+* Headless Ape
+* Corrupted Monk
+* True Corrupted Monk
+* Great Shinobi Owl
+* Owl (Father)
+* [Divine Dragon](/wiki/divine-dragon)
+* Genichiro, Way of Tomoe & Isshin, the Sword Saint
+* [Demon of Hatred](/wiki/demon-of-hatred)
+* Emma, the Gentle Blade & Isshin Ashina
+
+## Miniboss
+A Miniboss is characterized by its smaller version of the on-screen Boss healthbar.
+
+### List of Miniboss Encounters
+There are 37 Miniboss encounters.
+* [Leader Shigenori Yamauchi](/wiki/leader-shigenori-yamauchi)
+* [General Naomori Kawarada](/wiki/general-naomori-kawarada)
+* [Chained Ogre (Outskirts)](/wiki/chained-ogre-outskirts)
+* [Blazing Bull](/wiki/blazing-bull)
+* Lone Shadow Longswordsman
+* [Snake Eyes Shirahagi](/wiki/snake-eyes-shirahagi)
+* [Mist Noble](/wiki/mist-noble)
+* Shichimen (Abandoned Dungeon)
+* [Armored Warrior](/wiki/armored-warrior)
+* Ashina Elite Jinsuke Saze
+* General Kuranosuke Matsumoto
+* [Snake Eyes Shirafuji](/wiki/snake-eyes-shirafuji)
+* [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe)
+* Seven Ashina Spears - Shikibu Toshikatsu Yamauchi
+* Okami Leader Shizu
+* Headless (Yashariku)
+* Sakura Bull of the Palace
+* [General Tenzen Yamauchi](/wiki/general-tenzen-yamauchi)
+* Headless (Ako)
+* Headless (Ungo)
+* Lone Shadow Masanaga the Spear-Bearer (Serpent’s Shrine)
+* Headless (Gokan)
+* Shigekichi of the Red Guard
+* Shinobi Hunter Enshin of Misen
+* Juzou the Drunkard (Hirata 1)
+* Long-arm Centipede Sen’un
+* Lone Shadow Masanaga the Spear-Bearer (Hirata 2)
+* Juzou the Drunkard (Hirata 2)
+* Ashina Elite Ujinari Mizuo
+* [Lone Shadow Vilehand](/wiki/lone-shadow-vilehand)
+* Chained Ogre (Ashina Castle)
+* Seven Ashina Spears - Shume Masaji Oniwa
+* O’Rin of the Water
+* Headless (Gachiin)
+* [Tokujiro the Glutton](/wiki/tokujiro-the-glutton)
+* Shichimen (Ape’s Burrow)
+* Shichimen (Fountainhead)
+
+## Misc Bosses
+* Tutorial Genichiro
+* Great Serpent
+* Great Colored Carp',4,2,'2026-10-26 22:19:37.258885');
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
 COMMIT;
