@@ -373,21 +373,6 @@ Edited
 
 
 ',1,1,'2026-09-29 02:37:18.434774','rejected','2026-09-29 02:37:18.433259','2026-09-29 02:41:11.895733',1,'Test',NULL,NULL,NULL);
-INSERT INTO "pending_edits" VALUES(8,63,'Dojo Skip','## Dojo Skip
-Dojo Skip refers to a trick that skips going inside Ashina Castle and allows early access to the roof. This is most commonly used in glitchless categories before Genichiro. There''s two versions of the skip, Backside & Frontside 
-
-## Backside Dojo Skip
-This version makes use of a window near the intended path to make it onto the roof. This is the easier but slower version of the skip, although it still saves decent time compared to the intended path. This version also allows the player to grab one quick Fistful of Ash found near the window, making it a good option for beginners as it also allows for an easy 5 ash [Corrupted Monk Cheese](https://sekirospeedrun.com/wiki/corrupted-monk-cheese).
-
-koko838 made a tutorial on this version of the skip:
-[youtube]aTMXl5NShj4[/youtube]
-
-## Frontside Dojo Skip
-This is the harder version of the skip, making use of the collision on the front side of the roof and saving around 7 seconds over backside. Note that this can also be performed to reach the roof faster after the first invasion, but the time save there is much smaller.
-
-Pennek has made 2 tutorials on the skip:
-[youtube]Fb3tdwepZnE[/youtube]
-[youtube]vjTOwn6XHaU[/youtube]',3,7,'2026-09-30 16:47:04.996806','approved','2026-09-30 16:47:04.993615','2026-09-30 17:10:44.627663',2,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(9,50,'Corrupted Monk Cheese','## Corrupted Monk Cheese
 Corrupted Monk Cheese refers to performing a stealth deathblow on Corrupted Monk (illusion) after stunning her with enough Snap Seeds and Fistfuls of Ash. It is not considered a glitch in either Speedruns or Hitless Runs.
 
@@ -1709,6 +1694,307 @@ There are 37 Miniboss encounters.
 * Tutorial Genichiro
 * Great Serpent
 * Great Colored Carp',4,2,'2026-10-26 22:19:32.472769','approved','2026-10-26 22:19:32.472409','2026-10-26 22:19:37.257926',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(41,87,'Boss','## Boss
+A Boss is generally defined as an enemy with an on-screen Boss health that is embedded in the HUD.
+
+## Memory Boss
+### List of Memory Boss Encounters
+There are 14 Memory Boss Encounters. Note: the Emma Isshin encounter in the final bossfight of the Shura Ending can''t be done on the same NG Cycle as the other 13.
+* [Gyoubu Oniwa](/wiki/gyoubu-oniwa)
+* Lady Butterfly
+* Genichiro Ashina
+* Folding Screen Monkeys
+* [Guardian Ape](/wiki/guardian-ape)
+* Headless Ape
+* Corrupted Monk
+* True Corrupted Monk
+* Great Shinobi Owl
+* Owl (Father)
+* [Divine Dragon](/wiki/divine-dragon)
+* Genichiro, Way of Tomoe & Isshin, the Sword Saint
+* [Demon of Hatred](/wiki/demon-of-hatred)
+* Emma, the Gentle Blade & Isshin Ashina
+
+## Miniboss
+A Miniboss is characterized by its smaller version of the on-screen Boss healthbar.
+
+### List of Miniboss Encounters
+There are 37 Miniboss encounters.
+* [Leader Shigenori Yamauchi](/wiki/leader-shigenori-yamauchi)
+* [General Naomori Kawarada](/wiki/general-naomori-kawarada)
+* [Chained Ogre (Outskirts)](/wiki/chained-ogre-outskirts)
+* [Blazing Bull](/wiki/blazing-bull)
+* Lone Shadow Longswordsman
+* [Snake Eyes Shirahagi](/wiki/snake-eyes-shirahagi)
+* [Mist Noble](/wiki/mist-noble)
+* Shichimen (Abandoned Dungeon)
+* [Armored Warrior](/wiki/armored-warrior)
+* Ashina Elite Jinsuke Saze
+* General Kuranosuke Matsumoto
+* [Snake Eyes Shirafuji](/wiki/snake-eyes-shirafuji)
+* [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe)
+* Seven Ashina Spears - Shikibu Toshikatsu Yamauchi
+* Okami Leader Shizu
+* [Headless (Yashariku)](/wiki/headless-yashariku)
+* Sakura Bull of the Palace
+* [General Tenzen Yamauchi](/wiki/general-tenzen-yamauchi)
+* [Headless (Ako)](/wiki/headless-ako)
+* [Headless (Ungo)](/wiki/headless-ungo)
+* Lone Shadow Masanaga the Spear-Bearer (Serpent’s Shrine)
+* [Headless (Gokan)](/wiki/headless-gokan)
+* [Shigekichi of the Red Guard](/wiki/shigekichi-of-the-red-guard)
+* Shinobi Hunter Enshin of Misen
+* Juzou the Drunkard (Hirata 1)
+* Long-arm Centipede Sen’un
+* Lone Shadow Masanaga the Spear-Bearer (Hirata 2)
+* Juzou the Drunkard (Hirata 2)
+* Ashina Elite Ujinari Mizuo
+* [Lone Shadow Vilehand](/wiki/lone-shadow-vilehand)
+* Chained Ogre (Ashina Castle)
+* Seven Ashina Spears - Shume Masaji Oniwa
+* O’Rin of the Water
+* [Headless (Gachiin)](/wiki/headless-gachiin)
+* [Tokujiro the Glutton](/wiki/tokujiro-the-glutton)
+* Shichimen (Ape’s Burrow)
+* Shichimen (Fountainhead)
+
+## Misc Bosses
+* Tutorial Genichiro
+* Great Serpent
+* Great Colored Carp',4,2,'2026-10-27 18:56:45.777247','approved','2026-10-27 18:56:45.776919','2026-10-27 18:56:49.433880',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(42,2,'Practice Tools','## Practice Tools
+Practice Tools are used to practice more efficiently. Multiple different tools are available, all of which have different benefits.
+
+Aside from Practice Tools, it is recommended that everyone use the [Save Organizer](https://sekirospeedrun.com/wiki/1). The Save Organizer is the most important tool, so make sure to get that up and running first.
+
+- [SekiroTool by Shilkey & Lecentz](https://github.com/borgCode/SekiroTool/releases)
+- [JohnDiSanDonato''s Practice Tool](https://github.com/veeenu/sekiro-practice-tool/releases)
+- [Cheat Engine](https://sekirospeedrun.com/wiki/4)
+
+## Support
+Practice tools are made by volunteers from the community. Some of the practice tool developers may not be updating their tools anymore. For help and questions it is best to ask in the #support channel on the [Sekiro Speedrunning Discord server](https://discord.gg/A7kWEPkKEq).
+
+## Online Ban
+Sekiro does not have a real online mode, therefore you cannot get banned. However, if you use the [Sekiro Online mod](https://www.nexusmods.com/sekiro/mods/577) with any of the Practice Tools, you will most likely get banned.',1,2,'2026-10-27 20:01:31.943873','approved','2026-10-27 20:01:31.943532','2026-10-27 20:01:36.898252',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(43,17,'Sculptor''s Idol','## Sculptor''s Idol
+Sculptor''s Idols serve as checkpoints and allow the player a variety of options including to rest.
+
+## List of Idols
+Grouped like in the travel menu. Note that a Sculptor''s Idol might not actually be placed in the map that the travel Menu suggests (e.g, Poison Pool is in the Sunken Valley Map, but is grouped under Ashina Depths on the travel menu).
+
+#### Ashina Outskirts
+- Dilapidated Temple
+- Ashina Outskirts
+- Outskirts Wall - Gate Path
+- Outskirts Wall - Stairway
+- Underbridge Valley
+- Ashina Castle Gate Fortress
+- Ashina Castle Gate
+
+#### Ashina Castle
+- Ashina Castle
+- Upper Tower - Antechamber
+- Upper Tower - Ashina Dojo
+- Castle Tower Lookout
+- Upper Tower - Kuro''s Room
+- Old Grave
+- Abandoned Dungeon Entrance
+- Ashina Reservoir
+- Near Secret Passage
+
+#### Abandoned Dungeon
+- Underground Waterway
+- Bottomless Hole
+
+#### Senpou Temple, Mt. Kongo
+- Senpou Temple, Mt. Kongo
+- Shugendo
+- Temple Grounds
+- Main Hall
+- Inner Sanctum
+- Sunken Valley Cavern
+- Bell Demon''s Temple
+
+#### Sunken Valley
+- Riven Cave
+- Bodhisattva Valley
+- Guardian Ape''s Watering Hole
+
+#### Ashina Depths
+- Ashina Depths
+- Poison Pool
+- Hidden Forest
+- Mibu Village
+- Water Mill
+- Wedding Cave Door
+
+#### Fountainhead Palace
+- Fountainhead Palace
+- Vermillion Bridge
+- Mibu Manor
+- Flower Viewing Stage
+- Great Sakura
+- Palace Grounds
+- Feeding Grounds
+- Near Pot Noble
+- Sanctuary
+
+#### Hirata Estate
+- Dragonspring - Hirata Estate
+- Estate Path
+- Bamboo Thicket Slope
+- Hirata Estate - Main Hall
+- Hirata Audience Chamber
+- Hirata Estate - Hidden Temple
+
+## Last Idol IDs
+Internally, the game has IDs for the location of your last Idol. This not only includes locations of actual Sculptor''s Idols but also of default map locations and checkpoints (such as the location inside the Temple at Dilapidated Temple after the tutorial section).
+
+### In-use List
+This in-use list contains the IDs that the game will use during normal operation.
+
+(to be added)
+
+### Full list
+This full list contains all **known** working IDs.
+
+1002949 - Hirata Map Default Location
+1002950 - Dragonspring - Hirata Estate
+1002951 - Estate Path
+1002952 - Bamboo Thicket Slope
+1002953 - Hirata Estate - Main Hall
+1002954 - Hirata Estate - Hidden Temple
+1002955 - Hirata Audience Chamber
+1002956 - Hirata Map Default Location
+1002957 - Hirata Map Default Location
+1002959 - Hitara Map Default Location
+
+1102949 - Ashina Outskirts Map Default Location
+1102950 - Dilapidated Temple
+1102951 - Outskirts Wall - Gate Path
+1102952 - Outskirts Wall - Stairway
+1102953 - Underbridge Valley
+1102954 - Ashina Castle Gate Fortress
+1102955 - Ashina Castle Gate
+1102956 - Ashina Outskirts 
+1102957 - Flames of Hatred
+1102958 - Ashina Outskirts Broken Bridge
+1102959 - Ashina Outskirts After Chained Ogre
+1102960 - Ashina Castle Gate
+1102961 - Ashina Outskirts Map Default Location
+1102962 - Ashina Outskirts Map Default Location
+1102963 - Ashina Outskirts Map Default Location
+1102964 - Ashina Outskirts Map Default Location
+
+1112949 - Ashina Castle Map Default Location
+1112950 - Ashina Castle
+1112951 - Upper Tower - Antechamber
+1112952 - Castle Tower Lookout
+1112953 - Upper Tower - Kuro’s Room
+1112954 - Great Serpent Shrine
+1112955 - Abandoned Dungeon Entrance
+1112956 - Old Grave
+1112957 - Upper Tower - Ashina Dojo
+1112958 - Ashina Castle Map Default Location
+1112959 - Ashina Castle Map Default Location
+
+1122949 - Game Start Location
+1122950 - Near Secret Passage
+1122951 - Ashina Reservoir
+1122952 - Game Start Location
+1122953 - Game Start Location
+1122954 - Game Start Location
+
+1302948 - Abandoned Dungeon Map Default Location
+1302949 - Abandoned Dungeon Map Default Location
+1302950 - Underground Waterway
+1302951 - Bottomless Hole
+1302952 - Abandoned Dungeon Map Default Location
+1302953 - Abandoned Dungeon Map Default Location
+1302954 - Abandoned Dungeon Map Default Location	
+
+1502949 - Ashina Depths Map Default Location
+1502950 - Hidden Forest
+1502951 - Mibu Village
+1502952 - Water Mill
+1502953 - Wedding Cave
+1502954 - Ashina Depths Map Default Location
+1502955 - Ashina Depths Map Default Location
+
+1702948 - Sunken Valley Default Location
+1702949 - Sunken Valley Default Location
+1702950 - Sunken Valley
+1702951 - Gun Fort
+1702952 - Riven Cave
+1702953 - Guardian Ape’s Watering Hole
+1702954 - Poison Pool
+1702955 - Ashina Depths
+1702956 - Guardian Ape’s Burrow
+1702957 - Under-Shrine Valley
+1702958 - Bodhisattva Valley
+1702959 - Sunken Valley Default Location
+1702960 - Sunken Valley Default Location
+
+2002948 - Senpou Map Default Location
+2002949 - Senpou Map Default Location
+2002950 - Senpou Temple, Mt. Kongo
+2002951 - Shugendo
+2002952 - Temple Grounds
+2002953 - Main Hall
+2002954 - Inner Sanctum
+2002955 - Sunken Valley Cavern
+2002956 - Bell Demon’s Temple
+2002957 - Inner Sanctum Post-Monkeys Location
+2002958 - Monkeys Arena
+2002959 - Senpou Map Default Location
+2002960 - Senpou Map Default Location
+
+2502948 - Fountainhead Palace Map Default Location
+2502949 - Fountainhead Palace Map Default Location
+2502950 - Fountainhead Palace
+2502951 - Vermilion Bridge
+2502952 - Flower Viewing Stage
+2502953 - Great Sakura
+2502954 - Palace Grounds
+2502955 - Sanctuary
+2502956 - Mibu Manor
+2502957 - Feeding Grounds
+2502958 - Near Pot Noble
+2502959 - Fountainhead Palace Map Default Location
+2502960 - Fountainhead Palace Map Default Location',4,2,'2026-10-27 20:06:27.059231','approved','2026-10-27 20:06:27.058113','2026-10-27 20:07:14.177526',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(44,6,'Gyoubu Skip','## Gyoubu Skip
+Gyoubu Skip, also known as Horse Skip, is a skip with multiple variations that involves circumventing needing to fight [Gyoubu Oniwa](/wiki/gyoubu-oniwa).
+
+## Tower Jump Variation
+Using a [Delayed Jump](https://sekirospeedrun.com/wiki/delayed-jump) the top of the tower near the Ashina Castle Gate, you can reach the top of the wall with a ledgegrab.
+
+## Mist Raven Variation
+Using [Contact Medicine](/wiki/contact-medicine) to poison yourself and then using Mist Raven lets you do [Mist Raven On-Demand](/wiki/mist-raven-on-demand), which can give a vertical teleport if used while standing still on the ground. Normally, you cannot wall jump after using Mist Raven. But if you block mid air after getting the vertical teleport, you regain the ability to wall jump. This requires the Mid-air Deflection Skill. After the vertical teleport, you can wall jump up high enough to reach the roof with a ledgegrab.
+Video Example:
+[youtube]eIv7gEKePEQ[/youtube]
+
+On version 1.04 and below, you can also add in a ledge grab after the block to allow the player to walljump earlier, making it easier to reach the top.
+The exact inputs are: use Mist Raven, block, ledgegrab, walljump. As soon as the block starts, you press ledgegrab to cancel out of the block and walljump.
+Video Example:
+[youtube]Y9IxrDVZtNk [/youtube]
+
+Note: The height gained from a vertical Mist Raven teleport is inconsistent, sometimes you will get a low teleport for seemingly no reason. This has not been figured out yet, but is theorized to be impacted by framerate.
+
+This has been used in Mortal Journey Gauntlet Restricted, and in any other category where you have the necessary items and need to kill Gyoubu and immediately interact with the Ashina Castle Gate Sculptor''s Idol, where going to the tower would be a detour. However, it is not popular due to its inconsistency.
+
+## In Glitchless
+Gyoubu Skip is not allowed in Glitchless Speedruns. However, the Tower Jump is allowed after Gyoubu has been defeated. When done in Glitchless, this is usually referred to as "Tower Jump" and can be used to skip having to open the gate. In Glitchless, you generally want to go to the gate and upgrade Attack Power at the [Sculptor''s Idol](/wiki/sculptor-s-idol) before the [Blazing Bull](/wiki/blazing-bull) fight, wherefrom opening the door is faster than Tower Jump. However, Tower Jump can be done as part of the [Attack Power 1 Bull](/wiki/attack-power-1-bull), which can be faster. It can also be used to save time in runs where the attack power upgrade is not necessary such as in NG+ Glitchless Speedruns. In other cases, Tower Jump is generally slower for Glitchless runs.
+
+## History
+Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,14,'2026-10-27 21:04:48.887721','approved','2026-10-27 21:04:48.886608','2026-10-27 21:13:47.941923',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(45,147,'Zee4 Akoless Centipede','## Zee4 Akoless Centipede
+Zee4 Akoless Centipede, also known as C4 Akoless Centipede, is a strategy for [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe) that skips using an [Ako''s Sugar](/wiki/ako-s-sugar) in order to save time by not needing to pick up the Ako.
+
+koko838 made the following tutorial:
+ [youtube]dbfkt2KEcLg[/youtube] 
+
+## History
+Despite its name, the original strategy was not found by Zee4. Zee4 said he saw it from someone else. But he posted it on the Speedrun Discord, which is why it was named after him.',3,7,'2026-10-28 00:17:34.837901','pending','2026-10-28 00:17:34.837541',NULL,NULL,NULL,NULL,NULL,NULL);
 CREATE TABLE users (
 	id INTEGER NOT NULL, 
 	username VARCHAR(80) NOT NULL, 
@@ -1732,6 +2018,7 @@ INSERT INTO "users" VALUES(10,'Yv999','','user',NULL,'2026-09-17 16:40:09.973183
 INSERT INTO "users" VALUES(11,'Typical','','user',NULL,'2026-09-18 03:22:38.313999',0);
 INSERT INTO "users" VALUES(12,'XiaoXiangYeYu','','user','https://files.catbox.moe/9w5ayl.jpeg','2026-09-18 09:19:46.471228',0);
 INSERT INTO "users" VALUES(13,'jvnjvn','','user',NULL,'2026-09-19 08:55:19.921610',0);
+INSERT INTO "users" VALUES(14,'SaraToga','','verified','https://cdn.discordapp.com/attachments/591316193126776848/1564745355583557783/neiro.png?ex=6ae2622c&is=6ae110ac&hm=04bdd832800471ed5045c7f1fac19cd0172797ca6c3fe824b49940d02fa64683','2026-10-27 20:58:06.223265',0);
 CREATE TABLE wiki_pages (
 	id INTEGER NOT NULL, 
 	title VARCHAR(150) NOT NULL, 
@@ -1800,19 +2087,19 @@ If you want to download and use a save file from another player, you need to do 
 
 ','approved',NULL,NULL,NULL,1,2,'2026-02-22 12:17:05.314734','2026-10-14 13:01:19.200542','save-file-organizer',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(2,'Practice Tools','## Practice Tools
-Practice tools are used to practice more efficiently. Multiple different tools are available, all of which have different benefits.
+Practice Tools are used to practice more efficiently. Multiple different tools are available, all of which have different benefits.
 
-Aside from Practice Tools, it is recommended that everyone use the [Save Organizer](https://sekirospeedrun.com/wiki/1). The Save Organizer ends up being the most important tool, so make sure to get that up and running first.
+Aside from Practice Tools, it is recommended that everyone use the [Save Organizer](https://sekirospeedrun.com/wiki/1). The Save Organizer is the most important tool, so make sure to get that up and running first.
 
 - [SekiroTool by Shilkey & Lecentz](https://github.com/borgCode/SekiroTool/releases)
 - [JohnDiSanDonato''s Practice Tool](https://github.com/veeenu/sekiro-practice-tool/releases)
 - [Cheat Engine](https://sekirospeedrun.com/wiki/4)
 
 ## Support
-Practice tools are made by volunteers from the community and thus may have bugs. Some of the practice tool developers may not be updating their tools anymore. For help and questions it is best to ask in the #support channel on the [Sekiro Speedrunning Discord server](https://discord.gg/A7kWEPkKEq).
+Practice tools are made by volunteers from the community. Some of the practice tool developers may not be updating their tools anymore. For help and questions it is best to ask in the #support channel on the [Sekiro Speedrunning Discord server](https://discord.gg/A7kWEPkKEq).
 
 ## Online Ban
-Sekiro does not have a real online mode, therefore you cannot get banned. However, if you use the Sekiro Online mod with cheats from any of the Practice Tools, you will most likely get banned.','approved',NULL,NULL,NULL,1,2,'2026-02-22 13:03:25.682704','2026-07-19 00:44:18.933714','practice-tools',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Sekiro does not have a real online mode, therefore you cannot get banned. However, if you use the [Sekiro Online mod](https://www.nexusmods.com/sekiro/mods/577) with any of the Practice Tools, you will most likely get banned.','approved',NULL,NULL,NULL,1,2,'2026-02-22 13:03:25.682704','2026-10-27 20:01:36.900678','practice-tools',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(3,'Inside Ako (Mikiri) Armored Warrior','## Inside Ako (Mikiri) Armored Warrior
 
 Inside Ako Mikiri Armored Warrior, also known as Mikiri Roberto, involves using the Ako inside Armored Warrior''s arena right in front of him to buff up while simultaneously triggering his AI to start up an attack. This saves time over buffing outside, as normally you need to wait a moment for his AI to properly respond to you being there. Mikiri is used as a key part of the strategy because a Thrust attack can be baited out consistently every time with this approach.
@@ -1866,8 +2153,8 @@ Using [Contact Medicine](/wiki/contact-medicine) to poison yourself and then usi
 Video Example:
 [youtube]eIv7gEKePEQ[/youtube]
 
-On version 1.04 and below, you can also add in a ledge grab before the block to allow the player to walljump earlier, making it easier to reach the top.
-The exact inputs are: use Mist Raven, ledgegrab, block, walljump. As soon as the ledgegrab starts, you press block to cancel out of the ledge grab and walljump.
+On version 1.04 and below, you can also add in a ledge grab after the block to allow the player to walljump earlier, making it easier to reach the top.
+The exact inputs are: use Mist Raven, block, ledgegrab, walljump. As soon as the block starts, you press ledgegrab to cancel out of the block and walljump.
 Video Example:
 [youtube]Y9IxrDVZtNk [/youtube]
 
@@ -1879,7 +2166,7 @@ This has been used in Mortal Journey Gauntlet Restricted, and in any other categ
 Gyoubu Skip is not allowed in Glitchless Speedruns. However, the Tower Jump is allowed after Gyoubu has been defeated. When done in Glitchless, this is usually referred to as "Tower Jump" and can be used to skip having to open the gate. In Glitchless, you generally want to go to the gate and upgrade Attack Power at the [Sculptor''s Idol](/wiki/sculptor-s-idol) before the [Blazing Bull](/wiki/blazing-bull) fight, wherefrom opening the door is faster than Tower Jump. However, Tower Jump can be done as part of the [Attack Power 1 Bull](/wiki/attack-power-1-bull), which can be faster. It can also be used to save time in runs where the attack power upgrade is not necessary such as in NG+ Glitchless Speedruns. In other cases, Tower Jump is generally slower for Glitchless runs.
 
 ## History
-Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.','approved',NULL,NULL,NULL,3,2,'2026-03-10 17:59:05.393876','2026-10-14 10:52:16.152375','gyoubu-skip',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.','approved',NULL,NULL,NULL,3,2,'2026-03-10 17:59:05.393876','2026-10-27 21:13:47.942427','gyoubu-skip',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(7,'Attack Power 1 Bull','## Attack Power 1 Bull
 
 Attack Power 1 Bull, or AP1 Bull, is a strategy for Glitchless that involves fighting Blazing Bull at 1 Attack Power after using the tower to perform Gyoubu Skip to skip opening the gate. This is only allowed in Glitchless after Gyoubu has been killed. When used in this way in glitchless, Gyoubu Skip is usually referred to as Tower Jump instead because you are not actually skipping Gyoubu.
@@ -2130,7 +2417,7 @@ INSERT INTO "wiki_pages" VALUES(17,'Sculptor''s Idol','## Sculptor''s Idol
 Sculptor''s Idols serve as checkpoints and allow the player a variety of options including to rest.
 
 ## List of Idols
-As grouped by the Travel Menu.
+Grouped like in the travel menu. Note that a Sculptor''s Idol might not actually be placed in the map that the travel Menu suggests (e.g, Poison Pool is in the Sunken Valley Map, but is grouped under Ashina Depths on the travel menu).
 
 #### Ashina Outskirts
 - Dilapidated Temple
@@ -2311,7 +2598,7 @@ This full list contains all **known** working IDs.
 2502957 - Feeding Grounds
 2502958 - Near Pot Noble
 2502959 - Fountainhead Palace Map Default Location
-2502960 - Fountainhead Palace Map Default Location','approved',NULL,NULL,NULL,4,2,'2026-03-14 08:29:19.127232','2026-10-24 13:15:29.761182','sculptor-s-idol',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+2502960 - Fountainhead Palace Map Default Location','approved',NULL,NULL,NULL,4,2,'2026-03-14 08:29:19.127232','2026-10-27 20:07:14.179190','sculptor-s-idol',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(18,'Canyon Skip','## Canyon Skip
 Not to be confused with Snake Skip. Canyon Skip refers to two possible skips that are performed in the canyon area of Ashina Outskirts where the Great Serpent is encountered for the first time.
 
@@ -2671,27 +2958,6 @@ INSERT INTO "wiki_pages" VALUES(61,'Black Gunpowder','## Black Gunpowder
 Black Gunpowder is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:03:42.766712','2026-09-17 18:04:10.599255','black-gunpowder',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(62,'Pine Resin Ember','## Pine Resin Ember
 Pine Resin Ember is a unique Upgrade Material Item used in Prosthetic Upgrading to unlock Okinaga''s Flame Vent.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:07:54.778827','2026-09-17 18:08:00.519366','pine-resin-ember',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
-INSERT INTO "wiki_pages" VALUES(63,'Dojo Skip','## Dojo Skip
-Dojo Skip refers to a trick that skips going inside Ashina Castle and allows early access to the roof. This is most commonly used in glitchless categories before Genichiro. There''s two versions of the skip, Backside & Frontside 
-
-## Backside Dojo Skip
-This version makes use of a window near the intended path to make it onto the roof. This is the easier but slower version of the skip, although it still saves decent time compared to the intended path. This version also allows the player to grab one quick Fistful of Ash found near the window, making it a good option for beginners as it also allows for an easy 5 ash [Corrupted Monk Cheese](https://sekirospeedrun.com/wiki/corrupted-monk-cheese).
-
-koko838 made a tutorial on this version of the skip:
-[youtube]aTMXl5NShj4[/youtube]
-
-## Frontside Dojo Skip
-This is the harder version of the skip, making use of the collision on the front side of the roof and saving around 7 seconds over backside. Note that this can also be performed to reach the roof faster after the first invasion, but the time save there is much smaller.
-
-Pennek has made 2 tutorials on the skip:
-[youtube]Fb3tdwepZnE[/youtube]
-[youtube]vjTOwn6XHaU[/youtube]','approved',NULL,NULL,NULL,3,7,'2026-09-18 17:47:09.166261','2026-09-30 17:10:44.629270','frontdojo-skip',NULL,'2026-09-30 04:49:19.546420',2,NULL,'Frontdojo Skip','## Frontdojo Skip
-Frontdojo Skip refers to a trick that skips going inside Ashina Castle and allows early access to the roof. This is most commonly used in glitchless categories before Genichiro. Note that it can also be performed to reach the roof faster after the first invasion, but the time save there is much smaller.
-
-## Execution
-Pennek has made 2 tutorials on the skip.
-[youtube]Fb3tdwepZnE[/youtube]
-[youtube]vjTOwn6XHaU[/youtube]',3);
 INSERT INTO "wiki_pages" VALUES(64,'Blazing Bull','## Blazing Bull
 Blazing Bull is a Miniboss that appears in Ashina Castle.','approved',NULL,NULL,NULL,4,2,'2026-09-19 05:17:15.128890','2026-09-19 05:31:15.977712','blazing-bull',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(65,'General Naomori Kawarada','## General Naomori Kawarada
@@ -2959,7 +3225,7 @@ There are 37 Miniboss encounters.
 * [Headless (Ungo)](/wiki/headless-ungo)
 * Lone Shadow Masanaga the Spear-Bearer (Serpent’s Shrine)
 * [Headless (Gokan)](/wiki/headless-gokan)
-* Shigekichi of the Red Guard
+* [Shigekichi of the Red Guard](/wiki/shigekichi-of-the-red-guard)
 * Shinobi Hunter Enshin of Misen
 * Juzou the Drunkard (Hirata 1)
 * Long-arm Centipede Sen’un
@@ -2978,7 +3244,7 @@ There are 37 Miniboss encounters.
 ## Misc Bosses
 * Tutorial Genichiro
 * Great Serpent
-* Great Colored Carp','approved',NULL,NULL,NULL,4,2,'2026-10-03 11:02:07.437714','2026-10-26 22:19:37.258461','boss','2026-10-03 11:02:07.435847','2026-10-04 05:54:49.361038',2,NULL,'Boss','## Boss
+* Great Colored Carp','approved',NULL,NULL,NULL,4,2,'2026-10-03 11:02:07.437714','2026-10-27 18:56:49.434386','boss','2026-10-03 11:02:07.435847','2026-10-04 05:54:49.361038',2,NULL,'Boss','## Boss
 A Boss is generally defined as an enemy with an on-screen Boss health that is embedded in the HUD.
 
 ## Memory Boss
@@ -3073,17 +3339,6 @@ INSERT INTO "wiki_pages" VALUES(100,'Gokan''s Sugar','## Gokan''s Sugar
 Gokan''s Sugar, also known as just Gokan, is a Consumable Quick Item that buffs the player for 30s. If the player has the Devotion skill, the duration will be 45s instead.
 
 Only one Sugar buff can be active at a time. If a new Sugar is used while Ako is already active, it will remove the Ako''s buff and apply the new Sugar''s buff.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:37:27.107567','2026-10-05 13:37:42.662841','gokan-s-sugar','2026-10-05 13:37:27.107149','2026-10-05 13:37:42.662402',2,NULL,NULL,NULL,NULL);
-INSERT INTO "wiki_pages" VALUES(101,'Genichiro Door Cheese','## Genichiro Door Cheese
-This refers to a common cheese performed on phases 1 & 2 of Genichiro , where a setup is used to get him stuck in a corner so the player can attack indefinitely.
-
-## 5 Hits Method
-Ponetchmas made a tutorial explaining the cheese:
-[youtube]shdnn-LEp_s[/youtube]
-
-On some categories like [Shura Restricted](https://sekirospeedrun.com/wiki/shura-restricted), players may need to use Divine Confetti while performing the cheese. To do so, simply replace the 2 attacks used in the setup explained in the tutorial with using the confetti.
-
-## 180s Variation
-An alternate method exists, most commonly seen in Glitchless categories, where instead of baiting Genichiro into the corner, the player drags him inside by performing 180s and slowly pushing him.','pending',NULL,NULL,NULL,3,7,'2026-10-06 01:36:23.003352','2026-10-06 01:36:23.003355','genichiro-door-cheese','2026-10-06 01:36:23.002915',NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(102,'Mibu Possession Balloon','## Mibu Possession Balloon
 Mibu Possession Balloon is a Consumable Quick Item that on use makes the player receive item drops from enemies at a higher rate for 2m30s (not affected by the Devotion skill).','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:07:19.293600','2026-10-06 18:11:51.950903','mibu-possession-balloon','2026-10-06 18:07:19.293165','2026-10-06 18:11:51.950556',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(103,'Mibu Balloon of Wealth','## Mibu Balloon of Wealth
@@ -3196,6 +3451,75 @@ There are 9 Gamefowl in Ashina Depths. 6 of them are located in the Hidden Fores
 2 can be encountered in the Hidden Forest on the right path towards [Mist Noble](/wiki/mist-noble)
 1 can be encountered in Mibu Village ontop of the big house closest to the lit up tree.
 2 can be encountered in Mibu Village on the other side of the Mibu Lake by the waterfall.','approved',NULL,NULL,NULL,4,2,'2026-10-24 14:48:58.659340','2026-10-24 14:53:21.557299','gamefowl','2026-10-24 14:48:58.658931','2026-10-24 14:49:07.002915',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(143,'Shigekichi of the Red Guard','## Shigekichi of the Red Guard
+Shigekichi of the Red Guard is a Miniboss.','approved',NULL,NULL,NULL,4,2,'2026-10-27 18:56:11.052946','2026-10-27 18:56:16.352685','shigekichi-of-the-red-guard','2026-10-27 18:56:11.051971','2026-10-27 18:56:16.352334',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(144,'Dojo Skip','## Dojo Skip
+Dojo Skip refers to a trick that skips going inside Ashina Castle and allows early access to the roof. This is most commonly used in glitchless categories before Genichiro. There''s two versions of the skip, Backside & Frontside 
+
+## Backside Dojo Skip
+This version makes use of a window near the intended path to make it onto the roof. This is the easier but slower version of the skip, although it still saves decent time compared to the intended path. This version also allows the player to grab one quick Fistful of Ash found near the window, making it a good option for beginners as it also allows for an easy 5 ash [Corrupted Monk Cheese](https://sekirospeedrun.com/wiki/corrupted-monk-cheese).
+
+koko838 made a tutorial on this version of the skip:
+[youtube]aTMXl5NShj4[/youtube]
+
+## Frontside Dojo Skip
+This is the harder version of the skip, making use of the collision on the front side of the roof and saving around 7 seconds over backside. Note that this can also be performed to reach the roof faster after the first invasion, but the time save there is much smaller.
+
+Pennek has made 2 tutorials on the skip:
+[youtube]Fb3tdwepZnE[/youtube]
+[youtube]vjTOwn6XHaU[/youtube]','approved',NULL,NULL,NULL,3,7,'2026-10-27 20:17:28.607436','2026-10-27 20:19:44.579128','dojo-skip','2026-10-27 20:17:28.606870','2026-10-27 20:19:44.578788',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(145,'Genichiro Corner Cheese','## Genichiro Corner Cheese
+This refers to a common cheese performed on phases 1 & 2 of Genichiro Ashina, where a setup is used to get him stuck in a corner so the player can attack indefinitely.
+
+## 5 Hits Method
+Ponetchmas made a tutorial explaining the cheese:
+[youtube]shdnn-LEp_s[/youtube]
+
+On some categories like [Shura Restricted](https://sekirospeedrun.com/wiki/shura-restricted), players may need to use Divine Confetti while performing the cheese. To do so, simply replace the 2 attacks used in the setup explained in the tutorial with using the confetti.
+
+## 180s Variation
+An alternate method exists, most commonly seen in Glitchless categories, where instead of baiting Genichiro into the corner, the player drags him inside by performing 180s and slowly pushing him.','approved',NULL,NULL,NULL,3,7,'2026-10-27 20:23:01.072204','2026-10-27 20:25:57.406065','genichiro-corner-cheese','2026-10-27 20:23:01.071646','2026-10-27 20:25:57.405733',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(146,'Divine Confetti','## Divine Confetti
+Divine Confetti is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 20:23:13.854678','2026-10-27 20:23:24.049608','divine-confetti','2026-10-27 20:23:13.854262','2026-10-27 20:23:24.049273',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(147,'Zee4 Akoless Centipede','## Zee4 Akoless Centipede
+Zee4 Akoless Centipede, also known as C4 Akoless Centipede, is a strategy for [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe) that skips using an [Ako''s Sugar](/wiki/ako-s-sugar) in order to save time by not needing to pick up the Ako.
+
+## History
+Despite its name, the original strategy was not found by Zee4. Zee4 said he saw it from someone else. But he posted it on the Speedrun Discord, which is why it was named after him.','approved',NULL,NULL,NULL,3,2,'2026-10-27 20:54:17.248015','2026-10-27 20:54:23.768011','zee4-akoless-centipede','2026-10-27 20:54:17.246706','2026-10-27 20:54:23.767657',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(148,'Ungo''s Sugar','## Ungo''s Sugar
+Ungo''s Sugar is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:00:39.301678','2026-10-27 21:01:15.466222','ungo-s-sugar','2026-10-27 21:00:39.301253','2026-10-27 21:01:15.465770',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(149,'Gachiin''s Sugar','## Gachiin''s Sugar
+Gachiin''s Sugar is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:01:03.823256','2026-10-27 21:01:19.943137','gachiin-s-sugar','2026-10-27 21:01:03.822854','2026-10-27 21:01:19.942795',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(150,'Dragon''s Tally Board','## Dragon''s Tally Board
+The Dragon''s Tally Board is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:04:14.745806','2026-10-27 21:09:15.973984','dragon-s-tally-board','2026-10-27 21:04:14.745253','2026-10-27 21:09:15.972903',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(151,'Divine Dragon''s Tears','## Divine Dragon''s Tears
+The Divine Dragon''s Tears is a Key Item acquired by using the [Mortal Blade](/wiki/mortal-blade) on the [Divine Dragon](/wiki/divine-dragon) after the bossfight, and is required for the Immortal Severance, Purification and Return endings.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:09:00.844415','2026-10-27 21:09:20.257414','divine-dragon-s-tears','2026-10-27 21:09:00.844006','2026-10-27 21:09:20.256973',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(152,'Immortal Severance Text','## Immortal Severance Text
+The Immortal Severance Text is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:14:59.772303','2026-10-27 21:19:00.997664','immortal-severance-text','2026-10-27 21:14:59.771895','2026-10-27 21:19:00.997313',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(153,'Immortal Severance Scrap','## Immortal Severance Scrap
+The Immortal Severance Scrap is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:15:22.835838','2026-10-27 21:19:03.709353','immortal-severance-scrap','2026-10-27 21:15:22.835424','2026-10-27 21:19:03.709015',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(154,'Fragrant Flower Note','## Fragrant Flower Note
+The Fragrant Flower Note is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:15:56.217317','2026-10-27 21:19:06.786581','fragrant-flower-note','2026-10-27 21:15:56.216905','2026-10-27 21:19:06.785408',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(155,'Page''s Diary','## Page''s Diary
+The Page''s Diary is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:16:28.515082','2026-10-27 21:19:14.036656','page-s-diary','2026-10-27 21:16:28.514683','2026-10-27 21:19:14.036317',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(156,'Okami''s Ancient Text','## Okami''s Ancient Text
+The Okami''s Ancient Text is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:17:12.146032','2026-10-27 21:19:20.391410','okami-s-ancient-text','2026-10-27 21:17:12.144757','2026-10-27 21:19:20.391074',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(157,'Gun Fort Shrine Key','## Gun Fort Shrine Key
+The Gun Fort Shrine Key is a Key Item that lets the player open the door after defeating [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:25:46.453986','2026-10-27 21:29:00.013270','gun-fort-shrine-key','2026-10-27 21:25:46.453582','2026-10-27 21:29:00.012908',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(158,'Secret Passage Key','## Secret Passage Key
+The Secret Passage Key is a Key Item acquired by talking to Emma after defeating the Divine Dragon, and lets the player open the Secret Passage door in the Ashina Reservoir to face Sword Saint Isshin.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:28:44.780669','2026-10-27 21:29:04.595801','secret-passage-key','2026-10-27 21:28:44.779328','2026-10-27 21:29:04.595465',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(159,'Slender Finger','## Slender Finger
+The Slender Finger is a Unique Upgrade Material dropped by [Guardian Ape](/wiki/guardian-ape).','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:30:13.993291','2026-10-27 21:30:18.242200','slender-finger','2026-10-27 21:30:13.992023','2026-10-27 21:30:18.241137',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(160,'Pellet','## Pellet
+A Pellet is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:30:56.140165','2026-10-27 21:30:59.335562','pellet','2026-10-27 21:30:56.139757','2026-10-27 21:30:59.335231',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(161,'Treasure Carp Scale','## Treasure Carp Scale
+A Treasure Carp Scale is a Key Item used to purchase items from the Pot Noble merchants.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:35:14.508171','2026-10-27 21:35:19.381965','treasure-carp-scale','2026-10-27 21:35:14.507768','2026-10-27 21:35:19.381619',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(162,'Divine Grass','## Divine Grass
+Divine Grass is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:37:18.106098','2026-10-27 21:38:07.027894','divine-grass','2026-10-27 21:37:18.105696','2026-10-27 21:38:07.027556',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(163,'Oil','## Oil
+Oil is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:38:00.242749','2026-10-27 21:38:08.976552','oil','2026-10-27 21:38:00.242346','2026-10-27 21:38:08.976215',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(164,'Eel Liver','## Eel Liver
+Eel Liver is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:38:45.862195','2026-10-27 21:38:57.020616','eel-liver','2026-10-27 21:38:45.861791','2026-10-27 21:38:57.020283',2,NULL,NULL,NULL,NULL);
 CREATE TABLE wiki_revisions (
 	id INTEGER NOT NULL, 
 	page_id INTEGER, 
@@ -5237,12 +5561,6 @@ INSERT INTO "wiki_revisions" VALUES(73,33,'Yashariku''s Sugar','## Yashariku''s 
 Yashariku''s Sugar, also known as just Yash, is a Consumable Quick Item that buffs the player''s vitality damage by 25% and posture damage by 50% for 30s. If the player has the Devotion skill, the duration will be 45s instead.
 
 Only one Sugar buff can be active at a time. If a new Sugar is used while Yash is already active, it will remove the Yash''s buff and apply the new Sugar''s buff.',4,2,'2026-09-20 06:32:19.749471');
-INSERT INTO "wiki_revisions" VALUES(74,63,'Dojo Skip','## Frontside Dojo Skip
-Frontdojo Skip refers to a trick that skips going inside Ashina Castle and allows early access to the roof. This is most commonly used in glitchless categories before Genichiro. Note that it can also be performed to reach the roof faster after the first invasion, but the time save there is much smaller.
-
-Pennek has made 2 tutorials on the skip.
-[youtube]Fb3tdwepZnE[/youtube]
-[youtube]vjTOwn6XHaU[/youtube]',3,7,'2026-09-30 17:10:44.630744');
 INSERT INTO "wiki_revisions" VALUES(75,50,'Corrupted Monk Cheese','## Corrupted Monk Cheese
 Corrupted Monk Cheese refers to performing a stealth deathblow on Corrupted Monk (illusion) after stunning him with enough Snap Seeds and Fistfuls of Ash. It is not considered a glitch in either Speedruns or Hitless Runs.
 
@@ -6311,6 +6629,299 @@ There are 37 Miniboss encounters.
 * Tutorial Genichiro
 * Great Serpent
 * Great Colored Carp',4,2,'2026-10-26 22:19:37.258885');
+INSERT INTO "wiki_revisions" VALUES(106,87,'Boss','## Boss
+A Boss is generally defined as an enemy with an on-screen Boss health that is embedded in the HUD.
+
+## Memory Boss
+### List of Memory Boss Encounters
+There are 14 Memory Boss Encounters. Note: the Emma Isshin encounter in the final bossfight of the Shura Ending can''t be done on the same NG Cycle as the other 13.
+* [Gyoubu Oniwa](/wiki/gyoubu-oniwa)
+* Lady Butterfly
+* Genichiro Ashina
+* Folding Screen Monkeys
+* [Guardian Ape](/wiki/guardian-ape)
+* Headless Ape
+* Corrupted Monk
+* True Corrupted Monk
+* Great Shinobi Owl
+* Owl (Father)
+* [Divine Dragon](/wiki/divine-dragon)
+* Genichiro, Way of Tomoe & Isshin, the Sword Saint
+* [Demon of Hatred](/wiki/demon-of-hatred)
+* Emma, the Gentle Blade & Isshin Ashina
+
+## Miniboss
+A Miniboss is characterized by its smaller version of the on-screen Boss healthbar.
+
+### List of Miniboss Encounters
+There are 37 Miniboss encounters.
+* [Leader Shigenori Yamauchi](/wiki/leader-shigenori-yamauchi)
+* [General Naomori Kawarada](/wiki/general-naomori-kawarada)
+* [Chained Ogre (Outskirts)](/wiki/chained-ogre-outskirts)
+* [Blazing Bull](/wiki/blazing-bull)
+* Lone Shadow Longswordsman
+* [Snake Eyes Shirahagi](/wiki/snake-eyes-shirahagi)
+* [Mist Noble](/wiki/mist-noble)
+* Shichimen (Abandoned Dungeon)
+* [Armored Warrior](/wiki/armored-warrior)
+* Ashina Elite Jinsuke Saze
+* General Kuranosuke Matsumoto
+* [Snake Eyes Shirafuji](/wiki/snake-eyes-shirafuji)
+* [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe)
+* Seven Ashina Spears - Shikibu Toshikatsu Yamauchi
+* Okami Leader Shizu
+* [Headless (Yashariku)](/wiki/headless-yashariku)
+* Sakura Bull of the Palace
+* [General Tenzen Yamauchi](/wiki/general-tenzen-yamauchi)
+* [Headless (Ako)](/wiki/headless-ako)
+* [Headless (Ungo)](/wiki/headless-ungo)
+* Lone Shadow Masanaga the Spear-Bearer (Serpent’s Shrine)
+* [Headless (Gokan)](/wiki/headless-gokan)
+* Shigekichi of the Red Guard
+* Shinobi Hunter Enshin of Misen
+* Juzou the Drunkard (Hirata 1)
+* Long-arm Centipede Sen’un
+* Lone Shadow Masanaga the Spear-Bearer (Hirata 2)
+* Juzou the Drunkard (Hirata 2)
+* Ashina Elite Ujinari Mizuo
+* [Lone Shadow Vilehand](/wiki/lone-shadow-vilehand)
+* Chained Ogre (Ashina Castle)
+* Seven Ashina Spears - Shume Masaji Oniwa
+* O’Rin of the Water
+* [Headless (Gachiin)](/wiki/headless-gachiin)
+* [Tokujiro the Glutton](/wiki/tokujiro-the-glutton)
+* Shichimen (Ape’s Burrow)
+* Shichimen (Fountainhead)
+
+## Misc Bosses
+* Tutorial Genichiro
+* Great Serpent
+* Great Colored Carp',4,2,'2026-10-27 18:56:49.434764');
+INSERT INTO "wiki_revisions" VALUES(107,2,'Practice Tools','## Practice Tools
+Practice tools are used to practice more efficiently. Multiple different tools are available, all of which have different benefits.
+
+Aside from Practice Tools, it is recommended that everyone use the [Save Organizer](https://sekirospeedrun.com/wiki/1). The Save Organizer ends up being the most important tool, so make sure to get that up and running first.
+
+- [SekiroTool by Shilkey & Lecentz](https://github.com/borgCode/SekiroTool/releases)
+- [JohnDiSanDonato''s Practice Tool](https://github.com/veeenu/sekiro-practice-tool/releases)
+- [Cheat Engine](https://sekirospeedrun.com/wiki/4)
+
+## Support
+Practice tools are made by volunteers from the community and thus may have bugs. Some of the practice tool developers may not be updating their tools anymore. For help and questions it is best to ask in the #support channel on the [Sekiro Speedrunning Discord server](https://discord.gg/A7kWEPkKEq).
+
+## Online Ban
+Sekiro does not have a real online mode, therefore you cannot get banned. However, if you use the Sekiro Online mod with cheats from any of the Practice Tools, you will most likely get banned.',1,2,'2026-10-27 20:01:36.901883');
+INSERT INTO "wiki_revisions" VALUES(108,17,'Sculptor''s Idol','## Sculptor''s Idol
+Sculptor''s Idols serve as checkpoints and allow the player a variety of options including to rest.
+
+## List of Idols
+As grouped by the Travel Menu.
+
+#### Ashina Outskirts
+- Dilapidated Temple
+- Ashina Outskirts
+- Outskirts Wall - Gate Path
+- Outskirts Wall - Stairway
+- Underbridge Valley
+- Ashina Castle Gate Fortress
+- Ashina Castle Gate
+
+#### Ashina Castle
+- Ashina Castle
+- Upper Tower - Antechamber
+- Upper Tower - Ashina Dojo
+- Castle Tower Lookout
+- Upper Tower - Kuro''s Room
+- Old Grave
+- Abandoned Dungeon Entrance
+- Ashina Reservoir
+- Near Secret Passage
+
+#### Abandoned Dungeon
+- Underground Waterway
+- Bottomless Hole
+
+#### Senpou Temple, Mt. Kongo
+- Senpou Temple, Mt. Kongo
+- Shugendo
+- Temple Grounds
+- Main Hall
+- Inner Sanctum
+- Sunken Valley Cavern
+- Bell Demon''s Temple
+
+#### Sunken Valley
+- Riven Cave
+- Bodhisattva Valley
+- Guardian Ape''s Watering Hole
+
+#### Ashina Depths
+- Ashina Depths
+- Poison Pool
+- Hidden Forest
+- Mibu Village
+- Water Mill
+- Wedding Cave Door
+
+#### Fountainhead Palace
+- Fountainhead Palace
+- Vermillion Bridge
+- Mibu Manor
+- Flower Viewing Stage
+- Great Sakura
+- Palace Grounds
+- Feeding Grounds
+- Near Pot Noble
+- Sanctuary
+
+#### Hirata Estate
+- Dragonspring - Hirata Estate
+- Estate Path
+- Bamboo Thicket Slope
+- Hirata Estate - Main Hall
+- Hirata Audience Chamber
+- Hirata Estate - Hidden Temple
+
+## Last Idol IDs
+Internally, the game has IDs for the location of your last Idol. This not only includes locations of actual Sculptor''s Idols but also of default map locations and checkpoints (such as the location inside the Temple at Dilapidated Temple after the tutorial section).
+
+### In-use List
+This in-use list contains the IDs that the game will use during normal operation.
+
+(to be added)
+
+### Full list
+This full list contains all **known** working IDs.
+
+1002949 - Hirata Map Default Location
+1002950 - Dragonspring - Hirata Estate
+1002951 - Estate Path
+1002952 - Bamboo Thicket Slope
+1002953 - Hirata Estate - Main Hall
+1002954 - Hirata Estate - Hidden Temple
+1002955 - Hirata Audience Chamber
+1002956 - Hirata Map Default Location
+1002957 - Hirata Map Default Location
+1002959 - Hitara Map Default Location
+
+1102949 - Ashina Outskirts Map Default Location
+1102950 - Dilapidated Temple
+1102951 - Outskirts Wall - Gate Path
+1102952 - Outskirts Wall - Stairway
+1102953 - Underbridge Valley
+1102954 - Ashina Castle Gate Fortress
+1102955 - Ashina Castle Gate
+1102956 - Ashina Outskirts 
+1102957 - Flames of Hatred
+1102958 - Ashina Outskirts Broken Bridge
+1102959 - Ashina Outskirts After Chained Ogre
+1102960 - Ashina Castle Gate
+1102961 - Ashina Outskirts Map Default Location
+1102962 - Ashina Outskirts Map Default Location
+1102963 - Ashina Outskirts Map Default Location
+1102964 - Ashina Outskirts Map Default Location
+
+1112949 - Ashina Castle Map Default Location
+1112950 - Ashina Castle
+1112951 - Upper Tower - Antechamber
+1112952 - Castle Tower Lookout
+1112953 - Upper Tower - Kuro’s Room
+1112954 - Great Serpent Shrine
+1112955 - Abandoned Dungeon Entrance
+1112956 - Old Grave
+1112957 - Upper Tower - Ashina Dojo
+1112958 - Ashina Castle Map Default Location
+1112959 - Ashina Castle Map Default Location
+
+1122949 - Game Start Location
+1122950 - Near Secret Passage
+1122951 - Ashina Reservoir
+1122952 - Game Start Location
+1122953 - Game Start Location
+1122954 - Game Start Location
+
+1302948 - Abandoned Dungeon Map Default Location
+1302949 - Abandoned Dungeon Map Default Location
+1302950 - Underground Waterway
+1302951 - Bottomless Hole
+1302952 - Abandoned Dungeon Map Default Location
+1302953 - Abandoned Dungeon Map Default Location
+1302954 - Abandoned Dungeon Map Default Location	
+
+1502949 - Ashina Depths Map Default Location
+1502950 - Hidden Forest
+1502951 - Mibu Village
+1502952 - Water Mill
+1502953 - Wedding Cave
+1502954 - Ashina Depths Map Default Location
+1502955 - Ashina Depths Map Default Location
+
+1702948 - Sunken Valley Default Location
+1702949 - Sunken Valley Default Location
+1702950 - Sunken Valley
+1702951 - Gun Fort
+1702952 - Riven Cave
+1702953 - Guardian Ape’s Watering Hole
+1702954 - Poison Pool
+1702955 - Ashina Depths
+1702956 - Guardian Ape’s Burrow
+1702957 - Under-Shrine Valley
+1702958 - Bodhisattva Valley
+1702959 - Sunken Valley Default Location
+1702960 - Sunken Valley Default Location
+
+2002948 - Senpou Map Default Location
+2002949 - Senpou Map Default Location
+2002950 - Senpou Temple, Mt. Kongo
+2002951 - Shugendo
+2002952 - Temple Grounds
+2002953 - Main Hall
+2002954 - Inner Sanctum
+2002955 - Sunken Valley Cavern
+2002956 - Bell Demon’s Temple
+2002957 - Inner Sanctum Post-Monkeys Location
+2002958 - Monkeys Arena
+2002959 - Senpou Map Default Location
+2002960 - Senpou Map Default Location
+
+2502948 - Fountainhead Palace Map Default Location
+2502949 - Fountainhead Palace Map Default Location
+2502950 - Fountainhead Palace
+2502951 - Vermilion Bridge
+2502952 - Flower Viewing Stage
+2502953 - Great Sakura
+2502954 - Palace Grounds
+2502955 - Sanctuary
+2502956 - Mibu Manor
+2502957 - Feeding Grounds
+2502958 - Near Pot Noble
+2502959 - Fountainhead Palace Map Default Location
+2502960 - Fountainhead Palace Map Default Location',4,2,'2026-10-27 20:07:14.180443');
+INSERT INTO "wiki_revisions" VALUES(109,6,'Gyoubu Skip','## Gyoubu Skip
+Gyoubu Skip, also known as Horse Skip, is a skip with multiple variations that involves circumventing needing to fight [Gyoubu Oniwa](/wiki/gyoubu-oniwa).
+
+## Tower Jump Variation
+Using a [Delayed Jump](https://sekirospeedrun.com/wiki/delayed-jump) the top of the tower near the Ashina Castle Gate, you can reach the top of the wall with a ledgegrab.
+
+## Mist Raven Variation
+Using [Contact Medicine](/wiki/contact-medicine) to poison yourself and then using Mist Raven lets you do [Mist Raven On-Demand](/wiki/mist-raven-on-demand), which can give a vertical teleport if used while standing still on the ground. Normally, you cannot wall jump after using Mist Raven. But if you block mid air after getting the vertical teleport, you regain the ability to wall jump. This requires the Mid-air Deflection Skill. After the vertical teleport, you can wall jump up high enough to reach the roof with a ledgegrab.
+Video Example:
+[youtube]eIv7gEKePEQ[/youtube]
+
+On version 1.04 and below, you can also add in a ledge grab before the block to allow the player to walljump earlier, making it easier to reach the top.
+The exact inputs are: use Mist Raven, ledgegrab, block, walljump. As soon as the ledgegrab starts, you press block to cancel out of the ledge grab and walljump.
+Video Example:
+[youtube]Y9IxrDVZtNk [/youtube]
+
+Note: The height gained from a vertical Mist Raven teleport is inconsistent, sometimes you will get a low teleport for seemingly no reason. This has not been figured out yet, but is theorized to be impacted by framerate.
+
+This has been used in Mortal Journey Gauntlet Restricted, and in any other category where you have the necessary items and need to kill Gyoubu and immediately interact with the Ashina Castle Gate Sculptor''s Idol, where going to the tower would be a detour. However, it is not popular due to its inconsistency.
+
+## In Glitchless
+Gyoubu Skip is not allowed in Glitchless Speedruns. However, the Tower Jump is allowed after Gyoubu has been defeated. When done in Glitchless, this is usually referred to as "Tower Jump" and can be used to skip having to open the gate. In Glitchless, you generally want to go to the gate and upgrade Attack Power at the [Sculptor''s Idol](/wiki/sculptor-s-idol) before the [Blazing Bull](/wiki/blazing-bull) fight, wherefrom opening the door is faster than Tower Jump. However, Tower Jump can be done as part of the [Attack Power 1 Bull](/wiki/attack-power-1-bull), which can be faster. It can also be used to save time in runs where the attack power upgrade is not necessary such as in NG+ Glitchless Speedruns. In other cases, Tower Jump is generally slower for Glitchless runs.
+
+## History
+Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,14,'2026-10-27 21:13:47.942797');
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
 COMMIT;
