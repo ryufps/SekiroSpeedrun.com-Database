@@ -13,11 +13,17 @@ CREATE TABLE categories (
 	description TEXT, position INTEGER NOT NULL DEFAULT 0, slug VARCHAR(120), 
 	PRIMARY KEY (id)
 );
-INSERT INTO "categories" VALUES(1,'Resources & Tools','https://sekiroshadowsdietwice.wiki.fextralife.com/file/Sekiro-Shadows-Die-Twice/loaded_axe-upgrade-material-sekiro-wiki-guide.png','Downloads and guides for speedrun tools',0,'resources-tools');
-INSERT INTO "categories" VALUES(2,'Misc','https://sekiroshadowsdietwice.wiki.fextralife.com/file/Sekiro-Shadows-Die-Twice/healing_gourd-quick-item-sekiro-wiki-guide.png','Miscellaneous directory for unsorted things',4,'misc');
-INSERT INTO "categories" VALUES(3,'Strategies','https://assets1.ignimgs.com/2019/04/05/sekiro2-1534875272558-1280w-1554501685565.jpg','Directory of all strats and techniques. Go to "Speedrun Routes" instead to find guides for specific runs',2,'strategies');
-INSERT INTO "categories" VALUES(4,'Game Wiki','https://static.wikia.nocookie.net/game-pedia/images/6/69/Sekiro_Box_Art.png/revision/latest?cb=20180612151209&path-prefix=de','Game mechanic info',3,'game-wiki');
-INSERT INTO "categories" VALUES(5,'Speedrun Routes','https://static.wikia.nocookie.net/shadowsdietwice/images/3/3e/Antique_Map_Titles.png/revision/latest/scale-to-width-down/650?cb=20190413185202','Routes for various speedrun categories',1,'speedrun-routes');
+INSERT INTO "categories" VALUES(1,'Resources & Tools','/static/images/directory_covers/resources_tools.png','Downloads and guides for speedrun tools',0,'resources-tools');
+INSERT INTO "categories" VALUES(2,'Misc','/static/images/directory_covers/misc.png','Miscellaneous directory for unsorted things',4,'misc');
+INSERT INTO "categories" VALUES(3,'Strategies','/static/images/directory_covers/strategies.jpg','Directory of all strats and techniques. Go to "Speedrun Routes" instead to find guides for specific runs',2,'strategies');
+INSERT INTO "categories" VALUES(4,'Game Wiki','/static/images/directory_covers/game_wiki.webp','Game mechanic info',3,'game-wiki');
+INSERT INTO "categories" VALUES(5,'Speedrun Routes','/static/images/directory_covers/routes.webp','Routes for various speedrun categories',1,'speedrun-routes');
+CREATE TABLE page_slug_redirects (
+        id INTEGER PRIMARY KEY,
+        old_slug VARCHAR(180) NOT NULL,
+        page_id INTEGER NOT NULL REFERENCES wiki_pages(id),
+        created_at DATETIME
+    );
 CREATE TABLE pending_edits (
 	id INTEGER NOT NULL, 
 	page_id INTEGER NOT NULL, 
@@ -2643,15 +2649,15 @@ There are 9 Gourd Seeds in the game. Each one can only be acquired once, so in o
 
 It is possible to gain infinite Gourd Seeds by exploiting a glitch with the Reflections of Strength. The [Offering Box](/wiki/offering-box), where normally up to 1 Gourd Seed can be bought from, exists during Reflections and Gauntlets. In this state, the Offering Box doesn''t have the flags for disabling items that have already been acquired or purchased, letting you purchase all of the items that it can possible sell, even if they have already been acquired.
 
-By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.','approved',NULL,NULL,NULL,4,2,'2026-07-15 12:18:25.955263','2026-10-05 13:18:16.293813','gourd-seed',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.','approved',NULL,NULL,NULL,4,2,'2026-07-15 12:18:25.955263','2026-10-05 13:18:16.293813','gourd-seed',NULL,'2026-07-15 12:18:30.815810',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(20,'Distortion2','## Distortion2
-Distortion2 is a Twitch and Youtube content creator, who is famous for pioneering Sekiro speedrunning in the early days.','approved',NULL,NULL,NULL,2,2,'2026-07-15 12:43:13.496054','2026-07-15 12:43:18.011696','distortion2',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Distortion2 is a Twitch and Youtube content creator, who is famous for pioneering Sekiro speedrunning in the early days.','approved',NULL,NULL,NULL,2,2,'2026-07-15 12:43:13.496054','2026-07-15 12:43:18.011696','distortion2',NULL,'2026-07-15 12:43:18.016216',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(21,'WormdogBS','## WormdogBS
-Wormdog is a Sekiro Speedrunner, who has the record for the holding the most Sekiro Speedrun World Records simultaneously, at 12.','approved',NULL,NULL,NULL,2,2,'2026-07-15 12:45:30.255607','2026-09-16 18:55:48.699010','wormdogbs',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Wormdog is a Sekiro Speedrunner, who has the record for the holding the most Sekiro Speedrun World Records simultaneously, at 12.','approved',NULL,NULL,NULL,2,2,'2026-07-15 12:45:30.255607','2026-09-16 18:55:48.699010','wormdogbs',NULL,'2026-07-15 12:45:34.303556',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(22,'B3LYP','## B3LYP
-B3LYP, also known as just B3, is a Fromsoft game mod maker, who discovered that In-Game Time in certain Fromsoft games, including Sekiro, has an FPS-dependent clockdrift that makes the timer run in a hardware dependent and inaccurate way. B3LYP created the IGT fix that solves the issue and forms the basis of the timing method that Sekiro PC Speedruns use called Modified In-Game Time.','approved',NULL,NULL,NULL,2,2,'2026-07-15 12:52:00.686223','2026-09-19 05:37:00.315640','b3lyp',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+B3LYP, also known as just B3, is a Fromsoft game mod maker, who discovered that In-Game Time in certain Fromsoft games, including Sekiro, has an FPS-dependent clockdrift that makes the timer run in a hardware dependent and inaccurate way. B3LYP created the IGT fix that solves the issue and forms the basis of the timing method that Sekiro PC Speedruns use called Modified In-Game Time.','approved',NULL,NULL,NULL,2,2,'2026-07-15 12:52:00.686223','2026-09-19 05:37:00.315640','b3lyp',NULL,'2026-07-15 12:52:08.007635',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(23,'Pennek','## Pennek
-Pennek is a Sekiro Speedrunner and glitch hunter.','approved',NULL,NULL,NULL,2,2,'2026-07-19 01:25:58.636895','2026-09-30 21:19:48.455204','pennek',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Pennek is a Sekiro Speedrunner and glitch hunter.','approved',NULL,NULL,NULL,2,2,'2026-07-19 01:25:58.636895','2026-09-30 21:19:48.455204','pennek',NULL,'2026-07-19 01:26:08.019734',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(24,'Shura Glitchless','## Shura Glitchless
 Shura Glitchless is Sekiro''s most popular speedrun. It''s often recommended as a good starting point for new speedrunners, as it requires a relatively small amount of time investment to learn the basics and isn''t too long of a run.
 
@@ -2732,29 +2738,29 @@ Ponetchmas has a tutorial for the scream headshot strat.
 
 ### Emma
 
-### Isshin','approved',NULL,NULL,NULL,5,2,'2026-07-19 01:36:20.435876','2026-07-19 03:38:30.432081','shura-glitchless',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+### Isshin','approved',NULL,NULL,NULL,5,2,'2026-07-19 01:36:20.435876','2026-07-19 03:38:30.432081','shura-glitchless',NULL,'2026-07-19 01:36:24.148781',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(25,'JohnDiSanDonato','## JohnDiSanDonato
-JohnDiSanDonato (JDSD) is a Speedrunner and developer who created [JDSD''s Practice Tool](https://github.com/veeenu/sekiro-practice-tool/releases) for Sekiro.','approved',NULL,NULL,NULL,2,2,'2026-07-19 02:32:04.302800','2026-07-19 02:32:21.058693','johndisandonato',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+JohnDiSanDonato (JDSD) is a Speedrunner and developer who created [JDSD''s Practice Tool](https://github.com/veeenu/sekiro-practice-tool/releases) for Sekiro.','approved',NULL,NULL,NULL,2,2,'2026-07-19 02:32:04.302800','2026-07-19 02:32:21.058693','johndisandonato',NULL,'2026-07-19 02:32:21.066980',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(26,'Scrap Iron','## Scrap Iron
-Scrap Iron is an Upgrade Material Item that is used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-07-19 03:44:07.413684','2026-07-19 04:00:18.421375','scrap-iron',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Scrap Iron is an Upgrade Material Item that is used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-07-19 03:44:07.413684','2026-07-19 04:00:18.421375','scrap-iron',NULL,'2026-07-19 04:00:18.425786',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(27,'Healing Gourd','## Healing Gourd
 The Healing Gourd is a Quick Item that heals the player upon use.','approved',NULL,NULL,NULL,4,2,'2026-07-19 04:11:23.759344','2026-07-19 04:15:04.776241','healing-gourd',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(28,'Ceramic Shard','## Ceramic Shard
 A Ceramic Shard is a Consumable Quick Item that can be thrown to distract enemies.','approved',NULL,NULL,NULL,4,2,'2026-07-19 04:12:47.879726','2026-07-19 04:15:07.259159','ceramic-shard',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(29,'Yellow Gunpowder','## Yellow Gunpowder
-Yellow Gunpowder is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-07-19 04:13:34.629875','2026-07-19 04:15:09.350855','yellow-gunpowder',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Yellow Gunpowder is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-07-19 04:13:34.629875','2026-07-19 04:15:09.350855','yellow-gunpowder',NULL,'2026-07-19 04:15:09.355296',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(30,'Scrap Magnetite','## Scrap Magnetite
-Scrap Magnetite is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-07-19 04:14:58.306871','2026-07-19 04:15:11.048135','scrap-magnetite',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Scrap Magnetite is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-07-19 04:14:58.306871','2026-07-19 04:15:11.048135','scrap-magnetite',NULL,'2026-07-19 04:15:11.051986',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(31,'Ponetchmas','## Ponetchmas
-Ponetchmas is a Sekiro speedrunner who is known for making tutorials and helping runners improve. He has also held the World Record in Immortal Severance Glitchless and All Memories & Prayer Beads Glitchless.','approved',NULL,NULL,NULL,2,2,'2026-07-19 10:46:20.155441','2026-07-19 10:58:18.210439','ponetchmas',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Ponetchmas is a Sekiro speedrunner who is known for making tutorials and helping runners improve. He has also held the World Record in Immortal Severance Glitchless and All Memories & Prayer Beads Glitchless.','approved',NULL,NULL,NULL,2,2,'2026-07-19 10:46:20.155441','2026-07-19 10:58:18.210439','ponetchmas',NULL,'2026-07-19 10:58:18.214664',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(32,'Ako''s Sugar','## Ako''s Sugar
 Ako''s Sugar, also known as just Ako, is a Consumable Quick Item that buffs the player''s vitality damage by 12.5% and posture damage by 25% for 30s. If the player has the Devotion skill, the duration will be 45s instead.
 
-Only one Sugar buff can be active at a time. If a new Sugar is used while Ako is already active, it will remove the Ako''s buff and apply the new Sugar''s buff.','approved',NULL,NULL,NULL,4,2,'2026-07-19 10:57:04.208619','2026-07-19 11:00:05.510933','ako-s-sugar',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Only one Sugar buff can be active at a time. If a new Sugar is used while Ako is already active, it will remove the Ako''s buff and apply the new Sugar''s buff.','approved',NULL,NULL,NULL,4,2,'2026-07-19 10:57:04.208619','2026-07-19 11:00:05.510933','ako-s-sugar',NULL,'2026-07-19 11:00:05.513231',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(33,'Yashariku''s Sugar','## Yashariku''s Sugar
 Yashariku''s Sugar, also known as Yash, is a Consumable Quick Item that temporarily buffs the player''s vitality damage by 25% and posture damage by 50%, and halves the player''s maximum HP for 30s (45s with Devotion Skill).
 
-Only one Sugar buff can be active at a time. If a new Sugar is used while Yash is already active, it will remove the Yash''s buff and apply the new Sugar''s buff.','approved',NULL,NULL,NULL,4,2,'2026-07-19 10:59:44.130352','2026-09-20 06:32:19.749277','yashariku-s-sugar',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Only one Sugar buff can be active at a time. If a new Sugar is used while Yash is already active, it will remove the Yash''s buff and apply the new Sugar''s buff.','approved',NULL,NULL,NULL,4,2,'2026-07-19 10:59:44.130352','2026-09-20 06:32:19.749277','yashariku-s-sugar',NULL,'2026-07-19 11:00:10.138574',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(34,'Shura Restricted','## Shura Restricted
 Shura Restricted is generally referred to as Any% or Any% Restricted.
 
@@ -2836,21 +2842,21 @@ After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it 
 ### Emma
 You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
 
-### Isshin','approved',NULL,NULL,NULL,5,2,'2026-07-19 12:33:39.893829','2026-10-24 12:10:47.606884','shura-restricted',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+### Isshin','approved',NULL,NULL,NULL,5,2,'2026-07-19 12:33:39.893829','2026-10-24 12:10:47.606884','shura-restricted',NULL,'2026-07-19 12:33:43.604937',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(35,'Phantom Kunai (Upgrade Material)','## Phantom Kunai (Upgrade Material)
 The Phantom Kunai is a Unique Upgrade Material used for unlocking the Phantom Kunai Prosthetic Tool Upgrade.
 
-The Phantom Kunai can be purchased from Anayama the Peddler in Ashina Outskirts for 3000 Sen. After Invasion 2 takes place, Anayama will die and the Phantom Kunai will appear for sale in the Offering Box for 4500 Sen. Note: If the player kills Anayama, the Phantom Kunai will still first appear in the Offering Box after Invasion 2 happens.','approved',NULL,NULL,NULL,4,2,'2026-08-02 18:41:38.421327','2026-08-02 18:41:44.852324','phantom-kunai-upgrade-material',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+The Phantom Kunai can be purchased from Anayama the Peddler in Ashina Outskirts for 3000 Sen. After Invasion 2 takes place, Anayama will die and the Phantom Kunai will appear for sale in the Offering Box for 4500 Sen. Note: If the player kills Anayama, the Phantom Kunai will still first appear in the Offering Box after Invasion 2 happens.','approved',NULL,NULL,NULL,4,2,'2026-08-02 18:41:38.421327','2026-08-02 18:41:44.852324','phantom-kunai-upgrade-material',NULL,'2026-08-02 18:41:44.859781',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(36,'Leader Shigenori Yamauchi','## Leader Shigenori Yamauchi
 Leader Shigenori Yamauchi is a Miniboss that appears in Ashina Reservoir during the Tutorial. He is only available to fight during the Tutorial.
 
-When defeated, he drops 1 Pellet, but doesn''t drop any XP or Sen due to it being in the Tutorial. Defeating him also sets your Last Communed Idol to right after where you killed him, acting as a checkpoint should you die.','approved',NULL,NULL,NULL,4,2,'2026-08-03 21:22:01.621498','2026-08-03 21:56:01.801832','leader-shigenori-yamauchi',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+When defeated, he drops 1 Pellet, but doesn''t drop any XP or Sen due to it being in the Tutorial. Defeating him also sets your Last Communed Idol to right after where you killed him, acting as a checkpoint should you die.','approved',NULL,NULL,NULL,4,2,'2026-08-03 21:22:01.621498','2026-08-03 21:56:01.801832','leader-shigenori-yamauchi',NULL,'2026-08-03 21:56:01.806601',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(37,'Corrupted Monk (False)','## Corrupted Monk (False)
-Corrupted Monk is a Boss that appears in Ashina Depths.','approved',NULL,NULL,NULL,4,2,'2026-08-03 21:43:44.984184','2026-08-03 21:56:03.565830','corrupted-monk-false',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Corrupted Monk is a Boss that appears in Ashina Depths.','approved',NULL,NULL,NULL,4,2,'2026-08-03 21:43:44.984184','2026-08-03 21:56:03.565830','corrupted-monk-false',NULL,'2026-08-03 21:56:03.570712',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(38,'Long-arm Centipede Giraffe','## Long-arm Centipede Giraffe
-Long-arm Centipede Giraffe is a Miniboss that appears in Sunken Valley at the Gunfort Shrine.','approved',NULL,NULL,NULL,4,2,'2026-08-03 21:55:56.182320','2026-08-03 21:56:05.220343','long-arm-centipede-giraffe',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Long-arm Centipede Giraffe is a Miniboss that appears in Sunken Valley at the Gunfort Shrine.','approved',NULL,NULL,NULL,4,2,'2026-08-03 21:55:56.182320','2026-08-03 21:56:05.220343','long-arm-centipede-giraffe',NULL,'2026-08-03 21:56:05.225524',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(39,'Chained Ogre (Outskirts)','## Chained Ogre (Outskirts)
-Chained Ogre is a Miniboss that appears in Ashina Outskirts. He disappears once Invasion 2 starts.','approved',NULL,NULL,NULL,4,2,'2026-08-04 20:31:58.116657','2026-08-04 20:32:04.886888','chained-ogre-outskirts',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Chained Ogre is a Miniboss that appears in Ashina Outskirts. He disappears once Invasion 2 starts.','approved',NULL,NULL,NULL,4,2,'2026-08-04 20:31:58.116657','2026-08-04 20:32:04.886888','chained-ogre-outskirts',NULL,'2026-08-04 20:32:04.890726',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(40,'Snap Seed','## Snap Seed
 A Snap Seed is a Consumable Quick Item that on use can break illusions.
 
@@ -2861,34 +2867,34 @@ A Snap Seed is a Consumable Quick Item that on use can break illusions.
 1x can be picked up next to the Toxic Memorial Mob.
 3x can be picked up at the Gunfort ontop of the wooden battlements before the cave leading to [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).
 ### Hirata Estate
-1x can be acquired by talking to the NPC before Lady Butterfly.','approved',NULL,NULL,NULL,4,2,'2026-08-06 07:55:32.515516','2026-10-25 13:22:43.947524','snap-seed',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+1x can be acquired by talking to the NPC before Lady Butterfly.','approved',NULL,NULL,NULL,4,2,'2026-08-06 07:55:32.515516','2026-10-25 13:22:43.947524','snap-seed',NULL,'2026-08-06 08:05:06.841190',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(41,'Robert''s Firecrackers','## Robert''s Firecrackers
 Robert''s Firecrackers is a unique Upgrade Material that can be Fitted to Wolf''s Prosthetic Arm in order to unlock the Shinobi Firecrackers Prosthetic.
 
-Robert''s Firecrackers are obtained by purchasing them. They can be bought for 500 from either the Crow''s Bed Memorial Mob in Ashina Outskirts or the Battlefield Memorial Mob by Gyoubu''s arena. Once they have been bought from either Memorial Mob, they cannot be purchased again.','approved',NULL,NULL,NULL,4,2,'2026-08-06 08:04:57.320053','2026-08-06 08:05:10.182935','robert-s-firecrackers',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Robert''s Firecrackers are obtained by purchasing them. They can be bought for 500 from either the Crow''s Bed Memorial Mob in Ashina Outskirts or the Battlefield Memorial Mob by Gyoubu''s arena. Once they have been bought from either Memorial Mob, they cannot be purchased again.','approved',NULL,NULL,NULL,4,2,'2026-08-06 08:04:57.320053','2026-08-06 08:05:10.182935','robert-s-firecrackers',NULL,'2026-08-06 08:05:10.190774',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(43,'Sen','## Sen
-Sen is the currency used in-game to buy things.','approved',NULL,NULL,NULL,4,2,'2026-08-06 08:12:39.452229','2026-08-06 08:15:30.763276','sen',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Sen is the currency used in-game to buy things.','approved',NULL,NULL,NULL,4,2,'2026-08-06 08:12:39.452229','2026-08-06 08:15:30.763276','sen',NULL,'2026-08-06 08:15:30.765299',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(44,'Shuriken Wheel','## Shuriken Wheel
 The Shuriken Wheel is a unique Upgrade Material that can be Fitted to Wolf''s Prosthetic Arm in order to unlock the [Loaded Shuriken Prosthetic](/wiki/loaded-shuriken).
 
-The Shuriken Wheel can be picked up in Ashina Outskirts near [General Naomori Kawarada](/wiki/general-naomori-kawarada).','approved',NULL,NULL,NULL,4,2,'2026-08-06 08:15:15.929687','2026-10-23 08:41:53.050043','shuriken-wheel',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+The Shuriken Wheel can be picked up in Ashina Outskirts near [General Naomori Kawarada](/wiki/general-naomori-kawarada).','approved',NULL,NULL,NULL,4,2,'2026-08-06 08:15:15.929687','2026-10-23 08:41:53.050043','shuriken-wheel',NULL,'2026-08-06 08:15:35.441430',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(45,'Dousing Powder','## Dousing Powder
-Dousing Powder is a Consumable Quick Item that heals the Burn status effect, and for a time decreases Burn buildup, increases Burn resistance and reduces damage from incoming Burn attacks.','approved',NULL,NULL,NULL,4,2,'2026-08-06 15:53:20.378159','2026-08-06 16:25:04.012674','dousing-powder',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Dousing Powder is a Consumable Quick Item that heals the Burn status effect, and for a time decreases Burn buildup, increases Burn resistance and reduces damage from incoming Burn attacks.','approved',NULL,NULL,NULL,4,2,'2026-08-06 15:53:20.378159','2026-08-06 16:25:04.012674','dousing-powder',NULL,'2026-08-06 16:25:04.017591',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(46,'Antidote Powder','## Antidote Powder
-Antidote Powder is a Consumable Quick Item that heals the Poison status effect and temporarily increases Poison resistance.','approved',NULL,NULL,NULL,4,2,'2026-08-06 15:54:55.759475','2026-08-06 16:25:05.762994','antidote-powder',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Antidote Powder is a Consumable Quick Item that heals the Poison status effect and temporarily increases Poison resistance.','approved',NULL,NULL,NULL,4,2,'2026-08-06 15:54:55.759475','2026-08-06 16:25:05.762994','antidote-powder',NULL,'2026-08-06 16:25:05.766989',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(47,'Pacifying Agent','## Pacifying Agent
-Pacifying Agent is a Consumable Quick Item that reduces Terror status effect buildup and increases Terror resistance for a time.','approved',NULL,NULL,NULL,4,2,'2026-08-06 15:57:22.362853','2026-08-06 16:25:02.146182','pacifying-agent',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Pacifying Agent is a Consumable Quick Item that reduces Terror status effect buildup and increases Terror resistance for a time.','approved',NULL,NULL,NULL,4,2,'2026-08-06 15:57:22.362853','2026-08-06 16:25:02.146182','pacifying-agent',NULL,'2026-08-06 16:25:02.150955',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(48,'Mist Raven On-Demand','## Mist Raven On-Demand
 Mist Raven On-Demand is a technique that combines a constantly damaging status effect with Mist Raven in order to be able to use it without needing to time it with an enemy attack. This is most commonly done by using Contact Medicine to inflict Poison to oneself.
 
 Mist Raven On-Demand is used in speedruns that go to NG+, such as NG+7 speedruns or All Achievements. It''s used for gaining height in order to reach places that you normally cannot.
 
 ## History
-Mist Raven On-Demand was discovered by T2k5 on April 2nd, 2019.','approved',NULL,NULL,NULL,3,2,'2026-08-06 16:24:56.354250','2026-08-06 16:25:07.454682','mist-raven-on-demand',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Mist Raven On-Demand was discovered by T2k5 on April 2nd, 2019.','approved',NULL,NULL,NULL,3,2,'2026-08-06 16:24:56.354250','2026-08-06 16:25:07.454682','mist-raven-on-demand',NULL,'2026-08-06 16:25:07.458639',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(49,'Contact Medicine','## Contact Medicine
 Contact Medicine is a Consumable Quick Item that when used applies a weak Poison effect to the player that deals 2dmg/s for 40s. While one Poison effect is active, the player cannot be inflicted with a new one until the previous one expires. This way Contact Medicine can be used to stay immune to strong Poison effects at the cost of taking 2dmg/s.
 
-In Speedrunning, Contact Medicine is often used when a strategy requires taking damage or dying because it''s one of the most convenient ways to deal a specific amount of damage yourself.','approved',NULL,NULL,NULL,4,2,'2026-08-07 00:00:46.926944','2026-09-16 04:25:11.904528','contact-medicine',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+In Speedrunning, Contact Medicine is often used when a strategy requires taking damage or dying because it''s one of the most convenient ways to deal a specific amount of damage yourself.','approved',NULL,NULL,NULL,4,2,'2026-08-07 00:00:46.926944','2026-09-16 04:25:11.904528','contact-medicine',NULL,'2026-09-16 04:25:11.916544',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(50,'Corrupted Monk Cheese','## Corrupted Monk Cheese
 Corrupted Monk Cheese refers to performing an Aerial Stealth Deathblow on [Corrupted Monk (False)](/wiki/corrupted-monk-false) encountered in Ashina Depths. It is not considered a glitch in either Speedruns or Hitless Runs.
 
@@ -2906,14 +2912,14 @@ Ash Pickup locations:
 The fastest and hardest way to perform the strat is with 3 Snap Seeds and 4 Ash, which saves around 2-3s over using 6 Ash in most categories.
 
 ## Mist Raven Variation
-An alternative method for Corrupted Monk Cheese is using Mist Raven and [Contact Medicine](/wiki/contact-medicine) to perform [Mist Raven On-Demand](/wiki/mist-raven-on-demand). With this strategy, you use the Contact Medicine before triggering the fight, then run behind her and use the Mist Raven vertically (no directional inputs held) and then attempt to get the Aerial Stealth Deathblow. Note this is not 100% consistent due to the Mist Raven teleport height/distance being inconsistent.','approved',NULL,NULL,NULL,3,8,'2026-09-17 14:54:24.419583','2026-09-30 18:20:07.053998','corrupted-monk-cheese',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+An alternative method for Corrupted Monk Cheese is using Mist Raven and [Contact Medicine](/wiki/contact-medicine) to perform [Mist Raven On-Demand](/wiki/mist-raven-on-demand). With this strategy, you use the Contact Medicine before triggering the fight, then run behind her and use the Mist Raven vertically (no directional inputs held) and then attempt to get the Aerial Stealth Deathblow. Note this is not 100% consistent due to the Mist Raven teleport height/distance being inconsistent.','approved',NULL,NULL,NULL,3,8,'2026-09-17 14:54:24.419583','2026-09-30 18:20:07.053998','corrupted-monk-cheese',NULL,'2026-09-17 17:05:09.863659',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(51,'Ogre Skip','## Ogre Skip
 Ogre Skip is a technique used to skip the fight with Chained Ogre in Ashina Outskirts.
 
 ## Execution
 Ogre Skip is done by performing a [Delayed Jump](https://sekirospeedrun.com/wiki/delayed-jump) off a ledge close to Chained Ogre and curving around the wall to grab a ledge. The tutorial for this skip was made by Mitchriz:
 [youtube]jwto28bmImA[/youtube]
-The jump is considered to be frame perfect, meaning you have exactly 1 frame during which you have to press the jump button in order to get the Delayed Jump needed to reach the ledge. Because of that, beginners are generally discouraged from implementing the skip in their runs as it isn''t very consistent and leads to a lot of resets.','approved',NULL,NULL,NULL,3,8,'2026-09-17 15:30:28.624231','2026-09-17 16:41:05.605637','ogre-skip',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+The jump is considered to be frame perfect, meaning you have exactly 1 frame during which you have to press the jump button in order to get the Delayed Jump needed to reach the ledge. Because of that, beginners are generally discouraged from implementing the skip in their runs as it isn''t very consistent and leads to a lot of resets.','approved',NULL,NULL,NULL,3,8,'2026-09-17 15:30:28.624231','2026-09-17 16:41:05.605637','ogre-skip',NULL,'2026-09-17 16:41:05.610071',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(52,'Dead-angling','## Dead-angling
 Dead-angling is a common way of cheesing multiple bosses. It is performed by attacking while looking away from the boss with your sword still hitting them. This way the Boss AI doesn''t think to block the attacks and lets the player hit the Boss, dealing Vitality damage.
 
@@ -2931,7 +2937,7 @@ Airswim is a major glitch that allows the player to fly in the air while the gam
 Airswim is performed by entering a body of water while Out of Bounds and diving (requires the [Mibu Breathing Technique](/wiki/mibu-breathing-technique) Skill). This allows the player to swim everywhere as if submerged in water. It''s caused by the game transitioning between the out-of-water and swimming states only when diving or resurfacing through the surface of the water.
 
 ## Common Use Cases
-Airswim is used in the majority of the Glitched categories (excluding No Airswim subcategories) and is the foundation of Any% Speedruns. It''s most commonly used to skip most of Senpou Temple and Sunken Valley and is a core part of Ape Skip. It''s also used to enter boss fights, as cutscenes also bring the player out of the swimming state.','approved',NULL,NULL,NULL,3,8,'2026-09-17 16:10:40.221650','2026-09-17 17:17:47.106462','airswim',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Airswim is used in the majority of the Glitched categories (excluding No Airswim subcategories) and is the foundation of Any% Speedruns. It''s most commonly used to skip most of Senpou Temple and Sunken Valley and is a core part of Ape Skip. It''s also used to enter boss fights, as cutscenes also bring the player out of the swimming state.','approved',NULL,NULL,NULL,3,8,'2026-09-17 16:10:40.221650','2026-09-17 17:17:47.106462','airswim',NULL,'2026-09-17 16:52:01.232545',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(54,'Aggro-chain','## Aggro-chain
 Aggro-chain is a mechanic that consists of entering combat to abuse the game''s Last Registered Position system
 
@@ -2941,35 +2947,35 @@ The glitch starts by triggering a combat encounter, which sets the player''s Las
 ## Common Use Cases
 The mechanic is most commonly used in the Airswim glitch in Any% to grab the Temple Grounds Sculptor''s Idol before performing Ape Skip. This causes the Homeward Idol''s Last Communed Idol option to teleport the player to the Temple Grounds Idol.','pending',NULL,NULL,NULL,3,8,'2026-09-17 16:26:06.469405','2026-09-17 16:26:06.469408','aggro-chain',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(55,'Loaded Shuriken','## Loaded Shuriken
-The Loaded Shuriken is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-09-17 17:06:36.062334','2026-09-17 17:06:41.829220','loaded-shuriken',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+The Loaded Shuriken is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-09-17 17:06:36.062334','2026-09-17 17:06:41.829220','loaded-shuriken',NULL,'2026-09-17 17:06:41.834905',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(56,'Mibu Breathing Technique','## Mibu Breathing Technique
 The Mibu Breathing Technique is a Skill that is unlocked by killing the [Corrupted Monk (False)](/wiki/corrupted-monk-false) in Ashina Depths.
 
-When the skill is unlocked, the player gains the ability to dive under water.','approved',NULL,NULL,NULL,4,2,'2026-09-17 17:16:49.144400','2026-10-06 04:15:22.016275','mibu-breathing-technique',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+When the skill is unlocked, the player gains the ability to dive under water.','approved',NULL,NULL,NULL,4,2,'2026-09-17 17:16:49.144400','2026-10-06 04:15:22.016275','mibu-breathing-technique',NULL,'2026-09-17 17:16:57.499944',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(57,'Lump of Grave Wax','## Lump of Grave Wax
-Lump of Grave Wax is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:00:19.157704','2026-09-17 18:00:57.051684','lump-of-grave-wax',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Lump of Grave Wax is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:00:19.157704','2026-09-17 18:00:57.051684','lump-of-grave-wax',NULL,'2026-09-17 18:00:57.055843',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(58,'Lump of Fat Wax','## Lump of Fat Wax
-Lump of Fat Wax is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:00:46.556388','2026-09-17 18:00:59.676700','lump-of-fat-wax',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Lump of Fat Wax is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:00:46.556388','2026-09-17 18:00:59.676700','lump-of-fat-wax',NULL,'2026-09-17 18:00:59.681163',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(59,'Fulminated Mercury','## Fulminated Mercury
-Fulminated Mercury is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:02:08.805683','2026-09-17 18:04:18.540832','fulminated-mercury',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Fulminated Mercury is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:02:08.805683','2026-09-17 18:04:18.540832','fulminated-mercury',NULL,'2026-09-17 18:04:18.545518',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(60,'Lapis Lazuli','## Lapis Lazuli
-Lapis Lazuli is an Upgrade Material Item used for Lazulite Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:03:01.649639','2026-09-17 18:04:21.641556','lapis-lazuli',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Lapis Lazuli is an Upgrade Material Item used for Lazulite Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:03:01.649639','2026-09-17 18:04:21.641556','lapis-lazuli',NULL,'2026-09-17 18:04:21.645429',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(61,'Black Gunpowder','## Black Gunpowder
-Black Gunpowder is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:03:42.766712','2026-09-17 18:04:10.599255','black-gunpowder',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Black Gunpowder is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:03:42.766712','2026-09-17 18:04:10.599255','black-gunpowder',NULL,'2026-09-17 18:04:10.601562',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(62,'Pine Resin Ember','## Pine Resin Ember
-Pine Resin Ember is a unique Upgrade Material Item used in Prosthetic Upgrading to unlock Okinaga''s Flame Vent.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:07:54.778827','2026-09-17 18:08:00.519366','pine-resin-ember',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Pine Resin Ember is a unique Upgrade Material Item used in Prosthetic Upgrading to unlock Okinaga''s Flame Vent.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:07:54.778827','2026-09-17 18:08:00.519366','pine-resin-ember',NULL,'2026-09-17 18:08:00.523933',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(64,'Blazing Bull','## Blazing Bull
-Blazing Bull is a Miniboss that appears in Ashina Castle.','approved',NULL,NULL,NULL,4,2,'2026-09-19 05:17:15.128890','2026-09-19 05:31:15.977712','blazing-bull',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Blazing Bull is a Miniboss that appears in Ashina Castle.','approved',NULL,NULL,NULL,4,2,'2026-09-19 05:17:15.128890','2026-09-19 05:31:15.977712','blazing-bull',NULL,'2026-09-19 05:31:15.982795',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(65,'General Naomori Kawarada','## General Naomori Kawarada
-General Naomori Kawarada is a Miniboss that appears in Ashina Outskirts.','approved',NULL,NULL,NULL,4,2,'2026-09-19 06:47:12.577666','2026-09-19 06:47:19.809131','general-naomori-kawarada',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+General Naomori Kawarada is a Miniboss that appears in Ashina Outskirts.','approved',NULL,NULL,NULL,4,2,'2026-09-19 06:47:12.577666','2026-09-19 06:47:19.809131','general-naomori-kawarada',NULL,'2026-09-19 06:47:19.814598',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(66,'Gyoubu Oniwa','## Gyoubu Oniwa
-Gyoubu Oniwa is a [Boss](/wiki/boss) that appears in Ashina Outskirts.','approved',NULL,NULL,NULL,4,2,'2026-09-19 06:51:26.655710','2026-10-06 21:15:08.990070','gyoubu-oniwa',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Gyoubu Oniwa is a [Boss](/wiki/boss) that appears in Ashina Outskirts.','approved',NULL,NULL,NULL,4,2,'2026-09-19 06:51:26.655710','2026-10-06 21:15:08.990070','gyoubu-oniwa',NULL,'2026-09-19 06:51:33.569335',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(67,'T2k5','## T2k5
-T2k5 was a glitch hunter active during the early days of the speedrun in 2019.','approved',NULL,NULL,NULL,2,2,'2026-09-19 06:56:32.862529','2026-09-19 06:56:37.114259','t2k5',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+T2k5 was a glitch hunter active during the early days of the speedrun in 2019.','approved',NULL,NULL,NULL,2,2,'2026-09-19 06:56:32.862529','2026-09-19 06:56:37.114259','t2k5',NULL,'2026-09-19 06:56:37.118380',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(68,'Mr Bundarian','## Mr Bundarian
-Mr Bundarian found the Bull Skip. He has since deleted his Youtube channel where the original Bull Skip video was uploaded.','approved',NULL,NULL,NULL,2,2,'2026-09-19 07:00:11.755270','2026-09-19 07:00:23.995841','mr-bundarian',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Mr Bundarian found the Bull Skip. He has since deleted his Youtube channel where the original Bull Skip video was uploaded.','approved',NULL,NULL,NULL,2,2,'2026-09-19 07:00:11.755270','2026-09-19 07:00:23.995841','mr-bundarian',NULL,'2026-09-19 07:00:24.000283',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(69,'All Memories Unrestricted','## All Memories Unrestricted
-All Memories Unrestricted is a newer speedrun category, created in 2026 after the discovery of Slot ID Manipulation, which allows generating memories and thus quickly fulfilling the All Memories objective.','approved',NULL,NULL,NULL,5,2,'2026-09-20 06:41:46.600243','2026-09-20 06:54:23.569919','all-memories-unrestricted',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+All Memories Unrestricted is a newer speedrun category, created in 2026 after the discovery of Slot ID Manipulation, which allows generating memories and thus quickly fulfilling the All Memories objective.','approved',NULL,NULL,NULL,5,2,'2026-09-20 06:41:46.600243','2026-09-20 06:54:23.569919','all-memories-unrestricted',NULL,'2026-09-20 06:54:23.573534',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(70,'Immortal Severance Glitchless','## Immortal Severance Glitchless
 Commonly called IS Glitchless.
 
@@ -3062,9 +3068,9 @@ Before entering the fight, use a Confetti. The Confetti will let you kill the Ol
 Before entering the fight, use a Yash, and optionally your leftover Confetti.
 
 ### Isshin, the Sword Saint
-','approved',NULL,NULL,NULL,5,2,'2026-09-20 06:54:15.714931','2026-09-20 06:54:20.759599','immortal-severance-glitchless',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+','approved',NULL,NULL,NULL,5,2,'2026-09-20 06:54:15.714931','2026-09-20 06:54:20.759599','immortal-severance-glitchless',NULL,'2026-09-20 06:54:20.761725',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(71,'UmN1k','## UmN1k
-UmN1k is a Sekiro Glitch Hunter.','approved',NULL,NULL,NULL,2,2,'2026-09-20 07:01:21.644759','2026-09-20 07:01:26.589771','umn1k',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+UmN1k is a Sekiro Glitch Hunter.','approved',NULL,NULL,NULL,2,2,'2026-09-20 07:01:21.644759','2026-09-20 07:01:26.589771','umn1k',NULL,'2026-09-20 07:01:26.594788',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(72,'Dead Angle','## Dead angle
 
 Dead angle is a common mechanic that can happen coincidentally or can be performed intentionally to prevent the enemy from blocking/deflecting attacks. Player attacks send an attack signal in front of them right before the damage hitbox spawns. Enemies who receive this attack signal will in turn raise their guard to block/deflect. If the player is turned away from the enemy when the attack signal is sent, then the attack will be a dead angle and will directly hit for vitality damage.
@@ -4786,231 +4792,6 @@ The right side version is useless though, as the left-side version that works on
 
 ## History
 Bull Skip was discovered on March 28th, 2019, less than a week after release, by MrBundarian.',3,2,'2026-07-15 12:39:03.748400');
-INSERT INTO "wiki_revisions" VALUES(46,1,'Save File Organizer','# Save File Organizer by Kahmul
-
-The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
-
-### Usage tutorial:
-[youtube]-m1PwqIZLyo[/youtube]
-
-Download Kahmul''s Save Organizer [here](https://github.com/Kahmul/SoulsSpeedruns-Save-Organizer/releases).
-
-Pick the .zip that corresponds to your operating system. The bundled windows version can be used if the regular windows version does not work.
-
-### Import, Load & Replace
-
-Import, load and replace are the main functions of the Save Organizer that you use. Knowing how they work are important to using the program effectively.
-
-Importing means taking your current active save file and storing it in the Organizer.
-
-Loading means replacing your current active save file with whichever save you loaded. Loading a save from the Organizer works like a save state, where each time you load that save, you will be put at the exact state that save was in when it was imported.
-
-Replacing is like importing, but it works for overwriting save files that you want to make changes to. Note that this button will permanently delete the replaced save file, so make sure you think before you click it if any important save files are being used.
-
-
-### Additional Tips
-
-- It''s important to know that one save file contains ALL your save data, all your saved games and settings. It is not currently possible to import a saved game from one save file onto another. You should import your own main save file into the Save Organizer before starting to play around with save files, in order to make sure that it''s saved. It is also recommended to make a copy of that file and store it somewhere safe.
-- When trying to import your save into the save organizer, you generally need to quit out before pressing import to make sure it has successfully saved your progress first.
-- When quitting out to make a save, make sure you are on stable ground and not in combat. Otherwise, your position won''t be saved as you intend.
-- Save files can only be loaded while you are on the title screen. You cannot load a save while you are on the main menu. However, if you are fast, you can press continue and then tab out of the game and load a save before you get to the main menu.
-- It''s recommended to add numbers to the names of the saves, so that your list will have the same order as it will be in the run. e.g, 01. Ogre, 02. Canyon, 03. Gyoubu, etc.
-- It''s recommended to create multiple Profiles to sort your save files. One Profile per speedrun category is a good starting point.
-
-### Downloading Save Files
-If you want to download and use a save file from another player, you need to do the following steps: (Make sure to backup your own save file first, as this process will completely overwrite your save data).
-
-1. Download and setup LiveSplit with the Sekiro plugin "SoulSplitter" activated. It includes a mod that allows you to load save files tied to other Steam accounts. Simply having LiveSplit and Sekiro open will make the mod take effect.
-
-2. Download the save file(s), usually you will get a zip file that can be extracted out to a folder.
-
-3. Move the downloaded save file into the folder where you keep your Save Organizer save files. If you downloaded a folder full of saves, you can also put that folder there. Each folder under the main one will form a Profile in the Save Organizer.
-
-4. If you moved the files to the right place, they should appear in your Save Organizer after restarting it.
-
-5. Launch the game and get to the title screen. (not the main menu).
-
-6. Load a save file, change the settings to your taste on the main menu then replace the save.
-
-7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
-',1,1,'2026-07-19 00:38:06.245066');
-INSERT INTO "wiki_revisions" VALUES(47,1,'Save File Organizer','# Save File Organizer by Kahmul
-
-The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
-
-### Usage tutorial:
-[youtube]-m1PwqIZLyo[/youtube]
-
-Download Kahmul''s Save Organizer [here](https://github.com/Kahmul/SoulsSpeedruns-Save-Organizer/releases).
-
-Pick the .zip that corresponds to your operating system. The bundled windows version can be used if the regular windows version does not work.
-
-### Import, Load & Replace
-
-Import, load and replace are the main functions of the Save Organizer that you use. Knowing how they work are important to using the program effectively.
-
-Importing means taking your current active save file and storing it in the Organizer.
-
-Loading means replacing your current active save file with whichever save you loaded. Loading a save from the Organizer works like a save state, where each time you load that save, you will be put at the exact state that save was in when it was imported.
-
-Replacing is like importing, but it works for overwriting save files that you want to make changes to. Note that this button will permanently delete the replaced save file, so make sure you think before you click it if any important save files are being used.
-
-
-### Additional Tips
-
-- It''s important to know that one save file contains ALL your save data, all your saved games and settings. It is not currently possible to import a saved game from one save file onto another. You should import your own main save file into the Save Organizer before starting to play around with save files, in order to make sure that it''s saved. It is also recommended to make a copy of that file and store it somewhere safe.
-- When trying to import your save into the save organizer, you generally need to quit out before pressing import to make sure it has successfully saved your progress first.
-- When quitting out to make a save, make sure you are on stable ground and not in combat. Otherwise, your position won''t be saved as you intend.
-- Save files can only be loaded while you are on the title screen. You cannot load a save while you are on the main menu. However, if you are fast, you can press continue and then tab out of the game and load a save before you get to the main menu.
-- It''s recommended to add numbers to the names of the saves, so that your list will have the same order as it will be in the run. e.g, 01. Ogre, 02. Canyon, 03. Gyoubu, etc.
-- It''s recommended to create multiple Profiles to sort your save files. One Profile per speedrun category is a good starting point.
-
-### Downloading Save Files
-If you want to download and use a save file from another player, you need to do the following steps: (Make sure to backup your own save file first, as this process will completely overwrite your save data).
-
-1. Download and setup LiveSplit with the Sekiro plugin "SoulSplitter" activated. It includes a mod that allows you to load save files tied to other Steam accounts. Simply having LiveSplit and Sekiro open will make the mod take effect.
-
-2. Download the save file(s), usually you will get a zip file that can be extracted out to a folder.
-
-3. Move the downloaded save file into the folder where you keep your Save Organizer save files. If you downloaded a folder full of saves, you can also put that folder there. Each folder under the main one will form a Profile in the Save Organizer.
-
-4. If you moved the files to the right place, they should appear in your Save Organizer after restarting it.
-
-5. Launch the game and get to the title screen. (not the main menu).
-
-6. Load a save file, change the settings to your taste on the main menu then replace the save.
-
-7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
-a
-',1,1,'2026-07-19 00:38:36.125929');
-INSERT INTO "wiki_revisions" VALUES(48,2,'Practice Tools','## Practice Tools
-Practice tools are used to practice more efficiently. Multiple different tools are available, all of which have different benefits.
-
-Aside from Practice Tools, it is recommended that everyone use the [Save Organizer](https://riyu.pythonanywhere.com/wiki/1). The Save Organizer ends up being the most important tool, so make sure to get that up and running first.
-
-- [SekiroTool by Shilkey & Lecentz](https://github.com/borgCode/SekiroTool/releases)
-- [JohnDiSanDonato''s Practice Tool](https://github.com/veeenu/sekiro-practice-tool/releases)
-- [Cheat Engine](https://sekiro.ryufps.de/wiki/4)
-
-## Support
-Practice tools are made by volunteers from the community and thus may have bugs. Some of the practice tool developers may not be updating their tools anymore. For help and questions it is best to ask in the #support channel on the [Sekiro Speedrunning Discord server](https://discord.gg/A7kWEPkKEq).
-
-## Online Ban
-Sekiro does not have a real online mode, therefore you cannot get banned. However, if you use the Sekiro Online mod with cheats from any of the Practice Tools, you will most likely get banned.',1,1,'2026-07-19 00:42:46.583700');
-INSERT INTO "wiki_revisions" VALUES(49,2,'Practice Tools','## Practice Tools
-Practice tools are used to practice more efficiently. Multiple different tools are available, all of which have different benefits.
-
-Aside from Practice Tools, it is recommended that everyone use the [Save Organizer](https://riyu.pythonanywhere.com/wiki/1). The Save Organizer ends up being the most important tool, so make sure to get that up and running first.
-
-- [SekiroTool by Shilkey & Lecentz](https://github.com/borgCode/SekiroTool/releases)
-- [JohnDiSanDonato''s Practice Tool](https://github.com/veeenu/sekiro-practice-tool/releases)
-- [Cheat Engine](https://sekirospeedrun.com/wiki/4)
-
-## Support
-Practice tools are made by volunteers from the community and thus may have bugs. Some of the practice tool developers may not be updating their tools anymore. For help and questions it is best to ask in the #support channel on the [Sekiro Speedrunning Discord server](https://discord.gg/A7kWEPkKEq).
-
-## Online Ban
-Sekiro does not have a real online mode, therefore you cannot get banned. However, if you use the Sekiro Online mod with cheats from any of the Practice Tools, you will most likely get banned.',1,1,'2026-07-19 00:44:18.934449');
-INSERT INTO "wiki_revisions" VALUES(50,1,'Save File Organizer','# Save File Organizer by Kahmul
-
-The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
-
-### Usage tutorial:
-[youtube]-m1PwqIZLyo[/youtube]
-
-Download Kahmul''s Save Organizer [here](https://github.com/Kahmul/SoulsSpeedruns-Save-Organizer/releases).
-
-Pick the .zip that corresponds to your operating system. The bundled windows version can be used if the regular windows version does not work.
-
-### Import, Load & Replace
-
-Import, load and replace are the main functions of the Save Organizer that you use. Knowing how they work are important to using the program effectively.
-
-Importing means taking your current active save file and storing it in the Organizer.
-
-Loading means replacing your current active save file with whichever save you loaded. Loading a save from the Organizer works like a save state, where each time you load that save, you will be put at the exact state that save was in when it was imported.
-
-Replacing is like importing, but it works for overwriting save files that you want to make changes to. Note that this button will permanently delete the replaced save file, so make sure you think before you click it if any important save files are being used.
-
-
-### Additional Tips
-
-- It''s important to know that one save file contains ALL your save data, all your saved games and settings. It is not currently possible to import a saved game from one save file onto another. You should import your own main save file into the Save Organizer before starting to play around with save files, in order to make sure that it''s saved. It is also recommended to make a copy of that file and store it somewhere safe.
-- When trying to import your save into the save organizer, you generally need to quit out before pressing import to make sure it has successfully saved your progress first.
-- When quitting out to make a save, make sure you are on stable ground and not in combat. Otherwise, your position won''t be saved as you intend.
-- Save files can only be loaded while you are on the title screen. You cannot load a save while you are on the main menu. However, if you are fast, you can press continue and then tab out of the game and load a save before you get to the main menu.
-- It''s recommended to add numbers to the names of the saves, so that your list will have the same order as it will be in the run. e.g, 01. Ogre, 02. Canyon, 03. Gyoubu, etc.
-- It''s recommended to create multiple Profiles to sort your save files. One Profile per speedrun category is a good starting point.
-
-### Downloading Save Files
-If you want to download and use a save file from another player, you need to do the following steps: (Make sure to backup your own save file first, as this process will completely overwrite your save data).
-
-1. Download and setup LiveSplit with the Sekiro plugin "SoulSplitter" activated. It includes a mod that allows you to load save files tied to other Steam accounts. Simply having LiveSplit and Sekiro open will make the mod take effect.
-
-2. Download the save file(s), usually you will get a zip file that can be extracted out to a folder.
-
-3. Move the downloaded save file into the folder where you keep your Save Organizer save files. If you downloaded a folder full of saves, you can also put that folder there. Each folder under the main one will form a Profile in the Save Organizer.
-
-4. If you moved the files to the right place, they should appear in your Save Organizer after restarting it.
-
-5. Launch the game and get to the title screen. (not the main menu).
-
-6. Load a save file, change the settings to your taste on the main menu then replace the save.
-
-7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
-
-',1,1,'2026-07-19 00:55:30.334834');
-INSERT INTO "wiki_revisions" VALUES(51,1,'Save File Organizer','# Save File Organizer by Kahmul
-
-The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
-
-### Usage tutorial:
-[youtube]-m1PwqIZLyo[/youtube]
-
-Download Kahmul''s Save Organizer [here](https://github.com/Kahmul/SoulsSpeedruns-Save-Organizer/releases).
-
-Pick the .zip that corresponds to your operating system. The bundled windows version can be used if the regular windows version does not work.
-
-### Import, Load & Replace
-
-Import, load and replace are the main functions of the Save Organizer that you use. Knowing how they work are important to using the program effectively.
-
-Importing means taking your current active save file and storing it in the Organizer.
-
-Loading means replacing your current active save file with whichever save you loaded. Loading a save from the Organizer works like a save state, where each time you load that save, you will be put at the exact state that save was in when it was imported.
-
-Replacing is like importing, but it works for overwriting save files that you want to make changes to. Note that this button will permanently delete the replaced save file, so make sure you think before you click it if any important save files are being used.
-
-
-### Additional Tips
-
-- It''s important to know that one save file contains ALL your save data, all your saved games and settings. It is not currently possible to import a saved game from one save file onto another. You should import your own main save file into the Save Organizer before starting to play around with save files, in order to make sure that it''s saved. It is also recommended to make a copy of that file and store it somewhere safe.
-- When trying to import your save into the save organizer, you generally need to quit out before pressing import to make sure it has successfully saved your progress first.
-- When quitting out to make a save, make sure you are on stable ground and not in combat. Otherwise, your position won''t be saved as you intend.
-- Save files can only be loaded while you are on the title screen. You cannot load a save while you are on the main menu. However, if you are fast, you can press continue and then tab out of the game and load a save before you get to the main menu.
-- It''s recommended to add numbers to the names of the saves, so that your list will have the same order as it will be in the run. e.g, 01. Ogre, 02. Canyon, 03. Gyoubu, etc.
-- It''s recommended to create multiple Profiles to sort your save files. One Profile per speedrun category is a good starting point.
-
-### Downloading Save Files
-If you want to download and use a save file from another player, you need to do the following steps: (Make sure to backup your own save file first, as this process will completely overwrite your save data).
-
-1. Download and setup LiveSplit with the Sekiro plugin "SoulSplitter" activated. It includes a mod that allows you to load save files tied to other Steam accounts. Simply having LiveSplit and Sekiro open will make the mod take effect.
-
-2. Download the save file(s), usually you will get a zip file that can be extracted out to a folder.
-
-3. Move the downloaded save file into the folder where you keep your Save Organizer save files. If you downloaded a folder full of saves, you can also put that folder there. Each folder under the main one will form a Profile in the Save Organizer.
-
-4. If you moved the files to the right place, they should appear in your Save Organizer after restarting it.
-
-5. Launch the game and get to the title screen. (not the main menu).
-
-6. Load a save file, change the settings to your taste on the main menu then replace the save.
-
-7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
-
-# WIKI LINK TEST
-[Attack Power 1 Bull](/wiki/attack-power-1-bull)
-',1,1,'2026-07-19 00:56:45.588960');
 INSERT INTO "wiki_revisions" VALUES(52,6,'Gyoubu Skip','## Gyoubu Skip
 Gyoubu Skip, also known as Horse Skip, is a skip with multiple variations that involves circumventing needing to fight Gyoubu Oniwa.
 
@@ -6924,4 +6705,5 @@ Gyoubu Skip is not allowed in Glitchless Speedruns. However, the Tower Jump is a
 Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,14,'2026-10-27 21:13:47.942797');
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
+CREATE UNIQUE INDEX ix_page_slug_redirects_old_slug ON page_slug_redirects (old_slug);
 COMMIT;
