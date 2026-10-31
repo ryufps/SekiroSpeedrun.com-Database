@@ -2000,7 +2000,90 @@ koko838 made the following tutorial:
  [youtube]dbfkt2KEcLg[/youtube] 
 
 ## History
-Despite its name, the original strategy was not found by Zee4. Zee4 said he saw it from someone else. But he posted it on the Speedrun Discord, which is why it was named after him.',3,7,'2026-10-28 00:17:34.837901','pending','2026-10-28 00:17:34.837541',NULL,NULL,NULL,NULL,NULL,NULL);
+Despite its name, the original strategy was not found by Zee4. Zee4 said he saw it from someone else. But he posted it on the Speedrun Discord, which is why it was named after him.',3,7,'2026-10-28 00:17:34.837901','approved','2026-10-28 00:17:34.837541','2026-10-30 09:01:54.539435',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(46,34,'Shura Restricted','## Shura Restricted
+Shura Restricted is generally referred to as Any% or Any% Restricted.
+
+## Shura Restricted Guides
+Gin42_ has made a full video guide for Shura Restricted. The guide is a few years old by now, but a lot of the strats and information inside is still useful.
+[youtube]wHK3qTTV_pY[/youtube]
+
+Krrag, a high ranking Any% runner, has made his own text guide that you can find [here](https://www.speedrun.com/sekiro/guides/mo8a4). His guide covers a wide range of skill levels by including both high level and beginner level variations of the strats.
+
+## Shura Restricted Route
+This guide for Shura Restricted is made by the editors of the wiki.
+
+### Setup & Settings
+Subtitles should be disabled in Sound & Display Settings.
+The voice language and text language can be whatever you prefer.
+You can use any patch of the game you want. Using the current patch is fine.
+
+### Tutorial Section
+Talk to Kuro, and after receiving the Healing Gourd, you can press the menu button to cancel out of the dialogue early.
+
+After speaking to Kuro, you use the [Tutorial Grapple Glitch](/wiki/tutorial-grapple-glitch) to exit the Moonview Tower faster.
+[youtube]zFL1mjWWVfA[/youtube]
+
+Before leaving the tutorial remember to get the 2x Ash pickup right after running past [Leader Shigenori Yamauchi](/wiki/leader-shigenori-yamauchi).
+
+### Ashina Outskirts
+### Ogre Skip
+Ogre Skip takes a lot of time to learn, but is around 35s faster than fighting [Chained Ogre (Outskirts)](/wiki/chained-ogre-outskirts). 
+[youtube]jwto28bmImA[/youtube]
+
+Fighting Ogre instead is also fine. When you''re getting started it can be a great idea, as it allows for more run completions and lets you prioritize practicing more important things like Emma/Isshin and Ape Skip.
+ 
+### Canyon
+You can optionally use [Canyon Skip](/wiki/canyon-skip) to save 7s or Double Canyon Skip to save 14s.
+
+### Gyoubu Skip
+When entering [Gyoubu Oniwa](/wiki/gyoubu-oniwa)''s arena, you want to get the 2x Ash pickup in his arena. You need to pick it up quickly, as the pick-up will be unavailable for a while once Gyoubu starts his scripted opening dialogue where he screams his name.
+
+### Bull Skip
+[youtube]lAKV66fW4A0[/youtube]
+
+### Lone Shadow Skip
+Alternatively, you can fight Lone Shadow Longswordsman, which is around 12s slower.
+
+### Snake Eyes
+
+### Mibu Village
+In Mibu Village you want to pick up the 1x Divine Confetti in one of the houses
+
+### Corrupted Monk
+[youtube]3IMBc2EcGiQ[/youtube]
+Doing the [Stealth Deathblow](/wiki/corrupted-monk-cheese) with only 4 ash is very precise. It is a good idea to pick up 6 or more to make it easier. You can find the extra Ash pickups here.
+[youtube]RO5AVSdmHHQ[/youtube]
+
+After getting the [Shelter Stone](/wiki/shelter-stone), [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Ashina Castle Idol.
+
+### Genichiro
+Genichiro corner cheese tutorial.
+[youtube]shdnn-LEp_s[/youtube]
+
+### Senpou Airswim
+When quitting out at the elevator, make sure you are not too high up. If you quit out and reload in a wrong spot while [airswimming](wiki/airswim), the game won''t load the map that the player is in, which will result in a blackscreen that will kill the player after some time. This is a big timeloss that should be avoided.
+
+After exiting airswim, you want to make sure to keep aggro from enemies, so that your stable ground position is not updated. After getting the Senpou Temple Grounds Idol and quitting out, you should be placed back in airswim if your last stable ground position was still when you were airswimming.
+
+### Ape Skip
+Ape Skip is required for the route to work. If you mess it up, it takes around 3 minutes to get back and try it again, so it''s highly recommended to spend a lot of time to make it consistent.
+[youtube]NXTK-FEluL8[/youtube]
+[youtube]Ptcm94MuvJ8[/youtube]
+
+After getting the Lotus of the Palace, [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Senpou Temple Grounds.
+
+### Monkey Skip
+[Monkey Skip](/wiki/monkey-skip) is required for the route to work. It takes time to learn. However, you can retry it with only minor timeloss if you miss it. It is extremely difficult to become consistent at Monkey Skip. It is okay to have a 10% or lower success rate. It is generally advised to use keyboard and mouse for Monkey Skip.
+Mitchriz has a tutorial on how to do Monkey Skip:
+[youtube]56g7lWP0utY[/youtube]
+
+After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it is obtained, the Invasion Event will start and your Last Communed Idol will be set as Ashina Castle - Abandoned Dungeon. Use the [Homeward Idol](/wiki/homeward-idol) to go to Last Communed Idol after picking up the Mortal Draw to go to Emma/Isshin.
+
+### Emma
+You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
+
+### Isshin',5,2,'2026-10-30 09:35:54.656043','approved','2026-10-30 09:35:54.655071','2026-10-30 09:36:26.012581',2,NULL,NULL,NULL,NULL);
 CREATE TABLE users (
 	id INTEGER NOT NULL, 
 	username VARCHAR(80) NOT NULL, 
@@ -2025,6 +2108,7 @@ INSERT INTO "users" VALUES(11,'Typical','','user',NULL,'2026-09-18 03:22:38.3139
 INSERT INTO "users" VALUES(12,'XiaoXiangYeYu','','user','https://files.catbox.moe/9w5ayl.jpeg','2026-09-18 09:19:46.471228',0);
 INSERT INTO "users" VALUES(13,'jvnjvn','','user',NULL,'2026-09-19 08:55:19.921610',0);
 INSERT INTO "users" VALUES(14,'SaraToga','','verified','https://cdn.discordapp.com/attachments/591316193126776848/1564745355583557783/neiro.png?ex=6ae2622c&is=6ae110ac&hm=04bdd832800471ed5045c7f1fac19cd0172797ca6c3fe824b49940d02fa64683','2026-10-27 20:58:06.223265',0);
+INSERT INTO "users" VALUES(15,'Insidioussss','','verified',NULL,'2026-10-30 09:16:18.196762',0);
 CREATE TABLE wiki_pages (
 	id INTEGER NOT NULL, 
 	title VARCHAR(150) NOT NULL, 
@@ -2834,7 +2918,8 @@ Ape Skip is required for the route to work. If you mess it up, it takes around 3
 After getting the Lotus of the Palace, [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Senpou Temple Grounds.
 
 ### Monkey Skip
-[Monkey Skip](/wiki/monkey-skip) is required for the route to work. However, you can retry it with only minor timeloss if you miss it. It is extremely difficult to become consistent at Monkey Skip. It is okay to have a 10% or lower success rate. A success rate of 25% or higher would be considered extremely high level. Mitchriz has a tutorial on how to do Monkey Skip:
+[Monkey Skip](/wiki/monkey-skip) is required for the route to work. It takes time to learn. However, you can retry it with only minor timeloss if you miss it. It is extremely difficult to become consistent at Monkey Skip. It is okay to have a 10% or lower success rate. It is generally advised to use keyboard and mouse for Monkey Skip.
+Mitchriz has a tutorial on how to do Monkey Skip:
 [youtube]56g7lWP0utY[/youtube]
 
 After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it is obtained, the Invasion Event will start and your Last Communed Idol will be set as Ashina Castle - Abandoned Dungeon. Use the [Homeward Idol](/wiki/homeward-idol) to go to Last Communed Idol after picking up the Mortal Draw to go to Emma/Isshin.
@@ -2842,7 +2927,7 @@ After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it 
 ### Emma
 You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
 
-### Isshin','approved',NULL,NULL,NULL,5,2,'2026-07-19 12:33:39.893829','2026-10-24 12:10:47.606884','shura-restricted',NULL,'2026-07-19 12:33:43.604937',2,NULL,NULL,NULL,NULL);
+### Isshin','approved',NULL,NULL,NULL,5,2,'2026-07-19 12:33:39.893829','2026-10-30 09:36:26.011408','shura-restricted',NULL,'2026-07-19 12:33:43.604937',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(35,'Phantom Kunai (Upgrade Material)','## Phantom Kunai (Upgrade Material)
 The Phantom Kunai is a Unique Upgrade Material used for unlocking the Phantom Kunai Prosthetic Tool Upgrade.
 
@@ -3490,8 +3575,11 @@ Divine Confetti is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026
 INSERT INTO "wiki_pages" VALUES(147,'Zee4 Akoless Centipede','## Zee4 Akoless Centipede
 Zee4 Akoless Centipede, also known as C4 Akoless Centipede, is a strategy for [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe) that skips using an [Ako''s Sugar](/wiki/ako-s-sugar) in order to save time by not needing to pick up the Ako.
 
+koko838 made the following tutorial:
+ [youtube]dbfkt2KEcLg[/youtube] 
+
 ## History
-Despite its name, the original strategy was not found by Zee4. Zee4 said he saw it from someone else. But he posted it on the Speedrun Discord, which is why it was named after him.','approved',NULL,NULL,NULL,3,2,'2026-10-27 20:54:17.248015','2026-10-27 20:54:23.768011','zee4-akoless-centipede','2026-10-27 20:54:17.246706','2026-10-27 20:54:23.767657',2,NULL,NULL,NULL,NULL);
+Despite its name, the original strategy was not found by Zee4. Zee4 said he saw it from someone else. But he posted it on the Speedrun Discord, which is why it was named after him.','approved',NULL,NULL,NULL,3,2,'2026-10-27 20:54:17.248015','2026-10-30 09:01:54.538272','zee4-akoless-centipede','2026-10-27 20:54:17.246706','2026-10-27 20:54:23.767657',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(148,'Ungo''s Sugar','## Ungo''s Sugar
 Ungo''s Sugar is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:00:39.301678','2026-10-27 21:01:15.466222','ungo-s-sugar','2026-10-27 21:00:39.301253','2026-10-27 21:01:15.465770',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(149,'Gachiin''s Sugar','## Gachiin''s Sugar
@@ -3526,6 +3614,18 @@ INSERT INTO "wiki_pages" VALUES(163,'Oil','## Oil
 Oil is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:38:00.242749','2026-10-27 21:38:08.976552','oil','2026-10-27 21:38:00.242346','2026-10-27 21:38:08.976215',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(164,'Eel Liver','## Eel Liver
 Eel Liver is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:38:45.862195','2026-10-27 21:38:57.020616','eel-liver','2026-10-27 21:38:45.861791','2026-10-27 21:38:57.020283',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(165,'Father''s Bell Charm','## Father''s Bell Charm
+The Father''s Bell Charm is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-30 08:58:36.078308','2026-10-30 09:01:02.971265','father-s-bell-charm','2026-10-30 08:58:36.074320','2026-10-30 09:01:02.970009',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(166,'Ornamental Letter','## Ornamental Letter
+The Ornamental Letter is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-30 08:59:04.256025','2026-10-30 09:00:54.486183','ornamental-letter','2026-10-30 08:59:04.255587','2026-10-30 09:00:54.485099',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(167,'Dragonrot Blood Sample','## Dragonrot Blood Sample
+The Dragonrot Blood Sample is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-30 09:00:44.507224','2026-10-30 09:00:57.239460','dragonrot-blood-sample','2026-10-30 09:00:44.506809','2026-10-30 09:00:57.238988',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(168,'Hidden Temple Key','## Hidden Temple Key
+The Hidden Temple Key is a Key Item acquired by speaking to Owl in Hirata Estate and is used to open the locked door to the Hidden Temple, where Lady Butterfly and Owl Father can be fought.','approved',NULL,NULL,NULL,4,2,'2026-10-30 09:06:01.048064','2026-10-30 09:06:04.651811','hidden-temple-key','2026-10-30 09:06:01.047656','2026-10-30 09:06:04.651470',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(169,'Holy Chapter: Infested','## Holy Chapter: Infested
+The Holy Chapter: Infested is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-30 09:31:44.353727','2026-10-30 09:31:49.426340','holy-chapter-infested','2026-10-30 09:31:44.350813','2026-10-30 09:31:49.425284',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(170,'Black Scroll','## Black Scroll
+The Black Scroll is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-30 09:52:50.095068','2026-10-30 09:53:02.750895','black-scroll','2026-10-30 09:52:50.094645','2026-10-30 09:53:02.750533',2,NULL,NULL,NULL,NULL);
 CREATE TABLE wiki_revisions (
 	id INTEGER NOT NULL, 
 	page_id INTEGER, 
@@ -6703,6 +6803,93 @@ Gyoubu Skip is not allowed in Glitchless Speedruns. However, the Tower Jump is a
 
 ## History
 Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,14,'2026-10-27 21:13:47.942797');
+INSERT INTO "wiki_revisions" VALUES(110,147,'Zee4 Akoless Centipede','## Zee4 Akoless Centipede
+Zee4 Akoless Centipede, also known as C4 Akoless Centipede, is a strategy for [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe) that skips using an [Ako''s Sugar](/wiki/ako-s-sugar) in order to save time by not needing to pick up the Ako.
+
+## History
+Despite its name, the original strategy was not found by Zee4. Zee4 said he saw it from someone else. But he posted it on the Speedrun Discord, which is why it was named after him.',3,7,'2026-10-30 09:01:54.538851');
+INSERT INTO "wiki_revisions" VALUES(111,34,'Shura Restricted','## Shura Restricted
+Shura Restricted is generally referred to as Any% or Any% Restricted.
+
+## Shura Restricted Guides
+Gin42_ has made a full video guide for Shura Restricted. The guide is a few years old by now, but a lot of the strats and information inside is still useful.
+[youtube]wHK3qTTV_pY[/youtube]
+
+Krrag, a high ranking Any% runner, has made his own text guide that you can find [here](https://www.speedrun.com/sekiro/guides/mo8a4). His guide covers a wide range of skill levels by including both high level and beginner level variations of the strats.
+
+## Shura Restricted Route
+This guide for Shura Restricted is made by the editors of the wiki.
+
+### Setup & Settings
+Subtitles should be disabled in Sound & Display Settings.
+The voice language and text language can be whatever you prefer.
+You can use any patch of the game you want. Using the current patch is fine.
+
+### Tutorial Section
+Talk to Kuro, and after receiving the Healing Gourd, you can press the menu button to cancel out of the dialogue early.
+
+After speaking to Kuro, you use the [Tutorial Grapple Glitch](/wiki/tutorial-grapple-glitch) to exit the Moonview Tower faster.
+[youtube]zFL1mjWWVfA[/youtube]
+
+Before leaving the tutorial remember to get the 2x Ash pickup right after running past [Leader Shigenori Yamauchi](/wiki/leader-shigenori-yamauchi).
+
+### Ashina Outskirts
+### Ogre Skip
+Ogre Skip takes a lot of time to learn, but is around 35s faster than fighting [Chained Ogre (Outskirts)](/wiki/chained-ogre-outskirts). 
+[youtube]jwto28bmImA[/youtube]
+
+Fighting Ogre instead is also fine. When you''re getting started it can be a great idea, as it allows for more run completions and lets you prioritize practicing more important things like Emma/Isshin and Ape Skip.
+ 
+### Canyon
+You can optionally use [Canyon Skip](/wiki/canyon-skip) to save 7s or Double Canyon Skip to save 14s.
+
+### Gyoubu Skip
+When entering [Gyoubu Oniwa](/wiki/gyoubu-oniwa)''s arena, you want to get the 2x Ash pickup in his arena. You need to pick it up quickly, as the pick-up will be unavailable for a while once Gyoubu starts his scripted opening dialogue where he screams his name.
+
+### Bull Skip
+[youtube]lAKV66fW4A0[/youtube]
+
+### Lone Shadow Skip
+Alternatively, you can fight Lone Shadow Longswordsman, which is around 12s slower.
+
+### Snake Eyes
+
+### Mibu Village
+In Mibu Village you want to pick up the 1x Divine Confetti in one of the houses
+
+### Corrupted Monk
+[youtube]3IMBc2EcGiQ[/youtube]
+Doing the [Stealth Deathblow](/wiki/corrupted-monk-cheese) with only 4 ash is very precise. It is a good idea to pick up 6 or more to make it easier. You can find the extra Ash pickups here.
+[youtube]RO5AVSdmHHQ[/youtube]
+
+After getting the [Shelter Stone](/wiki/shelter-stone), [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Ashina Castle Idol.
+
+### Genichiro
+Genichiro corner cheese tutorial.
+[youtube]shdnn-LEp_s[/youtube]
+
+### Senpou Airswim
+When quitting out at the elevator, make sure you are not too high up. If you quit out and reload in a wrong spot while [airswimming](wiki/airswim), the game won''t load the map that the player is in, which will result in a blackscreen that will kill the player after some time. This is a big timeloss that should be avoided.
+
+After exiting airswim, you want to make sure to keep aggro from enemies, so that your stable ground position is not updated. After getting the Senpou Temple Grounds Idol and quitting out, you should be placed back in airswim if your last stable ground position was still when you were airswimming.
+
+### Ape Skip
+Ape Skip is required for the route to work. If you mess it up, it takes around 3 minutes to get back and try it again, so it''s highly recommended to spend a lot of time to make it consistent.
+[youtube]NXTK-FEluL8[/youtube]
+[youtube]Ptcm94MuvJ8[/youtube]
+
+After getting the Lotus of the Palace, [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Senpou Temple Grounds.
+
+### Monkey Skip
+[Monkey Skip](/wiki/monkey-skip) is required for the route to work. However, you can retry it with only minor timeloss if you miss it. It is extremely difficult to become consistent at Monkey Skip. It is okay to have a 10% or lower success rate. A success rate of 25% or higher would be considered extremely high level. Mitchriz has a tutorial on how to do Monkey Skip:
+[youtube]56g7lWP0utY[/youtube]
+
+After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it is obtained, the Invasion Event will start and your Last Communed Idol will be set as Ashina Castle - Abandoned Dungeon. Use the [Homeward Idol](/wiki/homeward-idol) to go to Last Communed Idol after picking up the Mortal Draw to go to Emma/Isshin.
+
+### Emma
+You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
+
+### Isshin',5,2,'2026-10-30 09:36:26.011992');
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
 CREATE UNIQUE INDEX ix_page_slug_redirects_old_slug ON page_slug_redirects (old_slug);
