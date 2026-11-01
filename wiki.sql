@@ -3626,6 +3626,8 @@ INSERT INTO "wiki_pages" VALUES(169,'Holy Chapter: Infested','## Holy Chapter: I
 The Holy Chapter: Infested is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-30 09:31:44.353727','2026-10-30 09:31:49.426340','holy-chapter-infested','2026-10-30 09:31:44.350813','2026-10-30 09:31:49.425284',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(170,'Black Scroll','## Black Scroll
 The Black Scroll is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-30 09:52:50.095068','2026-10-30 09:53:02.750895','black-scroll','2026-10-30 09:52:50.094645','2026-10-30 09:53:02.750533',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(171,'Okami Leader Shizu','## Okami Leader Shizu
+Okami Leader Shizu is a Miniboss that appears in Fountainhead Palace.','approved',NULL,NULL,NULL,4,2,'2026-10-31 10:09:12.117881','2026-10-31 10:09:17.538279','okami-leader-shizu','2026-10-31 10:09:12.117435','2026-10-31 10:09:17.537939',2,NULL,NULL,NULL,NULL);
 CREATE TABLE wiki_revisions (
 	id INTEGER NOT NULL, 
 	page_id INTEGER, 
