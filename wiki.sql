@@ -2084,6 +2084,18 @@ After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it 
 You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
 
 ### Isshin',5,2,'2026-10-30 09:35:54.656043','approved','2026-10-30 09:35:54.655071','2026-10-30 09:36:26.012581',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(47,172,'Bingo','## Bingo
+Sekiro Bingo is a gameplay format where the players attempt to complete a Bingo Board, which is a grid of squares with in-game objectives. Any number of players can participate in a match of Bingo although 1-2 players is most common. All players in the match use the same Bingo board. Unlike [real life Bingo](https://en.wikipedia.org/wiki/Bingo_(American_version)), Sekiro Bingo is a game of skill and matches are most often played as a friendly competition with **no** money or prizes involved.
+
+The win condition and rules of a Bingo match come in many varieties and should be agreed upon before the Match starts. Below are some of the common ones.
+Examples of win conditions:
+- Traditional (Bingo!) - First to complete a row, column or diagonal of squares, also called a Bingo!, wins.
+- Multi-Bingo! - First to complete an agreed upon amount of Bingo!''s wins.
+- Blackout - First to complete every square on the Bingo board wins.
+
+Examples of additional rules:
+- Lock-out - Once a player has marked a square, no other player can mark that square. If no win condition has been reached when the board is fully locked-out, then the player with the most squares wins.
+- Time limit - If no win condition has been reached and the time is up, then an alternative way of determining the winner is used. Usually that would be the player with the most squares.',2,2,'2026-11-01 09:55:57.678385','approved','2026-11-01 09:55:57.677937','2026-11-01 09:56:02.524223',2,NULL,NULL,NULL,NULL);
 CREATE TABLE users (
 	id INTEGER NOT NULL, 
 	username VARCHAR(80) NOT NULL, 
@@ -3030,7 +3042,7 @@ Aggro-chain is a mechanic that consists of entering combat to abuse the game''s 
 The glitch starts by triggering a combat encounter, which sets the player''s Last Registered Position to one moments before entering combat. After performing actions, such as discovering a [Sculptor''s Idol](/wiki/sculptor-s-idol), the player can perform a quitout to revert the current position to the Last Registered Position.
 
 ## Common Use Cases
-The mechanic is most commonly used in the Airswim glitch in Any% to grab the Temple Grounds Sculptor''s Idol before performing Ape Skip. This causes the Homeward Idol''s Last Communed Idol option to teleport the player to the Temple Grounds Idol.','pending',NULL,NULL,NULL,3,8,'2026-09-17 16:26:06.469405','2026-09-17 16:26:06.469408','aggro-chain',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+The mechanic is most commonly used in the Airswim glitch in Any% to grab the Temple Grounds Sculptor''s Idol before performing Ape Skip. This causes the Homeward Idol''s Last Communed Idol option to teleport the player to the Temple Grounds Idol.','approved',NULL,NULL,NULL,3,8,'2026-09-17 16:26:06.469405','2026-11-01 13:41:58.296364','aggro-chain',NULL,'2026-11-01 13:41:58.295328',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(55,'Loaded Shuriken','## Loaded Shuriken
 The Loaded Shuriken is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-09-17 17:06:36.062334','2026-09-17 17:06:41.829220','loaded-shuriken',NULL,'2026-09-17 17:06:41.834905',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(56,'Mibu Breathing Technique','## Mibu Breathing Technique
@@ -3628,6 +3640,56 @@ INSERT INTO "wiki_pages" VALUES(170,'Black Scroll','## Black Scroll
 The Black Scroll is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-30 09:52:50.095068','2026-10-30 09:53:02.750895','black-scroll','2026-10-30 09:52:50.094645','2026-10-30 09:53:02.750533',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(171,'Okami Leader Shizu','## Okami Leader Shizu
 Okami Leader Shizu is a Miniboss that appears in Fountainhead Palace.','approved',NULL,NULL,NULL,4,2,'2026-10-31 10:09:12.117881','2026-10-31 10:09:17.538279','okami-leader-shizu','2026-10-31 10:09:12.117435','2026-10-31 10:09:17.537939',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(172,'Bingo','## Bingo
+Sekiro Bingo is a gameplay format where the players attempt to complete a Bingo Board, which is a grid of squares with in-game objectives. Any number of players can participate in a match of Bingo although 1-2 players is most common. All players in the match use the same Bingo board. Unlike [real life Bingo](https://en.wikipedia.org/wiki/Bingo_(American_version)), Sekiro Bingo is a game of skill and matches are most often played as a friendly competition with **no** money or prizes involved.
+
+The win condition and rules of a Bingo match come in many varieties and should be agreed upon before the Match starts. Below are some of the common ones.
+Examples of win conditions:
+- Traditional (Bingo!) - First to complete a row, column or diagonal of squares, also called a Bingo!, wins.
+- Multi-Bingo! - First to complete an agreed upon amount of Bingo!''s wins.
+- Blackout - First to complete every square on the Bingo board wins.
+
+Examples of additional rules:
+- Lock-out - Once a player has marked a square, no other player can mark that square. If no win condition has been reached when the board is fully locked-out, then the player with the most squares wins.
+- Time limit - If no win condition has been reached and the time is up, then an alternative way of determining the winner is used. Usually that would be the player with the most squares.','approved',NULL,NULL,NULL,2,2,'2026-11-01 09:40:04.200811','2026-11-01 09:56:02.523519','bingo','2026-11-01 09:40:04.200368','2026-11-01 09:40:14.146850',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(173,'Downpatching','## Downpatching
+Downpatching is the act of installing an older patch of the game, which can be advantageous for some speedruns. Most Sekiro speedruns can be done optimally or 99% optimally on current patch.
+
+## PC Downpatching
+[Holm has made a guide](https://www.speedrun.com/sekiro/guides/vjhms)
+
+## Console Downpatching
+Downpatching on console is much more tricky than downpatching on PC and most console speedrunners just play on current patch. However, there are three general methods for downpatching.
+
+1. Disc version - With a physical disc version of the game, you are able to play the 1.00 patch if you install the game with internet connection disabled. Note: you cannot create a disc version by putting a digital version onto a disc.
+2. Old version installed - If you have played Sekiro in the past and have not updated it yet, disabling your internet connection can allow you stay on an old patch.
+3. Jailbroken console - With a jailbroken console, it is possible to install any patch of the game you own. This wiki does not cover how to jailbreak a console.
+
+The disc version method is the only method that you can easily do, but it still requires you to own a disc copy of the game. Disc copies can be hard to find and getting one might require you to look on the used market. It also only allows you to choose between current patch 1.06 and the oldest patch 1.00. Note: there is a Game of the Year disc version, it is not known whether this disc has 1.00 preinstalled or if it comes with the Game of the Year 1.05 patch.
+
+Method 2 and 3 can both let you play all versions of the game in theory. But only a jailbroken console lets you directly choose which version of the game you want to play. ','approved',NULL,NULL,NULL,1,2,'2026-11-01 13:16:25.574211','2026-11-01 13:16:29.878793','downpatching','2026-11-01 13:16:25.573618','2026-11-01 13:16:29.878428',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(174,'Shura No Airswim','## Shura No Airswim
+Shura No Airswim is a speedrun category.
+
+## Shura No Airswim Route
+This guide for Shura No Airswim is made by the editors of the wiki.
+
+### Setup & Settings
+Subtitles should be disabled in Sound & Display Settings.
+The voice language and text language can be whatever you prefer.
+You need to [downpatch](/wiki/downpatching) to patch 1.02 for this route to work. It cannot be done on newer versions.','approved',NULL,NULL,NULL,5,2,'2026-11-01 13:20:01.804958','2026-11-01 13:20:05.687038','shura-no-airswim','2026-11-01 13:20:01.804541','2026-11-01 13:20:05.686696',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(175,'Battlefield Memorial Mob','## Battlefield Memorial Mob
+The Battlefield Memorial Mob is a merchant that appears in the Ashina Outskirts.','approved',NULL,NULL,NULL,4,2,'2026-11-01 19:18:15.571614','2026-11-01 19:20:26.169833','battlefield-memorial-mob','2026-11-01 19:18:15.571187','2026-11-01 19:20:26.169455',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(176,'Toxic Memorial Mob','## Toxic Memorial Mob
+The Toxic Memorial Mob is a merchant that appears in Sunken Valley.','approved',NULL,NULL,NULL,4,2,'2026-11-01 19:20:19.974306','2026-11-01 19:20:28.445133','toxic-memorial-mob','2026-11-01 19:20:19.973740','2026-11-01 19:20:28.444789',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(177,'Exiled Memorial Mob','## Exiled Memorial Mob
+The Exiled Memorial Mob is a merchant that appears in Ashina Depths.','approved',NULL,NULL,NULL,4,2,'2026-11-01 19:25:00.113825','2026-11-01 19:25:04.235115','exiled-memorial-mob','2026-11-01 19:25:00.113408','2026-11-01 19:25:04.234768',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(178,'Dungeon Memorial Mob','## Dungeon Memorial Mob
+The Dungeon Memorial Mob is a merchant that appears in the Abandoned Dungeon.','approved',NULL,NULL,NULL,4,2,'2026-11-01 19:26:30.159390','2026-11-01 19:26:34.085940','dungeon-memorial-mob','2026-11-01 19:26:30.158984','2026-11-01 19:26:34.085597',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(179,'Shugendo Memorial Mob','## Shugendo Memorial Mob
+The Shugendo Memorial Mob is a merchant that appears in Senpou Temple, Mt. Kongo.','approved',NULL,NULL,NULL,4,2,'2026-11-01 19:30:07.123114','2026-11-01 19:32:47.554127','shugendo-memorial-mob','2026-11-01 19:30:07.122657','2026-11-01 19:32:47.553781',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(180,'Crow''s Bed Memorial Mob','## Crow''s Bed Memorial Mob
+The Crow''s Bed Memorial Mob is a merchant that appears in Ashina Outskirts.','approved',NULL,NULL,NULL,4,2,'2026-11-01 19:32:43.344688','2026-11-01 19:32:52.278919','crow-s-bed-memorial-mob','2026-11-01 19:32:43.344269','2026-11-01 19:32:52.278571',2,NULL,NULL,NULL,NULL);
 CREATE TABLE wiki_revisions (
 	id INTEGER NOT NULL, 
 	page_id INTEGER, 
@@ -6892,6 +6954,18 @@ After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it 
 You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
 
 ### Isshin',5,2,'2026-10-30 09:36:26.011992');
+INSERT INTO "wiki_revisions" VALUES(112,172,'Bingo','## Bingo
+Sekiro Bingo is a gameplay format where the players attempt to complete a Bingo Board, which is a grid of squares with in-game objectives. Any number of players can participate in a match of Bingo and all players in the match use the same Bingo board.
+
+The win condition and rules of a Bingo match come in many varieties and should be agreed upon before the Match starts. Below are some of the common ones.
+Examples of win conditions:
+- Traditional (Bingo!) - First to complete a row, column or diagonal of squares, also called a Bingo!, wins.
+- Multi-Bingo! - First to complete an agreed upon amount of Bingo!''s wins.
+- Blackout - First to complete every square on the Bingo board wins.
+
+Examples of additional rules:
+- Lock-out - Once a player has marked a square, no other player can mark that square. If no win condition has been reached when the board is fully locked-out, then the player with the most squares wins.
+- Time limit - If no win condition has been reached and the time is up, then an alternative way of determining the winner is used. Usually that would be the player with the most squares.',2,2,'2026-11-01 09:56:02.523755');
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
 CREATE UNIQUE INDEX ix_page_slug_redirects_old_slug ON page_slug_redirects (old_slug);
