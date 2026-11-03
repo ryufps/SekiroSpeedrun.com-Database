@@ -2096,6 +2096,222 @@ Examples of win conditions:
 Examples of additional rules:
 - Lock-out - Once a player has marked a square, no other player can mark that square. If no win condition has been reached when the board is fully locked-out, then the player with the most squares wins.
 - Time limit - If no win condition has been reached and the time is up, then an alternative way of determining the winner is used. Usually that would be the player with the most squares.',2,2,'2026-11-01 09:55:57.678385','approved','2026-11-01 09:55:57.677937','2026-11-01 09:56:02.524223',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(48,9,'Monkey Skip','## Monkey Skip
+Monkey Skip is a skip that allows skipping the Folding Screen Monkeys boss in Senpou Temple.
+
+## Regular Version
+The regular version is performed via a [Delayed Jump](/wiki/delayed-jump) from a tree branch outside of the Senpou Temple Main Hall and lets you enter directly into the Inner Sanctum without fighting the Folding Screen Monkeys. The delayed jump is generally considered to be near frame perfect.
+Mitch has made a video tutorial using keyboard and mouse.
+[youtube]56g7lWP0utY[/youtube]
+
+For players looking for a more in-depth guide that expands on Mitchriz''s tutorial, with a greater focus on controller inputs and console players, you can find Insidioussss_''s Monkey Skip Tutorial video here.
+[youtube]DDmR2JJsIZo[/youtube]
+
+## Grapple Swap Version
+The Grapple Swap version is an easier alternative that requires getting a Prosthetic Tool and using the Grapple Swap glitch to launch onto the roof.
+
+Video example:
+[youtube]qojSIJ91gFU[/youtube]
+
+## Common Use Cases
+Monkey Skip is most famously used in the Any% speedrun, Shura Restricted and Shura Unrestricted. It is also used in Immortal Severance Restricted, sometimes referred to as "Immortal Severance Any%".
+
+## In Other Categories
+**Monkey Skip is not allowed in Glitchless.** It also cannot be used in categories that require you to kill the Folding Screen Monkeys (such as in All Memories Restricted). It generally sees limited use in glitched categories, outside of short any% style runs, as doing Monkey Skip makes you miss getting the Attack Power upgrade from the Memory they drop, which overall ends up being slower for Shura No Airswim and Immortal Severance No Airswim. In both No Airswim categories, the Monkeys Grapple Launch is used instead.
+
+## History
+Monkey Skip was theorized to be possible by Marky around April 20th, 2019. However, [he did not manage to get it to work](https://streamable.com/3low9). It was first shown to be possible when [Distortion2 managed to land it during a testing livestream](https://www.twitch.tv/distortion2/clip/FaintAliveVelociraptorSpicyBoy) on April 24th, 2019. It proved to be insanely precise, and was thus not used in runs until [MItchriz](/wiki/mitchriz), on May 27th, 2020, discovered a consistent setup. Mitchriz used it break [LilAggy](/wiki/lilaggy)''s Any% World Record of [21:19](https://www.speedrun.com/sekiro/runs/z01g5wjy) with a time of [21:09](https://www.speedrun.com/sekiro/runs/z152krgy) on June 1st, 2020, stopping LilAggy''s nearly 1 year long reign as the WR holder. The day after, on June 2nd, he posted the tutorial linked above, which enabled other runners to be able to do the skip. On June 7th, LilAggy reclaimed the WR with a time of [21:02](https://www.speedrun.com/sekiro/runs/zx27l3km), and then beat his own record the day after on June 8th with the first sub 21-minute completion of the game with a time of [20:39](https://www.speedrun.com/sekiro/runs/y4wq6gdm). Monkey Skip has been a key part of the Any% speedrun since then.',3,15,'2026-11-02 12:55:25.525018','approved','2026-11-02 12:55:25.524163','2026-11-02 13:31:59.011704',2,NULL,'Monkey Skip','## Monkey Skip
+Monkey Skip is a skip that allows skipping the Folding Screen Monkeys boss in Senpou Temple.
+
+## Regular Version
+The regular version is performed via a [Delayed Jump](/wiki/delayed-jump) from a tree branch outside of the Senpou Temple Main Hall and lets you enter directly into the Inner Sanctum without fighting the Folding Screen Monkeys. The delayed jump is generally considered to be near frame perfect.
+Video Tutorials:
+[youtube]56g7lWP0utY[/youtube]
+[youtube]DDmR2JJsIZo[/youtube]
+
+## Console Tutorial / Controller Tutorial
+For players looking for a more in-depth guide that expands on Mitchriz''s tutorial, with a greater focus on controller inputs and console players, you can find Insidioussss_''s Monkey Skip Tutorial video here.
+Video Tutorial:
+[youtube]DDmR2JJsIZo[/youtube]
+
+## Grapple Swap Version
+The Grapple Swap version is an easier alternative that requires getting a Prosthetic Tool and using the Grapple Swap glitch to launch onto the roof.
+
+Video example:
+[youtube]qojSIJ91gFU[/youtube]
+
+## Common Use Cases
+Monkey Skip is most famously used in the Any% speedrun, Shura Restricted and Shura Unrestricted. It is also used in Immortal Severance Restricted, sometimes referred to as "Immortal Severance Any%".
+
+## In Other Categories
+**Monkey Skip is not allowed in Glitchless.** It also cannot be used in categories that require you to kill the Folding Screen Monkeys (such as in All Memories Restricted). It generally sees limited use in glitched categories, outside of short any% style runs, as doing Monkey Skip makes you miss getting the Attack Power upgrade from the Memory they drop, which overall ends up being slower for Shura No Airswim and Immortal Severance No Airswim. In both No Airswim categories, the Monkeys Grapple Launch is used instead.
+
+## History
+Monkey Skip was theorized to be possible by Marky around April 20th, 2019. However, [he did not manage to get it to work](https://streamable.com/3low9). It was first shown to be possible when [Distortion2 managed to land it during a testing livestream](https://www.twitch.tv/distortion2/clip/FaintAliveVelociraptorSpicyBoy) on April 24th, 2019. It proved to be insanely precise, and was thus not used in runs until [MItchriz](/wiki/mitchriz), on May 27th, 2020, discovered a consistent setup. Mitchriz used it break [LilAggy](/wiki/lilaggy)''s Any% World Record of [21:19](https://www.speedrun.com/sekiro/runs/z01g5wjy) with a time of [21:09](https://www.speedrun.com/sekiro/runs/z152krgy) on June 1st, 2020, stopping LilAggy''s nearly 1 year long reign as the WR holder. The day after, on June 2nd, he posted the tutorial linked above, which enabled other runners to be able to do the skip. On June 7th, LilAggy reclaimed the WR with a time of [21:02](https://www.speedrun.com/sekiro/runs/zx27l3km), and then beat his own record the day after on June 8th with the first sub 21-minute completion of the game with a time of [20:39](https://www.speedrun.com/sekiro/runs/y4wq6gdm). Monkey Skip has been a key part of the Any% speedrun since then.',3);
+INSERT INTO "pending_edits" VALUES(49,9,'Monkey Skip','## Monkey Skip
+Monkey Skip is a skip that allows skipping the Folding Screen Monkeys boss in Senpou Temple.
+
+## Regular Version
+The regular version is performed via a [Delayed Jump](/wiki/delayed-jump) from a tree branch outside of the Senpou Temple Main Hall and lets you enter directly into the Inner Sanctum without fighting the Folding Screen Monkeys. The delayed jump is generally considered to be near frame perfect.
+[Mitchriz](/wiki/mitchriz) has made a video tutorial using keyboard and mouse.
+[youtube]56g7lWP0utY[/youtube]
+
+For players looking for a more in-depth guide that expands on Mitchriz''s tutorial, with a greater focus on controller inputs and console players, you can find Insidioussss_''s Monkey Skip Tutorial video here.
+[youtube]DDmR2JJsIZo[/youtube]
+
+## Grapple Swap Version
+The Grapple Swap version is an easier alternative that requires getting a Prosthetic Tool and using the Grapple Swap glitch to launch onto the roof.
+
+Video example:
+[youtube]qojSIJ91gFU[/youtube]
+
+## Common Use Cases
+Monkey Skip is most famously used in the Any% speedrun, Shura Restricted and Shura Unrestricted. It is also used in Immortal Severance Restricted, sometimes referred to as "Immortal Severance Any%".
+
+## In Other Categories
+**Monkey Skip is not allowed in Glitchless.** It also cannot be used in categories that require you to kill the Folding Screen Monkeys (such as in All Memories Restricted). It generally sees limited use in glitched categories, outside of short any% style runs, as doing Monkey Skip makes you miss getting the Attack Power upgrade from the Memory they drop, which overall ends up being slower for [Shura No Airswim](/wiki/shura-no-airswim) and Immortal Severance No Airswim. In both No Airswim categories, the Monkeys Grapple Launch is used instead.
+
+## History
+Monkey Skip was theorized to be possible by Marky around April 20th, 2019. However, [he did not manage to get it to work](https://streamable.com/3low9). It was first shown to be possible when [Distortion2 managed to land it during a testing livestream](https://www.twitch.tv/distortion2/clip/FaintAliveVelociraptorSpicyBoy) on April 24th, 2019. It proved to be insanely precise, and was thus not used in runs until [MItchriz](/wiki/mitchriz), on May 27th, 2020, discovered a consistent setup. Mitchriz used it break [LilAggy](/wiki/lilaggy)''s Any% World Record of [21:19](https://www.speedrun.com/sekiro/runs/z01g5wjy) with a time of [21:09](https://www.speedrun.com/sekiro/runs/z152krgy) on June 1st, 2020, stopping LilAggy''s nearly 1 year long reign as the WR holder. The day after, on June 2nd, he posted the tutorial linked above, which enabled other runners to be able to do the skip. On June 7th, LilAggy reclaimed the WR with a time of [21:02](https://www.speedrun.com/sekiro/runs/zx27l3km), and then beat his own record the day after on June 8th with the first sub 21-minute completion of the game with a time of [20:39](https://www.speedrun.com/sekiro/runs/y4wq6gdm). Monkey Skip has been a key part of the Any% speedrun since then.',3,2,'2026-11-02 13:35:03.813656','approved','2026-11-02 13:35:03.813297','2026-11-02 13:35:13.450707',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(50,10,'LiveSplit','## LiveSplit
+LiveSplit is a timer program for speedrunners that is both easy to use and full of features.
+
+You can download the latest version of LiveSplit [here](https://livesplit.org/). The downloaded file will have to be extracted and the folder placed somewhere you will remember.
+
+Right clicking the LiveSplit window and going to settings allows you to edit various settings. it''s highly recommended to enable Global Hotkeys, as this allows you to split, reset, undo split and skip split while in-game. You can also change the keybinds while you''re here.
+![image](https://i.imgur.com/RezD2Uy.png)
+
+Note: The numpad buttons won''t work while shift is pressed. This is good to know if you play with keyboard and mouse and use shift to sprint, as you won''t be able to manual split/reset/undo/skip while holding shift. But that should be fine thought, since most players will use autosplitting.
+
+## SoulSplitter
+SoulSplitter is a LiveSplit plugin developed by [Wasted](/wiki/wasted) that is designed to provide autosplitting and timekeeping across all the FromSoftware games available on PC. It is also the official leaderboard timer for Sekiro speedruns and includes various fixes that the community has agreed upon. Enabling it and using it is **required** for PC speedrun leaderboard submissions.
+
+SoulSplitter''s included mods and fixes:
+* Timer auto start and stop
+
+* No intro movies mod
+
+* IGT fix by B3LYP
+
+* Cutscene blackscreen removal by Wasted
+
+* Autosplitting by Wasted
+
+* Event Flag logger and tracker by Wasted
+
+* Improved tutorial pop-up removal by Wasted
+
+* SteamID check bypass for save files by Uberhalit
+
+**Note: Do not use other versions of these mods for leaderboard submissions. Only use them as provided automatically through LiveSplit**.
+
+### How to Setup LiveSplit for Speedrunning (SoulSplitter Setup)
+Read section above about LiveSplit and LiveSplit installation first.
+1. Open LiveSplit, right-click it and select Edit Splits.
+2. Find Sekiro in the Game Name Field.
+![image](https://i.imgur.com/amQ9HMr.png)
+3. Activate the integrated game time component.
+![image](https://i.imgur.com/R1d3TTL.png)
+4. Right-click LiveSplit and select Compare Against --> Game Time.
+![image](https://i.imgur.com/J6yByQy.png)
+5. Done!
+
+## In-Game Time (IGT)
+Sekiro has a built in timer, usually referred to as IGT (In-Game Time or In-Game Timer). However, the default behavior of it is not ideal. Its biggest problem is that there''s an issue with the way the time is incremented, which makes the timer count at a rate that is both slower than real time is supposed to run and hardware dependent in an unfair way.
+
+The community has solved this on PC with the IGT Fix by B3LYP. The fixed version of IGT is usually referred to as modified In-Game Time, or mIGT for short. It has also been referred to as wIGT, or Wasted IGT, after Wasted took over maintaining and developing the Sekiro plugin, under the SoulSplitter project. Importantly, modified IGT is designed to run 1:1 with real time, assuming no game slowdowns due to lag or loading screens. Each second of actual gameplay equates to 1 second on the timer.
+
+For the leaderboards, PC runs use modified IGT through LiveSplit, while console runs use the default IGT.
+
+## Autosplitting
+With SoulSplitter activated in the Edit Splits menu, you can make custom autosplits. The autosplitter gives the user freedom to setup autosplit triggers for almost anything in the game, allowing you to customize them to how you see fit. Most beginners will want to download a pre-configured .lss split file that has everything already set up and running. Below is a section on where to download splits of other players.
+
+### How to Create Autosplits
+to be added
+
+### How to Find Event Flags (Event Flag Logger)
+to be added
+
+### What Makes a Good Autosplit?
+Generally speaking, you should make a split where ever you feel like it. However, there are some considerations you should make to get the most out of LiveSplit. LiveSplit is supposed to enhance your progress as a player. It''s not supposed to be an obstacle you have to wrestle with.
+
+* Consider splitting in the same places as others, so that you can compare with them more easily to better tell where you could save time. Below is a section that explains how to download the splits that other players use.
+* Always test newly added autosplits before doing a run.
+* Place autosplits at bottlenecks and be careful of autosplit points that can vary. An example is splitting on Gyoubu kill. If Gyoubu is killed close to where you need to go, then the next split will be shorter, and if he is killed far from where you need to go, then the next split will be longer. This is why most people choose to split on opening the gate after killing Gyoubu in glitchless, instead of splitting directly on kill. The door is a bottleneck that you have to go through (unless you''re doing [AP1 Bull](/wiki/attack-power-1-bull).
+* Consider the precision of the autosplit you have made. The autosplitter itself is precise and accurate, but some in-game things aren''t. This is an extension of the point above, but applies more to how you choose to implement the split rather than where you place it. You can never have a precise split on Gyoubu kill, but it''s possible to have an imprecise autosplit on a spot that should otherwise be a good point to split at. Such as if you have a position split with a way too large size, or a size so small that you may run by it and miss it entirely. Test the autosplit to make sure it always triggers at the same point/time.
+
+## Downloading Splits
+Some premade .lss split files with autosplits can be downloaded [here](https://www.speedrun.com/sekiro/resources).
+
+You can also use the website [therun.gg](https://therun.gg/games/Sekiro%3A%20Shadows%20Die%20Twice) to view and download the splits of other runners.
+
+When you download someone else''s splits, it can be a good idea to go to Edit Splits --> Other and then Clear History and Clear Times. This will reset all the stats and times from the splits.
+
+## Recording LiveSplit in Videos
+The most popular program for recording and livestreaming is [Open Broadcaster Software (OBS)](https://obsproject.com/). It allows adding multiple layers to your scene, where you would usually use a Game Capture for Sekiro with a Window Capture for LiveSplit put on top of it.
+
+To make a Game Capture Source in OBS:
+
+1. Press the + in the Sources box and choose Game Capture Source. Shown below:
+![image](https://www.speedrun.com/static/blob/rz2x1ke0.png)
+
+Game Capture will only show the game, therefore we need to add a separate Source for LiveSplit itself. For capturing LiveSplit, we use a Window Capture Source.
+
+2. Add the Window Capture in the same way you added the Game Capture in the step above (make sure that LiveSplit is open while doing this).
+
+3. After naming it, the following window will appear. Select LiveSplit as the window.
+![image](https://www.speedrun.com/static/blob/qzp2mle3.png)
+
+I recommend setting the **"Window Match Priority"** to **"Match title, otherwise find window of same executable"**. This ensures that the Source will exclusively look for the LiveSplit window to capture.
+
+4. Done!
+
+### Making LiveSplit Transparent
+The usual way that people make LiveSplit transparent is through a filter in OBS, which will only make it look transparent in the recording and NOT for you. Alternatively, you can use the Transparent LiveSplit fork, which makes LiveSplit''s own background transparent, instead of filtering it out in the recording.
+
+Follow the tutorial below to make LiveSplit transparent in the recording (not needed if using the Transparent LiveSplit fork).
+1. **You want to use a black background on LiveSplit. Do not use a color like green, blue or anything like that**, as this will mess with the other elements. Using the default black/dark grey background works as well.
+![image](https://www.speedrun.com/static/blob/rz2x18e0.png)
+
+The background color can be changed in layout settings.
+![image](https://www.speedrun.com/static/blob/yzrrgjz4.png)
+
+2. Right click the Window Capture you created for LiveSplit (mine is called Splits) and press Filters.
+![image](https://www.speedrun.com/static/blob/5e1kpvn0.png)
+
+3. Add a **Color Key** (not a Chroma Key). Set the type to Custom Colour and choose black. Then finally, adjust the Similarity slider until the background disappears. You will get the best looking result with a solid black LiveSplit background.
+![image](https://www.speedrun.com/static/blob/xz0og0zl.png)
+
+4. Done!
+
+## Troubleshooting
+If you have issues with the timer not automatically starting or not correctly showing the game time, make sure you are comparing against Game Time. Otherwise try restarting Sekiro and waiting 5-10 seconds for SoulSplitter to properly attach to the game, then test again. If that doesn''t work try restarting LiveSplit or your PC.
+
+If you need help feel free to ask in the #support channel on the [Sekiro Speedrunning Discord server](https://discord.gg/A7kWEPkKEq).
+
+### LiveSplit Error: "The Auto Splitter could not be activated"
+The most common cause of this error is that anti-virus will sometimes falsely flag SoulSplitter as an unwatend program and can quarantine the files without giving you a notification. [Here is the guide on how to create an anti-virus exclusion](https://soulsspeedruns.com/livesplit/#troubleshooting).
+
+### LiveSplit Error: "Incomplete installation. Missing files"
+Sometimes, the anti-virus fix isn''t enough. If you get an error about missing files, then you need to manually download the SoulSplitter component files from Github via the following steps:
+1. Close LiveSplit.
+2. Go to the [SoulSplitter Github downloads page](https://github.com/FrankvdStam/SoulSplitter/releases).
+3. Download the .zip file from whatever is the latest release (do not download the ones named "source code").
+4. Extract the .zip file.
+5. Navigate to your LiveSplit components folder.
+6. Drag the extracted files into the LiveSplit/components folder (replace files if asked).
+7. Apply the anti-virus fix explained [here](https://soulsspeedruns.com/livesplit/#troubleshooting).
+8. Done!
+
+## Extra Tools for LiveSplit
+to be added
+
+## Credits
+Thanks to XeroGoesFast for authoring the original LiveSplit guide.
+Thanks to B3LYP for releasing the initial Sekiro timer plugin for LiveSplit.
+Thanks to RefinedHornet for contributions to the old Sekiro timer.
+Thanks to CapitaineToinon for contributions to the old Sekiro timer.
+Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-11-02 13:47:43.997875','approved','2026-11-02 13:47:43.997522','2026-11-02 13:48:26.281867',2,NULL,NULL,NULL,NULL);
 CREATE TABLE users (
 	id INTEGER NOT NULL, 
 	username VARCHAR(80) NOT NULL, 
@@ -2323,8 +2539,11 @@ Monkey Skip is a skip that allows skipping the Folding Screen Monkeys boss in Se
 
 ## Regular Version
 The regular version is performed via a [Delayed Jump](/wiki/delayed-jump) from a tree branch outside of the Senpou Temple Main Hall and lets you enter directly into the Inner Sanctum without fighting the Folding Screen Monkeys. The delayed jump is generally considered to be near frame perfect.
-Video Tutorial:
+[Mitchriz](/wiki/mitchriz) has made a video tutorial using keyboard and mouse.
 [youtube]56g7lWP0utY[/youtube]
+
+For players looking for a more in-depth guide that expands on Mitchriz''s tutorial, with a greater focus on controller inputs and console players, you can find Insidioussss_''s Monkey Skip Tutorial video here.
+[youtube]DDmR2JJsIZo[/youtube]
 
 ## Grapple Swap Version
 The Grapple Swap version is an easier alternative that requires getting a Prosthetic Tool and using the Grapple Swap glitch to launch onto the roof.
@@ -2336,10 +2555,10 @@ Video example:
 Monkey Skip is most famously used in the Any% speedrun, Shura Restricted and Shura Unrestricted. It is also used in Immortal Severance Restricted, sometimes referred to as "Immortal Severance Any%".
 
 ## In Other Categories
-**Monkey Skip is not allowed in Glitchless.** It also cannot be used in categories that require you to kill the Folding Screen Monkeys (such as in All Memories Restricted). It generally sees limited use in glitched categories, outside of short any% style runs, as doing Monkey Skip makes you miss getting the Attack Power upgrade from the Memory they drop, which overall ends up being slower for Shura No Airswim and Immortal Severance No Airswim. In both No Airswim categories, the Monkeys Grapple Launch is used instead.
+**Monkey Skip is not allowed in Glitchless.** It also cannot be used in categories that require you to kill the Folding Screen Monkeys (such as in All Memories Restricted). It generally sees limited use in glitched categories, outside of short any% style runs, as doing Monkey Skip makes you miss getting the Attack Power upgrade from the Memory they drop, which overall ends up being slower for [Shura No Airswim](/wiki/shura-no-airswim) and Immortal Severance No Airswim. In both No Airswim categories, the Monkeys Grapple Launch is used instead.
 
 ## History
-Monkey Skip was theorized to be possible by Marky around April 20th, 2019. However, [he did not manage to get it to work](https://streamable.com/3low9). It was first shown to be possible when [Distortion2 managed to land it during a testing livestream](https://www.twitch.tv/distortion2/clip/FaintAliveVelociraptorSpicyBoy) on April 24th, 2019. It proved to be insanely precise, and was thus not used in runs until [MItchriz](/wiki/mitchriz), on May 27th, 2020, discovered a consistent setup. Mitchriz used it break [LilAggy](/wiki/lilaggy)''s Any% World Record of [21:19](https://www.speedrun.com/sekiro/runs/z01g5wjy) with a time of [21:09](https://www.speedrun.com/sekiro/runs/z152krgy) on June 1st, 2020, stopping LilAggy''s nearly 1 year long reign as the WR holder. The day after, on June 2nd, he posted the tutorial linked above, which enabled other runners to be able to do the skip. On June 7th, LilAggy reclaimed the WR with a time of [21:02](https://www.speedrun.com/sekiro/runs/zx27l3km), and then beat his own record the day after on June 8th with the first sub 21-minute completion of the game with a time of [20:39](https://www.speedrun.com/sekiro/runs/y4wq6gdm). Monkey Skip has been a key part of the Any% speedrun since then.','approved',NULL,NULL,NULL,3,2,'2026-03-10 19:32:56.599299','2026-09-19 06:43:12.529071','monkey-skip',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Monkey Skip was theorized to be possible by Marky around April 20th, 2019. However, [he did not manage to get it to work](https://streamable.com/3low9). It was first shown to be possible when [Distortion2 managed to land it during a testing livestream](https://www.twitch.tv/distortion2/clip/FaintAliveVelociraptorSpicyBoy) on April 24th, 2019. It proved to be insanely precise, and was thus not used in runs until [MItchriz](/wiki/mitchriz), on May 27th, 2020, discovered a consistent setup. Mitchriz used it break [LilAggy](/wiki/lilaggy)''s Any% World Record of [21:19](https://www.speedrun.com/sekiro/runs/z01g5wjy) with a time of [21:09](https://www.speedrun.com/sekiro/runs/z152krgy) on June 1st, 2020, stopping LilAggy''s nearly 1 year long reign as the WR holder. The day after, on June 2nd, he posted the tutorial linked above, which enabled other runners to be able to do the skip. On June 7th, LilAggy reclaimed the WR with a time of [21:02](https://www.speedrun.com/sekiro/runs/zx27l3km), and then beat his own record the day after on June 8th with the first sub 21-minute completion of the game with a time of [20:39](https://www.speedrun.com/sekiro/runs/y4wq6gdm). Monkey Skip has been a key part of the Any% speedrun since then.','approved',NULL,NULL,NULL,3,2,'2026-03-10 19:32:56.599299','2026-11-02 13:35:13.450015','monkey-skip',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(10,'LiveSplit','## LiveSplit
 LiveSplit is a timer program for speedrunners that is both easy to use and full of features.
 
@@ -2452,7 +2671,9 @@ The background color can be changed in layout settings.
 4. Done!
 
 ## Troubleshooting
-If you have issues with the timer not automatically starting or not correctly showing the game time, triple check you are comparing against Game Time. Otherwise try restarting LiveSplit, running LiveSplit as Administrator or restarting your PC. If you need help feel free to ask in the #support channel on the [Sekiro Speedrunning Discord server](https://discord.gg/A7kWEPkKEq).
+If you have issues with the timer not automatically starting or not correctly showing the game time, make sure you are comparing against Game Time. Otherwise try restarting Sekiro and waiting 5-10 seconds for SoulSplitter to properly attach to the game, then test again. If that doesn''t work try restarting LiveSplit or your PC.
+
+If you need help feel free to ask in the #support channel on the [Sekiro Speedrunning Discord server](https://discord.gg/A7kWEPkKEq).
 
 ### LiveSplit Error: "The Auto Splitter could not be activated"
 The most common cause of this error is that anti-virus will sometimes falsely flag SoulSplitter as an unwatend program and can quarantine the files without giving you a notification. [Here is the guide on how to create an anti-virus exclusion](https://soulsspeedruns.com/livesplit/#troubleshooting).
@@ -2476,7 +2697,7 @@ Thanks to XeroGoesFast for authoring the original LiveSplit guide.
 Thanks to B3LYP for releasing the initial Sekiro timer plugin for LiveSplit.
 Thanks to RefinedHornet for contributions to the old Sekiro timer.
 Thanks to CapitaineToinon for contributions to the old Sekiro timer.
-Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.','approved',NULL,NULL,NULL,1,2,'2026-03-10 20:21:52.467295','2026-09-30 20:30:34.989899','livesplit',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.','approved',NULL,NULL,NULL,1,2,'2026-03-10 20:21:52.467295','2026-11-02 13:48:26.281181','livesplit',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(11,'Delayed Jump','## Delayed Jump
 A Delayed Jump is a jump done at the very last moment possible when going off a ledge, in a way that makes you do the jump after having already fallen off the ledge. This type of jump allows the player to gain more distance than a standard jump.
 
@@ -3690,6 +3911,8 @@ INSERT INTO "wiki_pages" VALUES(179,'Shugendo Memorial Mob','## Shugendo Memoria
 The Shugendo Memorial Mob is a merchant that appears in Senpou Temple, Mt. Kongo.','approved',NULL,NULL,NULL,4,2,'2026-11-01 19:30:07.123114','2026-11-01 19:32:47.554127','shugendo-memorial-mob','2026-11-01 19:30:07.122657','2026-11-01 19:32:47.553781',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(180,'Crow''s Bed Memorial Mob','## Crow''s Bed Memorial Mob
 The Crow''s Bed Memorial Mob is a merchant that appears in Ashina Outskirts.','approved',NULL,NULL,NULL,4,2,'2026-11-01 19:32:43.344688','2026-11-01 19:32:52.278919','crow-s-bed-memorial-mob','2026-11-01 19:32:43.344269','2026-11-01 19:32:52.278571',2,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(181,'Spear Adept','## Spear Adept
+The Spear Adept, also known as Straw Hat Monk, is an enemy that appears in Senpou Temple, Mt. Kongo.','approved',NULL,NULL,NULL,4,2,'2026-11-02 13:26:20.585710','2026-11-02 13:26:25.249282','spear-adept','2026-11-02 13:26:20.585279','2026-11-02 13:26:25.248815',2,NULL,NULL,NULL,NULL);
 CREATE TABLE wiki_revisions (
 	id INTEGER NOT NULL, 
 	page_id INTEGER, 
@@ -6966,6 +7189,190 @@ Examples of win conditions:
 Examples of additional rules:
 - Lock-out - Once a player has marked a square, no other player can mark that square. If no win condition has been reached when the board is fully locked-out, then the player with the most squares wins.
 - Time limit - If no win condition has been reached and the time is up, then an alternative way of determining the winner is used. Usually that would be the player with the most squares.',2,2,'2026-11-01 09:56:02.523755');
+INSERT INTO "wiki_revisions" VALUES(113,9,'Monkey Skip','## Monkey Skip
+Monkey Skip is a skip that allows skipping the Folding Screen Monkeys boss in Senpou Temple.
+
+## Regular Version
+The regular version is performed via a [Delayed Jump](/wiki/delayed-jump) from a tree branch outside of the Senpou Temple Main Hall and lets you enter directly into the Inner Sanctum without fighting the Folding Screen Monkeys. The delayed jump is generally considered to be near frame perfect.
+Video Tutorial:
+[youtube]56g7lWP0utY[/youtube]
+
+## Grapple Swap Version
+The Grapple Swap version is an easier alternative that requires getting a Prosthetic Tool and using the Grapple Swap glitch to launch onto the roof.
+
+Video example:
+[youtube]qojSIJ91gFU[/youtube]
+
+## Common Use Cases
+Monkey Skip is most famously used in the Any% speedrun, Shura Restricted and Shura Unrestricted. It is also used in Immortal Severance Restricted, sometimes referred to as "Immortal Severance Any%".
+
+## In Other Categories
+**Monkey Skip is not allowed in Glitchless.** It also cannot be used in categories that require you to kill the Folding Screen Monkeys (such as in All Memories Restricted). It generally sees limited use in glitched categories, outside of short any% style runs, as doing Monkey Skip makes you miss getting the Attack Power upgrade from the Memory they drop, which overall ends up being slower for Shura No Airswim and Immortal Severance No Airswim. In both No Airswim categories, the Monkeys Grapple Launch is used instead.
+
+## History
+Monkey Skip was theorized to be possible by Marky around April 20th, 2019. However, [he did not manage to get it to work](https://streamable.com/3low9). It was first shown to be possible when [Distortion2 managed to land it during a testing livestream](https://www.twitch.tv/distortion2/clip/FaintAliveVelociraptorSpicyBoy) on April 24th, 2019. It proved to be insanely precise, and was thus not used in runs until [MItchriz](/wiki/mitchriz), on May 27th, 2020, discovered a consistent setup. Mitchriz used it break [LilAggy](/wiki/lilaggy)''s Any% World Record of [21:19](https://www.speedrun.com/sekiro/runs/z01g5wjy) with a time of [21:09](https://www.speedrun.com/sekiro/runs/z152krgy) on June 1st, 2020, stopping LilAggy''s nearly 1 year long reign as the WR holder. The day after, on June 2nd, he posted the tutorial linked above, which enabled other runners to be able to do the skip. On June 7th, LilAggy reclaimed the WR with a time of [21:02](https://www.speedrun.com/sekiro/runs/zx27l3km), and then beat his own record the day after on June 8th with the first sub 21-minute completion of the game with a time of [20:39](https://www.speedrun.com/sekiro/runs/y4wq6gdm). Monkey Skip has been a key part of the Any% speedrun since then.',3,15,'2026-11-02 13:31:59.011248');
+INSERT INTO "wiki_revisions" VALUES(114,9,'Monkey Skip','## Monkey Skip
+Monkey Skip is a skip that allows skipping the Folding Screen Monkeys boss in Senpou Temple.
+
+## Regular Version
+The regular version is performed via a [Delayed Jump](/wiki/delayed-jump) from a tree branch outside of the Senpou Temple Main Hall and lets you enter directly into the Inner Sanctum without fighting the Folding Screen Monkeys. The delayed jump is generally considered to be near frame perfect.
+Mitch has made a video tutorial using keyboard and mouse.
+[youtube]56g7lWP0utY[/youtube]
+
+For players looking for a more in-depth guide that expands on Mitchriz''s tutorial, with a greater focus on controller inputs and console players, you can find Insidioussss_''s Monkey Skip Tutorial video here.
+[youtube]DDmR2JJsIZo[/youtube]
+
+## Grapple Swap Version
+The Grapple Swap version is an easier alternative that requires getting a Prosthetic Tool and using the Grapple Swap glitch to launch onto the roof.
+
+Video example:
+[youtube]qojSIJ91gFU[/youtube]
+
+## Common Use Cases
+Monkey Skip is most famously used in the Any% speedrun, Shura Restricted and Shura Unrestricted. It is also used in Immortal Severance Restricted, sometimes referred to as "Immortal Severance Any%".
+
+## In Other Categories
+**Monkey Skip is not allowed in Glitchless.** It also cannot be used in categories that require you to kill the Folding Screen Monkeys (such as in All Memories Restricted). It generally sees limited use in glitched categories, outside of short any% style runs, as doing Monkey Skip makes you miss getting the Attack Power upgrade from the Memory they drop, which overall ends up being slower for Shura No Airswim and Immortal Severance No Airswim. In both No Airswim categories, the Monkeys Grapple Launch is used instead.
+
+## History
+Monkey Skip was theorized to be possible by Marky around April 20th, 2019. However, [he did not manage to get it to work](https://streamable.com/3low9). It was first shown to be possible when [Distortion2 managed to land it during a testing livestream](https://www.twitch.tv/distortion2/clip/FaintAliveVelociraptorSpicyBoy) on April 24th, 2019. It proved to be insanely precise, and was thus not used in runs until [MItchriz](/wiki/mitchriz), on May 27th, 2020, discovered a consistent setup. Mitchriz used it break [LilAggy](/wiki/lilaggy)''s Any% World Record of [21:19](https://www.speedrun.com/sekiro/runs/z01g5wjy) with a time of [21:09](https://www.speedrun.com/sekiro/runs/z152krgy) on June 1st, 2020, stopping LilAggy''s nearly 1 year long reign as the WR holder. The day after, on June 2nd, he posted the tutorial linked above, which enabled other runners to be able to do the skip. On June 7th, LilAggy reclaimed the WR with a time of [21:02](https://www.speedrun.com/sekiro/runs/zx27l3km), and then beat his own record the day after on June 8th with the first sub 21-minute completion of the game with a time of [20:39](https://www.speedrun.com/sekiro/runs/y4wq6gdm). Monkey Skip has been a key part of the Any% speedrun since then.',3,2,'2026-11-02 13:35:13.450220');
+INSERT INTO "wiki_revisions" VALUES(115,10,'LiveSplit','## LiveSplit
+LiveSplit is a timer program for speedrunners that is both easy to use and full of features.
+
+You can download the latest version of LiveSplit [here](https://livesplit.org/). The downloaded file will have to be extracted and the folder placed somewhere you will remember.
+
+Right clicking the LiveSplit window and going to settings allows you to edit various settings. it''s highly recommended to enable Global Hotkeys, as this allows you to split, reset, undo split and skip split while in-game. You can also change the keybinds while you''re here.
+![image](https://i.imgur.com/RezD2Uy.png)
+
+Note: The numpad buttons won''t work while shift is pressed. This is good to know if you play with keyboard and mouse and use shift to sprint, as you won''t be able to manual split/reset/undo/skip while holding shift. But that should be fine thought, since most players will use autosplitting.
+
+## SoulSplitter
+SoulSplitter is a LiveSplit plugin developed by [Wasted](/wiki/wasted) that is designed to provide autosplitting and timekeeping across all the FromSoftware games available on PC. It is also the official leaderboard timer for Sekiro speedruns and includes various fixes that the community has agreed upon. Enabling it and using it is **required** for PC speedrun leaderboard submissions.
+
+SoulSplitter''s included mods and fixes:
+* Timer auto start and stop
+
+* No intro movies mod
+
+* IGT fix by B3LYP
+
+* Cutscene blackscreen removal by Wasted
+
+* Autosplitting by Wasted
+
+* Event Flag logger and tracker by Wasted
+
+* Improved tutorial pop-up removal by Wasted
+
+* SteamID check bypass for save files by Uberhalit
+
+**Note: Do not use other versions of these mods for leaderboard submissions. Only use them as provided automatically through LiveSplit**.
+
+### How to Setup LiveSplit for Speedrunning (SoulSplitter Setup)
+Read section above about LiveSplit and LiveSplit installation first.
+1. Open LiveSplit, right-click it and select Edit Splits.
+2. Find Sekiro in the Game Name Field.
+![image](https://i.imgur.com/amQ9HMr.png)
+3. Activate the integrated game time component.
+![image](https://i.imgur.com/R1d3TTL.png)
+4. Right-click LiveSplit and select Compare Against --> Game Time.
+![image](https://i.imgur.com/J6yByQy.png)
+5. Done!
+
+## In-Game Time (IGT)
+Sekiro has a built in timer, usually referred to as IGT (In-Game Time or In-Game Timer). However, the default behavior of it is not ideal. Its biggest problem is that there''s an issue with the way the time is incremented, which makes the timer count at a rate that is both slower than real time is supposed to run and hardware dependent in an unfair way.
+
+The community has solved this on PC with the IGT Fix by B3LYP. The fixed version of IGT is usually referred to as modified In-Game Time, or mIGT for short. It has also been referred to as wIGT, or Wasted IGT, after Wasted took over maintaining and developing the Sekiro plugin, under the SoulSplitter project. Importantly, modified IGT is designed to run 1:1 with real time, assuming no game slowdowns due to lag or loading screens. Each second of actual gameplay equates to 1 second on the timer.
+
+For the leaderboards, PC runs use modified IGT through LiveSplit, while console runs use the default IGT.
+
+## Autosplitting
+With SoulSplitter activated in the Edit Splits menu, you can make custom autosplits. The autosplitter gives the user freedom to setup autosplit triggers for almost anything in the game, allowing you to customize them to how you see fit. Most beginners will want to download a pre-configured .lss split file that has everything already set up and running. Below is a section on where to download splits of other players.
+
+### How to Create Autosplits
+to be added
+
+### How to Find Event Flags (Event Flag Logger)
+to be added
+
+### What Makes a Good Autosplit?
+Generally speaking, you should make a split where ever you feel like it. However, there are some considerations you should make to get the most out of LiveSplit. LiveSplit is supposed to enhance your progress as a player. It''s not supposed to be an obstacle you have to wrestle with.
+
+* Consider splitting in the same places as others, so that you can compare with them more easily to better tell where you could save time. Below is a section that explains how to download the splits that other players use.
+* Always test newly added autosplits before doing a run.
+* Place autosplits at bottlenecks and be careful of autosplit points that can vary. An example is splitting on Gyoubu kill. If Gyoubu is killed close to where you need to go, then the next split will be shorter, and if he is killed far from where you need to go, then the next split will be longer. This is why most people choose to split on opening the gate after killing Gyoubu in glitchless, instead of splitting directly on kill. The door is a bottleneck that you have to go through (unless you''re doing [AP1 Bull](/wiki/attack-power-1-bull).
+* Consider the precision of the autosplit you have made. The autosplitter itself is precise and accurate, but some in-game things aren''t. This is an extension of the point above, but applies more to how you choose to implement the split rather than where you place it. You can never have a precise split on Gyoubu kill, but it''s possible to have an imprecise autosplit on a spot that should otherwise be a good point to split at. Such as if you have a position split with a way too large size, or a size so small that you may run by it and miss it entirely. Test the autosplit to make sure it always triggers at the same point/time.
+
+## Downloading Splits
+Some premade .lss split files with autosplits can be downloaded [here](https://www.speedrun.com/sekiro/resources).
+
+You can also use the website [therun.gg](https://therun.gg/games/Sekiro%3A%20Shadows%20Die%20Twice) to view and download the splits of other runners.
+
+When you download someone else''s splits, it can be a good idea to go to Edit Splits --> Other and then Clear History and Clear Times. This will reset all the stats and times from the splits.
+
+## Recording LiveSplit in Videos
+The most popular program for recording and livestreaming is [Open Broadcaster Software (OBS)](https://obsproject.com/). It allows adding multiple layers to your scene, where you would usually use a Game Capture for Sekiro with a Window Capture for LiveSplit put on top of it.
+
+To make a Game Capture Source in OBS:
+
+1. Press the + in the Sources box and choose Game Capture Source. Shown below:
+![image](https://www.speedrun.com/static/blob/rz2x1ke0.png)
+
+Game Capture will only show the game, therefore we need to add a separate Source for LiveSplit itself. For capturing LiveSplit, we use a Window Capture Source.
+
+2. Add the Window Capture in the same way you added the Game Capture in the step above (make sure that LiveSplit is open while doing this).
+
+3. After naming it, the following window will appear. Select LiveSplit as the window.
+![image](https://www.speedrun.com/static/blob/qzp2mle3.png)
+
+I recommend setting the **"Window Match Priority"** to **"Match title, otherwise find window of same executable"**. This ensures that the Source will exclusively look for the LiveSplit window to capture.
+
+4. Done!
+
+### Making LiveSplit Transparent
+The usual way that people make LiveSplit transparent is through a filter in OBS, which will only make it look transparent in the recording and NOT for you. Alternatively, you can use the Transparent LiveSplit fork, which makes LiveSplit''s own background transparent, instead of filtering it out in the recording.
+
+Follow the tutorial below to make LiveSplit transparent in the recording (not needed if using the Transparent LiveSplit fork).
+1. **You want to use a black background on LiveSplit. Do not use a color like green, blue or anything like that**, as this will mess with the other elements. Using the default black/dark grey background works as well.
+![image](https://www.speedrun.com/static/blob/rz2x18e0.png)
+
+The background color can be changed in layout settings.
+![image](https://www.speedrun.com/static/blob/yzrrgjz4.png)
+
+2. Right click the Window Capture you created for LiveSplit (mine is called Splits) and press Filters.
+![image](https://www.speedrun.com/static/blob/5e1kpvn0.png)
+
+3. Add a **Color Key** (not a Chroma Key). Set the type to Custom Colour and choose black. Then finally, adjust the Similarity slider until the background disappears. You will get the best looking result with a solid black LiveSplit background.
+![image](https://www.speedrun.com/static/blob/xz0og0zl.png)
+
+4. Done!
+
+## Troubleshooting
+If you have issues with the timer not automatically starting or not correctly showing the game time, triple check you are comparing against Game Time. Otherwise try restarting LiveSplit, running LiveSplit as Administrator or restarting your PC. If you need help feel free to ask in the #support channel on the [Sekiro Speedrunning Discord server](https://discord.gg/A7kWEPkKEq).
+
+### LiveSplit Error: "The Auto Splitter could not be activated"
+The most common cause of this error is that anti-virus will sometimes falsely flag SoulSplitter as an unwatend program and can quarantine the files without giving you a notification. [Here is the guide on how to create an anti-virus exclusion](https://soulsspeedruns.com/livesplit/#troubleshooting).
+
+### LiveSplit Error: "Incomplete installation. Missing files"
+Sometimes, the anti-virus fix isn''t enough. If you get an error about missing files, then you need to manually download the SoulSplitter component files from Github via the following steps:
+1. Close LiveSplit.
+2. Go to the [SoulSplitter Github downloads page](https://github.com/FrankvdStam/SoulSplitter/releases).
+3. Download the .zip file from whatever is the latest release (do not download the ones named "source code").
+4. Extract the .zip file.
+5. Navigate to your LiveSplit components folder.
+6. Drag the extracted files into the LiveSplit/components folder (replace files if asked).
+7. Apply the anti-virus fix explained [here](https://soulsspeedruns.com/livesplit/#troubleshooting).
+8. Done!
+
+## Extra Tools for LiveSplit
+to be added
+
+## Credits
+Thanks to XeroGoesFast for authoring the original LiveSplit guide.
+Thanks to B3LYP for releasing the initial Sekiro timer plugin for LiveSplit.
+Thanks to RefinedHornet for contributions to the old Sekiro timer.
+Thanks to CapitaineToinon for contributions to the old Sekiro timer.
+Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-11-02 13:48:26.281396');
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
 CREATE UNIQUE INDEX ix_page_slug_redirects_old_slug ON page_slug_redirects (old_slug);
