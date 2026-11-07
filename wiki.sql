@@ -2312,6 +2312,117 @@ Thanks to B3LYP for releasing the initial Sekiro timer plugin for LiveSplit.
 Thanks to RefinedHornet for contributions to the old Sekiro timer.
 Thanks to CapitaineToinon for contributions to the old Sekiro timer.
 Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-11-02 13:47:43.997875','approved','2026-11-02 13:47:43.997522','2026-11-02 13:48:26.281867',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(51,40,'Snap Seed','## Snap Seed
+A Snap Seed is a Consumable Quick Item that on use can break illusions.
+
+## Acquisition
+### Ashina Depths
+3x can be picked up in the Hidden Forest above the Headless miniboss when heading towards Mist Noble.
+### Sunken Valley
+1x can be picked up next to the Toxic Memorial Mob.
+3x can be picked up at the Gunfort ontop of the wooden battlements before the cave leading to [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).
+### Hirata Estate
+1x can be acquired by talking to the NPC before Lady Butterfly.
+
+## Strategies
+Used in [Corrupted Monk Cheese](wiki/corrupted-monk-cheese).',4,8,'2026-11-06 04:47:27.541515','approved','2026-11-06 04:47:27.541163','2026-11-06 06:01:40.228219',2,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(52,34,'Shura Restricted','## Shura Restricted
+Shura Restricted is generally referred to as Any% or Any% Restricted.
+
+## Shura Restricted Guides
+Gin42_ has made a full video guide for Shura Restricted. The guide is a few years old by now, but a lot of the strats and information inside is still useful.
+[youtube]wHK3qTTV_pY[/youtube]
+
+Krrag, a high ranking Any% runner, has made his own text guide that you can find [here](https://www.speedrun.com/sekiro/guides/mo8a4). His guide covers a wide range of skill levels by including both high level and beginner level variations of the strats.
+
+## Shura Restricted Route
+This guide for Shura Restricted is made by the editors of the wiki.
+
+### Setup & Settings
+Subtitles should be disabled in Sound & Display Settings.
+The voice language and text language can be whatever you prefer.
+You can use any patch of the game you want. Using the current patch is fine.
+
+### Tutorial Section
+Talk to Kuro, and after receiving the Healing Gourd, you can press the menu button to cancel out of the dialogue early.
+
+After speaking to Kuro, you use the [Tutorial Grapple Glitch](/wiki/tutorial-grapple-glitch) to exit the Moonview Tower faster.
+[youtube]zFL1mjWWVfA[/youtube]
+
+Before leaving the tutorial remember to get the 2x Ash pickup right after running past [Leader Shigenori Yamauchi](/wiki/leader-shigenori-yamauchi).
+
+### Ashina Outskirts
+### Ogre Skip
+Ogre Skip takes a lot of time to learn, but is around 35s faster than fighting [Chained Ogre (Outskirts)](/wiki/chained-ogre-outskirts). 
+[youtube]jwto28bmImA[/youtube]
+
+Fighting Ogre instead is also fine. When you''re getting started it can be a great idea, as it allows for more run completions and lets you prioritize practicing more important things like Emma/Isshin and Ape Skip.
+ 
+### Canyon
+You can optionally use [Canyon Skip](/wiki/canyon-skip) to save 7s or Double Canyon Skip to save 14s.
+
+### Gyoubu Skip
+When entering [Gyoubu Oniwa](/wiki/gyoubu-oniwa)''s arena, you want to get the 2x Ash pickup in his arena. You need to pick it up quickly, as the pick-up will be unavailable for a while once Gyoubu starts his scripted opening dialogue where he screams his name. This is where you want to perform [Gyoubu Skip](/wiki/gyoubu-skip).
+
+### Bull Skip
+[youtube]lAKV66fW4A0[/youtube]
+
+### Lone Shadow Skip
+Alternatively, you can fight Lone Shadow Longswordsman, which is around 12s slower. A common way of fighting this boss is by doing a corner cheese and using an [Ako''s Sugar](/wiki/ako-s-sugar) as shown in the video guide.
+Remember to collect [Sen](/wiki/sen) after defeating the boss.
+
+### Snake Eyes
+The most common way to fight this boss is to use [180 Dead Angles](/wiki/dead-angle). Alternatively, you can corner cheese her as shown in the video guide.
+Remember to collect [Sen](/wiki/sen) after defeating the boss.
+
+### Hidden Forest
+You want to pick up 3x [Yashariku''s Sugar](/wiki/yashariku-s-sugar) and 3x [Snap Seed](/wiki/snap-seed). During the Mist Noble fight, use an [Ako''s Sugar](/wiki/ako-s-sugar). After killing the boss pick up 1x Yashariku''s Sugar and collect [Sen](/wiki/sen) from the boss.
+
+### Mibu Village
+In Mibu Village you want to pick up the 1x Divine Confetti in one of the houses.
+
+### Corrupted Monk
+[youtube]3IMBc2EcGiQ[/youtube]
+You want to use [Snap Seeds](wiki/snap-seed) and [Fistfuls of Ash](wiki/fistful-of-ash) to perform a [Stealth Deathblow](/wiki/corrupted-monk-cheese) on this boss. Doing that with only 4 ash is very precise. It is a good idea to pick up 6 or more to make it easier. You can find the extra Ash pickups here.
+[youtube]RO5AVSdmHHQ[/youtube]
+
+After getting the [Shelter Stone](/wiki/shelter-stone), [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Ashina Castle Idol.
+
+### Genichiro
+You want to increase your Attack Power with the Corrupted Monk Memory before going off to fight Genichiro.
+
+The most common way to fight Genichiro is performing a [corner cheese](/wiki/genichiro-corner-cheese). There is also a less commonly used strat named Walk My Geni.
+[youtube]shdnn-LEp_s[/youtube]
+
+After the fight you want to get the Sculptor''s Idol, buy maximum amount of Spirit Emblems and travel to the Ashina Castle Idol.
+
+### Senpou Airswim
+After travelling to Ashina Castle you want to go out of bounds and enter [Airswim](/wiki/airswim).
+
+When quitting out at the elevator, make sure you are not too high up. If you quit out and reload in a wrong spot while airswimming, the game won''t load the map that the player is in, which will result in a blackscreen that will kill the player after some time.
+
+During the airswim in Senpou Temple and after exiting it, you want to make sure to keep [aggro](/wiki/aggro-chain) from enemies, so that your stable ground position is not updated. After getting the Senpou Temple Grounds Idol and quitting out, you should be placed back in airswim if your last stable ground position was still when you were airswimming.
+
+After the quit out, you want to swim to [Guardian Ape''s](/wiki/guardian-ape) arena while avoiding death planes.
+
+### Ape Skip
+Ape Skip is required for the route to work. If you mess it up, it takes around 3 minutes to get back and try it again, so it''s highly recommended to spend a lot of time to make it consistent.
+[youtube]NXTK-FEluL8[/youtube]
+[youtube]Ptcm94MuvJ8[/youtube]
+
+After getting the [Lotus of the Palace](/wiki/lotus-of-the-palace), [Homeward Idol](/wiki/homeward-idol) to last communed Idol. This will place you at the Senpou Temple Grounds.
+
+### Monkey Skip
+[Monkey Skip](/wiki/monkey-skip) is required for the route to work. It takes time to learn. However, you can retry it with only minor timeloss if you miss it. It is extremely difficult to become consistent at Monkey Skip. It is okay to have a 10% or lower success rate. It is generally advised to use keyboard and mouse for Monkey Skip.
+Mitchriz has a tutorial on how to do Monkey Skip:
+[youtube]56g7lWP0utY[/youtube]
+
+After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it is obtained, the Invasion Event will start and your Last Communed Idol will be set as Ashina Castle - Abandoned Dungeon. Use the [Homeward Idol](/wiki/homeward-idol) to go to Last Communed Idol after picking up the Mortal Draw to go to Emma/Isshin.
+
+### Emma
+You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
+
+### Isshin',5,8,'2026-11-06 05:42:50.687313','approved','2026-11-06 05:42:50.686962','2026-11-06 06:04:51.981387',2,NULL,NULL,NULL,NULL);
 CREATE TABLE users (
 	id INTEGER NOT NULL, 
 	username VARCHAR(80) NOT NULL, 
@@ -3114,41 +3225,55 @@ Fighting Ogre instead is also fine. When you''re getting started it can be a gre
 You can optionally use [Canyon Skip](/wiki/canyon-skip) to save 7s or Double Canyon Skip to save 14s.
 
 ### Gyoubu Skip
-When entering [Gyoubu Oniwa](/wiki/gyoubu-oniwa)''s arena, you want to get the 2x Ash pickup in his arena. You need to pick it up quickly, as the pick-up will be unavailable for a while once Gyoubu starts his scripted opening dialogue where he screams his name.
+When entering [Gyoubu Oniwa](/wiki/gyoubu-oniwa)''s arena, you want to get the 2x Ash pickup in his arena. You need to pick it up quickly, as the pick-up will be unavailable for a while once Gyoubu starts his scripted opening dialogue where he screams his name. This is where you want to perform [Gyoubu Skip](/wiki/gyoubu-skip).
 
 ### Bull Skip
 [youtube]lAKV66fW4A0[/youtube]
 
 ### Lone Shadow Skip
-Alternatively, you can fight Lone Shadow Longswordsman, which is around 12s slower.
+Alternatively, you can fight Lone Shadow Longswordsman, which is around 12s slower. A common way of fighting this boss is by doing a corner cheese and using an [Ako''s Sugar](/wiki/ako-s-sugar) as shown in the video guide.
+Remember to collect [Sen](/wiki/sen) after defeating the boss.
 
 ### Snake Eyes
+The most common way to fight this boss is to use [180 Dead Angles](/wiki/dead-angle). Alternatively, you can corner cheese her as shown in the video guide.
+Remember to collect [Sen](/wiki/sen) after defeating the boss.
+
+### Hidden Forest
+You want to pick up 3x [Yashariku''s Sugar](/wiki/yashariku-s-sugar) and 3x [Snap Seed](/wiki/snap-seed). During the Mist Noble fight, use an [Ako''s Sugar](/wiki/ako-s-sugar). After killing the boss pick up 1x Yashariku''s Sugar and collect [Sen](/wiki/sen) from the boss.
 
 ### Mibu Village
-In Mibu Village you want to pick up the 1x Divine Confetti in one of the houses
+In Mibu Village you want to pick up the 1x Divine Confetti in one of the houses.
 
 ### Corrupted Monk
 [youtube]3IMBc2EcGiQ[/youtube]
-Doing the [Stealth Deathblow](/wiki/corrupted-monk-cheese) with only 4 ash is very precise. It is a good idea to pick up 6 or more to make it easier. You can find the extra Ash pickups here.
+You want to use [Snap Seeds](wiki/snap-seed) and [Fistfuls of Ash](wiki/fistful-of-ash) to perform a [Stealth Deathblow](/wiki/corrupted-monk-cheese) on this boss. Doing that with only 4 ash is very precise. It is a good idea to pick up 6 or more to make it easier. You can find the extra Ash pickups here.
 [youtube]RO5AVSdmHHQ[/youtube]
 
 After getting the [Shelter Stone](/wiki/shelter-stone), [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Ashina Castle Idol.
 
 ### Genichiro
-Genichiro corner cheese tutorial.
+You want to increase your Attack Power with the Corrupted Monk Memory before going off to fight Genichiro.
+
+The most common way to fight Genichiro is performing a [corner cheese](/wiki/genichiro-corner-cheese). There is also a less commonly used strat named Walk My Geni.
 [youtube]shdnn-LEp_s[/youtube]
 
-### Senpou Airswim
-When quitting out at the elevator, make sure you are not too high up. If you quit out and reload in a wrong spot while [airswimming](wiki/airswim), the game won''t load the map that the player is in, which will result in a blackscreen that will kill the player after some time. This is a big timeloss that should be avoided.
+After the fight you want to get the Sculptor''s Idol, buy maximum amount of Spirit Emblems and travel to the Ashina Castle Idol.
 
-After exiting airswim, you want to make sure to keep aggro from enemies, so that your stable ground position is not updated. After getting the Senpou Temple Grounds Idol and quitting out, you should be placed back in airswim if your last stable ground position was still when you were airswimming.
+### Senpou Airswim
+After travelling to Ashina Castle you want to go out of bounds and enter [Airswim](/wiki/airswim).
+
+When quitting out at the elevator, make sure you are not too high up. If you quit out and reload in a wrong spot while airswimming, the game won''t load the map that the player is in, which will result in a blackscreen that will kill the player after some time.
+
+During the airswim in Senpou Temple and after exiting it, you want to make sure to keep [aggro](/wiki/aggro-chain) from enemies, so that your stable ground position is not updated. After getting the Senpou Temple Grounds Idol and quitting out, you should be placed back in airswim if your last stable ground position was still when you were airswimming.
+
+After the quit out, you want to swim to [Guardian Ape''s](/wiki/guardian-ape) arena while avoiding death planes.
 
 ### Ape Skip
 Ape Skip is required for the route to work. If you mess it up, it takes around 3 minutes to get back and try it again, so it''s highly recommended to spend a lot of time to make it consistent.
 [youtube]NXTK-FEluL8[/youtube]
 [youtube]Ptcm94MuvJ8[/youtube]
 
-After getting the Lotus of the Palace, [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Senpou Temple Grounds.
+After getting the [Lotus of the Palace](/wiki/lotus-of-the-palace), [Homeward Idol](/wiki/homeward-idol) to last communed Idol. This will place you at the Senpou Temple Grounds.
 
 ### Monkey Skip
 [Monkey Skip](/wiki/monkey-skip) is required for the route to work. It takes time to learn. However, you can retry it with only minor timeloss if you miss it. It is extremely difficult to become consistent at Monkey Skip. It is okay to have a 10% or lower success rate. It is generally advised to use keyboard and mouse for Monkey Skip.
@@ -3160,7 +3285,7 @@ After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it 
 ### Emma
 You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
 
-### Isshin','approved',NULL,NULL,NULL,5,2,'2026-07-19 12:33:39.893829','2026-10-30 09:36:26.011408','shura-restricted',NULL,'2026-07-19 12:33:43.604937',2,NULL,NULL,NULL,NULL);
+### Isshin','approved',NULL,NULL,NULL,5,2,'2026-07-19 12:33:39.893829','2026-11-06 06:04:51.980682','shura-restricted',NULL,'2026-07-19 12:33:43.604937',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(35,'Phantom Kunai (Upgrade Material)','## Phantom Kunai (Upgrade Material)
 The Phantom Kunai is a Unique Upgrade Material used for unlocking the Phantom Kunai Prosthetic Tool Upgrade.
 
@@ -3185,7 +3310,10 @@ A Snap Seed is a Consumable Quick Item that on use can break illusions.
 1x can be picked up next to the Toxic Memorial Mob.
 3x can be picked up at the Gunfort ontop of the wooden battlements before the cave leading to [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).
 ### Hirata Estate
-1x can be acquired by talking to the NPC before Lady Butterfly.','approved',NULL,NULL,NULL,4,2,'2026-08-06 07:55:32.515516','2026-10-25 13:22:43.947524','snap-seed',NULL,'2026-08-06 08:05:06.841190',2,NULL,NULL,NULL,NULL);
+1x can be acquired by talking to the NPC before Lady Butterfly.
+
+## Strategies
+Used in [Corrupted Monk Cheese](wiki/corrupted-monk-cheese).','approved',NULL,NULL,NULL,4,2,'2026-08-06 07:55:32.515516','2026-11-06 06:01:40.227530','snap-seed',NULL,'2026-08-06 08:05:06.841190',2,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(41,'Robert''s Firecrackers','## Robert''s Firecrackers
 Robert''s Firecrackers is a unique Upgrade Material that can be Fitted to Wolf''s Prosthetic Arm in order to unlock the Shinobi Firecrackers Prosthetic.
 
@@ -7373,6 +7501,100 @@ Thanks to B3LYP for releasing the initial Sekiro timer plugin for LiveSplit.
 Thanks to RefinedHornet for contributions to the old Sekiro timer.
 Thanks to CapitaineToinon for contributions to the old Sekiro timer.
 Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-11-02 13:48:26.281396');
+INSERT INTO "wiki_revisions" VALUES(116,40,'Snap Seed','## Snap Seed
+A Snap Seed is a Consumable Quick Item that on use can break illusions.
+
+## Acquisition
+### Ashina Depths
+3x can be picked up in the Hidden Forest above the Headless miniboss when heading towards Mist Noble.
+### Sunken Valley
+1x can be picked up next to the Toxic Memorial Mob.
+3x can be picked up at the Gunfort ontop of the wooden battlements before the cave leading to [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).
+### Hirata Estate
+1x can be acquired by talking to the NPC before Lady Butterfly.',4,8,'2026-11-06 06:01:40.227750');
+INSERT INTO "wiki_revisions" VALUES(117,34,'Shura Restricted','## Shura Restricted
+Shura Restricted is generally referred to as Any% or Any% Restricted.
+
+## Shura Restricted Guides
+Gin42_ has made a full video guide for Shura Restricted. The guide is a few years old by now, but a lot of the strats and information inside is still useful.
+[youtube]wHK3qTTV_pY[/youtube]
+
+Krrag, a high ranking Any% runner, has made his own text guide that you can find [here](https://www.speedrun.com/sekiro/guides/mo8a4). His guide covers a wide range of skill levels by including both high level and beginner level variations of the strats.
+
+## Shura Restricted Route
+This guide for Shura Restricted is made by the editors of the wiki.
+
+### Setup & Settings
+Subtitles should be disabled in Sound & Display Settings.
+The voice language and text language can be whatever you prefer.
+You can use any patch of the game you want. Using the current patch is fine.
+
+### Tutorial Section
+Talk to Kuro, and after receiving the Healing Gourd, you can press the menu button to cancel out of the dialogue early.
+
+After speaking to Kuro, you use the [Tutorial Grapple Glitch](/wiki/tutorial-grapple-glitch) to exit the Moonview Tower faster.
+[youtube]zFL1mjWWVfA[/youtube]
+
+Before leaving the tutorial remember to get the 2x Ash pickup right after running past [Leader Shigenori Yamauchi](/wiki/leader-shigenori-yamauchi).
+
+### Ashina Outskirts
+### Ogre Skip
+Ogre Skip takes a lot of time to learn, but is around 35s faster than fighting [Chained Ogre (Outskirts)](/wiki/chained-ogre-outskirts). 
+[youtube]jwto28bmImA[/youtube]
+
+Fighting Ogre instead is also fine. When you''re getting started it can be a great idea, as it allows for more run completions and lets you prioritize practicing more important things like Emma/Isshin and Ape Skip.
+ 
+### Canyon
+You can optionally use [Canyon Skip](/wiki/canyon-skip) to save 7s or Double Canyon Skip to save 14s.
+
+### Gyoubu Skip
+When entering [Gyoubu Oniwa](/wiki/gyoubu-oniwa)''s arena, you want to get the 2x Ash pickup in his arena. You need to pick it up quickly, as the pick-up will be unavailable for a while once Gyoubu starts his scripted opening dialogue where he screams his name.
+
+### Bull Skip
+[youtube]lAKV66fW4A0[/youtube]
+
+### Lone Shadow Skip
+Alternatively, you can fight Lone Shadow Longswordsman, which is around 12s slower.
+
+### Snake Eyes
+
+### Mibu Village
+In Mibu Village you want to pick up the 1x Divine Confetti in one of the houses
+
+### Corrupted Monk
+[youtube]3IMBc2EcGiQ[/youtube]
+Doing the [Stealth Deathblow](/wiki/corrupted-monk-cheese) with only 4 ash is very precise. It is a good idea to pick up 6 or more to make it easier. You can find the extra Ash pickups here.
+[youtube]RO5AVSdmHHQ[/youtube]
+
+After getting the [Shelter Stone](/wiki/shelter-stone), [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Ashina Castle Idol.
+
+### Genichiro
+Genichiro corner cheese tutorial.
+[youtube]shdnn-LEp_s[/youtube]
+
+### Senpou Airswim
+When quitting out at the elevator, make sure you are not too high up. If you quit out and reload in a wrong spot while [airswimming](wiki/airswim), the game won''t load the map that the player is in, which will result in a blackscreen that will kill the player after some time. This is a big timeloss that should be avoided.
+
+After exiting airswim, you want to make sure to keep aggro from enemies, so that your stable ground position is not updated. After getting the Senpou Temple Grounds Idol and quitting out, you should be placed back in airswim if your last stable ground position was still when you were airswimming.
+
+### Ape Skip
+Ape Skip is required for the route to work. If you mess it up, it takes around 3 minutes to get back and try it again, so it''s highly recommended to spend a lot of time to make it consistent.
+[youtube]NXTK-FEluL8[/youtube]
+[youtube]Ptcm94MuvJ8[/youtube]
+
+After getting the Lotus of the Palace, [Homeward Idol](/wiki/homeward-idol) to last Communed Idol. This will place you at the Senpou Temple Grounds.
+
+### Monkey Skip
+[Monkey Skip](/wiki/monkey-skip) is required for the route to work. It takes time to learn. However, you can retry it with only minor timeloss if you miss it. It is extremely difficult to become consistent at Monkey Skip. It is okay to have a 10% or lower success rate. It is generally advised to use keyboard and mouse for Monkey Skip.
+Mitchriz has a tutorial on how to do Monkey Skip:
+[youtube]56g7lWP0utY[/youtube]
+
+After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it is obtained, the Invasion Event will start and your Last Communed Idol will be set as Ashina Castle - Abandoned Dungeon. Use the [Homeward Idol](/wiki/homeward-idol) to go to Last Communed Idol after picking up the Mortal Draw to go to Emma/Isshin.
+
+### Emma
+You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
+
+### Isshin',5,8,'2026-11-06 06:04:51.980898');
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
 CREATE UNIQUE INDEX ix_page_slug_redirects_old_slug ON page_slug_redirects (old_slug);
