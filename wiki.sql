@@ -32,7 +32,7 @@ CREATE TABLE pending_edits (
 	category_id INTEGER, 
 	editor_id INTEGER, 
 	created_at DATETIME, 
-	status VARCHAR(20), submitted_at DATETIME, reviewed_at DATETIME, reviewed_by_id INTEGER REFERENCES users(id), review_note TEXT, original_title VARCHAR(150), original_content TEXT, original_category_id INTEGER, 
+	status VARCHAR(20), submitted_at DATETIME, reviewed_at DATETIME, reviewed_by_id INTEGER REFERENCES users(id), review_note TEXT, original_title VARCHAR(150), original_content TEXT, original_category_id INTEGER, tag_ids TEXT NOT NULL DEFAULT '', original_tag_ids TEXT, icon VARCHAR(500), original_icon VARCHAR(500), infobox TEXT, original_infobox TEXT, 
 	PRIMARY KEY (id), 
 	FOREIGN KEY(page_id) REFERENCES wiki_pages (id), 
 	FOREIGN KEY(category_id) REFERENCES categories (id), 
@@ -62,7 +62,7 @@ Overhead into Shove Opener [youtube]uaerk17R2yk[/youtube]
 
 A faster but riskier variation, where block hits (l1 into r1 on controller, or right click into left click on kbm) are used to squeeze in 7 hits instead of 6 during the Berserk start-up. By pressing block then attack Wolf will do a different attack animation. By doing the following it''s possible to squeeze in 7 as opposed to 6 hits after the mikiri: block, attack, attack, attack, attack, attack, block, attack, attack.
 
-This variation has the downside that it can make Armored Warrior seemingly randomly cancel his Berserk and start doing regular attacks instead, which loses a large amount of time. It is not that rare for it to happen, so generally this 7-jhit variation is not consistent, but may be useful if the timesave is absolutely required.',1,2,'2026-02-25 13:53:25.576815','rejected',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+This variation has the downside that it can make Armored Warrior seemingly randomly cancel his Berserk and start doing regular attacks instead, which loses a large amount of time. It is not that rare for it to happen, so generally this 7-jhit variation is not consistent, but may be useful if the timesave is absolutely required.',1,2,'2026-02-25 13:53:25.576815','rejected',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(2,10,'LiveSplit','## LiveSplit
 LiveSplit is a timer program for speedrunners that is both easy to use and full of features.
 
@@ -199,9 +199,9 @@ Thanks to XeroGoesFast for authoring the original LiveSplit guide.
 Thanks to B3LYP for releasing the initial Sekiro timer plugin for LiveSplit.
 Thanks to RefinedHornet for contributions to the old Sekiro timer.
 Thanks to CapitaineToinon for contributions to the old Sekiro timer.
-Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-03-11 17:06:28.094033','rejected',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-03-11 17:06:28.094033','rejected',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(3,16,'Mitchriz','## Mitchriz
-Mitchriz is a speedrun content creator with a focus on Sekiro, Elden Ring and Lies of P.',2,8,'2026-09-17 14:59:37.537872','rejected',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Mitchriz is a speedrun content creator with a focus on Sekiro, Elden Ring and Lies of P.',2,8,'2026-09-17 14:59:37.537872','rejected',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(5,34,'Shura Restricted','## Shura Restricted
 Shura Restricted is generally referred to as Any% or Any% Restricted.
 
@@ -278,7 +278,7 @@ After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it 
 
 ### Emma
 
-### Isshin',5,8,'2026-09-17 15:51:11.573890','rejected',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+### Isshin',5,8,'2026-09-17 15:51:11.573890','rejected',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(6,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -329,7 +329,7 @@ Deeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeer
 
 7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
 
-',1,1,'2026-09-23 05:19:45.441227','rejected',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+',1,1,'2026-09-23 05:19:45.441227','rejected',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(7,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -378,7 +378,7 @@ Edited
 
 
 
-',1,1,'2026-09-29 02:37:18.434774','rejected','2026-09-29 02:37:18.433259','2026-09-29 02:41:11.895733',1,'Test',NULL,NULL,NULL);
+',1,1,'2026-09-29 02:37:18.434774','rejected','2026-09-29 02:37:18.433259','2026-09-29 02:41:11.895733',1,'Test',NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(9,50,'Corrupted Monk Cheese','## Corrupted Monk Cheese
 Corrupted Monk Cheese refers to performing a stealth deathblow on Corrupted Monk (illusion) after stunning her with enough Snap Seeds and Fistfuls of Ash. It is not considered a glitch in either Speedruns or Hitless Runs.
 
@@ -387,7 +387,7 @@ This is the fastest and the hardest way to perform this strat, as the window in 
 [youtube]3IMBc2EcGiQ[/youtube]
 
 ## 5/6 Ash Variations
-You can make the timing window for this strat more forgiving by using more Fistfuls of Ash. Beginners will use 5 or 6 of them to make the cheese consistent for them.',3,7,'2026-09-30 16:54:15.172993','approved','2026-09-30 16:54:15.172633','2026-09-30 17:11:04.368843',2,NULL,NULL,NULL,NULL);
+You can make the timing window for this strat more forgiving by using more Fistfuls of Ash. Beginners will use 5 or 6 of them to make the cheese consistent for them.',3,7,'2026-09-30 16:54:15.172993','approved','2026-09-30 16:54:15.172633','2026-09-30 17:11:04.368843',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(10,50,'Corrupted Monk Cheese','## Corrupted Monk Cheese
 Corrupted Monk Cheese refers to performing an Aerial Stealth Deathblow on [Corrupted Monk (False)](/wiki/corrupted-monk-false) encountered in Ashina Depths. It is not considered a glitch in either Speedruns or Hitless Runs.
 
@@ -405,7 +405,7 @@ Ash Pickup locations:
 The fastest and hardest way to perform the strat is with 3 Snap Seeds and 4 Ash, which saves around 2-3s over using 6 Ash in most categories.
 
 ## Mist Raven Variation
-An alternative method for Corrupted Monk Cheese is using Mist Raven and [Contact Medicine](/wiki/contact-medicine) to perform [Mist Raven On-Demand](/wiki/mist-raven-on-demand). With this strategy, you use the Contact Medicine before triggering the fight, then run behind her and use the Mist Raven vertically (no directional inputs held) and then attempt to get the Aerial Stealth Deathblow. Note this is not 100% consistent due to the Mist Raven teleport height/distance being inconsistent.',3,2,'2026-09-30 18:18:09.455314','approved','2026-09-30 18:18:09.454220','2026-09-30 18:20:07.053479',2,NULL,NULL,NULL,NULL);
+An alternative method for Corrupted Monk Cheese is using Mist Raven and [Contact Medicine](/wiki/contact-medicine) to perform [Mist Raven On-Demand](/wiki/mist-raven-on-demand). With this strategy, you use the Contact Medicine before triggering the fight, then run behind her and use the Mist Raven vertically (no directional inputs held) and then attempt to get the Aerial Stealth Deathblow. Note this is not 100% consistent due to the Mist Raven teleport height/distance being inconsistent.',3,2,'2026-09-30 18:18:09.455314','approved','2026-09-30 18:18:09.454220','2026-09-30 18:20:07.053479',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(11,10,'LiveSplit','## LiveSplit
 LiveSplit is a timer program for speedrunners that is both easy to use and full of features.
 
@@ -542,9 +542,9 @@ Thanks to XeroGoesFast for authoring the original LiveSplit guide.
 Thanks to B3LYP for releasing the initial Sekiro timer plugin for LiveSplit.
 Thanks to RefinedHornet for contributions to the old Sekiro timer.
 Thanks to CapitaineToinon for contributions to the old Sekiro timer.
-Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-09-30 20:30:19.734654','approved','2026-09-30 20:30:19.733480','2026-09-30 20:30:34.988359',2,NULL,NULL,NULL,NULL);
+Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-09-30 20:30:19.734654','approved','2026-09-30 20:30:19.733480','2026-09-30 20:30:34.988359',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(12,23,'Pennek','## Pennek
-Pennek is a Sekiro Speedrunner and glitch hunter.',2,2,'2026-09-30 21:19:43.527285','approved','2026-09-30 21:19:43.526379','2026-09-30 21:19:48.453494',2,NULL,NULL,NULL,NULL);
+Pennek is a Sekiro Speedrunner and glitch hunter.',2,2,'2026-09-30 21:19:43.527285','approved','2026-09-30 21:19:43.526379','2026-09-30 21:19:48.453494',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(13,87,'Boss','## Boss
 A Boss is generally defined as an enemy with an on-screen Boss health that is embedded in the HUD.
 
@@ -612,7 +612,7 @@ There are 37 Miniboss encounters.
 ## Misc Bosses
 * Tutorial Genichiro
 * Great Serpent
-* Great Colored Carp',4,2,'2026-10-04 11:34:45.960103','approved','2026-10-04 11:34:45.956938','2026-10-04 11:34:50.798833',2,NULL,NULL,NULL,NULL);
+* Great Colored Carp',4,2,'2026-10-04 11:34:45.960103','approved','2026-10-04 11:34:45.956938','2026-10-04 11:34:50.798833',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(14,87,'Boss','## Boss
 A Boss is generally defined as an enemy with an on-screen Boss health that is embedded in the HUD.
 
@@ -680,7 +680,7 @@ There are 37 Miniboss encounters.
 ## Misc Bosses
 * Tutorial Genichiro
 * Great Serpent
-* Great Colored Carp',4,2,'2026-10-04 12:30:15.284466','approved','2026-10-04 12:30:15.284110','2026-10-04 12:30:20.594836',2,NULL,NULL,NULL,NULL);
+* Great Colored Carp',4,2,'2026-10-04 12:30:15.284466','approved','2026-10-04 12:30:15.284110','2026-10-04 12:30:20.594836',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(15,19,'Gourd Seed','## Gourd Seed
 
 A Gourd Seed is a Key Item that can be given to Emma to upgrade the [Healing Gourd](/wiki/healing-gourd). Each Gourd Seed given increases the Healing Gourd''s number of uses by 1, up to a maximum of 10.
@@ -741,17 +741,17 @@ There are 9 Gourd Seeds in the game. Each one can only be acquired once, so in o
 
 It is possible to gain infinite Gourd Seeds by exploiting a glitch with the Reflections of Strength. The Offering Box, where normally up to 1 Gourd Seed can be bought from, exists during Reflections and Gauntlets. In this state, the Offering Box doesn''t have the flags for disabling items that have already been acquired or purchased, letting you purchase all of the items that it can possible sell, even if they have already been acquired.
 
-By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.',4);
+By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.',4,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(16,11,'Delayed Jump','## Delayed Jump
 A Delayed Jump is a jump done at the very last moment possible when going off a ledge, in a way that makes you do the jump after having already fallen off the ledge. This type of jump allows the player to gain more distance than a standard jump.
 
 It''s possible to both do a sprinting and a walking speed delayed jump, but in most circumstances the term Delayed Jump will be used to specifically mean the sprinting variation.
 
-A common misconception is that all delayed jumps have a frame perfect timing window. In reality, each type of ledge will have a different timing and different window of opportunity for a successful jump.',4,2,'2026-10-05 13:20:40.126790','approved','2026-10-05 13:20:40.126439','2026-10-05 13:20:45.181142',2,NULL,NULL,NULL,NULL);
+A common misconception is that all delayed jumps have a frame perfect timing window. In reality, each type of ledge will have a different timing and different window of opportunity for a successful jump.',4,2,'2026-10-05 13:20:40.126790','approved','2026-10-05 13:20:40.126439','2026-10-05 13:20:45.181142',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(17,56,'Mibu Breathing Technique','## Mibu Breathing Technique
 The Mibu Breathing Technique is a Skill that is unlocked by killing the [Corrupted Monk (False)](/wiki/corrupted-monk-false) in Ashina Depths.
 
-When the skill is unlocked, the player gains the ability to dive under water.',4,2,'2026-10-06 04:15:16.105374','approved','2026-10-06 04:15:16.105025','2026-10-06 04:15:22.015462',2,NULL,NULL,NULL,NULL);
+When the skill is unlocked, the player gains the ability to dive under water.',4,2,'2026-10-06 04:15:16.105374','approved','2026-10-06 04:15:16.105025','2026-10-06 04:15:22.015462',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(18,34,'Shura Restricted','## Shura Restricted
 Shura Restricted is generally referred to as Any% or Any% Restricted.
 
@@ -824,20 +824,20 @@ After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it 
 
 ### Emma
 
-### Isshin',5,2,'2026-10-06 04:22:49.438787','approved','2026-10-06 04:22:49.437900','2026-10-06 04:22:55.825277',2,NULL,NULL,NULL,NULL);
+### Isshin',5,2,'2026-10-06 04:22:49.438787','approved','2026-10-06 04:22:49.437900','2026-10-06 04:22:55.825277',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(19,77,'Mibu Balloon of Soul','## Mibu Balloon of Soul
-Mibu Balloon of Soul is a Consumable Quick Item that on use makes the player acquire restorative power at a higher rate for 2m30s.',4,2,'2026-10-06 18:11:25.522489','approved','2026-10-06 18:11:25.522000','2026-10-06 18:11:54.969952',2,NULL,NULL,NULL,NULL);
+Mibu Balloon of Soul is a Consumable Quick Item that on use makes the player acquire restorative power at a higher rate for 2m30s.',4,2,'2026-10-06 18:11:25.522489','approved','2026-10-06 18:11:25.522000','2026-10-06 18:11:54.969952',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(20,99,'Mibu Balloon of Spirit','## Mibu Balloon of Spirit
-Mibu Balloon of Spirit is a Consumable Quick Item that on use increases the rate at which Spirit Emblems are acquired for 2min30s.',4,2,'2026-10-06 18:11:45.106426','approved','2026-10-06 18:11:45.106076','2026-10-06 18:11:57.433702',2,NULL,NULL,NULL,NULL);
+Mibu Balloon of Spirit is a Consumable Quick Item that on use increases the rate at which Spirit Emblems are acquired for 2min30s.',4,2,'2026-10-06 18:11:45.106426','approved','2026-10-06 18:11:45.106076','2026-10-06 18:11:57.433702',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(21,80,'Heavy Coin Purse','## Heavy Coin Purse
-Heavy Coin Purse is a Consumable Quick Item that gives 500 [Sen](/wiki/sen) on use. [Light Coin Purses](/wiki/light-coin-purse), Heavy Coin Purses and [Bulging Coin Purses](/wiki/bulging-coin-purse) serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.',4,2,'2026-10-06 18:17:19.091481','approved','2026-10-06 18:17:19.091120','2026-10-06 18:19:04.060302',2,NULL,NULL,NULL,NULL);
+Heavy Coin Purse is a Consumable Quick Item that gives 500 [Sen](/wiki/sen) on use. [Light Coin Purses](/wiki/light-coin-purse), Heavy Coin Purses and [Bulging Coin Purses](/wiki/bulging-coin-purse) serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.',4,2,'2026-10-06 18:17:19.091481','approved','2026-10-06 18:17:19.091120','2026-10-06 18:19:04.060302',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(22,81,'Light Coin Purse','## Light Coin Purse
-Light Coin Purse is a Consumable Quick Item that gives 100 [Sen](/wiki/sen) on use. Light Coin Purses, [Heavy Coin Purses](/wiki/heavy-coin-purse) and [Bulging Coin Purse](/wiki/bulging-coin-purse) serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.',4,2,'2026-10-06 18:18:10.008345','approved','2026-10-06 18:18:10.007964','2026-10-06 18:19:06.305386',2,NULL,NULL,NULL,NULL);
+Light Coin Purse is a Consumable Quick Item that gives 100 [Sen](/wiki/sen) on use. Light Coin Purses, [Heavy Coin Purses](/wiki/heavy-coin-purse) and [Bulging Coin Purse](/wiki/bulging-coin-purse) serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.',4,2,'2026-10-06 18:18:10.008345','approved','2026-10-06 18:18:10.007964','2026-10-06 18:19:06.305386',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(23,82,'Bulging Coin Purse','## Bulging Coin Purse
-Bulging Coin Purse is a Consumable Quick Item that gives 1000 [Sen](/wiki/sen) on use. [Light Coin Purses](/wiki/light-coin-purse), [Heavy Coin Purses](/wiki/heavy-coin-purse) and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.',4,2,'2026-10-06 18:18:59.802084','approved','2026-10-06 18:18:59.801743','2026-10-06 18:19:08.502357',2,NULL,NULL,NULL,NULL);
+Bulging Coin Purse is a Consumable Quick Item that gives 1000 [Sen](/wiki/sen) on use. [Light Coin Purses](/wiki/light-coin-purse), [Heavy Coin Purses](/wiki/heavy-coin-purse) and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.',4,2,'2026-10-06 18:18:59.802084','approved','2026-10-06 18:18:59.801743','2026-10-06 18:19:08.502357',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(24,66,'Gyoubu Oniwa','## Gyoubu Oniwa
 Gyoubu Oniwa is a [Boss](/wiki/boss) that appears in Ashina Outskirts.',4,2,'2026-10-06 21:14:53.625362','approved','2026-10-06 21:14:53.625011','2026-10-06 21:15:08.989521',2,NULL,'Gyoubu Oniwa','## Gyoubu Oniwa
-Gyoubu Oniwa is a [Boss](/wiki/boss)that appears in Ashina Outskirts.',4);
+Gyoubu Oniwa is a [Boss](/wiki/boss)that appears in Ashina Outskirts.',4,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(25,34,'Shura Restricted','## Shura Restricted
 Shura Restricted is generally referred to as Any% or Any% Restricted.
 
@@ -986,9 +986,9 @@ After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it 
 ### Emma
 You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her once and parrying her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
 
-### Isshin',5);
+### Isshin',5,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(26,16,'Mitchriz','## Mitchriz
-Mitchriz is a speedrun content creator with a focus on Sekiro, Elden Ring and Lies of P.',2,8,'2026-10-11 16:44:04.001015','approved','2026-10-11 16:44:03.999738','2026-10-22 06:05:59.481931',2,NULL,NULL,NULL,NULL);
+Mitchriz is a speedrun content creator with a focus on Sekiro, Elden Ring and Lies of P.',2,8,'2026-10-11 16:44:04.001015','approved','2026-10-11 16:44:03.999738','2026-10-22 06:05:59.481931',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(27,6,'Gyoubu Skip','## Gyoubu Skip
 Gyoubu Skip, also known as Horse Skip, is a skip with multiple variations that involves circumventing needing to fight [Gyoubu Oniwa](/wiki/gyoubu-oniwa).
 
@@ -1013,7 +1013,7 @@ This has been used in Mortal Journey Gauntlet Restricted, and in any other categ
 Gyoubu Skip is not allowed in Glitchless Speedruns. However, the Tower Jump is allowed after Gyoubu has been defeated. When done in Glitchless, this is usually referred to as "Tower Jump" and can be used to skip having to open the gate. In Glitchless, you generally want to go to the gate and upgrade Attack Power at the [Sculptor''s Idol](/wiki/sculptor-s-idol) before the [Blazing Bull](/wiki/blazing-bull) fight, wherefrom opening the door is faster than Tower Jump. However, Tower Jump can be done as part of the [Attack Power 1 Bull](/wiki/attack-power-1-bull), which can be faster. It can also be used to save time in runs where the attack power upgrade is not necessary such as in NG+ Glitchless Speedruns. In other cases, Tower Jump is generally slower for Glitchless runs.
 
 ## History
-Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,2,'2026-10-14 10:52:07.518109','approved','2026-10-14 10:52:07.517754','2026-10-14 10:52:16.150824',2,NULL,NULL,NULL,NULL);
+Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,2,'2026-10-14 10:52:07.518109','approved','2026-10-14 10:52:07.517754','2026-10-14 10:52:16.150824',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(28,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -1062,13 +1062,13 @@ If you want to download and use a save file from another player, you need to do 
 
 7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
 
-',1,2,'2026-10-14 13:00:03.598917','approved','2026-10-14 13:00:03.598458','2026-10-14 13:01:19.200037',2,NULL,NULL,NULL,NULL);
+',1,2,'2026-10-14 13:00:03.598917','approved','2026-10-14 13:00:03.598458','2026-10-14 13:01:19.200037',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(29,13,'27-hit Ogre (Chinese Ogre)','# 27-hit Ogre (Chinese Ogre)
 27-hit Ogre, also known as Chinese Ogre, is a strategy for Chained Ogre that allows you to kill him in 1 hit less than the normal 28-hit fight. When Ogre pivots, he recovers posture, so by preventing him from turning you can save 1 hit on the fight.
 
 Because you have to stay in front of him, you need to do creative attack strafing to avoid getting hit, it would be pointless to try to do 27-hit ogre and then dodge his moves as that would end up both losing way more time than just circlestrafing around him, and would likely also result in him recovering enough posture to make it a 28-hit kill.
 
-There is currently no tutorial for it, but you can use [this Youtube playlist showing Yeruka''s method](https://www.youtube.com/playlist?list=PL3tpZPmeokQqC5Ni77w93g5EGFrll-IZh) by Emma and [this Bilibili playlist](https://www.bilibili.com/video/BV1T7Je6tEjm/) by Shiechi. A common issue for the strat is that you will have something that works for some of Ogre''s attack patterns, but won''t for others. It is not merely a matter of reacting to whatever he does, you will also need to setup your position and attack animation so that you can be in the right position for any of the follow ups. Ideally, you should have something that works against most patterns. But there will be some patterns that you may have to dodge on.',3,2,'2026-10-17 10:48:14.290677','approved','2026-10-17 10:48:14.290309','2026-10-17 10:48:23.741733',2,NULL,NULL,NULL,NULL);
+There is currently no tutorial for it, but you can use [this Youtube playlist showing Yeruka''s method](https://www.youtube.com/playlist?list=PL3tpZPmeokQqC5Ni77w93g5EGFrll-IZh) by Emma and [this Bilibili playlist](https://www.bilibili.com/video/BV1T7Je6tEjm/) by Shiechi. A common issue for the strat is that you will have something that works for some of Ogre''s attack patterns, but won''t for others. It is not merely a matter of reacting to whatever he does, you will also need to setup your position and attack animation so that you can be in the right position for any of the follow ups. Ideally, you should have something that works against most patterns. But there will be some patterns that you may have to dodge on.',3,2,'2026-10-17 10:48:14.290677','approved','2026-10-17 10:48:14.290309','2026-10-17 10:48:23.741733',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(30,79,'Red Lump','## Red Lump
 Red Lump is a Consumable Quick Item that on use makes the player nearly unstaggerable but unable to resurrect for 30s.
 
@@ -1077,7 +1077,7 @@ Red Lump is a Consumable Quick Item that on use makes the player nearly unstagge
 1x can be picked up in the Dungeon by a pile of corpses with crickets on them just before the water section.
 
 ### Fountainhead Palace
-1x can be picked up in the water under the bridge near the Flower Viewing Stage Idol.',4,2,'2026-10-23 08:26:35.393732','approved','2026-10-23 08:26:35.390622','2026-10-23 08:26:41.710099',2,NULL,NULL,NULL,NULL);
+1x can be picked up in the water under the bridge near the Flower Viewing Stage Idol.',4,2,'2026-10-23 08:26:35.393732','approved','2026-10-23 08:26:35.390622','2026-10-23 08:26:41.710099',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(31,40,'Snap Seed','## Snap Seed
 A Snap Seed is a Consumable Quick Item that on use can break illusions.
 
@@ -1086,13 +1086,13 @@ A Snap Seed is a Consumable Quick Item that on use can break illusions.
 3x can be picked up in the Hidden Forest above the Headless miniboss when heading towards Mist Noble.
 ### Sunken Valley
 1x can be picked up next to the Toxic Memorial Mob.
-3x can be picked up at the Gunfort under some wooden battlements before the cave leading to [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).',4,2,'2026-10-23 08:29:34.505050','approved','2026-10-23 08:29:34.504460','2026-10-23 08:29:43.346596',2,NULL,NULL,NULL,NULL);
+3x can be picked up at the Gunfort under some wooden battlements before the cave leading to [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).',4,2,'2026-10-23 08:29:34.505050','approved','2026-10-23 08:29:34.504460','2026-10-23 08:29:43.346596',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(32,44,'Shuriken Wheel','## Shuriken Wheel
 The Shuriken Wheel is a unique Upgrade Material that can be Fitted to Wolf''s Prosthetic Arm in order to unlock the [Loaded Shuriken Prosthetic](/wiki/loaded-shuriken).
 
-The Shuriken Wheel can be picked up in Ashina Outskirts near [General Naomori Kawarada](/wiki/general-naomori-kawarada).',4,2,'2026-10-23 08:41:47.536886','approved','2026-10-23 08:41:47.534430','2026-10-23 08:41:53.048408',2,NULL,NULL,NULL,NULL);
+The Shuriken Wheel can be picked up in Ashina Outskirts near [General Naomori Kawarada](/wiki/general-naomori-kawarada).',4,2,'2026-10-23 08:41:47.536886','approved','2026-10-23 08:41:47.534430','2026-10-23 08:41:53.048408',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(33,140,'Test','## Test
-<iframe src="https://drive.google.com/file/d/1ZbJVewvVdxdKV3C7fjMf0XtTDwtswcFu/preview" width="768" height="432"></iframe>',2,2,'2026-10-24 09:24:19.730876','approved','2026-10-24 09:24:19.729875','2026-10-24 09:24:28.016885',2,NULL,NULL,NULL,NULL);
+<iframe src="https://drive.google.com/file/d/1ZbJVewvVdxdKV3C7fjMf0XtTDwtswcFu/preview" width="768" height="432"></iframe>',2,2,'2026-10-24 09:24:19.730876','approved','2026-10-24 09:24:19.729875','2026-10-24 09:24:28.016885',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(34,34,'Shura Restricted','## Shura Restricted
 Shura Restricted is generally referred to as Any% or Any% Restricted.
 
@@ -1174,7 +1174,7 @@ After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it 
 ### Emma
 You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
 
-### Isshin',5,2,'2026-10-24 12:10:42.285851','approved','2026-10-24 12:10:42.285016','2026-10-24 12:10:47.606026',2,NULL,NULL,NULL,NULL);
+### Isshin',5,2,'2026-10-24 12:10:42.285851','approved','2026-10-24 12:10:42.285016','2026-10-24 12:10:47.606026',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(35,17,'Sculptor''s Idol','## Sculptor''s Idol
 Sculptor''s Idols serve as checkpoints and allow the player a variety of options including to rest.
 
@@ -1360,7 +1360,7 @@ This full list contains all **known** working IDs.
 2502957 - Feeding Grounds
 2502958 - Near Pot Noble
 2502959 - Fountainhead Palace Map Default Location
-2502960 - Fountainhead Palace Map Default Location',4,2,'2026-10-24 13:06:42.646079','approved','2026-10-24 13:06:42.644987','2026-10-24 13:11:20.242379',2,NULL,NULL,NULL,NULL);
+2502960 - Fountainhead Palace Map Default Location',4,2,'2026-10-24 13:06:42.646079','approved','2026-10-24 13:06:42.644987','2026-10-24 13:11:20.242379',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(36,17,'Sculptor''s Idol','## Sculptor''s Idol
 Sculptor''s Idols serve as checkpoints and allow the player a variety of options including to rest.
 
@@ -1546,7 +1546,7 @@ This full list contains all **known** working IDs.
 2502957 - Feeding Grounds
 2502958 - Near Pot Noble
 2502959 - Fountainhead Palace Map Default Location
-2502960 - Fountainhead Palace Map Default Location',4,2,'2026-10-24 13:15:17.601430','approved','2026-10-24 13:15:17.600280','2026-10-24 13:15:29.759672',2,NULL,NULL,NULL,NULL);
+2502960 - Fountainhead Palace Map Default Location',4,2,'2026-10-24 13:15:17.601430','approved','2026-10-24 13:15:17.600280','2026-10-24 13:15:29.759672',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(37,142,'Gamefowl','## Gamefowl
 The Gamefowl, also called Chicken or Rooster, is a type of enemy that appears in Hirata Estate, Ashina Outskirts and Ashina Depths. There are a total of 18 Gamefowl in the game.
 
@@ -1570,7 +1570,7 @@ There are 9 Gamefowl in Ashina Depths. 6 of them are located in the Hidden Fores
 1 can be encountered in the Hidden Forest on the hill by the giant Buddha statue.
 2 can be encountered in the Hidden Forest on the right path towards [Mist Noble](/wiki/mist-noble)
 1 can be encountered in Mibu Village ontop of the big house closest to the lit up tree.
-2 can be encountered in Mibu Village on the other side of the Mibu Lake by the waterfall.',4,2,'2026-10-24 14:53:16.315469','approved','2026-10-24 14:53:16.315122','2026-10-24 14:53:21.556796',2,NULL,NULL,NULL,NULL);
+2 can be encountered in Mibu Village on the other side of the Mibu Lake by the waterfall.',4,2,'2026-10-24 14:53:16.315469','approved','2026-10-24 14:53:16.315122','2026-10-24 14:53:21.556796',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(38,40,'Snap Seed','## Snap Seed
 A Snap Seed is a Consumable Quick Item that on use can break illusions.
 
@@ -1581,7 +1581,7 @@ A Snap Seed is a Consumable Quick Item that on use can break illusions.
 1x can be picked up next to the Toxic Memorial Mob.
 3x can be picked up at the Gunfort ontop of the wooden battlements before the cave leading to [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).
 ### Hirata Estate
-1x can be acquired by talking to the NPC before Lady Butterfly.',4,2,'2026-10-25 13:22:37.662862','approved','2026-10-25 13:22:37.661761','2026-10-25 13:22:43.946658',2,NULL,NULL,NULL,NULL);
+1x can be acquired by talking to the NPC before Lady Butterfly.',4,2,'2026-10-25 13:22:37.662862','approved','2026-10-25 13:22:37.661761','2026-10-25 13:22:43.946658',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(39,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -1631,7 +1631,7 @@ If you want to download and use a save file from another player, you need to do 
 
 7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
 
-',1,1,'2026-10-25 20:05:38.334929','rejected','2026-10-25 20:05:38.334577','2026-10-25 20:06:54.908932',1,'test',NULL,NULL,NULL);
+',1,1,'2026-10-25 20:05:38.334929','rejected','2026-10-25 20:05:38.334577','2026-10-25 20:06:54.908932',1,'test',NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(40,87,'Boss','## Boss
 A Boss is generally defined as an enemy with an on-screen Boss health that is embedded in the HUD.
 
@@ -1699,7 +1699,7 @@ There are 37 Miniboss encounters.
 ## Misc Bosses
 * Tutorial Genichiro
 * Great Serpent
-* Great Colored Carp',4,2,'2026-10-26 22:19:32.472769','approved','2026-10-26 22:19:32.472409','2026-10-26 22:19:37.257926',2,NULL,NULL,NULL,NULL);
+* Great Colored Carp',4,2,'2026-10-26 22:19:32.472769','approved','2026-10-26 22:19:32.472409','2026-10-26 22:19:37.257926',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(41,87,'Boss','## Boss
 A Boss is generally defined as an enemy with an on-screen Boss health that is embedded in the HUD.
 
@@ -1767,7 +1767,7 @@ There are 37 Miniboss encounters.
 ## Misc Bosses
 * Tutorial Genichiro
 * Great Serpent
-* Great Colored Carp',4,2,'2026-10-27 18:56:45.777247','approved','2026-10-27 18:56:45.776919','2026-10-27 18:56:49.433880',2,NULL,NULL,NULL,NULL);
+* Great Colored Carp',4,2,'2026-10-27 18:56:45.777247','approved','2026-10-27 18:56:45.776919','2026-10-27 18:56:49.433880',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(42,2,'Practice Tools','## Practice Tools
 Practice Tools are used to practice more efficiently. Multiple different tools are available, all of which have different benefits.
 
@@ -1781,7 +1781,7 @@ Aside from Practice Tools, it is recommended that everyone use the [Save Organiz
 Practice tools are made by volunteers from the community. Some of the practice tool developers may not be updating their tools anymore. For help and questions it is best to ask in the #support channel on the [Sekiro Speedrunning Discord server](https://discord.gg/A7kWEPkKEq).
 
 ## Online Ban
-Sekiro does not have a real online mode, therefore you cannot get banned. However, if you use the [Sekiro Online mod](https://www.nexusmods.com/sekiro/mods/577) with any of the Practice Tools, you will most likely get banned.',1,2,'2026-10-27 20:01:31.943873','approved','2026-10-27 20:01:31.943532','2026-10-27 20:01:36.898252',2,NULL,NULL,NULL,NULL);
+Sekiro does not have a real online mode, therefore you cannot get banned. However, if you use the [Sekiro Online mod](https://www.nexusmods.com/sekiro/mods/577) with any of the Practice Tools, you will most likely get banned.',1,2,'2026-10-27 20:01:31.943873','approved','2026-10-27 20:01:31.943532','2026-10-27 20:01:36.898252',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(43,17,'Sculptor''s Idol','## Sculptor''s Idol
 Sculptor''s Idols serve as checkpoints and allow the player a variety of options including to rest.
 
@@ -1967,7 +1967,7 @@ This full list contains all **known** working IDs.
 2502957 - Feeding Grounds
 2502958 - Near Pot Noble
 2502959 - Fountainhead Palace Map Default Location
-2502960 - Fountainhead Palace Map Default Location',4,2,'2026-10-27 20:06:27.059231','approved','2026-10-27 20:06:27.058113','2026-10-27 20:07:14.177526',2,NULL,NULL,NULL,NULL);
+2502960 - Fountainhead Palace Map Default Location',4,2,'2026-10-27 20:06:27.059231','approved','2026-10-27 20:06:27.058113','2026-10-27 20:07:14.177526',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(44,6,'Gyoubu Skip','## Gyoubu Skip
 Gyoubu Skip, also known as Horse Skip, is a skip with multiple variations that involves circumventing needing to fight [Gyoubu Oniwa](/wiki/gyoubu-oniwa).
 
@@ -1992,7 +1992,7 @@ This has been used in Mortal Journey Gauntlet Restricted, and in any other categ
 Gyoubu Skip is not allowed in Glitchless Speedruns. However, the Tower Jump is allowed after Gyoubu has been defeated. When done in Glitchless, this is usually referred to as "Tower Jump" and can be used to skip having to open the gate. In Glitchless, you generally want to go to the gate and upgrade Attack Power at the [Sculptor''s Idol](/wiki/sculptor-s-idol) before the [Blazing Bull](/wiki/blazing-bull) fight, wherefrom opening the door is faster than Tower Jump. However, Tower Jump can be done as part of the [Attack Power 1 Bull](/wiki/attack-power-1-bull), which can be faster. It can also be used to save time in runs where the attack power upgrade is not necessary such as in NG+ Glitchless Speedruns. In other cases, Tower Jump is generally slower for Glitchless runs.
 
 ## History
-Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,14,'2026-10-27 21:04:48.887721','approved','2026-10-27 21:04:48.886608','2026-10-27 21:13:47.941923',2,NULL,NULL,NULL,NULL);
+Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,14,'2026-10-27 21:04:48.887721','approved','2026-10-27 21:04:48.886608','2026-10-27 21:13:47.941923',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(45,147,'Zee4 Akoless Centipede','## Zee4 Akoless Centipede
 Zee4 Akoless Centipede, also known as C4 Akoless Centipede, is a strategy for [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe) that skips using an [Ako''s Sugar](/wiki/ako-s-sugar) in order to save time by not needing to pick up the Ako.
 
@@ -2000,7 +2000,7 @@ koko838 made the following tutorial:
  [youtube]dbfkt2KEcLg[/youtube] 
 
 ## History
-Despite its name, the original strategy was not found by Zee4. Zee4 said he saw it from someone else. But he posted it on the Speedrun Discord, which is why it was named after him.',3,7,'2026-10-28 00:17:34.837901','approved','2026-10-28 00:17:34.837541','2026-10-30 09:01:54.539435',2,NULL,NULL,NULL,NULL);
+Despite its name, the original strategy was not found by Zee4. Zee4 said he saw it from someone else. But he posted it on the Speedrun Discord, which is why it was named after him.',3,7,'2026-10-28 00:17:34.837901','approved','2026-10-28 00:17:34.837541','2026-10-30 09:01:54.539435',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(46,34,'Shura Restricted','## Shura Restricted
 Shura Restricted is generally referred to as Any% or Any% Restricted.
 
@@ -2083,7 +2083,7 @@ After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it 
 ### Emma
 You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
 
-### Isshin',5,2,'2026-10-30 09:35:54.656043','approved','2026-10-30 09:35:54.655071','2026-10-30 09:36:26.012581',2,NULL,NULL,NULL,NULL);
+### Isshin',5,2,'2026-10-30 09:35:54.656043','approved','2026-10-30 09:35:54.655071','2026-10-30 09:36:26.012581',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(47,172,'Bingo','## Bingo
 Sekiro Bingo is a gameplay format where the players attempt to complete a Bingo Board, which is a grid of squares with in-game objectives. Any number of players can participate in a match of Bingo although 1-2 players is most common. All players in the match use the same Bingo board. Unlike [real life Bingo](https://en.wikipedia.org/wiki/Bingo_(American_version)), Sekiro Bingo is a game of skill and matches are most often played as a friendly competition with **no** money or prizes involved.
 
@@ -2095,7 +2095,7 @@ Examples of win conditions:
 
 Examples of additional rules:
 - Lock-out - Once a player has marked a square, no other player can mark that square. If no win condition has been reached when the board is fully locked-out, then the player with the most squares wins.
-- Time limit - If no win condition has been reached and the time is up, then an alternative way of determining the winner is used. Usually that would be the player with the most squares.',2,2,'2026-11-01 09:55:57.678385','approved','2026-11-01 09:55:57.677937','2026-11-01 09:56:02.524223',2,NULL,NULL,NULL,NULL);
+- Time limit - If no win condition has been reached and the time is up, then an alternative way of determining the winner is used. Usually that would be the player with the most squares.',2,2,'2026-11-01 09:55:57.678385','approved','2026-11-01 09:55:57.677937','2026-11-01 09:56:02.524223',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(48,9,'Monkey Skip','## Monkey Skip
 Monkey Skip is a skip that allows skipping the Folding Screen Monkeys boss in Senpou Temple.
 
@@ -2147,7 +2147,7 @@ Monkey Skip is most famously used in the Any% speedrun, Shura Restricted and Shu
 **Monkey Skip is not allowed in Glitchless.** It also cannot be used in categories that require you to kill the Folding Screen Monkeys (such as in All Memories Restricted). It generally sees limited use in glitched categories, outside of short any% style runs, as doing Monkey Skip makes you miss getting the Attack Power upgrade from the Memory they drop, which overall ends up being slower for Shura No Airswim and Immortal Severance No Airswim. In both No Airswim categories, the Monkeys Grapple Launch is used instead.
 
 ## History
-Monkey Skip was theorized to be possible by Marky around April 20th, 2019. However, [he did not manage to get it to work](https://streamable.com/3low9). It was first shown to be possible when [Distortion2 managed to land it during a testing livestream](https://www.twitch.tv/distortion2/clip/FaintAliveVelociraptorSpicyBoy) on April 24th, 2019. It proved to be insanely precise, and was thus not used in runs until [MItchriz](/wiki/mitchriz), on May 27th, 2020, discovered a consistent setup. Mitchriz used it break [LilAggy](/wiki/lilaggy)''s Any% World Record of [21:19](https://www.speedrun.com/sekiro/runs/z01g5wjy) with a time of [21:09](https://www.speedrun.com/sekiro/runs/z152krgy) on June 1st, 2020, stopping LilAggy''s nearly 1 year long reign as the WR holder. The day after, on June 2nd, he posted the tutorial linked above, which enabled other runners to be able to do the skip. On June 7th, LilAggy reclaimed the WR with a time of [21:02](https://www.speedrun.com/sekiro/runs/zx27l3km), and then beat his own record the day after on June 8th with the first sub 21-minute completion of the game with a time of [20:39](https://www.speedrun.com/sekiro/runs/y4wq6gdm). Monkey Skip has been a key part of the Any% speedrun since then.',3);
+Monkey Skip was theorized to be possible by Marky around April 20th, 2019. However, [he did not manage to get it to work](https://streamable.com/3low9). It was first shown to be possible when [Distortion2 managed to land it during a testing livestream](https://www.twitch.tv/distortion2/clip/FaintAliveVelociraptorSpicyBoy) on April 24th, 2019. It proved to be insanely precise, and was thus not used in runs until [MItchriz](/wiki/mitchriz), on May 27th, 2020, discovered a consistent setup. Mitchriz used it break [LilAggy](/wiki/lilaggy)''s Any% World Record of [21:19](https://www.speedrun.com/sekiro/runs/z01g5wjy) with a time of [21:09](https://www.speedrun.com/sekiro/runs/z152krgy) on June 1st, 2020, stopping LilAggy''s nearly 1 year long reign as the WR holder. The day after, on June 2nd, he posted the tutorial linked above, which enabled other runners to be able to do the skip. On June 7th, LilAggy reclaimed the WR with a time of [21:02](https://www.speedrun.com/sekiro/runs/zx27l3km), and then beat his own record the day after on June 8th with the first sub 21-minute completion of the game with a time of [20:39](https://www.speedrun.com/sekiro/runs/y4wq6gdm). Monkey Skip has been a key part of the Any% speedrun since then.',3,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(49,9,'Monkey Skip','## Monkey Skip
 Monkey Skip is a skip that allows skipping the Folding Screen Monkeys boss in Senpou Temple.
 
@@ -2172,7 +2172,7 @@ Monkey Skip is most famously used in the Any% speedrun, Shura Restricted and Shu
 **Monkey Skip is not allowed in Glitchless.** It also cannot be used in categories that require you to kill the Folding Screen Monkeys (such as in All Memories Restricted). It generally sees limited use in glitched categories, outside of short any% style runs, as doing Monkey Skip makes you miss getting the Attack Power upgrade from the Memory they drop, which overall ends up being slower for [Shura No Airswim](/wiki/shura-no-airswim) and Immortal Severance No Airswim. In both No Airswim categories, the Monkeys Grapple Launch is used instead.
 
 ## History
-Monkey Skip was theorized to be possible by Marky around April 20th, 2019. However, [he did not manage to get it to work](https://streamable.com/3low9). It was first shown to be possible when [Distortion2 managed to land it during a testing livestream](https://www.twitch.tv/distortion2/clip/FaintAliveVelociraptorSpicyBoy) on April 24th, 2019. It proved to be insanely precise, and was thus not used in runs until [MItchriz](/wiki/mitchriz), on May 27th, 2020, discovered a consistent setup. Mitchriz used it break [LilAggy](/wiki/lilaggy)''s Any% World Record of [21:19](https://www.speedrun.com/sekiro/runs/z01g5wjy) with a time of [21:09](https://www.speedrun.com/sekiro/runs/z152krgy) on June 1st, 2020, stopping LilAggy''s nearly 1 year long reign as the WR holder. The day after, on June 2nd, he posted the tutorial linked above, which enabled other runners to be able to do the skip. On June 7th, LilAggy reclaimed the WR with a time of [21:02](https://www.speedrun.com/sekiro/runs/zx27l3km), and then beat his own record the day after on June 8th with the first sub 21-minute completion of the game with a time of [20:39](https://www.speedrun.com/sekiro/runs/y4wq6gdm). Monkey Skip has been a key part of the Any% speedrun since then.',3,2,'2026-11-02 13:35:03.813656','approved','2026-11-02 13:35:03.813297','2026-11-02 13:35:13.450707',2,NULL,NULL,NULL,NULL);
+Monkey Skip was theorized to be possible by Marky around April 20th, 2019. However, [he did not manage to get it to work](https://streamable.com/3low9). It was first shown to be possible when [Distortion2 managed to land it during a testing livestream](https://www.twitch.tv/distortion2/clip/FaintAliveVelociraptorSpicyBoy) on April 24th, 2019. It proved to be insanely precise, and was thus not used in runs until [MItchriz](/wiki/mitchriz), on May 27th, 2020, discovered a consistent setup. Mitchriz used it break [LilAggy](/wiki/lilaggy)''s Any% World Record of [21:19](https://www.speedrun.com/sekiro/runs/z01g5wjy) with a time of [21:09](https://www.speedrun.com/sekiro/runs/z152krgy) on June 1st, 2020, stopping LilAggy''s nearly 1 year long reign as the WR holder. The day after, on June 2nd, he posted the tutorial linked above, which enabled other runners to be able to do the skip. On June 7th, LilAggy reclaimed the WR with a time of [21:02](https://www.speedrun.com/sekiro/runs/zx27l3km), and then beat his own record the day after on June 8th with the first sub 21-minute completion of the game with a time of [20:39](https://www.speedrun.com/sekiro/runs/y4wq6gdm). Monkey Skip has been a key part of the Any% speedrun since then.',3,2,'2026-11-02 13:35:03.813656','approved','2026-11-02 13:35:03.813297','2026-11-02 13:35:13.450707',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(50,10,'LiveSplit','## LiveSplit
 LiveSplit is a timer program for speedrunners that is both easy to use and full of features.
 
@@ -2311,7 +2311,7 @@ Thanks to XeroGoesFast for authoring the original LiveSplit guide.
 Thanks to B3LYP for releasing the initial Sekiro timer plugin for LiveSplit.
 Thanks to RefinedHornet for contributions to the old Sekiro timer.
 Thanks to CapitaineToinon for contributions to the old Sekiro timer.
-Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-11-02 13:47:43.997875','approved','2026-11-02 13:47:43.997522','2026-11-02 13:48:26.281867',2,NULL,NULL,NULL,NULL);
+Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-11-02 13:47:43.997875','approved','2026-11-02 13:47:43.997522','2026-11-02 13:48:26.281867',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(51,40,'Snap Seed','## Snap Seed
 A Snap Seed is a Consumable Quick Item that on use can break illusions.
 
@@ -2325,7 +2325,7 @@ A Snap Seed is a Consumable Quick Item that on use can break illusions.
 1x can be acquired by talking to the NPC before Lady Butterfly.
 
 ## Strategies
-Used in [Corrupted Monk Cheese](wiki/corrupted-monk-cheese).',4,8,'2026-11-06 04:47:27.541515','approved','2026-11-06 04:47:27.541163','2026-11-06 06:01:40.228219',2,NULL,NULL,NULL,NULL);
+Used in [Corrupted Monk Cheese](wiki/corrupted-monk-cheese).',4,8,'2026-11-06 04:47:27.541515','approved','2026-11-06 04:47:27.541163','2026-11-06 06:01:40.228219',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(52,34,'Shura Restricted','## Shura Restricted
 Shura Restricted is generally referred to as Any% or Any% Restricted.
 
@@ -2422,7 +2422,39 @@ After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it 
 ### Emma
 You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
 
-### Isshin',5,8,'2026-11-06 05:42:50.687313','approved','2026-11-06 05:42:50.686962','2026-11-06 06:04:51.981387',2,NULL,NULL,NULL,NULL);
+### Isshin',5,8,'2026-11-06 05:42:50.687313','approved','2026-11-06 05:42:50.686962','2026-11-06 06:04:51.981387',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
+CREATE TABLE tags (
+        id INTEGER PRIMARY KEY,
+        name VARCHAR(80) NOT NULL,
+        slug VARCHAR(100) NOT NULL,
+        kind VARCHAR(16) NOT NULL DEFAULT 'category',
+        position INTEGER NOT NULL DEFAULT 0,
+        source_key VARCHAR(64),
+        created_at DATETIME
+    );
+INSERT INTO "tags" VALUES(1,'Shura','shura','category',1,'category:w20vw6zk','2026-11-12 05:06:36.397989');
+INSERT INTO "tags" VALUES(2,'Immortal Severance','immortal-severance','category',2,'category:vdomxnv2','2026-11-12 05:06:36.398252');
+INSERT INTO "tags" VALUES(3,'All Memories','all-memories','category',3,'category:wkpm0rwk','2026-11-12 05:06:36.398332');
+INSERT INTO "tags" VALUES(4,'All Bosses/Minibosses','all-bosses-minibosses','category',4,'category:zd3xpg8d','2026-11-12 05:06:36.398391');
+INSERT INTO "tags" VALUES(5,'All Memories & Prayer Beads','all-memories-and-prayer-beads','category',5,'category:zdnxnen2','2026-11-12 05:06:36.398449');
+INSERT INTO "tags" VALUES(6,'All Achievements','all-achievements','category',6,'category:jdz6g8r2','2026-11-12 05:06:36.398501');
+INSERT INTO "tags" VALUES(7,'Mortal Journey Gauntlet','mortal-journey-gauntlet','category',7,'category:ndx5omok','2026-11-12 05:06:36.398550');
+INSERT INTO "tags" VALUES(8,'Unrestricted','unrestricted','ruleset',1,'ruleset:unrestricted','2026-11-12 05:06:36.398599');
+INSERT INTO "tags" VALUES(9,'Restricted','restricted','ruleset',2,'ruleset:restricted','2026-11-12 05:06:36.398665');
+INSERT INTO "tags" VALUES(10,'No Airswim','no-airswim','ruleset',3,'ruleset:no-airswim','2026-11-12 05:06:36.398717');
+INSERT INTO "tags" VALUES(11,'Glitchless','glitchless','ruleset',4,'ruleset:glitchless','2026-11-12 05:06:36.398764');
+CREATE TABLE uploads (
+        id INTEGER PRIMARY KEY,
+        filename VARCHAR(64) NOT NULL,
+        kind VARCHAR(16) NOT NULL,
+        uploader_id INTEGER REFERENCES users(id),
+        size INTEGER NOT NULL DEFAULT 0,
+        width INTEGER,
+        height INTEGER,
+        created_at DATETIME NOT NULL
+    );
+INSERT INTO "uploads" VALUES(1,'8cbc3810eb015b3c563c313dbb36e90e.webp','post',1,45562,1600,763,'2026-11-12 05:27:19.471681');
+INSERT INTO "uploads" VALUES(2,'aa21255053a24695e551d14468bfac66.webp','post',1,15470,300,413,'2026-11-13 02:48:59.939101');
 CREATE TABLE users (
 	id INTEGER NOT NULL, 
 	username VARCHAR(80) NOT NULL, 
@@ -2459,7 +2491,7 @@ CREATE TABLE wiki_pages (
 	category_id INTEGER, 
 	author_id INTEGER, 
 	created_at DATETIME, 
-	updated_at DATETIME, slug VARCHAR(180), submitted_at DATETIME, reviewed_at DATETIME, reviewed_by_id INTEGER REFERENCES users(id), review_note TEXT, original_title VARCHAR(150), original_content TEXT, original_category_id INTEGER, 
+	updated_at DATETIME, slug VARCHAR(180), submitted_at DATETIME, reviewed_at DATETIME, reviewed_by_id INTEGER REFERENCES users(id), review_note TEXT, original_title VARCHAR(150), original_content TEXT, original_category_id INTEGER, tag_ids TEXT NOT NULL DEFAULT '', original_tag_ids TEXT, icon VARCHAR(500), original_icon VARCHAR(500), infobox TEXT, original_infobox TEXT, 
 	PRIMARY KEY (id), 
 	FOREIGN KEY(deleted_by_id) REFERENCES users (id), 
 	FOREIGN KEY(category_before_delete_id) REFERENCES categories (id), 
@@ -2514,7 +2546,7 @@ If you want to download and use a save file from another player, you need to do 
 
 7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
 
-','approved',NULL,NULL,NULL,1,2,'2026-02-22 12:17:05.314734','2026-10-14 13:01:19.200542','save-file-organizer',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+','approved',NULL,NULL,NULL,1,2,'2026-02-22 12:17:05.314734','2026-10-14 13:01:19.200542','save-file-organizer',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(2,'Practice Tools','## Practice Tools
 Practice Tools are used to practice more efficiently. Multiple different tools are available, all of which have different benefits.
 
@@ -2528,7 +2560,7 @@ Aside from Practice Tools, it is recommended that everyone use the [Save Organiz
 Practice tools are made by volunteers from the community. Some of the practice tool developers may not be updating their tools anymore. For help and questions it is best to ask in the #support channel on the [Sekiro Speedrunning Discord server](https://discord.gg/A7kWEPkKEq).
 
 ## Online Ban
-Sekiro does not have a real online mode, therefore you cannot get banned. However, if you use the [Sekiro Online mod](https://www.nexusmods.com/sekiro/mods/577) with any of the Practice Tools, you will most likely get banned.','approved',NULL,NULL,NULL,1,2,'2026-02-22 13:03:25.682704','2026-10-27 20:01:36.900678','practice-tools',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Sekiro does not have a real online mode, therefore you cannot get banned. However, if you use the [Sekiro Online mod](https://www.nexusmods.com/sekiro/mods/577) with any of the Practice Tools, you will most likely get banned.','approved',NULL,NULL,NULL,1,2,'2026-02-22 13:03:25.682704','2026-10-27 20:01:36.900678','practice-tools',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(3,'Inside Ako (Mikiri) Armored Warrior','## Inside Ako (Mikiri) Armored Warrior
 
 Inside Ako Mikiri Armored Warrior, also known as Mikiri Roberto, involves using the Ako inside Armored Warrior''s arena right in front of him to buff up while simultaneously triggering his AI to start up an attack. This saves time over buffing outside, as normally you need to wait a moment for his AI to properly respond to you being there. Mikiri is used as a key part of the strategy because a Thrust attack can be baited out consistently every time with this approach.
@@ -2558,7 +2590,7 @@ Overhead into Shove Opener
 ### 7-Hit Variation
 A faster but riskier variation, where block hits (l1 into r1 on controller, or right click into left click on kbm) are used to squeeze in 7 hits instead of 6 during the Berserk start-up. By pressing block then attack Wolf will do a different attack animation. By doing the following it''s possible to squeeze in 7 as opposed to 6 hits after the mikiri: block, attack, attack, attack, attack, attack, block, attack, attack. This only works if the first attack after the Mikiri staggers Armored Warrior.
 
-This variation has the downside that it can make Armored Warrior seemingly randomly cancel his Berserk and start doing regular attacks instead, which loses a large amount of time. It is not that rare for it to happen and because you only save 1 hit worth of time by doing the 7-hit variation, it generally does not save time that consistently, but may be useful if the timesave is absolutely required.','approved',NULL,NULL,NULL,3,2,'2026-02-24 11:56:48.776383','2026-03-11 05:14:28.356134','inside-ako-mikiri-armored-warrior',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+This variation has the downside that it can make Armored Warrior seemingly randomly cancel his Berserk and start doing regular attacks instead, which loses a large amount of time. It is not that rare for it to happen and because you only save 1 hit worth of time by doing the 7-hit variation, it generally does not save time that consistently, but may be useful if the timesave is absolutely required.','approved',NULL,NULL,NULL,3,2,'2026-02-24 11:56:48.776383','2026-03-11 05:14:28.356134','inside-ako-mikiri-armored-warrior',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(4,'Cheat Engine','## Cheat Engine
 
 Cheat Engine, CE for short, is a tool for reading and editing game memory that gives the user a high degree of customization and freedom. Most CE users will use pre-made Cheat Tables (.ct files) that include all sorts of cheat scripts that may be useful for practicing and testing. However, experienced users will be able to use CE to create their own cheat scripts and for reverse engineering game mechanics to better understand them.
@@ -2568,9 +2600,9 @@ Cheat Engine, CE for short, is a tool for reading and editing game memory that g
 This is a list of the recommended public cheat tables:
 
 - [Holm''s Cheat Engine Table](https://www.speedrun.com/sekiro/resources/u3rhg) is the best simple cheat table for practicing most things.
-- [Eladidu''s Cheat Engine Table](https://github.com/ElaDiDu/Sekiro-Practice-CT/releases) is the most expansive cheat table, it''s very powerful but can be hard to use.','approved',NULL,NULL,NULL,1,2,'2026-02-24 18:37:00.673198','2026-02-24 18:40:47.131022','cheat-engine',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+- [Eladidu''s Cheat Engine Table](https://github.com/ElaDiDu/Sekiro-Practice-CT/releases) is the most expansive cheat table, it''s very powerful but can be hard to use.','approved',NULL,NULL,NULL,1,2,'2026-02-24 18:37:00.673198','2026-02-24 18:40:47.131022','cheat-engine',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(5,'Wasted','## Wasted
-Wasted is a community member famous for developing the autosplitter for Sekiro, [SoulSplitter](/wiki/livesplit#soulsplitter).','approved',NULL,NULL,NULL,2,2,'2026-03-10 17:48:31.694466','2026-09-17 17:10:17.356938','wasted',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Wasted is a community member famous for developing the autosplitter for Sekiro, [SoulSplitter](/wiki/livesplit#soulsplitter).','approved',NULL,NULL,NULL,2,2,'2026-03-10 17:48:31.694466','2026-09-17 17:10:17.356938','wasted',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(6,'Gyoubu Skip','## Gyoubu Skip
 Gyoubu Skip, also known as Horse Skip, is a skip with multiple variations that involves circumventing needing to fight [Gyoubu Oniwa](/wiki/gyoubu-oniwa).
 
@@ -2595,7 +2627,7 @@ This has been used in Mortal Journey Gauntlet Restricted, and in any other categ
 Gyoubu Skip is not allowed in Glitchless Speedruns. However, the Tower Jump is allowed after Gyoubu has been defeated. When done in Glitchless, this is usually referred to as "Tower Jump" and can be used to skip having to open the gate. In Glitchless, you generally want to go to the gate and upgrade Attack Power at the [Sculptor''s Idol](/wiki/sculptor-s-idol) before the [Blazing Bull](/wiki/blazing-bull) fight, wherefrom opening the door is faster than Tower Jump. However, Tower Jump can be done as part of the [Attack Power 1 Bull](/wiki/attack-power-1-bull), which can be faster. It can also be used to save time in runs where the attack power upgrade is not necessary such as in NG+ Glitchless Speedruns. In other cases, Tower Jump is generally slower for Glitchless runs.
 
 ## History
-Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.','approved',NULL,NULL,NULL,3,2,'2026-03-10 17:59:05.393876','2026-10-27 21:13:47.942427','gyoubu-skip',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.','approved',NULL,NULL,NULL,3,2,'2026-03-10 17:59:05.393876','2026-10-27 21:13:47.942427','gyoubu-skip',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(7,'Attack Power 1 Bull','## Attack Power 1 Bull
 
 Attack Power 1 Bull, or AP1 Bull, is a strategy for Glitchless that involves fighting Blazing Bull at 1 Attack Power after using the tower to perform Gyoubu Skip to skip opening the gate. This is only allowed in Glitchless after Gyoubu has been killed. When used in this way in glitchless, Gyoubu Skip is usually referred to as Tower Jump instead because you are not actually skipping Gyoubu.
@@ -2629,7 +2661,7 @@ It was discovered by XiaoZhi, aka Jason, on April 13th, 2021. It was originally 
 
 It has historically seen very limited use due to its inconsistency. However, it had a period between January 2024 and June 2024, where a streak of Shura Glitchless WRs was set using it. It was first used to achieve a Shura Glitchless WR of 28:31 by Sev1nG on January 24th, 2024. Then again on February 14th, 2024 with a time of 28:29 by Sev1nG, again on March 23, 2024 with a time of 28:23 by Sev1nG and finally on June 9th, 2024 with a time of 28:22 by PumpKin. On September 20th, 2024, Yeruka beat PumpKin''s 28:22 with a time of 28:21. Yeruka has held the record continuously since, breaking his own record many times and notably does not use the strat. However, some players have tried breaking the record using AP1 Bull, but have so far been unsuccessful.
 
-AP1 Bull has become an infamous strat due to its legacy.','approved',NULL,NULL,NULL,3,2,'2026-03-10 18:03:21.210823','2026-03-10 18:03:25.063439','attack-power-1-bull',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+AP1 Bull has become an infamous strat due to its legacy.','approved',NULL,NULL,NULL,3,2,'2026-03-10 18:03:21.210823','2026-03-10 18:03:25.063439','attack-power-1-bull',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(8,'Bull Skip','## Bull Skip
 Bull Skip is a skip that let''s you bypass having to fight Blazing Bull. It works on all game versions.
 
@@ -2644,7 +2676,7 @@ Video of the right-side version that was patched:
 The right side version is useless though, as the left-side version that works on all versions is faster than the right side version anyway.
 
 ## History
-Bull Skip was discovered on March 28th, 2019, a week after release, by MrBundarian.','approved',NULL,NULL,NULL,3,2,'2026-03-10 18:35:45.068649','2026-07-15 12:39:03.747640','bull-skip',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Bull Skip was discovered on March 28th, 2019, a week after release, by MrBundarian.','approved',NULL,NULL,NULL,3,2,'2026-03-10 18:35:45.068649','2026-07-15 12:39:03.747640','bull-skip',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(9,'Monkey Skip','## Monkey Skip
 Monkey Skip is a skip that allows skipping the Folding Screen Monkeys boss in Senpou Temple.
 
@@ -2669,7 +2701,7 @@ Monkey Skip is most famously used in the Any% speedrun, Shura Restricted and Shu
 **Monkey Skip is not allowed in Glitchless.** It also cannot be used in categories that require you to kill the Folding Screen Monkeys (such as in All Memories Restricted). It generally sees limited use in glitched categories, outside of short any% style runs, as doing Monkey Skip makes you miss getting the Attack Power upgrade from the Memory they drop, which overall ends up being slower for [Shura No Airswim](/wiki/shura-no-airswim) and Immortal Severance No Airswim. In both No Airswim categories, the Monkeys Grapple Launch is used instead.
 
 ## History
-Monkey Skip was theorized to be possible by Marky around April 20th, 2019. However, [he did not manage to get it to work](https://streamable.com/3low9). It was first shown to be possible when [Distortion2 managed to land it during a testing livestream](https://www.twitch.tv/distortion2/clip/FaintAliveVelociraptorSpicyBoy) on April 24th, 2019. It proved to be insanely precise, and was thus not used in runs until [MItchriz](/wiki/mitchriz), on May 27th, 2020, discovered a consistent setup. Mitchriz used it break [LilAggy](/wiki/lilaggy)''s Any% World Record of [21:19](https://www.speedrun.com/sekiro/runs/z01g5wjy) with a time of [21:09](https://www.speedrun.com/sekiro/runs/z152krgy) on June 1st, 2020, stopping LilAggy''s nearly 1 year long reign as the WR holder. The day after, on June 2nd, he posted the tutorial linked above, which enabled other runners to be able to do the skip. On June 7th, LilAggy reclaimed the WR with a time of [21:02](https://www.speedrun.com/sekiro/runs/zx27l3km), and then beat his own record the day after on June 8th with the first sub 21-minute completion of the game with a time of [20:39](https://www.speedrun.com/sekiro/runs/y4wq6gdm). Monkey Skip has been a key part of the Any% speedrun since then.','approved',NULL,NULL,NULL,3,2,'2026-03-10 19:32:56.599299','2026-11-02 13:35:13.450015','monkey-skip',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Monkey Skip was theorized to be possible by Marky around April 20th, 2019. However, [he did not manage to get it to work](https://streamable.com/3low9). It was first shown to be possible when [Distortion2 managed to land it during a testing livestream](https://www.twitch.tv/distortion2/clip/FaintAliveVelociraptorSpicyBoy) on April 24th, 2019. It proved to be insanely precise, and was thus not used in runs until [MItchriz](/wiki/mitchriz), on May 27th, 2020, discovered a consistent setup. Mitchriz used it break [LilAggy](/wiki/lilaggy)''s Any% World Record of [21:19](https://www.speedrun.com/sekiro/runs/z01g5wjy) with a time of [21:09](https://www.speedrun.com/sekiro/runs/z152krgy) on June 1st, 2020, stopping LilAggy''s nearly 1 year long reign as the WR holder. The day after, on June 2nd, he posted the tutorial linked above, which enabled other runners to be able to do the skip. On June 7th, LilAggy reclaimed the WR with a time of [21:02](https://www.speedrun.com/sekiro/runs/zx27l3km), and then beat his own record the day after on June 8th with the first sub 21-minute completion of the game with a time of [20:39](https://www.speedrun.com/sekiro/runs/y4wq6gdm). Monkey Skip has been a key part of the Any% speedrun since then.','approved',NULL,NULL,NULL,3,2,'2026-03-10 19:32:56.599299','2026-11-02 13:35:13.450015','monkey-skip',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(10,'LiveSplit','## LiveSplit
 LiveSplit is a timer program for speedrunners that is both easy to use and full of features.
 
@@ -2808,21 +2840,21 @@ Thanks to XeroGoesFast for authoring the original LiveSplit guide.
 Thanks to B3LYP for releasing the initial Sekiro timer plugin for LiveSplit.
 Thanks to RefinedHornet for contributions to the old Sekiro timer.
 Thanks to CapitaineToinon for contributions to the old Sekiro timer.
-Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.','approved',NULL,NULL,NULL,1,2,'2026-03-10 20:21:52.467295','2026-11-02 13:48:26.281181','livesplit',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.','approved',NULL,NULL,NULL,1,2,'2026-03-10 20:21:52.467295','2026-11-02 13:48:26.281181','livesplit',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(11,'Delayed Jump','## Delayed Jump
 A Delayed Jump is a jump done at the very last moment possible when going off a ledge, in a way that makes you do the jump after having already fallen off the ledge. This type of jump allows the player to gain more distance than a standard jump.
 
 It''s possible to both do a sprinting and a walking speed delayed jump, but in most circumstances the term Delayed Jump will be used to specifically mean the sprinting variation.
 
-A common misconception is that all delayed jumps have a frame perfect timing window. In reality, each type of ledge will have a different timing and different window of opportunity for a successful jump.','approved',NULL,NULL,NULL,4,2,'2026-03-11 07:25:03.692619','2026-10-05 13:20:45.181680','delayed-jump',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+A common misconception is that all delayed jumps have a frame perfect timing window. In reality, each type of ledge will have a different timing and different window of opportunity for a successful jump.','approved',NULL,NULL,NULL,4,2,'2026-03-11 07:25:03.692619','2026-10-05 13:20:45.181680','delayed-jump',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(12,'LilAggy','## LilAggy
-LilAggy is a Twitch and Youtube content creator focusing on FromSoftware games. He held many World Records in Sekiro speedruns during the period 2019-2021. Most notably he was the first player to beat Sekiro in under 20 minutes.','approved',NULL,NULL,NULL,2,2,'2026-03-11 15:35:59.607268','2026-03-11 15:36:11.345995','lilaggy',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+LilAggy is a Twitch and Youtube content creator focusing on FromSoftware games. He held many World Records in Sekiro speedruns during the period 2019-2021. Most notably he was the first player to beat Sekiro in under 20 minutes.','approved',NULL,NULL,NULL,2,2,'2026-03-11 15:35:59.607268','2026-03-11 15:36:11.345995','lilaggy',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(13,'27-hit Ogre (Chinese Ogre)','# 27-hit Ogre (Chinese Ogre)
 27-hit Ogre, also known as Chinese Ogre, is a strategy for Chained Ogre that allows you to kill him in 1 hit less than the normal 28-hit fight. When Ogre pivots, he recovers posture, so by preventing him from turning you can save 1 hit on the fight.
 
 Because you have to stay in front of him, you need to do creative attack strafing to avoid getting hit, it would be pointless to try to do 27-hit ogre and then dodge his moves as that would end up both losing way more time than just circlestrafing around him, and would likely also result in him recovering enough posture to make it a 28-hit kill.
 
-There is currently no tutorial for it, but you can use [this Youtube playlist showing Yeruka''s method](https://www.youtube.com/playlist?list=PL3tpZPmeokQqC5Ni77w93g5EGFrll-IZh) by Emma and [this Bilibili playlist](https://www.bilibili.com/video/BV1T7Je6tEjm/) by Shiechi. A common issue for the strat is that you will have something that works for some of Ogre''s attack patterns, but won''t for others. It is not merely a matter of reacting to whatever he does, you will also need to setup your position and attack animation so that you can be in the right position for any of the follow ups. Ideally, you should have something that works against most patterns. But there will be some patterns that you may have to dodge on.','approved',NULL,NULL,NULL,3,2,'2026-03-11 16:51:43.600072','2026-10-17 10:48:23.742943','27-hit-ogre-chinese-ogre',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+There is currently no tutorial for it, but you can use [this Youtube playlist showing Yeruka''s method](https://www.youtube.com/playlist?list=PL3tpZPmeokQqC5Ni77w93g5EGFrll-IZh) by Emma and [this Bilibili playlist](https://www.bilibili.com/video/BV1T7Je6tEjm/) by Shiechi. A common issue for the strat is that you will have something that works for some of Ogre''s attack patterns, but won''t for others. It is not merely a matter of reacting to whatever he does, you will also need to setup your position and attack animation so that you can be in the right position for any of the follow ups. Ideally, you should have something that works against most patterns. But there will be some patterns that you may have to dodge on.','approved',NULL,NULL,NULL,3,2,'2026-03-11 16:51:43.600072','2026-10-17 10:48:23.742943','27-hit-ogre-chinese-ogre',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(14,'Tutorial Window Jump','## Tutorial Window Jump
 Tutorial Window Jump is a jump that lets you exit the Moonview Tower in the tutorial/intro section around 0.5s faster than usual.
 
@@ -2832,7 +2864,7 @@ Video Tutorial:
 This is used in Glitchless. However, for categories allowing glitches, [Tutorial Grapple Glitch](/wiki/tutorial-grapple-glitch) is a significantly better alternative for getting out of the Moonview Tower fast.
 
 ## History
-Discovered by [Pennek](/wiki/pennek)','approved',NULL,NULL,NULL,3,2,'2026-03-11 17:03:11.978103','2026-07-19 02:09:46.161355','tutorial-window-jump',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Discovered by [Pennek](/wiki/pennek)','approved',NULL,NULL,NULL,3,2,'2026-03-11 17:03:11.978103','2026-07-19 02:09:46.161355','tutorial-window-jump',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(15,'Tutorial Grapple Glitch','## Tutorial Grapple Glitch
 Tutorial Grapple Glitch allows you to use the grappling hook during the tutorial/intro section when hanging from a ledge specifically. Using the grapple at all during the tutorial/intro section is normally impossible because Wolf has not had his arm cut off nor the prosthetic arm attached yet in the story.
 
@@ -2844,9 +2876,9 @@ Video Tutorial:
 [youtube]zFL1mjWWVfA[/youtube]
 
 ## History
-Discovered by accident by Mommyemma77','approved',NULL,NULL,NULL,3,2,'2026-03-12 05:25:39.784618','2026-07-19 03:01:37.831834','tutorial-grapple-glitch',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Discovered by accident by Mommyemma77','approved',NULL,NULL,NULL,3,2,'2026-03-12 05:25:39.784618','2026-07-19 03:01:37.831834','tutorial-grapple-glitch',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(16,'Mitchriz','## Mitchriz
-Mitchriz is a speedrun content creator with a focus on Sekiro, Elden Ring and Lies of P.','approved',NULL,NULL,NULL,2,2,'2026-03-14 08:15:00.060467','2026-10-22 06:05:59.487338','mitchriz',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+Mitchriz is a speedrun content creator with a focus on Sekiro, Elden Ring and Lies of P.','approved',NULL,NULL,NULL,2,2,'2026-03-14 08:15:00.060467','2026-10-22 06:05:59.487338','mitchriz',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(17,'Sculptor''s Idol','## Sculptor''s Idol
 Sculptor''s Idols serve as checkpoints and allow the player a variety of options including to rest.
 
@@ -3032,7 +3064,7 @@ This full list contains all **known** working IDs.
 2502957 - Feeding Grounds
 2502958 - Near Pot Noble
 2502959 - Fountainhead Palace Map Default Location
-2502960 - Fountainhead Palace Map Default Location','approved',NULL,NULL,NULL,4,2,'2026-03-14 08:29:19.127232','2026-10-27 20:07:14.179190','sculptor-s-idol',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+2502960 - Fountainhead Palace Map Default Location','approved',NULL,NULL,NULL,4,2,'2026-03-14 08:29:19.127232','2026-10-27 20:07:14.179190','sculptor-s-idol',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(18,'Canyon Skip','## Canyon Skip
 Not to be confused with Snake Skip. Canyon Skip refers to two possible skips that are performed in the canyon area of Ashina Outskirts where the Great Serpent is encountered for the first time.
 
@@ -3046,7 +3078,7 @@ Video Tutorial:
 ## Double Canyon Skip
 Double Canyon usually refers to doing both Canyon Skips back to back, but sometimes is also used to refer to just the first Canyon Skip.
 
-The timing window for the delayed jump is generally believed to be close to frame perfect.','approved',NULL,NULL,NULL,3,2,'2026-03-15 06:08:20.988320','2026-03-15 08:24:21.904992','canyon-skip',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+The timing window for the delayed jump is generally believed to be close to frame perfect.','approved',NULL,NULL,NULL,3,2,'2026-03-15 06:08:20.988320','2026-03-15 08:24:21.904992','canyon-skip',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(19,'Gourd Seed','## Gourd Seed
 
 A Gourd Seed is a Key Item that can be given to Emma to upgrade the [Healing Gourd](/wiki/healing-gourd). Each Gourd Seed given increases the Healing Gourd''s number of uses by 1, up to a maximum of 10.
@@ -3077,15 +3109,15 @@ There are 9 Gourd Seeds in the game. Each one can only be acquired once, so in o
 
 It is possible to gain infinite Gourd Seeds by exploiting a glitch with the Reflections of Strength. The [Offering Box](/wiki/offering-box), where normally up to 1 Gourd Seed can be bought from, exists during Reflections and Gauntlets. In this state, the Offering Box doesn''t have the flags for disabling items that have already been acquired or purchased, letting you purchase all of the items that it can possible sell, even if they have already been acquired.
 
-By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.','approved',NULL,NULL,NULL,4,2,'2026-07-15 12:18:25.955263','2026-10-05 13:18:16.293813','gourd-seed',NULL,'2026-07-15 12:18:30.815810',2,NULL,NULL,NULL,NULL);
+By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.','approved',NULL,NULL,NULL,4,2,'2026-07-15 12:18:25.955263','2026-10-05 13:18:16.293813','gourd-seed',NULL,'2026-07-15 12:18:30.815810',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(20,'Distortion2','## Distortion2
-Distortion2 is a Twitch and Youtube content creator, who is famous for pioneering Sekiro speedrunning in the early days.','approved',NULL,NULL,NULL,2,2,'2026-07-15 12:43:13.496054','2026-07-15 12:43:18.011696','distortion2',NULL,'2026-07-15 12:43:18.016216',2,NULL,NULL,NULL,NULL);
+Distortion2 is a Twitch and Youtube content creator, who is famous for pioneering Sekiro speedrunning in the early days.','approved',NULL,NULL,NULL,2,2,'2026-07-15 12:43:13.496054','2026-07-15 12:43:18.011696','distortion2',NULL,'2026-07-15 12:43:18.016216',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(21,'WormdogBS','## WormdogBS
-Wormdog is a Sekiro Speedrunner, who has the record for the holding the most Sekiro Speedrun World Records simultaneously, at 12.','approved',NULL,NULL,NULL,2,2,'2026-07-15 12:45:30.255607','2026-09-16 18:55:48.699010','wormdogbs',NULL,'2026-07-15 12:45:34.303556',2,NULL,NULL,NULL,NULL);
+Wormdog is a Sekiro Speedrunner, who has the record for the holding the most Sekiro Speedrun World Records simultaneously, at 12.','approved',NULL,NULL,NULL,2,2,'2026-07-15 12:45:30.255607','2026-09-16 18:55:48.699010','wormdogbs',NULL,'2026-07-15 12:45:34.303556',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(22,'B3LYP','## B3LYP
-B3LYP, also known as just B3, is a Fromsoft game mod maker, who discovered that In-Game Time in certain Fromsoft games, including Sekiro, has an FPS-dependent clockdrift that makes the timer run in a hardware dependent and inaccurate way. B3LYP created the IGT fix that solves the issue and forms the basis of the timing method that Sekiro PC Speedruns use called Modified In-Game Time.','approved',NULL,NULL,NULL,2,2,'2026-07-15 12:52:00.686223','2026-09-19 05:37:00.315640','b3lyp',NULL,'2026-07-15 12:52:08.007635',2,NULL,NULL,NULL,NULL);
+B3LYP, also known as just B3, is a Fromsoft game mod maker, who discovered that In-Game Time in certain Fromsoft games, including Sekiro, has an FPS-dependent clockdrift that makes the timer run in a hardware dependent and inaccurate way. B3LYP created the IGT fix that solves the issue and forms the basis of the timing method that Sekiro PC Speedruns use called Modified In-Game Time.','approved',NULL,NULL,NULL,2,2,'2026-07-15 12:52:00.686223','2026-09-19 05:37:00.315640','b3lyp',NULL,'2026-07-15 12:52:08.007635',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(23,'Pennek','## Pennek
-Pennek is a Sekiro Speedrunner and glitch hunter.','approved',NULL,NULL,NULL,2,2,'2026-07-19 01:25:58.636895','2026-09-30 21:19:48.455204','pennek',NULL,'2026-07-19 01:26:08.019734',2,NULL,NULL,NULL,NULL);
+Pennek is a Sekiro Speedrunner and glitch hunter.','approved',NULL,NULL,NULL,2,2,'2026-07-19 01:25:58.636895','2026-09-30 21:19:48.455204','pennek',NULL,'2026-07-19 01:26:08.019734',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(24,'Shura Glitchless','## Shura Glitchless
 Shura Glitchless is Sekiro''s most popular speedrun. It''s often recommended as a good starting point for new speedrunners, as it requires a relatively small amount of time investment to learn the basics and isn''t too long of a run.
 
@@ -3166,29 +3198,29 @@ Ponetchmas has a tutorial for the scream headshot strat.
 
 ### Emma
 
-### Isshin','approved',NULL,NULL,NULL,5,2,'2026-07-19 01:36:20.435876','2026-07-19 03:38:30.432081','shura-glitchless',NULL,'2026-07-19 01:36:24.148781',2,NULL,NULL,NULL,NULL);
+### Isshin','approved',NULL,NULL,NULL,5,2,'2026-07-19 01:36:20.435876','2026-07-19 03:38:30.432081','shura-glitchless',NULL,'2026-07-19 01:36:24.148781',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(25,'JohnDiSanDonato','## JohnDiSanDonato
-JohnDiSanDonato (JDSD) is a Speedrunner and developer who created [JDSD''s Practice Tool](https://github.com/veeenu/sekiro-practice-tool/releases) for Sekiro.','approved',NULL,NULL,NULL,2,2,'2026-07-19 02:32:04.302800','2026-07-19 02:32:21.058693','johndisandonato',NULL,'2026-07-19 02:32:21.066980',2,NULL,NULL,NULL,NULL);
+JohnDiSanDonato (JDSD) is a Speedrunner and developer who created [JDSD''s Practice Tool](https://github.com/veeenu/sekiro-practice-tool/releases) for Sekiro.','approved',NULL,NULL,NULL,2,2,'2026-07-19 02:32:04.302800','2026-07-19 02:32:21.058693','johndisandonato',NULL,'2026-07-19 02:32:21.066980',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(26,'Scrap Iron','## Scrap Iron
-Scrap Iron is an Upgrade Material Item that is used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-07-19 03:44:07.413684','2026-07-19 04:00:18.421375','scrap-iron',NULL,'2026-07-19 04:00:18.425786',2,NULL,NULL,NULL,NULL);
+Scrap Iron is an Upgrade Material Item that is used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-07-19 03:44:07.413684','2026-07-19 04:00:18.421375','scrap-iron',NULL,'2026-07-19 04:00:18.425786',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(27,'Healing Gourd','## Healing Gourd
-The Healing Gourd is a Quick Item that heals the player upon use.','approved',NULL,NULL,NULL,4,2,'2026-07-19 04:11:23.759344','2026-07-19 04:15:04.776241','healing-gourd',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+The Healing Gourd is a Quick Item that heals the player upon use.','approved',NULL,NULL,NULL,4,2,'2026-07-19 04:11:23.759344','2026-07-19 04:15:04.776241','healing-gourd',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(28,'Ceramic Shard','## Ceramic Shard
-A Ceramic Shard is a Consumable Quick Item that can be thrown to distract enemies.','approved',NULL,NULL,NULL,4,2,'2026-07-19 04:12:47.879726','2026-07-19 04:15:07.259159','ceramic-shard',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
+A Ceramic Shard is a Consumable Quick Item that can be thrown to distract enemies.','approved',NULL,NULL,NULL,4,2,'2026-07-19 04:12:47.879726','2026-07-19 04:15:07.259159','ceramic-shard',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(29,'Yellow Gunpowder','## Yellow Gunpowder
-Yellow Gunpowder is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-07-19 04:13:34.629875','2026-07-19 04:15:09.350855','yellow-gunpowder',NULL,'2026-07-19 04:15:09.355296',2,NULL,NULL,NULL,NULL);
+Yellow Gunpowder is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-07-19 04:13:34.629875','2026-07-19 04:15:09.350855','yellow-gunpowder',NULL,'2026-07-19 04:15:09.355296',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(30,'Scrap Magnetite','## Scrap Magnetite
-Scrap Magnetite is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-07-19 04:14:58.306871','2026-07-19 04:15:11.048135','scrap-magnetite',NULL,'2026-07-19 04:15:11.051986',2,NULL,NULL,NULL,NULL);
+Scrap Magnetite is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-07-19 04:14:58.306871','2026-07-19 04:15:11.048135','scrap-magnetite',NULL,'2026-07-19 04:15:11.051986',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(31,'Ponetchmas','## Ponetchmas
-Ponetchmas is a Sekiro speedrunner who is known for making tutorials and helping runners improve. He has also held the World Record in Immortal Severance Glitchless and All Memories & Prayer Beads Glitchless.','approved',NULL,NULL,NULL,2,2,'2026-07-19 10:46:20.155441','2026-07-19 10:58:18.210439','ponetchmas',NULL,'2026-07-19 10:58:18.214664',2,NULL,NULL,NULL,NULL);
+Ponetchmas is a Sekiro speedrunner who is known for making tutorials and helping runners improve. He has also held the World Record in Immortal Severance Glitchless and All Memories & Prayer Beads Glitchless.','approved',NULL,NULL,NULL,2,2,'2026-07-19 10:46:20.155441','2026-07-19 10:58:18.210439','ponetchmas',NULL,'2026-07-19 10:58:18.214664',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(32,'Ako''s Sugar','## Ako''s Sugar
 Ako''s Sugar, also known as just Ako, is a Consumable Quick Item that buffs the player''s vitality damage by 12.5% and posture damage by 25% for 30s. If the player has the Devotion skill, the duration will be 45s instead.
 
-Only one Sugar buff can be active at a time. If a new Sugar is used while Ako is already active, it will remove the Ako''s buff and apply the new Sugar''s buff.','approved',NULL,NULL,NULL,4,2,'2026-07-19 10:57:04.208619','2026-07-19 11:00:05.510933','ako-s-sugar',NULL,'2026-07-19 11:00:05.513231',2,NULL,NULL,NULL,NULL);
+Only one Sugar buff can be active at a time. If a new Sugar is used while Ako is already active, it will remove the Ako''s buff and apply the new Sugar''s buff.','approved',NULL,NULL,NULL,4,2,'2026-07-19 10:57:04.208619','2026-07-19 11:00:05.510933','ako-s-sugar',NULL,'2026-07-19 11:00:05.513231',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(33,'Yashariku''s Sugar','## Yashariku''s Sugar
 Yashariku''s Sugar, also known as Yash, is a Consumable Quick Item that temporarily buffs the player''s vitality damage by 25% and posture damage by 50%, and halves the player''s maximum HP for 30s (45s with Devotion Skill).
 
-Only one Sugar buff can be active at a time. If a new Sugar is used while Yash is already active, it will remove the Yash''s buff and apply the new Sugar''s buff.','approved',NULL,NULL,NULL,4,2,'2026-07-19 10:59:44.130352','2026-09-20 06:32:19.749277','yashariku-s-sugar',NULL,'2026-07-19 11:00:10.138574',2,NULL,NULL,NULL,NULL);
+Only one Sugar buff can be active at a time. If a new Sugar is used while Yash is already active, it will remove the Yash''s buff and apply the new Sugar''s buff.','approved',NULL,NULL,NULL,4,2,'2026-07-19 10:59:44.130352','2026-09-20 06:32:19.749277','yashariku-s-sugar',NULL,'2026-07-19 11:00:10.138574',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(34,'Shura Restricted','## Shura Restricted
 Shura Restricted is generally referred to as Any% or Any% Restricted.
 
@@ -3285,21 +3317,21 @@ After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it 
 ### Emma
 You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
 
-### Isshin','approved',NULL,NULL,NULL,5,2,'2026-07-19 12:33:39.893829','2026-11-06 06:04:51.980682','shura-restricted',NULL,'2026-07-19 12:33:43.604937',2,NULL,NULL,NULL,NULL);
+### Isshin','approved',NULL,NULL,NULL,5,2,'2026-07-19 12:33:39.893829','2026-11-06 06:04:51.980682','shura-restricted',NULL,'2026-07-19 12:33:43.604937',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(35,'Phantom Kunai (Upgrade Material)','## Phantom Kunai (Upgrade Material)
 The Phantom Kunai is a Unique Upgrade Material used for unlocking the Phantom Kunai Prosthetic Tool Upgrade.
 
-The Phantom Kunai can be purchased from Anayama the Peddler in Ashina Outskirts for 3000 Sen. After Invasion 2 takes place, Anayama will die and the Phantom Kunai will appear for sale in the Offering Box for 4500 Sen. Note: If the player kills Anayama, the Phantom Kunai will still first appear in the Offering Box after Invasion 2 happens.','approved',NULL,NULL,NULL,4,2,'2026-08-02 18:41:38.421327','2026-08-02 18:41:44.852324','phantom-kunai-upgrade-material',NULL,'2026-08-02 18:41:44.859781',2,NULL,NULL,NULL,NULL);
+The Phantom Kunai can be purchased from Anayama the Peddler in Ashina Outskirts for 3000 Sen. After Invasion 2 takes place, Anayama will die and the Phantom Kunai will appear for sale in the Offering Box for 4500 Sen. Note: If the player kills Anayama, the Phantom Kunai will still first appear in the Offering Box after Invasion 2 happens.','approved',NULL,NULL,NULL,4,2,'2026-08-02 18:41:38.421327','2026-08-02 18:41:44.852324','phantom-kunai-upgrade-material',NULL,'2026-08-02 18:41:44.859781',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(36,'Leader Shigenori Yamauchi','## Leader Shigenori Yamauchi
 Leader Shigenori Yamauchi is a Miniboss that appears in Ashina Reservoir during the Tutorial. He is only available to fight during the Tutorial.
 
-When defeated, he drops 1 Pellet, but doesn''t drop any XP or Sen due to it being in the Tutorial. Defeating him also sets your Last Communed Idol to right after where you killed him, acting as a checkpoint should you die.','approved',NULL,NULL,NULL,4,2,'2026-08-03 21:22:01.621498','2026-08-03 21:56:01.801832','leader-shigenori-yamauchi',NULL,'2026-08-03 21:56:01.806601',2,NULL,NULL,NULL,NULL);
+When defeated, he drops 1 Pellet, but doesn''t drop any XP or Sen due to it being in the Tutorial. Defeating him also sets your Last Communed Idol to right after where you killed him, acting as a checkpoint should you die.','approved',NULL,NULL,NULL,4,2,'2026-08-03 21:22:01.621498','2026-08-03 21:56:01.801832','leader-shigenori-yamauchi',NULL,'2026-08-03 21:56:01.806601',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(37,'Corrupted Monk (False)','## Corrupted Monk (False)
-Corrupted Monk is a Boss that appears in Ashina Depths.','approved',NULL,NULL,NULL,4,2,'2026-08-03 21:43:44.984184','2026-08-03 21:56:03.565830','corrupted-monk-false',NULL,'2026-08-03 21:56:03.570712',2,NULL,NULL,NULL,NULL);
+Corrupted Monk is a Boss that appears in Ashina Depths.','approved',NULL,NULL,NULL,4,2,'2026-08-03 21:43:44.984184','2026-08-03 21:56:03.565830','corrupted-monk-false',NULL,'2026-08-03 21:56:03.570712',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(38,'Long-arm Centipede Giraffe','## Long-arm Centipede Giraffe
-Long-arm Centipede Giraffe is a Miniboss that appears in Sunken Valley at the Gunfort Shrine.','approved',NULL,NULL,NULL,4,2,'2026-08-03 21:55:56.182320','2026-08-03 21:56:05.220343','long-arm-centipede-giraffe',NULL,'2026-08-03 21:56:05.225524',2,NULL,NULL,NULL,NULL);
+Long-arm Centipede Giraffe is a Miniboss that appears in Sunken Valley at the Gunfort Shrine.','approved',NULL,NULL,NULL,4,2,'2026-08-03 21:55:56.182320','2026-08-03 21:56:05.220343','long-arm-centipede-giraffe',NULL,'2026-08-03 21:56:05.225524',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(39,'Chained Ogre (Outskirts)','## Chained Ogre (Outskirts)
-Chained Ogre is a Miniboss that appears in Ashina Outskirts. He disappears once Invasion 2 starts.','approved',NULL,NULL,NULL,4,2,'2026-08-04 20:31:58.116657','2026-08-04 20:32:04.886888','chained-ogre-outskirts',NULL,'2026-08-04 20:32:04.890726',2,NULL,NULL,NULL,NULL);
+Chained Ogre is a Miniboss that appears in Ashina Outskirts. He disappears once Invasion 2 starts.','approved',NULL,NULL,NULL,4,2,'2026-08-04 20:31:58.116657','2026-08-04 20:32:04.886888','chained-ogre-outskirts',NULL,'2026-08-04 20:32:04.890726',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(40,'Snap Seed','## Snap Seed
 A Snap Seed is a Consumable Quick Item that on use can break illusions.
 
@@ -3313,34 +3345,34 @@ A Snap Seed is a Consumable Quick Item that on use can break illusions.
 1x can be acquired by talking to the NPC before Lady Butterfly.
 
 ## Strategies
-Used in [Corrupted Monk Cheese](wiki/corrupted-monk-cheese).','approved',NULL,NULL,NULL,4,2,'2026-08-06 07:55:32.515516','2026-11-06 06:01:40.227530','snap-seed',NULL,'2026-08-06 08:05:06.841190',2,NULL,NULL,NULL,NULL);
+Used in [Corrupted Monk Cheese](wiki/corrupted-monk-cheese).','approved',NULL,NULL,NULL,4,2,'2026-08-06 07:55:32.515516','2026-11-06 06:01:40.227530','snap-seed',NULL,'2026-08-06 08:05:06.841190',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(41,'Robert''s Firecrackers','## Robert''s Firecrackers
 Robert''s Firecrackers is a unique Upgrade Material that can be Fitted to Wolf''s Prosthetic Arm in order to unlock the Shinobi Firecrackers Prosthetic.
 
-Robert''s Firecrackers are obtained by purchasing them. They can be bought for 500 from either the Crow''s Bed Memorial Mob in Ashina Outskirts or the Battlefield Memorial Mob by Gyoubu''s arena. Once they have been bought from either Memorial Mob, they cannot be purchased again.','approved',NULL,NULL,NULL,4,2,'2026-08-06 08:04:57.320053','2026-08-06 08:05:10.182935','robert-s-firecrackers',NULL,'2026-08-06 08:05:10.190774',2,NULL,NULL,NULL,NULL);
+Robert''s Firecrackers are obtained by purchasing them. They can be bought for 500 from either the Crow''s Bed Memorial Mob in Ashina Outskirts or the Battlefield Memorial Mob by Gyoubu''s arena. Once they have been bought from either Memorial Mob, they cannot be purchased again.','approved',NULL,NULL,NULL,4,2,'2026-08-06 08:04:57.320053','2026-08-06 08:05:10.182935','robert-s-firecrackers',NULL,'2026-08-06 08:05:10.190774',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(43,'Sen','## Sen
-Sen is the currency used in-game to buy things.','approved',NULL,NULL,NULL,4,2,'2026-08-06 08:12:39.452229','2026-08-06 08:15:30.763276','sen',NULL,'2026-08-06 08:15:30.765299',2,NULL,NULL,NULL,NULL);
+Sen is the currency used in-game to buy things.','approved',NULL,NULL,NULL,4,2,'2026-08-06 08:12:39.452229','2026-08-06 08:15:30.763276','sen',NULL,'2026-08-06 08:15:30.765299',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(44,'Shuriken Wheel','## Shuriken Wheel
 The Shuriken Wheel is a unique Upgrade Material that can be Fitted to Wolf''s Prosthetic Arm in order to unlock the [Loaded Shuriken Prosthetic](/wiki/loaded-shuriken).
 
-The Shuriken Wheel can be picked up in Ashina Outskirts near [General Naomori Kawarada](/wiki/general-naomori-kawarada).','approved',NULL,NULL,NULL,4,2,'2026-08-06 08:15:15.929687','2026-10-23 08:41:53.050043','shuriken-wheel',NULL,'2026-08-06 08:15:35.441430',2,NULL,NULL,NULL,NULL);
+The Shuriken Wheel can be picked up in Ashina Outskirts near [General Naomori Kawarada](/wiki/general-naomori-kawarada).','approved',NULL,NULL,NULL,4,2,'2026-08-06 08:15:15.929687','2026-10-23 08:41:53.050043','shuriken-wheel',NULL,'2026-08-06 08:15:35.441430',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(45,'Dousing Powder','## Dousing Powder
-Dousing Powder is a Consumable Quick Item that heals the Burn status effect, and for a time decreases Burn buildup, increases Burn resistance and reduces damage from incoming Burn attacks.','approved',NULL,NULL,NULL,4,2,'2026-08-06 15:53:20.378159','2026-08-06 16:25:04.012674','dousing-powder',NULL,'2026-08-06 16:25:04.017591',2,NULL,NULL,NULL,NULL);
+Dousing Powder is a Consumable Quick Item that heals the Burn status effect, and for a time decreases Burn buildup, increases Burn resistance and reduces damage from incoming Burn attacks.','approved',NULL,NULL,NULL,4,2,'2026-08-06 15:53:20.378159','2026-08-06 16:25:04.012674','dousing-powder',NULL,'2026-08-06 16:25:04.017591',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(46,'Antidote Powder','## Antidote Powder
-Antidote Powder is a Consumable Quick Item that heals the Poison status effect and temporarily increases Poison resistance.','approved',NULL,NULL,NULL,4,2,'2026-08-06 15:54:55.759475','2026-08-06 16:25:05.762994','antidote-powder',NULL,'2026-08-06 16:25:05.766989',2,NULL,NULL,NULL,NULL);
+Antidote Powder is a Consumable Quick Item that heals the Poison status effect and temporarily increases Poison resistance.','approved',NULL,NULL,NULL,4,2,'2026-08-06 15:54:55.759475','2026-08-06 16:25:05.762994','antidote-powder',NULL,'2026-08-06 16:25:05.766989',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(47,'Pacifying Agent','## Pacifying Agent
-Pacifying Agent is a Consumable Quick Item that reduces Terror status effect buildup and increases Terror resistance for a time.','approved',NULL,NULL,NULL,4,2,'2026-08-06 15:57:22.362853','2026-08-06 16:25:02.146182','pacifying-agent',NULL,'2026-08-06 16:25:02.150955',2,NULL,NULL,NULL,NULL);
+Pacifying Agent is a Consumable Quick Item that reduces Terror status effect buildup and increases Terror resistance for a time.','approved',NULL,NULL,NULL,4,2,'2026-08-06 15:57:22.362853','2026-08-06 16:25:02.146182','pacifying-agent',NULL,'2026-08-06 16:25:02.150955',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(48,'Mist Raven On-Demand','## Mist Raven On-Demand
 Mist Raven On-Demand is a technique that combines a constantly damaging status effect with Mist Raven in order to be able to use it without needing to time it with an enemy attack. This is most commonly done by using Contact Medicine to inflict Poison to oneself.
 
 Mist Raven On-Demand is used in speedruns that go to NG+, such as NG+7 speedruns or All Achievements. It''s used for gaining height in order to reach places that you normally cannot.
 
 ## History
-Mist Raven On-Demand was discovered by T2k5 on April 2nd, 2019.','approved',NULL,NULL,NULL,3,2,'2026-08-06 16:24:56.354250','2026-08-06 16:25:07.454682','mist-raven-on-demand',NULL,'2026-08-06 16:25:07.458639',2,NULL,NULL,NULL,NULL);
+Mist Raven On-Demand was discovered by T2k5 on April 2nd, 2019.','approved',NULL,NULL,NULL,3,2,'2026-08-06 16:24:56.354250','2026-08-06 16:25:07.454682','mist-raven-on-demand',NULL,'2026-08-06 16:25:07.458639',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(49,'Contact Medicine','## Contact Medicine
 Contact Medicine is a Consumable Quick Item that when used applies a weak Poison effect to the player that deals 2dmg/s for 40s. While one Poison effect is active, the player cannot be inflicted with a new one until the previous one expires. This way Contact Medicine can be used to stay immune to strong Poison effects at the cost of taking 2dmg/s.
 
-In Speedrunning, Contact Medicine is often used when a strategy requires taking damage or dying because it''s one of the most convenient ways to deal a specific amount of damage yourself.','approved',NULL,NULL,NULL,4,2,'2026-08-07 00:00:46.926944','2026-09-16 04:25:11.904528','contact-medicine',NULL,'2026-09-16 04:25:11.916544',2,NULL,NULL,NULL,NULL);
+In Speedrunning, Contact Medicine is often used when a strategy requires taking damage or dying because it''s one of the most convenient ways to deal a specific amount of damage yourself.','approved',NULL,NULL,NULL,4,2,'2026-08-07 00:00:46.926944','2026-09-16 04:25:11.904528','contact-medicine',NULL,'2026-09-16 04:25:11.916544',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(50,'Corrupted Monk Cheese','## Corrupted Monk Cheese
 Corrupted Monk Cheese refers to performing an Aerial Stealth Deathblow on [Corrupted Monk (False)](/wiki/corrupted-monk-false) encountered in Ashina Depths. It is not considered a glitch in either Speedruns or Hitless Runs.
 
@@ -3358,14 +3390,14 @@ Ash Pickup locations:
 The fastest and hardest way to perform the strat is with 3 Snap Seeds and 4 Ash, which saves around 2-3s over using 6 Ash in most categories.
 
 ## Mist Raven Variation
-An alternative method for Corrupted Monk Cheese is using Mist Raven and [Contact Medicine](/wiki/contact-medicine) to perform [Mist Raven On-Demand](/wiki/mist-raven-on-demand). With this strategy, you use the Contact Medicine before triggering the fight, then run behind her and use the Mist Raven vertically (no directional inputs held) and then attempt to get the Aerial Stealth Deathblow. Note this is not 100% consistent due to the Mist Raven teleport height/distance being inconsistent.','approved',NULL,NULL,NULL,3,8,'2026-09-17 14:54:24.419583','2026-09-30 18:20:07.053998','corrupted-monk-cheese',NULL,'2026-09-17 17:05:09.863659',2,NULL,NULL,NULL,NULL);
+An alternative method for Corrupted Monk Cheese is using Mist Raven and [Contact Medicine](/wiki/contact-medicine) to perform [Mist Raven On-Demand](/wiki/mist-raven-on-demand). With this strategy, you use the Contact Medicine before triggering the fight, then run behind her and use the Mist Raven vertically (no directional inputs held) and then attempt to get the Aerial Stealth Deathblow. Note this is not 100% consistent due to the Mist Raven teleport height/distance being inconsistent.','approved',NULL,NULL,NULL,3,8,'2026-09-17 14:54:24.419583','2026-09-30 18:20:07.053998','corrupted-monk-cheese',NULL,'2026-09-17 17:05:09.863659',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(51,'Ogre Skip','## Ogre Skip
 Ogre Skip is a technique used to skip the fight with Chained Ogre in Ashina Outskirts.
 
 ## Execution
 Ogre Skip is done by performing a [Delayed Jump](https://sekirospeedrun.com/wiki/delayed-jump) off a ledge close to Chained Ogre and curving around the wall to grab a ledge. The tutorial for this skip was made by Mitchriz:
 [youtube]jwto28bmImA[/youtube]
-The jump is considered to be frame perfect, meaning you have exactly 1 frame during which you have to press the jump button in order to get the Delayed Jump needed to reach the ledge. Because of that, beginners are generally discouraged from implementing the skip in their runs as it isn''t very consistent and leads to a lot of resets.','approved',NULL,NULL,NULL,3,8,'2026-09-17 15:30:28.624231','2026-09-17 16:41:05.605637','ogre-skip',NULL,'2026-09-17 16:41:05.610071',2,NULL,NULL,NULL,NULL);
+The jump is considered to be frame perfect, meaning you have exactly 1 frame during which you have to press the jump button in order to get the Delayed Jump needed to reach the ledge. Because of that, beginners are generally discouraged from implementing the skip in their runs as it isn''t very consistent and leads to a lot of resets.','approved',NULL,NULL,NULL,3,8,'2026-09-17 15:30:28.624231','2026-09-17 16:41:05.605637','ogre-skip',NULL,'2026-09-17 16:41:05.610071',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(52,'Dead-angling','## Dead-angling
 Dead-angling is a common way of cheesing multiple bosses. It is performed by attacking while looking away from the boss with your sword still hitting them. This way the Boss AI doesn''t think to block the attacks and lets the player hit the Boss, dealing Vitality damage.
 
@@ -3375,7 +3407,7 @@ The technique is used most commonly in boss fights with:
 - Owl
 - Isshin (Walk My Isshin strat)
 - Lone Shadow Longswordsman
-- Snake Eyes','rejected',NULL,NULL,NULL,3,8,'2026-09-17 15:59:26.758009','2026-09-30 05:05:57.332058','dead-angling',NULL,'2026-09-30 05:05:57.331725',2,NULL,NULL,NULL,NULL);
+- Snake Eyes','rejected',NULL,NULL,NULL,3,8,'2026-09-17 15:59:26.758009','2026-09-30 05:05:57.332058','dead-angling',NULL,'2026-09-30 05:05:57.331725',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(53,'Airswim','## Airswim
 Airswim is a major glitch that allows the player to fly in the air while the game thinks the player is swimming in water.
 
@@ -3383,7 +3415,7 @@ Airswim is a major glitch that allows the player to fly in the air while the gam
 Airswim is performed by entering a body of water while Out of Bounds and diving (requires the [Mibu Breathing Technique](/wiki/mibu-breathing-technique) Skill). This allows the player to swim everywhere as if submerged in water. It''s caused by the game transitioning between the out-of-water and swimming states only when diving or resurfacing through the surface of the water.
 
 ## Common Use Cases
-Airswim is used in the majority of the Glitched categories (excluding No Airswim subcategories) and is the foundation of Any% Speedruns. It''s most commonly used to skip most of Senpou Temple and Sunken Valley and is a core part of Ape Skip. It''s also used to enter boss fights, as cutscenes also bring the player out of the swimming state.','approved',NULL,NULL,NULL,3,8,'2026-09-17 16:10:40.221650','2026-09-17 17:17:47.106462','airswim',NULL,'2026-09-17 16:52:01.232545',2,NULL,NULL,NULL,NULL);
+Airswim is used in the majority of the Glitched categories (excluding No Airswim subcategories) and is the foundation of Any% Speedruns. It''s most commonly used to skip most of Senpou Temple and Sunken Valley and is a core part of Ape Skip. It''s also used to enter boss fights, as cutscenes also bring the player out of the swimming state.','approved',NULL,NULL,NULL,3,8,'2026-09-17 16:10:40.221650','2026-09-17 17:17:47.106462','airswim',NULL,'2026-09-17 16:52:01.232545',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(54,'Aggro-chain','## Aggro-chain
 Aggro-chain is a mechanic that consists of entering combat to abuse the game''s Last Registered Position system
 
@@ -3391,37 +3423,37 @@ Aggro-chain is a mechanic that consists of entering combat to abuse the game''s 
 The glitch starts by triggering a combat encounter, which sets the player''s Last Registered Position to one moments before entering combat. After performing actions, such as discovering a [Sculptor''s Idol](/wiki/sculptor-s-idol), the player can perform a quitout to revert the current position to the Last Registered Position.
 
 ## Common Use Cases
-The mechanic is most commonly used in the Airswim glitch in Any% to grab the Temple Grounds Sculptor''s Idol before performing Ape Skip. This causes the Homeward Idol''s Last Communed Idol option to teleport the player to the Temple Grounds Idol.','approved',NULL,NULL,NULL,3,8,'2026-09-17 16:26:06.469405','2026-11-01 13:41:58.296364','aggro-chain',NULL,'2026-11-01 13:41:58.295328',2,NULL,NULL,NULL,NULL);
+The mechanic is most commonly used in the Airswim glitch in Any% to grab the Temple Grounds Sculptor''s Idol before performing Ape Skip. This causes the Homeward Idol''s Last Communed Idol option to teleport the player to the Temple Grounds Idol.','approved',NULL,NULL,NULL,3,8,'2026-09-17 16:26:06.469405','2026-11-01 13:41:58.296364','aggro-chain',NULL,'2026-11-01 13:41:58.295328',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(55,'Loaded Shuriken','## Loaded Shuriken
-The Loaded Shuriken is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-09-17 17:06:36.062334','2026-09-17 17:06:41.829220','loaded-shuriken',NULL,'2026-09-17 17:06:41.834905',2,NULL,NULL,NULL,NULL);
+The Loaded Shuriken is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-09-17 17:06:36.062334','2026-09-17 17:06:41.829220','loaded-shuriken',NULL,'2026-09-17 17:06:41.834905',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(56,'Mibu Breathing Technique','## Mibu Breathing Technique
 The Mibu Breathing Technique is a Skill that is unlocked by killing the [Corrupted Monk (False)](/wiki/corrupted-monk-false) in Ashina Depths.
 
-When the skill is unlocked, the player gains the ability to dive under water.','approved',NULL,NULL,NULL,4,2,'2026-09-17 17:16:49.144400','2026-10-06 04:15:22.016275','mibu-breathing-technique',NULL,'2026-09-17 17:16:57.499944',2,NULL,NULL,NULL,NULL);
+When the skill is unlocked, the player gains the ability to dive under water.','approved',NULL,NULL,NULL,4,2,'2026-09-17 17:16:49.144400','2026-10-06 04:15:22.016275','mibu-breathing-technique',NULL,'2026-09-17 17:16:57.499944',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(57,'Lump of Grave Wax','## Lump of Grave Wax
-Lump of Grave Wax is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:00:19.157704','2026-09-17 18:00:57.051684','lump-of-grave-wax',NULL,'2026-09-17 18:00:57.055843',2,NULL,NULL,NULL,NULL);
+Lump of Grave Wax is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:00:19.157704','2026-09-17 18:00:57.051684','lump-of-grave-wax',NULL,'2026-09-17 18:00:57.055843',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(58,'Lump of Fat Wax','## Lump of Fat Wax
-Lump of Fat Wax is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:00:46.556388','2026-09-17 18:00:59.676700','lump-of-fat-wax',NULL,'2026-09-17 18:00:59.681163',2,NULL,NULL,NULL,NULL);
+Lump of Fat Wax is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:00:46.556388','2026-09-17 18:00:59.676700','lump-of-fat-wax',NULL,'2026-09-17 18:00:59.681163',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(59,'Fulminated Mercury','## Fulminated Mercury
-Fulminated Mercury is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:02:08.805683','2026-09-17 18:04:18.540832','fulminated-mercury',NULL,'2026-09-17 18:04:18.545518',2,NULL,NULL,NULL,NULL);
+Fulminated Mercury is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:02:08.805683','2026-09-17 18:04:18.540832','fulminated-mercury',NULL,'2026-09-17 18:04:18.545518',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(60,'Lapis Lazuli','## Lapis Lazuli
-Lapis Lazuli is an Upgrade Material Item used for Lazulite Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:03:01.649639','2026-09-17 18:04:21.641556','lapis-lazuli',NULL,'2026-09-17 18:04:21.645429',2,NULL,NULL,NULL,NULL);
+Lapis Lazuli is an Upgrade Material Item used for Lazulite Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:03:01.649639','2026-09-17 18:04:21.641556','lapis-lazuli',NULL,'2026-09-17 18:04:21.645429',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(61,'Black Gunpowder','## Black Gunpowder
-Black Gunpowder is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:03:42.766712','2026-09-17 18:04:10.599255','black-gunpowder',NULL,'2026-09-17 18:04:10.601562',2,NULL,NULL,NULL,NULL);
+Black Gunpowder is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:03:42.766712','2026-09-17 18:04:10.599255','black-gunpowder',NULL,'2026-09-17 18:04:10.601562',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(62,'Pine Resin Ember','## Pine Resin Ember
-Pine Resin Ember is a unique Upgrade Material Item used in Prosthetic Upgrading to unlock Okinaga''s Flame Vent.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:07:54.778827','2026-09-17 18:08:00.519366','pine-resin-ember',NULL,'2026-09-17 18:08:00.523933',2,NULL,NULL,NULL,NULL);
+Pine Resin Ember is a unique Upgrade Material Item used in Prosthetic Upgrading to unlock Okinaga''s Flame Vent.','approved',NULL,NULL,NULL,4,2,'2026-09-17 18:07:54.778827','2026-09-17 18:08:00.519366','pine-resin-ember',NULL,'2026-09-17 18:08:00.523933',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(64,'Blazing Bull','## Blazing Bull
-Blazing Bull is a Miniboss that appears in Ashina Castle.','approved',NULL,NULL,NULL,4,2,'2026-09-19 05:17:15.128890','2026-09-19 05:31:15.977712','blazing-bull',NULL,'2026-09-19 05:31:15.982795',2,NULL,NULL,NULL,NULL);
+Blazing Bull is a Miniboss that appears in Ashina Castle.','approved',NULL,NULL,NULL,4,2,'2026-09-19 05:17:15.128890','2026-09-19 05:31:15.977712','blazing-bull',NULL,'2026-09-19 05:31:15.982795',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(65,'General Naomori Kawarada','## General Naomori Kawarada
-General Naomori Kawarada is a Miniboss that appears in Ashina Outskirts.','approved',NULL,NULL,NULL,4,2,'2026-09-19 06:47:12.577666','2026-09-19 06:47:19.809131','general-naomori-kawarada',NULL,'2026-09-19 06:47:19.814598',2,NULL,NULL,NULL,NULL);
+General Naomori Kawarada is a Miniboss that appears in Ashina Outskirts.','approved',NULL,NULL,NULL,4,2,'2026-09-19 06:47:12.577666','2026-09-19 06:47:19.809131','general-naomori-kawarada',NULL,'2026-09-19 06:47:19.814598',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(66,'Gyoubu Oniwa','## Gyoubu Oniwa
-Gyoubu Oniwa is a [Boss](/wiki/boss) that appears in Ashina Outskirts.','approved',NULL,NULL,NULL,4,2,'2026-09-19 06:51:26.655710','2026-10-06 21:15:08.990070','gyoubu-oniwa',NULL,'2026-09-19 06:51:33.569335',2,NULL,NULL,NULL,NULL);
+Gyoubu Oniwa is a [Boss](/wiki/boss) that appears in Ashina Outskirts.','approved',NULL,NULL,NULL,4,2,'2026-09-19 06:51:26.655710','2026-10-06 21:15:08.990070','gyoubu-oniwa',NULL,'2026-09-19 06:51:33.569335',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(67,'T2k5','## T2k5
-T2k5 was a glitch hunter active during the early days of the speedrun in 2019.','approved',NULL,NULL,NULL,2,2,'2026-09-19 06:56:32.862529','2026-09-19 06:56:37.114259','t2k5',NULL,'2026-09-19 06:56:37.118380',2,NULL,NULL,NULL,NULL);
+T2k5 was a glitch hunter active during the early days of the speedrun in 2019.','approved',NULL,NULL,NULL,2,2,'2026-09-19 06:56:32.862529','2026-09-19 06:56:37.114259','t2k5',NULL,'2026-09-19 06:56:37.118380',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(68,'Mr Bundarian','## Mr Bundarian
-Mr Bundarian found the Bull Skip. He has since deleted his Youtube channel where the original Bull Skip video was uploaded.','approved',NULL,NULL,NULL,2,2,'2026-09-19 07:00:11.755270','2026-09-19 07:00:23.995841','mr-bundarian',NULL,'2026-09-19 07:00:24.000283',2,NULL,NULL,NULL,NULL);
+Mr Bundarian found the Bull Skip. He has since deleted his Youtube channel where the original Bull Skip video was uploaded.','approved',NULL,NULL,NULL,2,2,'2026-09-19 07:00:11.755270','2026-09-19 07:00:23.995841','mr-bundarian',NULL,'2026-09-19 07:00:24.000283',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(69,'All Memories Unrestricted','## All Memories Unrestricted
-All Memories Unrestricted is a newer speedrun category, created in 2026 after the discovery of Slot ID Manipulation, which allows generating memories and thus quickly fulfilling the All Memories objective.','approved',NULL,NULL,NULL,5,2,'2026-09-20 06:41:46.600243','2026-09-20 06:54:23.569919','all-memories-unrestricted',NULL,'2026-09-20 06:54:23.573534',2,NULL,NULL,NULL,NULL);
+All Memories Unrestricted is a newer speedrun category, created in 2026 after the discovery of Slot ID Manipulation, which allows generating memories and thus quickly fulfilling the All Memories objective.','approved',NULL,NULL,NULL,5,2,'2026-09-20 06:41:46.600243','2026-09-20 06:54:23.569919','all-memories-unrestricted',NULL,'2026-09-20 06:54:23.573534',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(70,'Immortal Severance Glitchless','## Immortal Severance Glitchless
 Commonly called IS Glitchless.
 
@@ -3514,9 +3546,9 @@ Before entering the fight, use a Confetti. The Confetti will let you kill the Ol
 Before entering the fight, use a Yash, and optionally your leftover Confetti.
 
 ### Isshin, the Sword Saint
-','approved',NULL,NULL,NULL,5,2,'2026-09-20 06:54:15.714931','2026-09-20 06:54:20.759599','immortal-severance-glitchless',NULL,'2026-09-20 06:54:20.761725',2,NULL,NULL,NULL,NULL);
+','approved',NULL,NULL,NULL,5,2,'2026-09-20 06:54:15.714931','2026-09-20 06:54:20.759599','immortal-severance-glitchless',NULL,'2026-09-20 06:54:20.761725',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(71,'UmN1k','## UmN1k
-UmN1k is a Sekiro Glitch Hunter.','approved',NULL,NULL,NULL,2,2,'2026-09-20 07:01:21.644759','2026-09-20 07:01:26.589771','umn1k',NULL,'2026-09-20 07:01:26.594788',2,NULL,NULL,NULL,NULL);
+UmN1k is a Sekiro Glitch Hunter.','approved',NULL,NULL,NULL,2,2,'2026-09-20 07:01:21.644759','2026-09-20 07:01:26.589771','umn1k',NULL,'2026-09-20 07:01:26.594788',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(72,'Dead Angle','## Dead angle
 
 Dead angle is a common mechanic that can happen coincidentally or can be performed intentionally to prevent the enemy from blocking/deflecting attacks. Player attacks send an attack signal in front of them right before the damage hitbox spawns. Enemies who receive this attack signal will in turn raise their guard to block/deflect. If the player is turned away from the enemy when the attack signal is sent, then the attack will be a dead angle and will directly hit for vitality damage.
@@ -3570,7 +3602,7 @@ Dead Angles can be seen all throughout Sekiro speedruns, but the most prominent 
 * Emma, the Gentle Blade 180 strat
 * Snake Eyes corner cheese/180 strat
 * Lone Shadow Longswordsman corner cheese strat
-* Owl corner cheese strat',4);
+* Owl corner cheese strat',4,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(73,'Dead Angle','## Dead Angle
 
 Dead Angle is a common mechanic that allows the player to attack an enemy without them blocking, in turn dealing Vitality damage, by being turned away before or during an attack.
@@ -3596,15 +3628,15 @@ Dead Angles can be seen all throughout Sekiro speedruns, but the most prominent 
 * Emma, the Gentle Blade 180 strat
 * Snake Eyes corner cheese/180 strat
 * Lone Shadow Longswordsman corner cheese strat
-* Owl corner cheese strat','rejected',NULL,NULL,NULL,4,8,'2026-09-22 11:18:36.547492','2026-09-30 05:05:55.094584','dead-angle-2',NULL,'2026-09-30 05:05:55.092528',2,NULL,NULL,NULL,NULL);
+* Owl corner cheese strat','rejected',NULL,NULL,NULL,4,8,'2026-09-22 11:18:36.547492','2026-09-30 05:05:55.094584','dead-angle-2',NULL,'2026-09-30 05:05:55.092528',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(74,'Fistful of Ash','## Fistful of Ash
-Fistful of Ash is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-09-30 17:52:04.662364','2026-09-30 17:52:39.434902','fistful-of-ash','2026-09-30 17:52:04.659331','2026-09-30 17:52:39.432672',2,NULL,NULL,NULL,NULL);
+Fistful of Ash is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-09-30 17:52:04.662364','2026-09-30 17:52:39.434902','fistful-of-ash','2026-09-30 17:52:04.659331','2026-09-30 17:52:39.432672',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(76,'Homeward Idol','## Homeward Idol
-The Homeward Idol is a reusable Quick Item that on use allows the player to teleport to their last communed Idol or to the Dilapidated Temple.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:28:15.886468','2026-09-30 18:28:32.695283','homeward-idol','2026-09-30 18:28:15.885299','2026-09-30 18:28:32.694856',2,NULL,NULL,NULL,NULL);
+The Homeward Idol is a reusable Quick Item that on use allows the player to teleport to their last communed Idol or to the Dilapidated Temple.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:28:15.886468','2026-09-30 18:28:32.695283','homeward-idol','2026-09-30 18:28:15.885299','2026-09-30 18:28:32.694856',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(77,'Mibu Balloon of Soul','## Mibu Balloon of Soul
-Mibu Balloon of Soul is a Consumable Quick Item that on use makes the player acquire restorative power at a higher rate for 2m30s.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:35:39.128856','2026-10-06 18:11:54.970462','mibu-balloon-of-soul','2026-09-30 18:35:39.126969','2026-09-30 18:35:44.240018',2,NULL,NULL,NULL,NULL);
+Mibu Balloon of Soul is a Consumable Quick Item that on use makes the player acquire restorative power at a higher rate for 2m30s.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:35:39.128856','2026-10-06 18:11:54.970462','mibu-balloon-of-soul','2026-09-30 18:35:39.126969','2026-09-30 18:35:44.240018',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(78,'Bite Down','## Bite Down
-Bite Down is a Consumable Quick Item that kills the player on use.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:36:26.941960','2026-09-30 18:41:12.080778','bite-down','2026-09-30 18:36:26.941319','2026-09-30 18:41:12.080118',2,NULL,NULL,NULL,NULL);
+Bite Down is a Consumable Quick Item that kills the player on use.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:36:26.941960','2026-09-30 18:41:12.080778','bite-down','2026-09-30 18:36:26.941319','2026-09-30 18:41:12.080118',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(79,'Red Lump','## Red Lump
 Red Lump is a Consumable Quick Item that on use makes the player nearly unstaggerable but unable to resurrect for 30s.
 
@@ -3613,22 +3645,22 @@ Red Lump is a Consumable Quick Item that on use makes the player nearly unstagge
 1x can be picked up in the Dungeon by a pile of corpses with crickets on them just before the water section.
 
 ### Fountainhead Palace
-1x can be picked up in the water under the bridge near the Flower Viewing Stage Idol.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:41:01.635189','2026-10-23 08:26:41.715460','red-lump','2026-09-30 18:41:01.634290','2026-09-30 18:41:15.698510',2,NULL,NULL,NULL,NULL);
+1x can be picked up in the water under the bridge near the Flower Viewing Stage Idol.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:41:01.635189','2026-10-23 08:26:41.715460','red-lump','2026-09-30 18:41:01.634290','2026-09-30 18:41:15.698510',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(80,'Heavy Coin Purse','## Heavy Coin Purse
 Heavy Coin Purse is a Consumable Quick Item that gives 500 [Sen](/wiki/sen) on use. [Light Coin Purses](/wiki/light-coin-purse), Heavy Coin Purses and [Bulging Coin Purses](/wiki/bulging-coin-purse) serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:49:34.302926','2026-10-06 18:19:04.060926','heavy-coin-purse','2026-09-30 18:49:34.301706','2026-09-30 18:54:54.928941',2,NULL,'Heavy Coin Purse','## Heavy Coin Purse
-Heavy Coin Purse is a Consumable Quick Item that gives 500 Sen on use. Light Coin Purses, Heavy Coin Purses or Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.',4);
+Heavy Coin Purse is a Consumable Quick Item that gives 500 Sen on use. Light Coin Purses, Heavy Coin Purses or Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.',4,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(81,'Light Coin Purse','## Light Coin Purse
-Light Coin Purse is a Consumable Quick Item that gives 100 [Sen](/wiki/sen) on use. Light Coin Purses, [Heavy Coin Purses](/wiki/heavy-coin-purse) and [Bulging Coin Purse](/wiki/bulging-coin-purse) serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:51:37.008176','2026-10-06 18:19:06.305927','light-coin-purse','2026-09-30 18:51:37.007733','2026-09-30 18:54:51.256493',2,NULL,NULL,NULL,NULL);
+Light Coin Purse is a Consumable Quick Item that gives 100 [Sen](/wiki/sen) on use. Light Coin Purses, [Heavy Coin Purses](/wiki/heavy-coin-purse) and [Bulging Coin Purse](/wiki/bulging-coin-purse) serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:51:37.008176','2026-10-06 18:19:06.305927','light-coin-purse','2026-09-30 18:51:37.007733','2026-09-30 18:54:51.256493',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(82,'Bulging Coin Purse','## Bulging Coin Purse
-Bulging Coin Purse is a Consumable Quick Item that gives 1000 [Sen](/wiki/sen) on use. [Light Coin Purses](/wiki/light-coin-purse), [Heavy Coin Purses](/wiki/heavy-coin-purse) and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:52:39.715580','2026-10-06 18:19:08.502893','bulging-coin-purse','2026-09-30 18:52:39.715149','2026-09-30 18:54:58.687294',2,NULL,NULL,NULL,NULL);
+Bulging Coin Purse is a Consumable Quick Item that gives 1000 [Sen](/wiki/sen) on use. [Light Coin Purses](/wiki/light-coin-purse), [Heavy Coin Purses](/wiki/heavy-coin-purse) and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:52:39.715580','2026-10-06 18:19:08.502893','bulging-coin-purse','2026-09-30 18:52:39.715149','2026-09-30 18:54:58.687294',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(83,'SaraToga','## SaraToga
-SaraToga is a Sekiro speedrunner and strat finder. They are most known for their NG+7 speedruns.','approved',NULL,NULL,NULL,2,2,'2026-09-30 20:33:02.400576','2026-09-30 20:33:07.499409','saratoga','2026-09-30 20:33:02.399377','2026-09-30 20:33:07.497894',2,NULL,NULL,NULL,NULL);
+SaraToga is a Sekiro speedrunner and strat finder. They are most known for their NG+7 speedruns.','approved',NULL,NULL,NULL,2,2,'2026-09-30 20:33:02.400576','2026-09-30 20:33:07.499409','saratoga','2026-09-30 20:33:02.399377','2026-09-30 20:33:07.497894',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(84,'Guardian Ape','## Guardian Ape
-Guardian Ape is a Boss that appears in Sunken Valley.','approved',NULL,NULL,NULL,4,2,'2026-09-30 20:40:30.258957','2026-09-30 21:08:18.709090','guardian-ape','2026-09-30 20:40:30.258542','2026-09-30 21:08:18.707914',2,NULL,NULL,NULL,NULL);
+Guardian Ape is a Boss that appears in Sunken Valley.','approved',NULL,NULL,NULL,4,2,'2026-09-30 20:40:30.258957','2026-09-30 21:08:18.709090','guardian-ape','2026-09-30 20:40:30.258542','2026-09-30 21:08:18.707914',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(85,'Divine Dragon','## Divine Dragon
-Divine Dragon is a Boss that appears in Fountainhead Palace.','approved',NULL,NULL,NULL,4,2,'2026-09-30 20:41:02.990331','2026-09-30 21:17:25.267702','divine-dragon','2026-09-30 20:41:02.989927','2026-09-30 21:17:25.267351',2,NULL,NULL,NULL,NULL);
+Divine Dragon is a Boss that appears in Fountainhead Palace.','approved',NULL,NULL,NULL,4,2,'2026-09-30 20:41:02.990331','2026-09-30 21:17:25.267702','divine-dragon','2026-09-30 20:41:02.989927','2026-09-30 21:17:25.267351',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(86,'Armored Warrior','## Armored Warrior
-Armored Warrior is a Miniboss that appears in Senpou Temple.','approved',NULL,NULL,NULL,4,2,'2026-09-30 20:41:39.178644','2026-09-30 21:17:33.510122','armored-warrior','2026-09-30 20:41:39.177011','2026-09-30 21:17:33.509411',2,NULL,NULL,NULL,NULL);
+Armored Warrior is a Miniboss that appears in Senpou Temple.','approved',NULL,NULL,NULL,4,2,'2026-09-30 20:41:39.178644','2026-09-30 21:17:33.510122','armored-warrior','2026-09-30 20:41:39.177011','2026-09-30 21:17:33.509411',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(87,'Boss','## Boss
 A Boss is generally defined as an enemy with an on-screen Boss health that is embedded in the HUD.
 
@@ -3762,123 +3794,123 @@ There are 37 Miniboss encounters.
 ## Misc Bosses
 * Tutorial Genichiro
 * Great Serpent
-* Great Colored Carp',4);
+* Great Colored Carp',4,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(88,'Demon of Hatred','## Demon of Hatred
-Demon of Hatred is a Boss that appears in Ashina Outskirts after Invasion 2.','approved',NULL,NULL,NULL,4,2,'2026-10-04 11:32:25.070807','2026-10-04 11:32:34.981374','demon-of-hatred','2026-10-04 11:32:25.068879','2026-10-04 11:32:34.979487',2,NULL,NULL,NULL,NULL);
+Demon of Hatred is a Boss that appears in Ashina Outskirts after Invasion 2.','approved',NULL,NULL,NULL,4,2,'2026-10-04 11:32:25.070807','2026-10-04 11:32:34.981374','demon-of-hatred','2026-10-04 11:32:25.068879','2026-10-04 11:32:34.979487',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(89,'Snake Eyes Shirafuji','## Snake Eyes Shirafuji
-Snake Eyes Shirafuji is a Miniboss that appears in the Sunken Valley Gunfort area.','approved',NULL,NULL,NULL,4,2,'2026-10-04 11:42:32.429358','2026-10-04 11:43:17.679098','snake-eyes-shirafuji','2026-10-04 11:42:32.428943','2026-10-04 11:43:17.677393',2,NULL,NULL,NULL,NULL);
+Snake Eyes Shirafuji is a Miniboss that appears in the Sunken Valley Gunfort area.','approved',NULL,NULL,NULL,4,2,'2026-10-04 11:42:32.429358','2026-10-04 11:43:17.679098','snake-eyes-shirafuji','2026-10-04 11:42:32.428943','2026-10-04 11:43:17.677393',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(90,'Snake Eyes Shirahagi','## Snake Eyes Shirahagi
-Snake Eyes Shirahagi is a Miniboss that appears in the Poison Pool area.','approved',NULL,NULL,NULL,4,2,'2026-10-04 11:43:08.495844','2026-10-04 11:43:14.516028','snake-eyes-shirahagi','2026-10-04 11:43:08.495431','2026-10-04 11:43:14.515675',2,NULL,NULL,NULL,NULL);
+Snake Eyes Shirahagi is a Miniboss that appears in the Poison Pool area.','approved',NULL,NULL,NULL,4,2,'2026-10-04 11:43:08.495844','2026-10-04 11:43:14.516028','snake-eyes-shirahagi','2026-10-04 11:43:08.495431','2026-10-04 11:43:14.515675',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(91,'Mist Noble','## Mist Noble
-Mist Noble is a Miniboss that appears in Ashina Depths.','approved',NULL,NULL,NULL,4,2,'2026-10-04 12:15:16.002537','2026-10-04 12:17:35.214816','mist-noble','2026-10-04 12:15:16.001309','2026-10-04 12:17:35.214194',2,NULL,NULL,NULL,NULL);
+Mist Noble is a Miniboss that appears in Ashina Depths.','approved',NULL,NULL,NULL,4,2,'2026-10-04 12:15:16.002537','2026-10-04 12:17:35.214816','mist-noble','2026-10-04 12:15:16.001309','2026-10-04 12:17:35.214194',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(92,'General Tenzen Yamauchi','## General Tenzen Yamauchi
-General Tenzen Yamauchi is a Miniboss that appears in Ashina Outskirts after the tutorial and disappears after Invasion 2.','approved',NULL,NULL,NULL,4,2,'2026-10-04 12:16:33.147745','2026-10-04 12:17:31.999175','general-tenzen-yamauchi','2026-10-04 12:16:33.146522','2026-10-04 12:17:31.998163',2,NULL,NULL,NULL,NULL);
+General Tenzen Yamauchi is a Miniboss that appears in Ashina Outskirts after the tutorial and disappears after Invasion 2.','approved',NULL,NULL,NULL,4,2,'2026-10-04 12:16:33.147745','2026-10-04 12:17:31.999175','general-tenzen-yamauchi','2026-10-04 12:16:33.146522','2026-10-04 12:17:31.998163',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(93,'Tokujiro the Glutton','## Tokujiro the Glutton
-Tokujiro the Glutton is a Miniboss that appears in Ashina Depths.','approved',NULL,NULL,NULL,4,2,'2026-10-04 12:18:22.290242','2026-10-04 12:22:07.739468','tokujiro-the-glutton','2026-10-04 12:18:22.289823','2026-10-04 12:22:07.738776',2,NULL,NULL,NULL,NULL);
+Tokujiro the Glutton is a Miniboss that appears in Ashina Depths.','approved',NULL,NULL,NULL,4,2,'2026-10-04 12:18:22.290242','2026-10-04 12:22:07.739468','tokujiro-the-glutton','2026-10-04 12:18:22.289823','2026-10-04 12:22:07.738776',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(94,'Lone Shadow Vilehand','## Lone Shadow Vilehand
-Lone Shadow Vilehand is a Miniboss that appears in the Ashina Castle Dojo after Invasion 1.','approved',NULL,NULL,NULL,4,2,'2026-10-04 12:22:01.632914','2026-10-04 12:22:11.117638','lone-shadow-vilehand','2026-10-04 12:22:01.632076','2026-10-04 12:22:11.116926',2,NULL,NULL,NULL,NULL);
+Lone Shadow Vilehand is a Miniboss that appears in the Ashina Castle Dojo after Invasion 1.','approved',NULL,NULL,NULL,4,2,'2026-10-04 12:22:01.632914','2026-10-04 12:22:11.117638','lone-shadow-vilehand','2026-10-04 12:22:01.632076','2026-10-04 12:22:11.116926',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(95,'Kusabimaru','## Kusabimaru
-Kusabimaru is the player''s sword and is obtained in the tutorial section after talking to Kuro for the first time.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:13:00.665346','2026-10-05 13:16:49.558249','kusabimaru','2026-10-05 13:13:00.664913','2026-10-05 13:16:49.557727',2,NULL,NULL,NULL,NULL);
+Kusabimaru is the player''s sword and is obtained in the tutorial section after talking to Kuro for the first time.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:13:00.665346','2026-10-05 13:16:49.558249','kusabimaru','2026-10-05 13:13:00.664913','2026-10-05 13:16:49.557727',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(96,'Offering Box','## Offering Box
-The Offering Box is located at Dilapidated Temple and lets the player buy some items that have been missed.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:16:38.449491','2026-10-05 13:16:52.153790','offering-box','2026-10-05 13:16:38.449047','2026-10-05 13:16:52.153429',2,NULL,NULL,NULL,NULL);
+The Offering Box is located at Dilapidated Temple and lets the player buy some items that have been missed.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:16:38.449491','2026-10-05 13:16:52.153790','offering-box','2026-10-05 13:16:38.449047','2026-10-05 13:16:52.153429',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(97,'Shelter Stone','## Shelter Stone
-The Shelter Stone is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:21:12.611846','2026-10-05 13:26:48.701747','shelter-stone','2026-10-05 13:21:12.611420','2026-10-05 13:26:48.701376',2,NULL,NULL,NULL,NULL);
+The Shelter Stone is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:21:12.611846','2026-10-05 13:26:48.701747','shelter-stone','2026-10-05 13:21:12.611420','2026-10-05 13:26:48.701376',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(98,'Shinobi Prosthetic','## Shinobi Prosthetic
-The Shinobi Prosthetic is a Key item that is given to the player after the tutorial by the Sculptor.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:22:35.558078','2026-10-05 13:26:50.771887','shinobi-prosthetic','2026-10-05 13:22:35.557669','2026-10-05 13:26:50.771555',2,NULL,NULL,NULL,NULL);
+The Shinobi Prosthetic is a Key item that is given to the player after the tutorial by the Sculptor.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:22:35.558078','2026-10-05 13:26:50.771887','shinobi-prosthetic','2026-10-05 13:22:35.557669','2026-10-05 13:26:50.771555',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(99,'Mibu Balloon of Spirit','## Mibu Balloon of Spirit
-Mibu Balloon of Spirit is a Consumable Quick Item that on use increases the rate at which Spirit Emblems are acquired for 2min30s.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:24:05.764978','2026-10-06 18:11:57.434211','mibu-balloon-of-spirit','2026-10-05 13:24:05.764364','2026-10-05 13:26:52.610158',2,NULL,NULL,NULL,NULL);
+Mibu Balloon of Spirit is a Consumable Quick Item that on use increases the rate at which Spirit Emblems are acquired for 2min30s.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:24:05.764978','2026-10-06 18:11:57.434211','mibu-balloon-of-spirit','2026-10-05 13:24:05.764364','2026-10-05 13:26:52.610158',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(100,'Gokan''s Sugar','## Gokan''s Sugar
 Gokan''s Sugar, also known as just Gokan, is a Consumable Quick Item that buffs the player for 30s. If the player has the Devotion skill, the duration will be 45s instead.
 
-Only one Sugar buff can be active at a time. If a new Sugar is used while Ako is already active, it will remove the Ako''s buff and apply the new Sugar''s buff.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:37:27.107567','2026-10-05 13:37:42.662841','gokan-s-sugar','2026-10-05 13:37:27.107149','2026-10-05 13:37:42.662402',2,NULL,NULL,NULL,NULL);
+Only one Sugar buff can be active at a time. If a new Sugar is used while Ako is already active, it will remove the Ako''s buff and apply the new Sugar''s buff.','approved',NULL,NULL,NULL,4,2,'2026-10-05 13:37:27.107567','2026-10-05 13:37:42.662841','gokan-s-sugar','2026-10-05 13:37:27.107149','2026-10-05 13:37:42.662402',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(102,'Mibu Possession Balloon','## Mibu Possession Balloon
-Mibu Possession Balloon is a Consumable Quick Item that on use makes the player receive item drops from enemies at a higher rate for 2m30s (not affected by the Devotion skill).','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:07:19.293600','2026-10-06 18:11:51.950903','mibu-possession-balloon','2026-10-06 18:07:19.293165','2026-10-06 18:11:51.950556',2,NULL,NULL,NULL,NULL);
+Mibu Possession Balloon is a Consumable Quick Item that on use makes the player receive item drops from enemies at a higher rate for 2m30s (not affected by the Devotion skill).','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:07:19.293600','2026-10-06 18:11:51.950903','mibu-possession-balloon','2026-10-06 18:07:19.293165','2026-10-06 18:11:51.950556',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(103,'Mibu Balloon of Wealth','## Mibu Balloon of Wealth
-Mibu Balloon of Wealth is a Consumable Quick Item that on use makes the player acquire Sen from enemies at a higher rate for 2min30s.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:14:05.538628','2026-10-06 18:14:15.562060','mibu-balloon-of-wealth','2026-10-06 18:14:05.538198','2026-10-06 18:14:15.561672',2,NULL,NULL,NULL,NULL);
+Mibu Balloon of Wealth is a Consumable Quick Item that on use makes the player acquire Sen from enemies at a higher rate for 2min30s.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:14:05.538628','2026-10-06 18:14:15.562060','mibu-balloon-of-wealth','2026-10-06 18:14:05.538198','2026-10-06 18:14:15.561672',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(104,'Illusive Hall Bell','## Illusive Hall Bell
-The Illusive Hall Bell is a Reusable Quick Item that when used in the Folding Screen Monkeys Boss arena resets the position of the player and of the remaining Folding Screen Monkeys.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:21:14.106686','2026-10-06 18:27:17.708276','illusive-hall-bell','2026-10-06 18:21:14.106258','2026-10-06 18:27:17.707905',2,NULL,NULL,NULL,NULL);
+The Illusive Hall Bell is a Reusable Quick Item that when used in the Folding Screen Monkeys Boss arena resets the position of the player and of the remaining Folding Screen Monkeys.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:21:14.106686','2026-10-06 18:27:17.708276','illusive-hall-bell','2026-10-06 18:21:14.106258','2026-10-06 18:27:17.707905',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(105,'Gatehouse Key','## Gatehouse Key
 The Gatehouse Key, also known as the Spear Key, is a Key Item that grants access to the building in the Ashina Reservoir where Gyoubu''s Broken Horn can be acquired.
 
-The Gatehouse Key is obtained by killing the spear-wielding soldier on the bridge leading to the Abandoned Dungeon.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:27:11.086428','2026-10-06 18:27:19.838644','gatehouse-key','2026-10-06 18:27:11.086020','2026-10-06 18:27:19.838115',2,NULL,NULL,NULL,NULL);
+The Gatehouse Key is obtained by killing the spear-wielding soldier on the bridge leading to the Abandoned Dungeon.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:27:11.086428','2026-10-06 18:27:19.838644','gatehouse-key','2026-10-06 18:27:11.086020','2026-10-06 18:27:19.838115',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(106,'Adamantite Scrap','## Adamantite Scrap
-Adamantite Scrap is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:28:47.245615','2026-10-06 18:28:51.413353','adamantite-scrap','2026-10-06 18:28:47.244682','2026-10-06 18:28:51.413019',2,NULL,NULL,NULL,NULL);
+Adamantite Scrap is an Upgrade Material Item used for Prosthetic Tool Upgrades.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:28:47.245615','2026-10-06 18:28:51.413353','adamantite-scrap','2026-10-06 18:28:47.244682','2026-10-06 18:28:51.413019',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(107,'Spinning Shuriken','## Spinning Shuriken
-The Spinning Shuriken is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:29:44.206919','2026-10-06 18:31:39.786882','spinning-shuriken','2026-10-06 18:29:44.206344','2026-10-06 18:31:39.786543',2,NULL,NULL,NULL,NULL);
+The Spinning Shuriken is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:29:44.206919','2026-10-06 18:31:39.786882','spinning-shuriken','2026-10-06 18:29:44.206344','2026-10-06 18:31:39.786543',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(108,'Gouging Top','## Gouging Top
-The Gouging Top is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:30:00.804850','2026-10-06 18:31:42.168126','gouging-top','2026-10-06 18:30:00.804431','2026-10-06 18:31:42.167631',2,NULL,NULL,NULL,NULL);
+The Gouging Top is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:30:00.804850','2026-10-06 18:31:42.168126','gouging-top','2026-10-06 18:30:00.804431','2026-10-06 18:31:42.167631',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(109,'Sen Throw','## Sen Throw
-Sen Throw is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:30:27.783153','2026-10-06 18:31:44.399508','sen-throw','2026-10-06 18:30:27.782744','2026-10-06 18:31:44.399159',2,NULL,NULL,NULL,NULL);
+Sen Throw is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:30:27.783153','2026-10-06 18:31:44.399508','sen-throw','2026-10-06 18:30:27.782744','2026-10-06 18:31:44.399159',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(110,'Lazulite Shuriken','## Lazulite Shuriken
-The Lazulite Shuriken is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:30:57.680957','2026-10-06 18:31:46.572966','lazulite-shuriken','2026-10-06 18:30:57.680539','2026-10-06 18:31:46.572626',2,NULL,NULL,NULL,NULL);
+The Lazulite Shuriken is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:30:57.680957','2026-10-06 18:31:46.572966','lazulite-shuriken','2026-10-06 18:30:57.680539','2026-10-06 18:31:46.572626',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(111,'Loaded Axe','## Loaded Axe
-The Loaded Axe is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:31:22.043132','2026-10-06 18:31:48.520667','loaded-axe','2026-10-06 18:31:22.042706','2026-10-06 18:31:48.520237',2,NULL,NULL,NULL,NULL);
+The Loaded Axe is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:31:22.043132','2026-10-06 18:31:48.520667','loaded-axe','2026-10-06 18:31:22.042706','2026-10-06 18:31:48.520237',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(112,'Spring-load Axe','## Spring-load Axe
-The Spring-load Axe is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:36:35.223716','2026-10-06 18:39:17.140155','spring-load-axe','2026-10-06 18:36:35.223280','2026-10-06 18:39:17.139814',2,NULL,NULL,NULL,NULL);
+The Spring-load Axe is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:36:35.223716','2026-10-06 18:39:17.140155','spring-load-axe','2026-10-06 18:36:35.223280','2026-10-06 18:39:17.139814',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(113,'Sparking Axe','## Sparking Axe
-The Sparking Axe is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:36:59.685644','2026-10-06 18:39:19.773147','sparking-axe','2026-10-06 18:36:59.685015','2026-10-06 18:39:19.772802',2,NULL,NULL,NULL,NULL);
+The Sparking Axe is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:36:59.685644','2026-10-06 18:39:19.773147','sparking-axe','2026-10-06 18:36:59.685015','2026-10-06 18:39:19.772802',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(114,'Lazulite Axe','## Lazulite Axe
-The Lazulite Axe is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:37:17.797416','2026-10-06 18:39:25.590085','lazulite-axe','2026-10-06 18:37:17.797010','2026-10-06 18:39:25.589751',2,NULL,NULL,NULL,NULL);
+The Lazulite Axe is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:37:17.797416','2026-10-06 18:39:25.590085','lazulite-axe','2026-10-06 18:37:17.797010','2026-10-06 18:39:25.589751',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(115,'Loaded Spear','## Loaded Spear
-The Loaded Spear is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:37:46.790006','2026-10-06 18:39:27.785657','loaded-spear','2026-10-06 18:37:46.789603','2026-10-06 18:39:27.785289',2,NULL,NULL,NULL,NULL);
+The Loaded Spear is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:37:46.790006','2026-10-06 18:39:27.785657','loaded-spear','2026-10-06 18:37:46.789603','2026-10-06 18:39:27.785289',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(116,'Loaded Spear Thrust Type','## Loaded Spear Thrust Type
-The Loaded Spear Thrust Type is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:38:15.363642','2026-10-06 18:39:30.097056','loaded-spear-thrust-type','2026-10-06 18:38:15.363220','2026-10-06 18:39:30.096521',2,NULL,NULL,NULL,NULL);
+The Loaded Spear Thrust Type is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:38:15.363642','2026-10-06 18:39:30.097056','loaded-spear-thrust-type','2026-10-06 18:38:15.363220','2026-10-06 18:39:30.096521',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(117,'Loaded Spear Cleave Type','## Loaded Spear Cleave Type
-The Loaded Spear Cleave Type is a Prosthetic Tool','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:38:33.766618','2026-10-06 18:39:36.120438','loaded-spear-cleave-type','2026-10-06 18:38:33.766192','2026-10-06 18:39:36.119918',2,NULL,NULL,NULL,NULL);
+The Loaded Spear Cleave Type is a Prosthetic Tool','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:38:33.766618','2026-10-06 18:39:36.120438','loaded-spear-cleave-type','2026-10-06 18:38:33.766192','2026-10-06 18:39:36.119918',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(118,'Spiral Spear','## Spiral Spear
-The Spiral Spear is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:41:46.595615','2026-10-06 18:43:29.556714','spiral-spear','2026-10-06 18:41:46.595179','2026-10-06 18:43:29.556364',2,NULL,NULL,NULL,NULL);
+The Spiral Spear is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:41:46.595615','2026-10-06 18:43:29.556714','spiral-spear','2026-10-06 18:41:46.595179','2026-10-06 18:43:29.556364',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(119,'Leaping Flame','## Leaping Flame
-The Leaping Flame is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:44:17.621249','2026-10-06 18:47:33.656148','leaping-flame','2026-10-06 18:44:17.620845','2026-10-06 18:47:33.655769',2,NULL,NULL,NULL,NULL);
+The Leaping Flame is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:44:17.621249','2026-10-06 18:47:33.656148','leaping-flame','2026-10-06 18:44:17.620845','2026-10-06 18:47:33.655769',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(120,'Sabimaru','## Sabimaru
-Sabimaru is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:46:45.996886','2026-10-06 18:47:35.694434','sabimaru','2026-10-06 18:46:45.996478','2026-10-06 18:47:35.694096',2,NULL,NULL,NULL,NULL);
+Sabimaru is a Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:46:45.996886','2026-10-06 18:47:35.694434','sabimaru','2026-10-06 18:46:45.996478','2026-10-06 18:47:35.694096',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(121,'Sabimaru (Upgrade Material)','## Sabimaru
-Sabimaru is a Unique Upgrade Material Item used to unlock the Sabimaru Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:47:27.799574','2026-10-06 18:47:37.641767','sabimaru-upgrade-material','2026-10-06 18:47:27.799159','2026-10-06 18:47:37.641427',2,NULL,NULL,NULL,NULL);
+Sabimaru is a Unique Upgrade Material Item used to unlock the Sabimaru Prosthetic Tool.','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:47:27.799574','2026-10-06 18:47:37.641767','sabimaru-upgrade-material','2026-10-06 18:47:27.799159','2026-10-06 18:47:37.641427',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(122,'Mechanical Barrel','## Mechanical Barrel
 The Mechanical Barrel is a Key Item that be given to the Sculptor to unlock Prosthetic Upgrades.
 
-The Mechanical Barrel is acquired by killing [Gyoubu Oniwa](/wiki/gyoubu-oniwa).','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:49:32.933338','2026-10-06 18:49:37.681299','mechanical-barrel','2026-10-06 18:49:32.932946','2026-10-06 18:49:37.680809',2,NULL,NULL,NULL,NULL);
+The Mechanical Barrel is acquired by killing [Gyoubu Oniwa](/wiki/gyoubu-oniwa).','approved',NULL,NULL,NULL,4,2,'2026-10-06 18:49:32.933338','2026-10-06 18:49:37.681299','mechanical-barrel','2026-10-06 18:49:32.932946','2026-10-06 18:49:37.680809',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(123,'Lotus of the Palace','## Lotus of the Palace
-Lotus of the Palace is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-14 10:57:40.193805','2026-10-14 10:57:50.959758','lotus-of-the-palace','2026-10-14 10:57:40.190967','2026-10-14 10:57:50.957763',2,NULL,NULL,NULL,NULL);
+Lotus of the Palace is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-14 10:57:40.193805','2026-10-14 10:57:50.959758','lotus-of-the-palace','2026-10-14 10:57:40.190967','2026-10-14 10:57:50.957763',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(124,'Mortal Blade','## Mortal Blade
-The Mortal Blade is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-22 06:07:55.262388','2026-10-22 06:08:02.615761','mortal-blade','2026-10-22 06:07:55.259432','2026-10-22 06:08:02.613759',2,NULL,NULL,NULL,NULL);
+The Mortal Blade is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-22 06:07:55.262388','2026-10-22 06:08:02.615761','mortal-blade','2026-10-22 06:07:55.259432','2026-10-22 06:08:02.613759',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(125,'Poise','## Poise
-Poise, also known as superarmor (not to be confused with hyperarmor or Posture), is a hidden healthbar that determines enemy stagger.','approved',NULL,NULL,NULL,4,2,'2026-10-23 07:51:57.351900','2026-10-23 07:52:04.006860','poise','2026-10-23 07:51:57.350595','2026-10-23 07:52:04.005837',2,NULL,NULL,NULL,NULL);
+Poise, also known as superarmor (not to be confused with hyperarmor or Posture), is a hidden healthbar that determines enemy stagger.','approved',NULL,NULL,NULL,4,2,'2026-10-23 07:51:57.351900','2026-10-23 07:52:04.006860','poise','2026-10-23 07:51:57.350595','2026-10-23 07:52:04.005837',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(126,'Green Mossy Gourd','## Green Mossy Gourd
-The Green Mossy Gourd is a Quick Item. It can be purchased from the Toxic Memorial Mob for 1800 [Sen](/wiki/sen).','approved',NULL,NULL,NULL,4,2,'2026-10-23 08:08:26.250909','2026-10-23 08:16:54.309813','green-mossy-gourd','2026-10-23 08:08:26.249692','2026-10-23 08:16:54.308715',2,NULL,NULL,NULL,NULL);
+The Green Mossy Gourd is a Quick Item. It can be purchased from the Toxic Memorial Mob for 1800 [Sen](/wiki/sen).','approved',NULL,NULL,NULL,4,2,'2026-10-23 08:08:26.250909','2026-10-23 08:16:54.309813','green-mossy-gourd','2026-10-23 08:08:26.249692','2026-10-23 08:16:54.308715',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(127,'Dried Serpent Viscera','## Dried Serpent Viscera
 The Dried Serpent Viscera is a Key Item. It can be picked up at the end of the Great Serpent''s Cave.','approved',NULL,NULL,NULL,4,2,'2026-10-23 08:16:49.942420','2026-10-23 08:19:22.966600','dried-serpent-viscera','2026-10-23 08:16:49.941195','2026-10-23 08:19:22.963704',2,NULL,'Dried Serpent Viscera','## Dried Serpent Viscera
-The Dried Serpent Viscera is a Key Item.',4);
+The Dried Serpent Viscera is a Key Item.',4,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(128,'Alannad','## Alannad
-Alannad is a Sekiro Speedrunner.','approved',NULL,NULL,NULL,2,2,'2026-10-23 08:34:27.887795','2026-10-23 08:37:50.983585','alannad','2026-10-23 08:34:27.884879','2026-10-23 08:37:50.982548',2,NULL,NULL,NULL,NULL);
+Alannad is a Sekiro Speedrunner.','approved',NULL,NULL,NULL,2,2,'2026-10-23 08:34:27.887795','2026-10-23 08:37:50.983585','alannad','2026-10-23 08:34:27.884879','2026-10-23 08:37:50.982548',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(129,'GraysonFlows','## GraysonFlows
-GraysonFlows is a Sekiro Speedrunner.','approved',NULL,NULL,NULL,2,2,'2026-10-23 08:36:00.769932','2026-10-23 08:37:53.864062','graysonflows','2026-10-23 08:36:00.768610','2026-10-23 08:37:53.862086',2,NULL,NULL,NULL,NULL);
+GraysonFlows is a Sekiro Speedrunner.','approved',NULL,NULL,NULL,2,2,'2026-10-23 08:36:00.769932','2026-10-23 08:37:53.864062','graysonflows','2026-10-23 08:36:00.768610','2026-10-23 08:37:53.862086',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(130,'Headless (Ako)','## Headless (Ako)
-Headless (Ako) is a [Miniboss](/wiki/boss) that appears in Ashina Outskirts. He is one of 5 Minibosses in the game with the name "Headless". When defeated, he drops the Ako''s Spiritfall.','approved',NULL,NULL,NULL,4,2,'2026-10-23 09:09:02.833603','2026-10-23 09:16:41.290597','headless-ako','2026-10-23 09:09:02.832347','2026-10-23 09:16:41.289512',2,NULL,NULL,NULL,NULL);
+Headless (Ako) is a [Miniboss](/wiki/boss) that appears in Ashina Outskirts. He is one of 5 Minibosses in the game with the name "Headless". When defeated, he drops the Ako''s Spiritfall.','approved',NULL,NULL,NULL,4,2,'2026-10-23 09:09:02.833603','2026-10-23 09:16:41.290597','headless-ako','2026-10-23 09:09:02.832347','2026-10-23 09:16:41.289512',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(131,'Headless (Gachiin)','## Headless (Gachiin)
-Headless (Gachiin) is a [Miniboss](/wiki/boss) that appears in Ashina Depths. He is one of 5 Minibosses in the game with the name "Headless". When defeated, he drops the Gachiin''s Spiritfall.','approved',NULL,NULL,NULL,4,2,'2026-10-23 09:09:47.687565','2026-10-23 09:16:43.493978','headless-gachiin','2026-10-23 09:09:47.686283','2026-10-23 09:16:43.492980',2,NULL,NULL,NULL,NULL);
+Headless (Gachiin) is a [Miniboss](/wiki/boss) that appears in Ashina Depths. He is one of 5 Minibosses in the game with the name "Headless". When defeated, he drops the Gachiin''s Spiritfall.','approved',NULL,NULL,NULL,4,2,'2026-10-23 09:09:47.687565','2026-10-23 09:16:43.493978','headless-gachiin','2026-10-23 09:09:47.686283','2026-10-23 09:16:43.492980',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(132,'Headless (Yashariku)','## Headless (Yashariku)
-Headless (Yashariku) is a [Miniboss](/wiki/boss) that appears in Fountainhead Palace. He is one of 5 Minibosses in the game with the name "Headless". When defeated, he drops the Yashariku''s Spiritfall.','approved',NULL,NULL,NULL,4,2,'2026-10-23 09:10:54.914912','2026-10-23 09:16:39.118770','headless-yashariku','2026-10-23 09:10:54.914165','2026-10-23 09:16:39.118107',2,NULL,NULL,NULL,NULL);
+Headless (Yashariku) is a [Miniboss](/wiki/boss) that appears in Fountainhead Palace. He is one of 5 Minibosses in the game with the name "Headless". When defeated, he drops the Yashariku''s Spiritfall.','approved',NULL,NULL,NULL,4,2,'2026-10-23 09:10:54.914912','2026-10-23 09:16:39.118770','headless-yashariku','2026-10-23 09:10:54.914165','2026-10-23 09:16:39.118107',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(133,'Headless (Gokan)','## Headless (Gokan)
-Headless (Gokan) is a [Miniboss](/wiki/boss) that appears in Sunken Valley. He is one of 5 Minibosses in the game with the name "Headless". When defeated, he drops the Gokan''s Spiritfall.','approved',NULL,NULL,NULL,4,2,'2026-10-23 09:11:35.662344','2026-10-23 09:16:45.233726','headless-gokan','2026-10-23 09:11:35.661941','2026-10-23 09:16:45.232704',2,NULL,NULL,NULL,NULL);
+Headless (Gokan) is a [Miniboss](/wiki/boss) that appears in Sunken Valley. He is one of 5 Minibosses in the game with the name "Headless". When defeated, he drops the Gokan''s Spiritfall.','approved',NULL,NULL,NULL,4,2,'2026-10-23 09:11:35.662344','2026-10-23 09:16:45.233726','headless-gokan','2026-10-23 09:11:35.661941','2026-10-23 09:16:45.232704',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(134,'Headless (Ungo)','## Headless (Ungo)
-Headless (Ungo) is a [Miniboss](/wiki/boss) that appears in Ashina Castle. He is one of 5 Minibosses in the game with the name "Headless". When defeated, he drops the Ungo''s Spiritfall.','approved',NULL,NULL,NULL,4,2,'2026-10-23 09:14:52.585329','2026-10-23 09:16:36.586438','headless-ungo','2026-10-23 09:14:52.584109','2026-10-23 09:16:36.586081',2,NULL,NULL,NULL,NULL);
+Headless (Ungo) is a [Miniboss](/wiki/boss) that appears in Ashina Castle. He is one of 5 Minibosses in the game with the name "Headless". When defeated, he drops the Ungo''s Spiritfall.','approved',NULL,NULL,NULL,4,2,'2026-10-23 09:14:52.585329','2026-10-23 09:16:36.586438','headless-ungo','2026-10-23 09:14:52.584109','2026-10-23 09:16:36.586081',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(135,'Isshin''s Letter','## Isshin''s Letter
-Isshin''s Letter is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-24 07:08:35.210927','2026-10-24 07:12:09.500945','isshin-s-letter','2026-10-24 07:08:35.209250','2026-10-24 07:12:09.499454',2,NULL,NULL,NULL,NULL);
+Isshin''s Letter is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-24 07:08:35.210927','2026-10-24 07:12:09.500945','isshin-s-letter','2026-10-24 07:08:35.209250','2026-10-24 07:12:09.499454',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(136,'Aromatic Branch','## Aromatic Branch
-The Aromatic Branch is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-24 07:31:42.091860','2026-10-24 08:42:34.078681','aromatic-branch','2026-10-24 07:31:42.090358','2026-10-24 08:42:34.078344',2,NULL,NULL,NULL,NULL);
+The Aromatic Branch is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-24 07:31:42.091860','2026-10-24 08:42:34.078681','aromatic-branch','2026-10-24 07:31:42.090358','2026-10-24 08:42:34.078344',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(137,'Aromatic Flower','## Aromatic Flower
-The Aromatic Flower is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-24 07:32:06.537966','2026-10-24 08:42:31.830652','aromatic-flower','2026-10-24 07:32:06.536094','2026-10-24 08:42:31.830310',2,NULL,NULL,NULL,NULL);
+The Aromatic Flower is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-24 07:32:06.537966','2026-10-24 08:42:31.830652','aromatic-flower','2026-10-24 07:32:06.536094','2026-10-24 08:42:31.830310',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(138,'Sakura Droplet','## Sakura Droplet
-The Sakura Droplet is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-24 07:32:59.926502','2026-10-24 08:42:29.283949','sakura-droplet','2026-10-24 07:32:59.926107','2026-10-24 08:42:29.283565',2,NULL,NULL,NULL,NULL);
+The Sakura Droplet is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-24 07:32:59.926502','2026-10-24 08:42:29.283949','sakura-droplet','2026-10-24 07:32:59.926107','2026-10-24 08:42:29.283565',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(139,'Young Lord''s Bell Charm','## Young Lord''s Bell Charm
-The Young Lord''s Bell Charm is a Key Item','approved',NULL,NULL,NULL,4,2,'2026-10-24 08:42:24.136326','2026-10-24 08:42:39.951811','young-lord-s-bell-charm','2026-10-24 08:42:24.135910','2026-10-24 08:42:39.951472',2,NULL,NULL,NULL,NULL);
+The Young Lord''s Bell Charm is a Key Item','approved',NULL,NULL,NULL,4,2,'2026-10-24 08:42:24.136326','2026-10-24 08:42:39.951811','young-lord-s-bell-charm','2026-10-24 08:42:24.135910','2026-10-24 08:42:39.951472',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(140,'Test','## Test
-<iframe src="https://drive.google.com/file/d/1ZbJVewvVdxdKV3C7fjMf0XtTDwtswcFu/preview" width="768" height="432"></iframe>','approved',NULL,NULL,NULL,2,2,'2026-10-24 09:03:06.691284','2026-10-24 09:24:28.018027','test','2026-10-24 09:03:06.690866','2026-10-24 09:03:14.264128',2,NULL,NULL,NULL,NULL);
+<iframe src="https://drive.google.com/file/d/1ZbJVewvVdxdKV3C7fjMf0XtTDwtswcFu/preview" width="768" height="432"></iframe>','approved',NULL,NULL,NULL,2,2,'2026-10-24 09:03:06.691284','2026-10-24 09:24:28.018027','test','2026-10-24 09:03:06.690866','2026-10-24 09:03:14.264128',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(141,'Wrong Warp','## Wrong Warp
 A Wrong Warp is a glitch that can change the player''s destination to an unintended location when teleporting.
 
 ## Force Quit Wrong Warp
-A Force Quit Wrong Warp (FQWW) is performed by dying and force quitting the game after the loading screen appears, usually via alt+f4, the task manager or a dedicated game restart macro.','approved',NULL,NULL,NULL,3,2,'2026-10-24 11:43:18.513163','2026-10-24 11:43:23.543029','wrong-warp','2026-10-24 11:43:18.512748','2026-10-24 11:43:23.542521',2,NULL,NULL,NULL,NULL);
+A Force Quit Wrong Warp (FQWW) is performed by dying and force quitting the game after the loading screen appears, usually via alt+f4, the task manager or a dedicated game restart macro.','approved',NULL,NULL,NULL,3,2,'2026-10-24 11:43:18.513163','2026-10-24 11:43:23.543029','wrong-warp','2026-10-24 11:43:18.512748','2026-10-24 11:43:23.542521',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(142,'Gamefowl','## Gamefowl
 The Gamefowl, also called Chicken or Rooster, is a type of enemy that appears in Hirata Estate, Ashina Outskirts and Ashina Depths. There are a total of 18 Gamefowl in the game.
 
@@ -3902,9 +3934,9 @@ There are 9 Gamefowl in Ashina Depths. 6 of them are located in the Hidden Fores
 1 can be encountered in the Hidden Forest on the hill by the giant Buddha statue.
 2 can be encountered in the Hidden Forest on the right path towards [Mist Noble](/wiki/mist-noble)
 1 can be encountered in Mibu Village ontop of the big house closest to the lit up tree.
-2 can be encountered in Mibu Village on the other side of the Mibu Lake by the waterfall.','approved',NULL,NULL,NULL,4,2,'2026-10-24 14:48:58.659340','2026-10-24 14:53:21.557299','gamefowl','2026-10-24 14:48:58.658931','2026-10-24 14:49:07.002915',2,NULL,NULL,NULL,NULL);
+2 can be encountered in Mibu Village on the other side of the Mibu Lake by the waterfall.','approved',NULL,NULL,NULL,4,2,'2026-10-24 14:48:58.659340','2026-10-24 14:53:21.557299','gamefowl','2026-10-24 14:48:58.658931','2026-10-24 14:49:07.002915',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(143,'Shigekichi of the Red Guard','## Shigekichi of the Red Guard
-Shigekichi of the Red Guard is a Miniboss.','approved',NULL,NULL,NULL,4,2,'2026-10-27 18:56:11.052946','2026-10-27 18:56:16.352685','shigekichi-of-the-red-guard','2026-10-27 18:56:11.051971','2026-10-27 18:56:16.352334',2,NULL,NULL,NULL,NULL);
+Shigekichi of the Red Guard is a Miniboss.','approved',NULL,NULL,NULL,4,2,'2026-10-27 18:56:11.052946','2026-10-27 18:56:16.352685','shigekichi-of-the-red-guard','2026-10-27 18:56:11.051971','2026-10-27 18:56:16.352334',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(144,'Dojo Skip','## Dojo Skip
 Dojo Skip refers to a trick that skips going inside Ashina Castle and allows early access to the roof. This is most commonly used in glitchless categories before Genichiro. There''s two versions of the skip, Backside & Frontside 
 
@@ -3919,7 +3951,7 @@ This is the harder version of the skip, making use of the collision on the front
 
 Pennek has made 2 tutorials on the skip:
 [youtube]Fb3tdwepZnE[/youtube]
-[youtube]vjTOwn6XHaU[/youtube]','approved',NULL,NULL,NULL,3,7,'2026-10-27 20:17:28.607436','2026-10-27 20:19:44.579128','dojo-skip','2026-10-27 20:17:28.606870','2026-10-27 20:19:44.578788',2,NULL,NULL,NULL,NULL);
+[youtube]vjTOwn6XHaU[/youtube]','approved',NULL,NULL,NULL,3,7,'2026-10-27 20:17:28.607436','2026-10-27 20:19:44.579128','dojo-skip','2026-10-27 20:17:28.606870','2026-10-27 20:19:44.578788',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(145,'Genichiro Corner Cheese','## Genichiro Corner Cheese
 This refers to a common cheese performed on phases 1 & 2 of Genichiro Ashina, where a setup is used to get him stuck in a corner so the player can attack indefinitely.
 
@@ -3930,9 +3962,9 @@ Ponetchmas made a tutorial explaining the cheese:
 On some categories like [Shura Restricted](https://sekirospeedrun.com/wiki/shura-restricted), players may need to use Divine Confetti while performing the cheese. To do so, simply replace the 2 attacks used in the setup explained in the tutorial with using the confetti.
 
 ## 180s Variation
-An alternate method exists, most commonly seen in Glitchless categories, where instead of baiting Genichiro into the corner, the player drags him inside by performing 180s and slowly pushing him.','approved',NULL,NULL,NULL,3,7,'2026-10-27 20:23:01.072204','2026-10-27 20:25:57.406065','genichiro-corner-cheese','2026-10-27 20:23:01.071646','2026-10-27 20:25:57.405733',2,NULL,NULL,NULL,NULL);
+An alternate method exists, most commonly seen in Glitchless categories, where instead of baiting Genichiro into the corner, the player drags him inside by performing 180s and slowly pushing him.','approved',NULL,NULL,NULL,3,7,'2026-10-27 20:23:01.072204','2026-10-27 20:25:57.406065','genichiro-corner-cheese','2026-10-27 20:23:01.071646','2026-10-27 20:25:57.405733',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(146,'Divine Confetti','## Divine Confetti
-Divine Confetti is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 20:23:13.854678','2026-10-27 20:23:24.049608','divine-confetti','2026-10-27 20:23:13.854262','2026-10-27 20:23:24.049273',2,NULL,NULL,NULL,NULL);
+Divine Confetti is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 20:23:13.854678','2026-10-27 20:23:24.049608','divine-confetti','2026-10-27 20:23:13.854262','2026-10-27 20:23:24.049273',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(147,'Zee4 Akoless Centipede','## Zee4 Akoless Centipede
 Zee4 Akoless Centipede, also known as C4 Akoless Centipede, is a strategy for [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe) that skips using an [Ako''s Sugar](/wiki/ako-s-sugar) in order to save time by not needing to pick up the Ako.
 
@@ -3940,55 +3972,55 @@ koko838 made the following tutorial:
  [youtube]dbfkt2KEcLg[/youtube] 
 
 ## History
-Despite its name, the original strategy was not found by Zee4. Zee4 said he saw it from someone else. But he posted it on the Speedrun Discord, which is why it was named after him.','approved',NULL,NULL,NULL,3,2,'2026-10-27 20:54:17.248015','2026-10-30 09:01:54.538272','zee4-akoless-centipede','2026-10-27 20:54:17.246706','2026-10-27 20:54:23.767657',2,NULL,NULL,NULL,NULL);
+Despite its name, the original strategy was not found by Zee4. Zee4 said he saw it from someone else. But he posted it on the Speedrun Discord, which is why it was named after him.','approved',NULL,NULL,NULL,3,2,'2026-10-27 20:54:17.248015','2026-10-30 09:01:54.538272','zee4-akoless-centipede','2026-10-27 20:54:17.246706','2026-10-27 20:54:23.767657',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(148,'Ungo''s Sugar','## Ungo''s Sugar
-Ungo''s Sugar is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:00:39.301678','2026-10-27 21:01:15.466222','ungo-s-sugar','2026-10-27 21:00:39.301253','2026-10-27 21:01:15.465770',2,NULL,NULL,NULL,NULL);
+Ungo''s Sugar is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:00:39.301678','2026-10-27 21:01:15.466222','ungo-s-sugar','2026-10-27 21:00:39.301253','2026-10-27 21:01:15.465770',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(149,'Gachiin''s Sugar','## Gachiin''s Sugar
-Gachiin''s Sugar is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:01:03.823256','2026-10-27 21:01:19.943137','gachiin-s-sugar','2026-10-27 21:01:03.822854','2026-10-27 21:01:19.942795',2,NULL,NULL,NULL,NULL);
+Gachiin''s Sugar is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:01:03.823256','2026-10-27 21:01:19.943137','gachiin-s-sugar','2026-10-27 21:01:03.822854','2026-10-27 21:01:19.942795',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(150,'Dragon''s Tally Board','## Dragon''s Tally Board
-The Dragon''s Tally Board is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:04:14.745806','2026-10-27 21:09:15.973984','dragon-s-tally-board','2026-10-27 21:04:14.745253','2026-10-27 21:09:15.972903',2,NULL,NULL,NULL,NULL);
+The Dragon''s Tally Board is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:04:14.745806','2026-10-27 21:09:15.973984','dragon-s-tally-board','2026-10-27 21:04:14.745253','2026-10-27 21:09:15.972903',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(151,'Divine Dragon''s Tears','## Divine Dragon''s Tears
-The Divine Dragon''s Tears is a Key Item acquired by using the [Mortal Blade](/wiki/mortal-blade) on the [Divine Dragon](/wiki/divine-dragon) after the bossfight, and is required for the Immortal Severance, Purification and Return endings.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:09:00.844415','2026-10-27 21:09:20.257414','divine-dragon-s-tears','2026-10-27 21:09:00.844006','2026-10-27 21:09:20.256973',2,NULL,NULL,NULL,NULL);
+The Divine Dragon''s Tears is a Key Item acquired by using the [Mortal Blade](/wiki/mortal-blade) on the [Divine Dragon](/wiki/divine-dragon) after the bossfight, and is required for the Immortal Severance, Purification and Return endings.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:09:00.844415','2026-10-27 21:09:20.257414','divine-dragon-s-tears','2026-10-27 21:09:00.844006','2026-10-27 21:09:20.256973',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(152,'Immortal Severance Text','## Immortal Severance Text
-The Immortal Severance Text is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:14:59.772303','2026-10-27 21:19:00.997664','immortal-severance-text','2026-10-27 21:14:59.771895','2026-10-27 21:19:00.997313',2,NULL,NULL,NULL,NULL);
+The Immortal Severance Text is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:14:59.772303','2026-10-27 21:19:00.997664','immortal-severance-text','2026-10-27 21:14:59.771895','2026-10-27 21:19:00.997313',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(153,'Immortal Severance Scrap','## Immortal Severance Scrap
-The Immortal Severance Scrap is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:15:22.835838','2026-10-27 21:19:03.709353','immortal-severance-scrap','2026-10-27 21:15:22.835424','2026-10-27 21:19:03.709015',2,NULL,NULL,NULL,NULL);
+The Immortal Severance Scrap is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:15:22.835838','2026-10-27 21:19:03.709353','immortal-severance-scrap','2026-10-27 21:15:22.835424','2026-10-27 21:19:03.709015',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(154,'Fragrant Flower Note','## Fragrant Flower Note
-The Fragrant Flower Note is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:15:56.217317','2026-10-27 21:19:06.786581','fragrant-flower-note','2026-10-27 21:15:56.216905','2026-10-27 21:19:06.785408',2,NULL,NULL,NULL,NULL);
+The Fragrant Flower Note is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:15:56.217317','2026-10-27 21:19:06.786581','fragrant-flower-note','2026-10-27 21:15:56.216905','2026-10-27 21:19:06.785408',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(155,'Page''s Diary','## Page''s Diary
-The Page''s Diary is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:16:28.515082','2026-10-27 21:19:14.036656','page-s-diary','2026-10-27 21:16:28.514683','2026-10-27 21:19:14.036317',2,NULL,NULL,NULL,NULL);
+The Page''s Diary is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:16:28.515082','2026-10-27 21:19:14.036656','page-s-diary','2026-10-27 21:16:28.514683','2026-10-27 21:19:14.036317',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(156,'Okami''s Ancient Text','## Okami''s Ancient Text
-The Okami''s Ancient Text is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:17:12.146032','2026-10-27 21:19:20.391410','okami-s-ancient-text','2026-10-27 21:17:12.144757','2026-10-27 21:19:20.391074',2,NULL,NULL,NULL,NULL);
+The Okami''s Ancient Text is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:17:12.146032','2026-10-27 21:19:20.391410','okami-s-ancient-text','2026-10-27 21:17:12.144757','2026-10-27 21:19:20.391074',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(157,'Gun Fort Shrine Key','## Gun Fort Shrine Key
-The Gun Fort Shrine Key is a Key Item that lets the player open the door after defeating [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:25:46.453986','2026-10-27 21:29:00.013270','gun-fort-shrine-key','2026-10-27 21:25:46.453582','2026-10-27 21:29:00.012908',2,NULL,NULL,NULL,NULL);
+The Gun Fort Shrine Key is a Key Item that lets the player open the door after defeating [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:25:46.453986','2026-10-27 21:29:00.013270','gun-fort-shrine-key','2026-10-27 21:25:46.453582','2026-10-27 21:29:00.012908',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(158,'Secret Passage Key','## Secret Passage Key
-The Secret Passage Key is a Key Item acquired by talking to Emma after defeating the Divine Dragon, and lets the player open the Secret Passage door in the Ashina Reservoir to face Sword Saint Isshin.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:28:44.780669','2026-10-27 21:29:04.595801','secret-passage-key','2026-10-27 21:28:44.779328','2026-10-27 21:29:04.595465',2,NULL,NULL,NULL,NULL);
+The Secret Passage Key is a Key Item acquired by talking to Emma after defeating the Divine Dragon, and lets the player open the Secret Passage door in the Ashina Reservoir to face Sword Saint Isshin.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:28:44.780669','2026-10-27 21:29:04.595801','secret-passage-key','2026-10-27 21:28:44.779328','2026-10-27 21:29:04.595465',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(159,'Slender Finger','## Slender Finger
-The Slender Finger is a Unique Upgrade Material dropped by [Guardian Ape](/wiki/guardian-ape).','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:30:13.993291','2026-10-27 21:30:18.242200','slender-finger','2026-10-27 21:30:13.992023','2026-10-27 21:30:18.241137',2,NULL,NULL,NULL,NULL);
+The Slender Finger is a Unique Upgrade Material dropped by [Guardian Ape](/wiki/guardian-ape).','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:30:13.993291','2026-10-27 21:30:18.242200','slender-finger','2026-10-27 21:30:13.992023','2026-10-27 21:30:18.241137',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(160,'Pellet','## Pellet
-A Pellet is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:30:56.140165','2026-10-27 21:30:59.335562','pellet','2026-10-27 21:30:56.139757','2026-10-27 21:30:59.335231',2,NULL,NULL,NULL,NULL);
+A Pellet is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:30:56.140165','2026-10-27 21:30:59.335562','pellet','2026-10-27 21:30:56.139757','2026-10-27 21:30:59.335231',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(161,'Treasure Carp Scale','## Treasure Carp Scale
-A Treasure Carp Scale is a Key Item used to purchase items from the Pot Noble merchants.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:35:14.508171','2026-10-27 21:35:19.381965','treasure-carp-scale','2026-10-27 21:35:14.507768','2026-10-27 21:35:19.381619',2,NULL,NULL,NULL,NULL);
+A Treasure Carp Scale is a Key Item used to purchase items from the Pot Noble merchants.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:35:14.508171','2026-10-27 21:35:19.381965','treasure-carp-scale','2026-10-27 21:35:14.507768','2026-10-27 21:35:19.381619',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(162,'Divine Grass','## Divine Grass
-Divine Grass is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:37:18.106098','2026-10-27 21:38:07.027894','divine-grass','2026-10-27 21:37:18.105696','2026-10-27 21:38:07.027556',2,NULL,NULL,NULL,NULL);
+Divine Grass is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:37:18.106098','2026-10-27 21:38:07.027894','divine-grass','2026-10-27 21:37:18.105696','2026-10-27 21:38:07.027556',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(163,'Oil','## Oil
-Oil is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:38:00.242749','2026-10-27 21:38:08.976552','oil','2026-10-27 21:38:00.242346','2026-10-27 21:38:08.976215',2,NULL,NULL,NULL,NULL);
+Oil is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:38:00.242749','2026-10-27 21:38:08.976552','oil','2026-10-27 21:38:00.242346','2026-10-27 21:38:08.976215',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(164,'Eel Liver','## Eel Liver
-Eel Liver is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:38:45.862195','2026-10-27 21:38:57.020616','eel-liver','2026-10-27 21:38:45.861791','2026-10-27 21:38:57.020283',2,NULL,NULL,NULL,NULL);
+Eel Liver is a Consumable Quick Item.','approved',NULL,NULL,NULL,4,2,'2026-10-27 21:38:45.862195','2026-10-27 21:38:57.020616','eel-liver','2026-10-27 21:38:45.861791','2026-10-27 21:38:57.020283',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(165,'Father''s Bell Charm','## Father''s Bell Charm
-The Father''s Bell Charm is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-30 08:58:36.078308','2026-10-30 09:01:02.971265','father-s-bell-charm','2026-10-30 08:58:36.074320','2026-10-30 09:01:02.970009',2,NULL,NULL,NULL,NULL);
+The Father''s Bell Charm is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-30 08:58:36.078308','2026-10-30 09:01:02.971265','father-s-bell-charm','2026-10-30 08:58:36.074320','2026-10-30 09:01:02.970009',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(166,'Ornamental Letter','## Ornamental Letter
-The Ornamental Letter is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-30 08:59:04.256025','2026-10-30 09:00:54.486183','ornamental-letter','2026-10-30 08:59:04.255587','2026-10-30 09:00:54.485099',2,NULL,NULL,NULL,NULL);
+The Ornamental Letter is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-30 08:59:04.256025','2026-10-30 09:00:54.486183','ornamental-letter','2026-10-30 08:59:04.255587','2026-10-30 09:00:54.485099',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(167,'Dragonrot Blood Sample','## Dragonrot Blood Sample
-The Dragonrot Blood Sample is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-30 09:00:44.507224','2026-10-30 09:00:57.239460','dragonrot-blood-sample','2026-10-30 09:00:44.506809','2026-10-30 09:00:57.238988',2,NULL,NULL,NULL,NULL);
+The Dragonrot Blood Sample is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-30 09:00:44.507224','2026-10-30 09:00:57.239460','dragonrot-blood-sample','2026-10-30 09:00:44.506809','2026-10-30 09:00:57.238988',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(168,'Hidden Temple Key','## Hidden Temple Key
-The Hidden Temple Key is a Key Item acquired by speaking to Owl in Hirata Estate and is used to open the locked door to the Hidden Temple, where Lady Butterfly and Owl Father can be fought.','approved',NULL,NULL,NULL,4,2,'2026-10-30 09:06:01.048064','2026-10-30 09:06:04.651811','hidden-temple-key','2026-10-30 09:06:01.047656','2026-10-30 09:06:04.651470',2,NULL,NULL,NULL,NULL);
+The Hidden Temple Key is a Key Item acquired by speaking to Owl in Hirata Estate and is used to open the locked door to the Hidden Temple, where Lady Butterfly and Owl Father can be fought.','approved',NULL,NULL,NULL,4,2,'2026-10-30 09:06:01.048064','2026-10-30 09:06:04.651811','hidden-temple-key','2026-10-30 09:06:01.047656','2026-10-30 09:06:04.651470',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(169,'Holy Chapter: Infested','## Holy Chapter: Infested
-The Holy Chapter: Infested is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-30 09:31:44.353727','2026-10-30 09:31:49.426340','holy-chapter-infested','2026-10-30 09:31:44.350813','2026-10-30 09:31:49.425284',2,NULL,NULL,NULL,NULL);
+The Holy Chapter: Infested is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-30 09:31:44.353727','2026-10-30 09:31:49.426340','holy-chapter-infested','2026-10-30 09:31:44.350813','2026-10-30 09:31:49.425284',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(170,'Black Scroll','## Black Scroll
-The Black Scroll is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-30 09:52:50.095068','2026-10-30 09:53:02.750895','black-scroll','2026-10-30 09:52:50.094645','2026-10-30 09:53:02.750533',2,NULL,NULL,NULL,NULL);
+The Black Scroll is a Key Item.','approved',NULL,NULL,NULL,4,2,'2026-10-30 09:52:50.095068','2026-10-30 09:53:02.750895','black-scroll','2026-10-30 09:52:50.094645','2026-10-30 09:53:02.750533',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(171,'Okami Leader Shizu','## Okami Leader Shizu
-Okami Leader Shizu is a Miniboss that appears in Fountainhead Palace.','approved',NULL,NULL,NULL,4,2,'2026-10-31 10:09:12.117881','2026-10-31 10:09:17.538279','okami-leader-shizu','2026-10-31 10:09:12.117435','2026-10-31 10:09:17.537939',2,NULL,NULL,NULL,NULL);
+Okami Leader Shizu is a Miniboss that appears in Fountainhead Palace.','approved',NULL,NULL,NULL,4,2,'2026-10-31 10:09:12.117881','2026-10-31 10:09:17.538279','okami-leader-shizu','2026-10-31 10:09:12.117435','2026-10-31 10:09:17.537939',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(172,'Bingo','## Bingo
 Sekiro Bingo is a gameplay format where the players attempt to complete a Bingo Board, which is a grid of squares with in-game objectives. Any number of players can participate in a match of Bingo although 1-2 players is most common. All players in the match use the same Bingo board. Unlike [real life Bingo](https://en.wikipedia.org/wiki/Bingo_(American_version)), Sekiro Bingo is a game of skill and matches are most often played as a friendly competition with **no** money or prizes involved.
 
@@ -4000,7 +4032,7 @@ Examples of win conditions:
 
 Examples of additional rules:
 - Lock-out - Once a player has marked a square, no other player can mark that square. If no win condition has been reached when the board is fully locked-out, then the player with the most squares wins.
-- Time limit - If no win condition has been reached and the time is up, then an alternative way of determining the winner is used. Usually that would be the player with the most squares.','approved',NULL,NULL,NULL,2,2,'2026-11-01 09:40:04.200811','2026-11-01 09:56:02.523519','bingo','2026-11-01 09:40:04.200368','2026-11-01 09:40:14.146850',2,NULL,NULL,NULL,NULL);
+- Time limit - If no win condition has been reached and the time is up, then an alternative way of determining the winner is used. Usually that would be the player with the most squares.','approved',NULL,NULL,NULL,2,2,'2026-11-01 09:40:04.200811','2026-11-01 09:56:02.523519','bingo','2026-11-01 09:40:04.200368','2026-11-01 09:40:14.146850',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(173,'Downpatching','## Downpatching
 Downpatching is the act of installing an older patch of the game, which can be advantageous for some speedruns. Most Sekiro speedruns can be done optimally or 99% optimally on current patch.
 
@@ -4016,7 +4048,7 @@ Downpatching on console is much more tricky than downpatching on PC and most con
 
 The disc version method is the only method that you can easily do, but it still requires you to own a disc copy of the game. Disc copies can be hard to find and getting one might require you to look on the used market. It also only allows you to choose between current patch 1.06 and the oldest patch 1.00. Note: there is a Game of the Year disc version, it is not known whether this disc has 1.00 preinstalled or if it comes with the Game of the Year 1.05 patch.
 
-Method 2 and 3 can both let you play all versions of the game in theory. But only a jailbroken console lets you directly choose which version of the game you want to play. ','approved',NULL,NULL,NULL,1,2,'2026-11-01 13:16:25.574211','2026-11-01 13:16:29.878793','downpatching','2026-11-01 13:16:25.573618','2026-11-01 13:16:29.878428',2,NULL,NULL,NULL,NULL);
+Method 2 and 3 can both let you play all versions of the game in theory. But only a jailbroken console lets you directly choose which version of the game you want to play. ','approved',NULL,NULL,NULL,1,2,'2026-11-01 13:16:25.574211','2026-11-01 13:16:29.878793','downpatching','2026-11-01 13:16:25.573618','2026-11-01 13:16:29.878428',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(174,'Shura No Airswim','## Shura No Airswim
 Shura No Airswim is a speedrun category.
 
@@ -4026,21 +4058,21 @@ This guide for Shura No Airswim is made by the editors of the wiki.
 ### Setup & Settings
 Subtitles should be disabled in Sound & Display Settings.
 The voice language and text language can be whatever you prefer.
-You need to [downpatch](/wiki/downpatching) to patch 1.02 for this route to work. It cannot be done on newer versions.','approved',NULL,NULL,NULL,5,2,'2026-11-01 13:20:01.804958','2026-11-01 13:20:05.687038','shura-no-airswim','2026-11-01 13:20:01.804541','2026-11-01 13:20:05.686696',2,NULL,NULL,NULL,NULL);
+You need to [downpatch](/wiki/downpatching) to patch 1.02 for this route to work. It cannot be done on newer versions.','approved',NULL,NULL,NULL,5,2,'2026-11-01 13:20:01.804958','2026-11-01 13:20:05.687038','shura-no-airswim','2026-11-01 13:20:01.804541','2026-11-01 13:20:05.686696',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(175,'Battlefield Memorial Mob','## Battlefield Memorial Mob
-The Battlefield Memorial Mob is a merchant that appears in the Ashina Outskirts.','approved',NULL,NULL,NULL,4,2,'2026-11-01 19:18:15.571614','2026-11-01 19:20:26.169833','battlefield-memorial-mob','2026-11-01 19:18:15.571187','2026-11-01 19:20:26.169455',2,NULL,NULL,NULL,NULL);
+The Battlefield Memorial Mob is a merchant that appears in the Ashina Outskirts.','approved',NULL,NULL,NULL,4,2,'2026-11-01 19:18:15.571614','2026-11-01 19:20:26.169833','battlefield-memorial-mob','2026-11-01 19:18:15.571187','2026-11-01 19:20:26.169455',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(176,'Toxic Memorial Mob','## Toxic Memorial Mob
-The Toxic Memorial Mob is a merchant that appears in Sunken Valley.','approved',NULL,NULL,NULL,4,2,'2026-11-01 19:20:19.974306','2026-11-01 19:20:28.445133','toxic-memorial-mob','2026-11-01 19:20:19.973740','2026-11-01 19:20:28.444789',2,NULL,NULL,NULL,NULL);
+The Toxic Memorial Mob is a merchant that appears in Sunken Valley.','approved',NULL,NULL,NULL,4,2,'2026-11-01 19:20:19.974306','2026-11-01 19:20:28.445133','toxic-memorial-mob','2026-11-01 19:20:19.973740','2026-11-01 19:20:28.444789',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(177,'Exiled Memorial Mob','## Exiled Memorial Mob
-The Exiled Memorial Mob is a merchant that appears in Ashina Depths.','approved',NULL,NULL,NULL,4,2,'2026-11-01 19:25:00.113825','2026-11-01 19:25:04.235115','exiled-memorial-mob','2026-11-01 19:25:00.113408','2026-11-01 19:25:04.234768',2,NULL,NULL,NULL,NULL);
+The Exiled Memorial Mob is a merchant that appears in Ashina Depths.','approved',NULL,NULL,NULL,4,2,'2026-11-01 19:25:00.113825','2026-11-01 19:25:04.235115','exiled-memorial-mob','2026-11-01 19:25:00.113408','2026-11-01 19:25:04.234768',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(178,'Dungeon Memorial Mob','## Dungeon Memorial Mob
-The Dungeon Memorial Mob is a merchant that appears in the Abandoned Dungeon.','approved',NULL,NULL,NULL,4,2,'2026-11-01 19:26:30.159390','2026-11-01 19:26:34.085940','dungeon-memorial-mob','2026-11-01 19:26:30.158984','2026-11-01 19:26:34.085597',2,NULL,NULL,NULL,NULL);
+The Dungeon Memorial Mob is a merchant that appears in the Abandoned Dungeon.','approved',NULL,NULL,NULL,4,2,'2026-11-01 19:26:30.159390','2026-11-01 19:26:34.085940','dungeon-memorial-mob','2026-11-01 19:26:30.158984','2026-11-01 19:26:34.085597',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(179,'Shugendo Memorial Mob','## Shugendo Memorial Mob
-The Shugendo Memorial Mob is a merchant that appears in Senpou Temple, Mt. Kongo.','approved',NULL,NULL,NULL,4,2,'2026-11-01 19:30:07.123114','2026-11-01 19:32:47.554127','shugendo-memorial-mob','2026-11-01 19:30:07.122657','2026-11-01 19:32:47.553781',2,NULL,NULL,NULL,NULL);
+The Shugendo Memorial Mob is a merchant that appears in Senpou Temple, Mt. Kongo.','approved',NULL,NULL,NULL,4,2,'2026-11-01 19:30:07.123114','2026-11-01 19:32:47.554127','shugendo-memorial-mob','2026-11-01 19:30:07.122657','2026-11-01 19:32:47.553781',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(180,'Crow''s Bed Memorial Mob','## Crow''s Bed Memorial Mob
-The Crow''s Bed Memorial Mob is a merchant that appears in Ashina Outskirts.','approved',NULL,NULL,NULL,4,2,'2026-11-01 19:32:43.344688','2026-11-01 19:32:52.278919','crow-s-bed-memorial-mob','2026-11-01 19:32:43.344269','2026-11-01 19:32:52.278571',2,NULL,NULL,NULL,NULL);
+The Crow''s Bed Memorial Mob is a merchant that appears in Ashina Outskirts.','approved',NULL,NULL,NULL,4,2,'2026-11-01 19:32:43.344688','2026-11-01 19:32:52.278919','crow-s-bed-memorial-mob','2026-11-01 19:32:43.344269','2026-11-01 19:32:52.278571',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(181,'Spear Adept','## Spear Adept
-The Spear Adept, also known as Straw Hat Monk, is an enemy that appears in Senpou Temple, Mt. Kongo.','approved',NULL,NULL,NULL,4,2,'2026-11-02 13:26:20.585710','2026-11-02 13:26:25.249282','spear-adept','2026-11-02 13:26:20.585279','2026-11-02 13:26:25.248815',2,NULL,NULL,NULL,NULL);
+The Spear Adept, also known as Straw Hat Monk, is an enemy that appears in Senpou Temple, Mt. Kongo.','approved',NULL,NULL,NULL,4,2,'2026-11-02 13:26:20.585710','2026-11-02 13:26:25.249282','spear-adept','2026-11-02 13:26:20.585279','2026-11-02 13:26:25.248815',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 CREATE TABLE wiki_revisions (
 	id INTEGER NOT NULL, 
 	page_id INTEGER, 
@@ -4048,7 +4080,7 @@ CREATE TABLE wiki_revisions (
 	content TEXT NOT NULL, 
 	category_id INTEGER, 
 	editor_id INTEGER, 
-	created_at DATETIME, 
+	created_at DATETIME, tag_ids TEXT NOT NULL DEFAULT '', icon VARCHAR(500), source VARCHAR(16) NOT NULL DEFAULT 'edit', infobox TEXT, 
 	PRIMARY KEY (id), 
 	FOREIGN KEY(page_id) REFERENCES wiki_pages (id), 
 	FOREIGN KEY(category_id) REFERENCES categories (id), 
@@ -4060,7 +4092,7 @@ INSERT INTO "wiki_revisions" VALUES(1,1,'Save File Organizer','#
 Download Kahmul''s Save Organizer here. Note: The bundled windows version can be used if the regular version does not work.
 https://github.com/Kahmul/SoulsSpeedruns-Save-Organizer/releases 
 
-',1,2,'2026-02-22 12:32:29.105541');
+',1,2,'2026-02-22 12:32:29.105541','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(2,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4073,7 +4105,7 @@ Usage tutorial:
 Download Kahmul''s Save Organizer here: https://github.com/Kahmul/SoulsSpeedruns-Save-Organizer/releases
 Note: The bundled windows version can be used if the regular version does not work.
 
-',1,2,'2026-02-22 12:34:50.431503');
+',1,2,'2026-02-22 12:34:50.431503','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(3,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4086,7 +4118,7 @@ Usage tutorial:
 Download Kahmul''s Save Organizer here: https://github.com/Kahmul/SoulsSpeedruns-Save-Organizer/releases
 Note: The bundled windows version can be used if the regular version does not work.
 
-',1,2,'2026-02-22 12:35:32.389699');
+',1,2,'2026-02-22 12:35:32.389699','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(4,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4098,7 +4130,7 @@ Usage tutorial:
 Download Kahmul''s Save Organizer here: https://github.com/Kahmul/SoulsSpeedruns-Save-Organizer/releases
 Note: The bundled windows version can be used if the regular version does not work.
 
-',1,2,'2026-02-22 12:36:22.284322');
+',1,2,'2026-02-22 12:36:22.284322','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(5,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4109,7 +4141,7 @@ Usage tutorial:
 Download Kahmul''s Save Organizer here: https://github.com/Kahmul/SoulsSpeedruns-Save-Organizer/releases
 Note: The bundled windows version can be used if the regular version does not work.
 
-',1,2,'2026-02-22 12:39:57.893136');
+',1,2,'2026-02-22 12:39:57.893136','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(6,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4119,7 +4151,7 @@ Usage tutorial: [youtube]-m1PwqIZLyo[/youtube]
 Download Kahmul''s Save Organizer here: https://github.com/Kahmul/SoulsSpeedruns-Save-Organizer/releases
 Note: The bundled windows version can be used if the regular version does not work.
 
-',1,2,'2026-02-22 12:40:34.303195');
+',1,2,'2026-02-22 12:40:34.303195','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(7,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4129,7 +4161,7 @@ The Save Organizer by Kahmul is the primary tool for creating save files, also s
 Download Kahmul''s Save Organizer here: https://github.com/Kahmul/SoulsSpeedruns-Save-Organizer/releases
 Note: The bundled windows version can be used if the regular version does not work.
 
-',1,2,'2026-02-22 12:41:12.486623');
+',1,2,'2026-02-22 12:41:12.486623','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(8,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4140,7 +4172,7 @@ The Save Organizer by Kahmul is the primary tool for creating save files, also s
 Download Kahmul''s Save Organizer here: https://github.com/Kahmul/SoulsSpeedruns-Save-Organizer/releases
 Note: The bundled windows version can be used if the regular version does not work.
 
-',1,2,'2026-02-22 12:42:41.563275');
+',1,2,'2026-02-22 12:42:41.563275','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(9,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4151,7 +4183,7 @@ The Save Organizer by Kahmul is the primary tool for creating save files, also s
 Download Kahmul''s Save Organizer here: [Link](https://github.com/Kahmul/SoulsSpeedruns-Save-Organizer/releases)
 Note: The bundled windows version can be used if the regular version does not work.
 
-',1,2,'2026-02-22 12:46:49.837702');
+',1,2,'2026-02-22 12:46:49.837702','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(10,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4163,7 +4195,7 @@ Download Kahmul''s Save Organizer here: [Link](https://github.com/Kahmul/SoulsSp
 
 Note: The bundled windows version can be used if the regular version does not work.
 
-',1,2,'2026-02-22 12:47:51.368483');
+',1,2,'2026-02-22 12:47:51.368483','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(11,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4176,7 +4208,7 @@ Download Kahmul''s Save Organizer here: [Link](https://github.com/Kahmul/SoulsSp
 Note: The bundled windows version can be used if the regular version does not work.
 asdasd
 
-',1,2,'2026-02-22 12:52:25.325212');
+',1,2,'2026-02-22 12:52:25.325212','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(12,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4188,7 +4220,7 @@ Download Kahmul''s Save Organizer here: [Link](https://github.com/Kahmul/SoulsSp
 
 Note: The bundled windows version can be used if the regular version does not work.
 
-',1,2,'2026-02-22 12:53:23.213662');
+',1,2,'2026-02-22 12:53:23.213662','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(13,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4200,21 +4232,21 @@ Download Kahmul''s Save Organizer: [here](https://github.com/Kahmul/SoulsSpeedru
 
 Note: The bundled windows version can be used if the regular version does not work.
 
-',1,2,'2026-02-22 12:53:49.481722');
+',1,2,'2026-02-22 12:53:49.481722','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(14,2,'Practice Tools','Practice tools are used to practice more efficiently. Multiple different tools are available, all of which have different benefits.
 
 
 - [SekiroTool by Shilkey & Lecentz](https://github.com/borgCode/SekiroTool/releases)
 - Item 2
 - Item 3
-',1,2,'2026-02-22 13:08:43.387997');
+',1,2,'2026-02-22 13:08:43.387997','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(15,2,'Practice Tools','Practice tools are used to practice more efficiently. Multiple different tools are available, all of which have different benefits.
 
 
 - [SekiroTool by Shilkey & Lecentz](https://github.com/borgCode/SekiroTool/releases)
 - [JohnDiSanDonato''s Practice Tool](https://github.com/veeenu/sekiro-practice-tool/releases)
 - Item 3
-',1,2,'2026-02-22 13:19:00.630510');
+',1,2,'2026-02-22 13:19:00.630510','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(16,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4226,7 +4258,7 @@ Download Kahmul''s Save Organizer [here](https://github.com/Kahmul/SoulsSpeedrun
 
 Note: The bundled windows version can be used if the regular version does not work.
 
-',1,2,'2026-02-24 05:22:01.820428');
+',1,2,'2026-02-24 05:22:01.820428','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(17,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4251,7 +4283,7 @@ If you want to download and use a savefile from another player, you need to do t
 1. Download the save file (which is supposed to be a S0000.sl2.)
 2. Download and setup LiveSplit with the Sekiro plugin "SoulSplitter" activated.
 3. Move the downloaded save file into the folder where you keep your save organizer save files.
-4. Launch the game',1,2,'2026-02-24 05:26:30.739824');
+4. Launch the game',1,2,'2026-02-24 05:26:30.739824','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(18,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4280,7 +4312,7 @@ If you want to download and use a savefile from another player, you need to do t
 4. If you moved the files to the right place, they should appear in your Save Organizer after restarting it.
 5. Launch the game and get to the title screen. (not the main menu).
 6. Load a save file, change the settings to your taste on the main menu then replace the save.
-7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.',1,2,'2026-02-24 05:27:06.387265');
+7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.',1,2,'2026-02-24 05:27:06.387265','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(19,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4313,7 +4345,7 @@ If you want to download and use a savefile from another player, you need to do t
 1. Item 1
 2. Item 2
 3. Item 3
-',1,2,'2026-02-24 05:27:24.696378');
+',1,2,'2026-02-24 05:27:24.696378','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(20,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4343,7 +4375,7 @@ If you want to download and use a savefile from another player, you need to do t
 5. Launch the game and get to the title screen. (not the main menu).
 6. Load a save file, change the settings to your taste on the main menu then replace the save.
 7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
-',1,2,'2026-02-24 05:48:43.180614');
+',1,2,'2026-02-24 05:48:43.180614','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(21,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4373,7 +4405,7 @@ If you want to download and use a savefile from another player, you need to do t
 5. Launch the game and get to the title screen. (not the main menu).
 6. Load a save file, change the settings to your taste on the main menu then replace the save.
 7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
-',1,2,'2026-02-24 05:53:30.310979');
+',1,2,'2026-02-24 05:53:30.310979','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(22,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4404,7 +4436,7 @@ If you want to download and use a save file from another player, you need to do 
 5. Launch the game and get to the title screen. (not the main menu).
 6. Load a save file, change the settings to your taste on the main menu then replace the save.
 7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
-',1,2,'2026-02-24 06:00:37.742688');
+',1,2,'2026-02-24 06:00:37.742688','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(23,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4446,7 +4478,7 @@ If you want to download and use a save file from another player, you need to do 
 5. Launch the game and get to the title screen. (not the main menu).
 6. Load a save file, change the settings to your taste on the main menu then replace the save.
 7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
-',1,2,'2026-02-24 11:55:44.180860');
+',1,2,'2026-02-24 11:55:44.180860','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(24,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4495,7 +4527,7 @@ If you want to download and use a save file from another player, you need to do 
 6. Load a save file, change the settings to your taste on the main menu then replace the save.
 
 7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
-',1,2,'2026-02-24 13:33:30.057941');
+',1,2,'2026-02-24 13:33:30.057941','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(25,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4543,7 +4575,7 @@ If you want to download and use a save file from another player, you need to do 
 6. Load a save file, change the settings to your taste on the main menu then replace the save.
 
 7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
-',1,2,'2026-02-24 18:03:29.404864');
+',1,2,'2026-02-24 18:03:29.404864','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(26,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4591,7 +4623,7 @@ If you want to download and use a save file from another player, you need to do 
 6. Load a save file, change the settings to your taste on the main menu then replace the save.
 
 7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
-',1,2,'2026-02-24 18:08:21.074628');
+',1,2,'2026-02-24 18:08:21.074628','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(27,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -4640,7 +4672,7 @@ If you want to download and use a save file from another player, you need to do 
 6. Load a save file, change the settings to your taste on the main menu then replace the save.
 
 7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
-',1,2,'2026-02-24 18:25:08.451801');
+',1,2,'2026-02-24 18:25:08.451801','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(28,2,'Practice Tools','Practice tools are used to practice more efficiently. Multiple different tools are available, all of which have different benefits.
 
 Aside from Practice Tools, it is recommended that everyone use the [Save Organizer](https://riyu.pythonanywhere.com/wiki/1)
@@ -4648,7 +4680,7 @@ Aside from Practice Tools, it is recommended that everyone use the [Save Organiz
 - [SekiroTool by Shilkey & Lecentz](https://github.com/borgCode/SekiroTool/releases)
 - [JohnDiSanDonato''s Practice Tool](https://github.com/veeenu/sekiro-practice-tool/releases)
 - Cheat Engine
-',1,2,'2026-02-24 18:30:42.445548');
+',1,2,'2026-02-24 18:30:42.445548','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(29,4,'Cheat Engine','## Cheat Engine
 
 Cheat Engine, CE for short, is a tool for reading and editing game memory that gives users a high degree of customization and freedom. Most CE users will use pre-made Cheat Tables (.ct files) that includes all sorts of scripts that may be useful for practicing and testing.
@@ -4658,7 +4690,7 @@ Cheat Engine, CE for short, is a tool for reading and editing game memory that g
 This is a list of the recommended public cheat tables:
 
 - [Holm''s Cheat Engine Table](https://www.speedrun.com/sekiro/resources/u3rhg) is the best simple cheat table for practicing most things.
-- [Eladidu''s Cheat Engine Table](https://github.com/ElaDiDu/Sekiro-Practice-CT/releases) is the most expansive cheat table, it''s very powerful but can be hard to use.',1,2,'2026-02-24 18:38:48.985600');
+- [Eladidu''s Cheat Engine Table](https://github.com/ElaDiDu/Sekiro-Practice-CT/releases) is the most expansive cheat table, it''s very powerful but can be hard to use.',1,2,'2026-02-24 18:38:48.985600','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(30,4,'Cheat Engine','## Cheat Engine
 
 Cheat Engine, CE for short, is a tool for reading and editing game memory that gives users a high degree of customization and freedom. Most CE users will use pre-made Cheat Tables (.ct files) that includes all sorts of scripts that may be useful for practicing and testing. However, experienced users will be able to use CE to create their own cheat scripts and for reverse engineering game mechanics to better understand them.
@@ -4668,17 +4700,17 @@ Cheat Engine, CE for short, is a tool for reading and editing game memory that g
 This is a list of the recommended public cheat tables:
 
 - [Holm''s Cheat Engine Table](https://www.speedrun.com/sekiro/resources/u3rhg) is the best simple cheat table for practicing most things.
-- [Eladidu''s Cheat Engine Table](https://github.com/ElaDiDu/Sekiro-Practice-CT/releases) is the most expansive cheat table, it''s very powerful but can be hard to use.',1,2,'2026-02-24 18:40:47.131268');
+- [Eladidu''s Cheat Engine Table](https://github.com/ElaDiDu/Sekiro-Practice-CT/releases) is the most expansive cheat table, it''s very powerful but can be hard to use.',1,2,'2026-02-24 18:40:47.131268','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(31,3,'Inside Ako Armored Warrior','## Inside Ako Armored Warrior
 
-5 RNG patterns.',1,2,'2026-02-24 20:59:11.416239');
+5 RNG patterns.',1,2,'2026-02-24 20:59:11.416239','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(32,3,'Inside Ako Armored Warrior','## Inside Ako Armored Warrior
 
 5 RNG patterns.
 
 ### 7-Hit Variation
 
-Can fail.',1,2,'2026-02-25 13:52:36.136633');
+Can fail.',1,2,'2026-02-25 13:52:36.136633','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(33,3,'Inside Ako (Mikiri) Armored Warrior','## Inside Ako (Mikiri) Armored Warrior
 
 The inside Ako strategy involves using the Ako inside to buff up while simultaneously triggering Armored Warriors AI to start up an attack. This saves time over buffing outside, as normally you need to wait a moment for his AI to properly respond to you being there. Mikiri is used as a key part of the strategy because a Thrust attack can be baited out consistently every time with this approach.
@@ -4708,7 +4740,7 @@ Overhead into Shove Opener
 
 A faster but riskier variation, where block hits (l1 into r1 on controller, or right click into left click on kbm) are used to squeeze in 7 hits instead of 6 during the Berserk start-up. By pressing block then attack Wolf will do a different attack animation. By doing the following it''s possible to squeeze in 7 as opposed to 6 hits after the mikiri: block, attack, attack, attack, attack, attack, block, attack, attack.
 
-This variation has the downside that it can make Armored Warrior seemingly randomly cancel his Berserk and start doing regular attacks instead, which loses a large amount of time. It is not that rare for it to happen, so generally this 7-jhit variation is not consistent, but may be useful if the timesave is absolutely required.',1,2,'2026-02-25 15:44:14.075029');
+This variation has the downside that it can make Armored Warrior seemingly randomly cancel his Berserk and start doing regular attacks instead, which loses a large amount of time. It is not that rare for it to happen, so generally this 7-jhit variation is not consistent, but may be useful if the timesave is absolutely required.',1,2,'2026-02-25 15:44:14.075029','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(34,3,'Inside Ako (Mikiri) Armored Warrior','## Inside Ako (Mikiri) Armored Warrior
 
 The inside Ako strategy involves using the Ako inside to buff up while simultaneously triggering Armored Warriors AI to start up an attack. This saves time over buffing outside, as normally you need to wait a moment for his AI to properly respond to you being there. Mikiri is used as a key part of the strategy because a Thrust attack can be baited out consistently every time with this approach.
@@ -4739,7 +4771,7 @@ Overhead into Shove Opener
 
 A faster but riskier variation, where block hits (l1 into r1 on controller, or right click into left click on kbm) are used to squeeze in 7 hits instead of 6 during the Berserk start-up. By pressing block then attack Wolf will do a different attack animation. By doing the following it''s possible to squeeze in 7 as opposed to 6 hits after the mikiri: block, attack, attack, attack, attack, attack, block, attack, attack.
 
-This variation has the downside that it can make Armored Warrior seemingly randomly cancel his Berserk and start doing regular attacks instead, which loses a large amount of time. It is not that rare for it to happen, so generally this 7-jhit variation is not consistent, but may be useful if the timesave is absolutely required.',1,2,'2026-03-10 17:59:47.355095');
+This variation has the downside that it can make Armored Warrior seemingly randomly cancel his Berserk and start doing regular attacks instead, which loses a large amount of time. It is not that rare for it to happen, so generally this 7-jhit variation is not consistent, but may be useful if the timesave is absolutely required.',1,2,'2026-03-10 17:59:47.355095','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(35,2,'Practice Tools','Practice tools are used to practice more efficiently. Multiple different tools are available, all of which have different benefits.
 
 Aside from Practice Tools, it is recommended that everyone use the [Save Organizer](https://riyu.pythonanywhere.com/wiki/1). The Save Organizer ends up being the most important tool, so make sure to get that up and running first.
@@ -4747,7 +4779,7 @@ Aside from Practice Tools, it is recommended that everyone use the [Save Organiz
 - [SekiroTool by Shilkey & Lecentz](https://github.com/borgCode/SekiroTool/releases)
 - [JohnDiSanDonato''s Practice Tool](https://github.com/veeenu/sekiro-practice-tool/releases)
 - Cheat Engine
-',1,2,'2026-03-10 19:48:23.935254');
+',1,2,'2026-03-10 19:48:23.935254','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(36,10,'LiveSplit','## LiveSplit
 LiveSplit is a timer program for speedrunners that is both easy to use and full of features.
 
@@ -4799,7 +4831,7 @@ The most popular program fro recording and livestreaming is Open Broadcaster Sof
 To make a Game Capture Source in OBS, press the + in the Sources box and choose Game Capture Source. Shown below:
 
 
-Game Capture will only show the game, therefore we need to add a separate Source for LiveSplit itself',1,2,'2026-03-10 21:43:43.919316');
+Game Capture will only show the game, therefore we need to add a separate Source for LiveSplit itself',1,2,'2026-03-10 21:43:43.919316','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(37,10,'LiveSplit','## LiveSplit
 LiveSplit is a timer program for speedrunners that is both easy to use and full of features.
 
@@ -4929,7 +4961,7 @@ Thanks to XeroGoesFast for authoring the original LiveSplit guide.
 Thanks to B3LYP for releasing the initial Sekiro timer plugin for LiveSplit.
 Thanks to RefinedHornet for contributions to the old Sekiro timer.
 Thanks to CapitaineToinon for contributions to the old Sekiro timer.
-Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-03-10 21:47:14.675506');
+Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-03-10 21:47:14.675506','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(38,3,'Inside Ako (Mikiri) Armored Warrior','## Inside Ako (Mikiri) Armored Warrior
 
 The inside Ako strategy involves using the Ako inside to buff up while simultaneously triggering Armored Warriors AI to start up an attack. This saves time over buffing outside, as normally you need to wait a moment for his AI to properly respond to you being there. Mikiri is used as a key part of the strategy because a Thrust attack can be baited out consistently every time with this approach.
@@ -4960,7 +4992,7 @@ Overhead into Shove Opener
 
 A faster but riskier variation, where block hits (l1 into r1 on controller, or right click into left click on kbm) are used to squeeze in 7 hits instead of 6 during the Berserk start-up. By pressing block then attack Wolf will do a different attack animation. By doing the following it''s possible to squeeze in 7 as opposed to 6 hits after the mikiri: block, attack, attack, attack, attack, attack, block, attack, attack.
 
-This variation has the downside that it can make Armored Warrior seemingly randomly cancel his Berserk and start doing regular attacks instead, which loses a large amount of time. It is not that rare for it to happen, so generally this 7-jhit variation is not consistent, but may be useful if the timesave is absolutely required.',3,2,'2026-03-11 05:14:28.356424');
+This variation has the downside that it can make Armored Warrior seemingly randomly cancel his Berserk and start doing regular attacks instead, which loses a large amount of time. It is not that rare for it to happen, so generally this 7-jhit variation is not consistent, but may be useful if the timesave is absolutely required.',3,2,'2026-03-11 05:14:28.356424','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(39,10,'LiveSplit','## LiveSplit
 LiveSplit is a timer program for speedrunners that is both easy to use and full of features.
 
@@ -5097,7 +5129,7 @@ Thanks to XeroGoesFast for authoring the original LiveSplit guide.
 Thanks to B3LYP for releasing the initial Sekiro timer plugin for LiveSplit.
 Thanks to RefinedHornet for contributions to the old Sekiro timer.
 Thanks to CapitaineToinon for contributions to the old Sekiro timer.
-Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-03-11 05:20:54.399837');
+Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-03-11 05:20:54.399837','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(40,10,'LiveSplit','## LiveSplit
 LiveSplit is a timer program for speedrunners that is both easy to use and full of features.
 
@@ -5234,7 +5266,7 @@ Thanks to XeroGoesFast for authoring the original LiveSplit guide.
 Thanks to B3LYP for releasing the initial Sekiro timer plugin for LiveSplit.
 Thanks to RefinedHornet for contributions to the old Sekiro timer.
 Thanks to CapitaineToinon for contributions to the old Sekiro timer.
-Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-03-11 05:45:01.361102');
+Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-03-11 05:45:01.361102','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(41,14,'Tutorial Window Jump','## Tutorial Window Jump
 Tutorial Window Jump is a jump that lets you exit the Moonview Tower in the tutorial/intro section around 0.5s faster than usual.
 
@@ -5242,7 +5274,7 @@ Video Tutorial:
 [youtube]https://www.youtube.com/watch?v=T9fcivlGr78[/youtube]
 
 This is used in Glitchless. However, for categories allowing glitches, Tutorial Grapple Glitch is a significantly easier alternative for getting out of the Moonview Tower fast.
-',3,2,'2026-03-11 19:11:04.208166');
+',3,2,'2026-03-11 19:11:04.208166','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(42,14,'Tutorial Window Jump','## Tutorial Window Jump
 Tutorial Window Jump is a jump that lets you exit the Moonview Tower in the tutorial/intro section around 0.5s faster than usual.
 
@@ -5252,7 +5284,7 @@ Video Tutorial:
 This is used in Glitchless. However, for categories allowing glitches, Tutorial Grapple Glitch is a significantly easier alternative for getting out of the Moonview Tower fast.
 
 ## History
-Discovered by Pennek',3,2,'2026-03-12 05:28:10.819388');
+Discovered by Pennek',3,2,'2026-03-12 05:28:10.819388','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(43,11,'Delayed Jump','## Delayed Jump
 A Delayed Jump is a jump done at the very last moment possible when going off a ledge, in a way that makes you do the jump after having already fallen off the ledge. This type of jump allows the player to gain more distance than a standard jump.
 
@@ -5260,7 +5292,7 @@ It''s possible to both do a sprinting and a walking speed delayed jump, but usua
 
 A common misconception is that all delayed jumps have a frame perfect timing window. In reality, each type of ledge will have a different timing and different window of opportunity for a success jump.
 
-## Ledges and Terrain',4,2,'2026-03-14 08:16:30.445558');
+## Ledges and Terrain',4,2,'2026-03-14 08:16:30.445558','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(44,19,'Gourd Seed','## Gourd Seed
 
 A Gourd Seed is a Key Item that can be given to Emma to upgrade the Healing Gourd. Each Gourd Seed given increases the Healing Gourds number of uses by 1, up to a maximum of 10.
@@ -5291,7 +5323,7 @@ There are 9 Gourd Seeds in the game. Each one can only be acquired once, so in o
 
 It is possible to gain infinite Gourd Seeds by exploiting a glitch with the Reflections of Strength. The Offering Box, where normally up to 1 Gourd Seed can be bought from, exists during Reflections and Gauntlets. In this state, the Offering Box doesn''t have the flags for disabling items that have already been acquired or purchased, letting you purchase all of the items that it can possible sell, even if they have already been acquired.
 
-By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.',4,2,'2026-07-15 12:32:09.684254');
+By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.',4,2,'2026-07-15 12:32:09.684254','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(45,8,'Bull Skip','## Bull Skip
 Bull Skip is a skip that let''s you bypass having to fight Blazing Bull.
 
@@ -5306,7 +5338,7 @@ Video of the right-side version that was patched:
 The right side version is useless though, as the left-side version that works on all versions is faster than the right side version anyway.
 
 ## History
-Bull Skip was discovered on March 28th, 2019, less than a week after release, by MrBundarian.',3,2,'2026-07-15 12:39:03.748400');
+Bull Skip was discovered on March 28th, 2019, less than a week after release, by MrBundarian.',3,2,'2026-07-15 12:39:03.748400','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(52,6,'Gyoubu Skip','## Gyoubu Skip
 Gyoubu Skip, also known as Horse Skip, is a skip with multiple variations that involves circumventing needing to fight Gyoubu Oniwa.
 
@@ -5326,17 +5358,17 @@ Gyoubu Skip is not allowed in glitchless speedruns. However, the tower jump is a
 
 ## History
 
-Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method',3,2,'2026-07-19 01:08:23.360740');
+Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method',3,2,'2026-07-19 01:08:23.360740','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(53,24,'Shura Glitchless','## Shura Glitchless
 
 ## Full Run Tutorials
 Mitchriz has created a great beginner guide for Shura Glitchless. It''s a few years old now, but still has good information.
-[youtube]https://www.youtube.com/watch?v=vgBAo5tqd5A[/youtube]',5,2,'2026-07-19 01:45:45.659835');
+[youtube]https://www.youtube.com/watch?v=vgBAo5tqd5A[/youtube]',5,2,'2026-07-19 01:45:45.659835','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(54,24,'Shura Glitchless','## Shura Glitchless
 
 ## Shura Glitchless Guides
 [Mitchriz](https://sekirospeedrun.com/wiki/mitchriz) has created a great beginner guide for Shura Glitchless. It''s a few years old now, but still has good information.
-[youtube]https://www.youtube.com/watch?v=vgBAo5tqd5A[/youtube]',5,2,'2026-07-19 01:46:57.069791');
+[youtube]https://www.youtube.com/watch?v=vgBAo5tqd5A[/youtube]',5,2,'2026-07-19 01:46:57.069791','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(55,14,'Tutorial Window Jump','## Tutorial Window Jump
 Tutorial Window Jump is a jump that lets you exit the Moonview Tower in the tutorial/intro section around 0.5s faster than usual.
 
@@ -5346,7 +5378,7 @@ Video Tutorial:
 This is used in Glitchless. However, for categories allowing glitches, [Tutorial Grapple Glitch](https://sekiro.ryufps.de/wiki/15) is a significantly easier alternative for getting out of the Moonview Tower fast.
 
 ## History
-Discovered by Pennek',3,2,'2026-07-19 02:06:06.085223');
+Discovered by Pennek',3,2,'2026-07-19 02:06:06.085223','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(56,14,'Tutorial Window Jump','## Tutorial Window Jump
 Tutorial Window Jump is a jump that lets you exit the Moonview Tower in the tutorial/intro section around 0.5s faster than usual.
 
@@ -5356,7 +5388,7 @@ Video Tutorial:
 This is used in Glitchless. However, for categories allowing glitches, [Tutorial Grapple Glitch](/wiki/tutorial-grapple-glitch) is a significantly better alternative for getting out of the Moonview Tower fast.
 
 ## History
-Discovered by Pennek',3,2,'2026-07-19 02:09:46.165649');
+Discovered by Pennek',3,2,'2026-07-19 02:09:46.165649','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(57,10,'LiveSplit','## LiveSplit
 LiveSplit is a timer program for speedrunners that is both easy to use and full of features.
 
@@ -5493,7 +5525,7 @@ Thanks to XeroGoesFast for authoring the original LiveSplit guide.
 Thanks to B3LYP for releasing the initial Sekiro timer plugin for LiveSplit.
 Thanks to RefinedHornet for contributions to the old Sekiro timer.
 Thanks to CapitaineToinon for contributions to the old Sekiro timer.
-Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-07-19 02:53:22.944888');
+Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-07-19 02:53:22.944888','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(58,15,'Tutorial Grapple Glitch','## Tutorial Grapple Glitch
 Tutorial Grapple Glitch allows you to use the grappling hook during the tutorial/intro section when hanging from a ledge specifically. Using the grapple at all during the tutorial/intro section is normally impossible because Wolf has not had his arm cut off nor the prosthetic arm attached yet in the story.
 
@@ -5505,12 +5537,12 @@ Video Tutorial:
 [youtube]zFL1mjWWVfA[/youtube]
 
 ## History
-Discovered by accident by Mommyemma77',3,2,'2026-07-19 03:01:37.832047');
+Discovered by accident by Mommyemma77',3,2,'2026-07-19 03:01:37.832047','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(59,24,'Shura Glitchless','## Shura Glitchless
 
 ## Shura Glitchless Guides
 [Mitchriz](https://sekirospeedrun.com/wiki/mitchriz) has created a great beginner guide for Shura Glitchless. It''s a few years old now, but still has good information.
-[youtube]vgBAo5tqd5A[/youtube]',5,2,'2026-07-19 03:08:01.875014');
+[youtube]vgBAo5tqd5A[/youtube]',5,2,'2026-07-19 03:08:01.875014','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(60,24,'Shura Glitchless','## Shura Glitchless
 
 ## Shura Glitchless Guides
@@ -5552,7 +5584,7 @@ After speaking to Kuro, you can use [Tutorial Window Jump](/wiki/tutorial-window
 
 ### Emma
 
-### Isshin',5,2,'2026-07-19 03:38:30.432773');
+### Isshin',5,2,'2026-07-19 03:38:30.432773','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(61,6,'Gyoubu Skip','## Gyoubu Skip
 Gyoubu Skip, also known as Horse Skip, is a skip with multiple variations that involves circumventing needing to fight Gyoubu Oniwa.
 
@@ -5572,9 +5604,9 @@ Gyoubu Skip is not allowed in glitchless speedruns. However, the tower jump is a
 
 ## History
 
-Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,2,'2026-09-16 07:50:35.587046');
+Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,2,'2026-09-16 07:50:35.587046','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(62,21,'WormdogBS','## WormdogBS
-Wormdog is a Sekiro Speedrunner, who has the record for the holding the most Sekiro Speedrun World Records simultaneously, at 9.',2,2,'2026-09-16 18:55:48.699657');
+Wormdog is a Sekiro Speedrunner, who has the record for the holding the most Sekiro Speedrun World Records simultaneously, at 9.',2,2,'2026-09-16 18:55:48.699657','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(63,9,'Monkey Skip','## Monkey Skip
 Monkey Skip is a skip that allows skipping the Folding Screen Monkeys boss. It is performed via a Delayed Jump from a tree branch outside of Senpou Temple Hall and lets you enter directly into the Inner Sanctum without fighting the Folding Screen Monkeys.
 
@@ -5591,7 +5623,7 @@ Monkey Skip is also used in Immortal Severance Restricted, also sometimes called
 **Monkey Skip is not allowed in Glitchless.** It also cannot be used in categories that require you to gather all Memories or kill all bosses. It generally sees limited use in glitched categories as doing Monkey Skip makes you miss getting the Attack Power upgrade from the Memory they drop, which overall ends up being slower for Shura No Airswim and Immortal Severance No Airswim. In both No Airswim categories, the Monkeys Grapple Launch is used instead.
 
 ## History
-Monkey Skip was theorized to be possible by Marky around April 20th, 2019. However, [he did not manage to get it to work](https://streamable.com/3low9). It was first shown to be possible when [Distortion2 managed to land it during a testing livestream](https://www.twitch.tv/distortion2/clip/FaintAliveVelociraptorSpicyBoy) on April 24th, 2019. It proved to be insanely precise, and was thus not used in runs until Mitchriz, on May 27th, 2020, discovered a consistent setup. After which he used it break LilAggy''s Any% World Record of 21:19 with a time of 21:09 on June 1st, 2020, stopping LilAggy''s nearly 1 year long reign as the WR holder. The day after, on June 2nd, he posted the tutorial linked above, which enabled other runners to be able to do the skip. On June 7th, LilAggy reclaimed the WR with a time of 21:02, and then beat his own record the day after on June 8th with the first sub 21-minute completion of the game with a time of 20:39. Monkey Skip has been a key part of the Any% speedrun since then.',3,2,'2026-09-16 19:02:31.661109');
+Monkey Skip was theorized to be possible by Marky around April 20th, 2019. However, [he did not manage to get it to work](https://streamable.com/3low9). It was first shown to be possible when [Distortion2 managed to land it during a testing livestream](https://www.twitch.tv/distortion2/clip/FaintAliveVelociraptorSpicyBoy) on April 24th, 2019. It proved to be insanely precise, and was thus not used in runs until Mitchriz, on May 27th, 2020, discovered a consistent setup. After which he used it break LilAggy''s Any% World Record of 21:19 with a time of 21:09 on June 1st, 2020, stopping LilAggy''s nearly 1 year long reign as the WR holder. The day after, on June 2nd, he posted the tutorial linked above, which enabled other runners to be able to do the skip. On June 7th, LilAggy reclaimed the WR with a time of 21:02, and then beat his own record the day after on June 8th with the first sub 21-minute completion of the game with a time of 20:39. Monkey Skip has been a key part of the Any% speedrun since then.',3,2,'2026-09-16 19:02:31.661109','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(64,17,'Sculptor''s Idol','## Sculptor''s Idol
 Sculptor''s Idols serve as checkpoints and allow the player a variety of options including to rest.
 
@@ -5709,7 +5741,7 @@ The game has many more functioning IDs than it has IDs that are actually used wh
 2502957 - Feeding Grounds
 2502958 - Near Pot Noble
 2502959 - Fountainhead Palace Map Default Location
-2502960 - Fountainhead Palace Map Default Location',4,2,'2026-09-16 19:34:09.080526');
+2502960 - Fountainhead Palace Map Default Location',4,2,'2026-09-16 19:34:09.080526','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(65,6,'Gyoubu Skip','## Gyoubu Skip
 Gyoubu Skip, also known as Horse Skip, is a skip with multiple variations that involves circumventing needing to fight Gyoubu Oniwa.
 
@@ -5735,7 +5767,7 @@ Gyoubu Skip is not allowed in glitchless speedruns. However, the tower jump is a
 
 ## History
 
-Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,2,'2026-09-17 13:59:30.202676');
+Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,2,'2026-09-17 13:59:30.202676','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(66,6,'Gyoubu Skip','## Gyoubu Skip
 Gyoubu Skip, also known as Horse Skip, is a skip with multiple variations that involves circumventing needing to fight Gyoubu Oniwa.
 
@@ -5763,7 +5795,7 @@ Gyoubu Skip is not allowed in glitchless speedruns. However, the tower jump is a
 
 ## History
 
-Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,8,'2026-09-17 16:54:21.479815');
+Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,8,'2026-09-17 16:54:21.479815','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(67,6,'Gyoubu Skip','## Gyoubu Skip
 Gyoubu Skip, also known as Horse Skip, is a skip with multiple variations that involves circumventing needing to fight Gyoubu Oniwa.
 
@@ -5791,10 +5823,10 @@ Gyoubu Skip is not allowed in glitchless speedruns. However, the tower jump is a
 
 ## History
 
-Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,2,'2026-09-17 16:59:13.739128');
+Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,2,'2026-09-17 16:59:13.739128','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(68,5,'Wasted','## Wasted
 
-Wasted is a community member famous for developing the autosplitter for Sekiro, SoulSplitter.',2,2,'2026-09-17 17:10:17.357119');
+Wasted is a community member famous for developing the autosplitter for Sekiro, SoulSplitter.',2,2,'2026-09-17 17:10:17.357119','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(69,53,'Airswim','## Airswim
 Airswim is a major glitch that allows the player to fly in the air while the game thinks the player is swimming in water.
 
@@ -5802,9 +5834,9 @@ Airswim is a major glitch that allows the player to fly in the air while the gam
 Airswim is performed by entering a body of water while Out of Bounds and diving (requires Mibu Breathing Technique). This allows the player to swim everywhere as if submerged in water. It''s caused by the game transitioning between the out-of-water and swimming states only when crossing a water surface.
 
 ## Common Use Cases
-Airswim is used in the majority of the Glitched categories (excluding No Airswim subcategories) and is the foundation of Any% Speedruns. It''s most commonly used to skip most of Senpou Temple and Sunken Valley and is a core part of Ape Skip. It''s also used to enter boss fights, as cutscenes also bring the player out of the swimming state.',3,2,'2026-09-17 17:17:47.106639');
+Airswim is used in the majority of the Glitched categories (excluding No Airswim subcategories) and is the foundation of Any% Speedruns. It''s most commonly used to skip most of Senpou Temple and Sunken Valley and is a core part of Ape Skip. It''s also used to enter boss fights, as cutscenes also bring the player out of the swimming state.',3,2,'2026-09-17 17:17:47.106639','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(70,22,'B3LYP','## B3LYP
-B3LYP, also known as just B3, is a Fromsoft game mod maker, who discovered that In-Game Time in certain Fromsoft games, including Sekiro, has an FPS-dependent clockdrift that makes the timer run in a hardware dependent and inaccurate way. B3LYP created the IGT fix that solves the issue and forms the basis of the timing method that Sekiro PC Speedruns uses called Modified In-Game Time.',2,8,'2026-09-19 05:37:00.315824');
+B3LYP, also known as just B3, is a Fromsoft game mod maker, who discovered that In-Game Time in certain Fromsoft games, including Sekiro, has an FPS-dependent clockdrift that makes the timer run in a hardware dependent and inaccurate way. B3LYP created the IGT fix that solves the issue and forms the basis of the timing method that Sekiro PC Speedruns uses called Modified In-Game Time.',2,8,'2026-09-19 05:37:00.315824','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(71,9,'Monkey Skip','## Monkey Skip
 Monkey Skip is a skip that allows skipping the Folding Screen Monkeys boss. It is performed via a Delayed Jump from a tree branch outside of Senpou Temple Hall and lets you enter directly into the Inner Sanctum without fighting the Folding Screen Monkeys.
 
@@ -5821,7 +5853,7 @@ Monkey Skip is also used in Immortal Severance Restricted, also sometimes called
 **Monkey Skip is not allowed in Glitchless.** It also cannot be used in categories that require you to kill the Folding Screen Monkeys (such as in All Memories Restricted). It generally sees limited use in glitched categories, outside of short any% style runs, as doing Monkey Skip makes you miss getting the Attack Power upgrade from the Memory they drop, which overall ends up being slower for Shura No Airswim and Immortal Severance No Airswim. In both No Airswim categories, the Monkeys Grapple Launch is used instead.
 
 ## History
-Monkey Skip was theorized to be possible by Marky around April 20th, 2019. However, [he did not manage to get it to work](https://streamable.com/3low9). It was first shown to be possible when [Distortion2 managed to land it during a testing livestream](https://www.twitch.tv/distortion2/clip/FaintAliveVelociraptorSpicyBoy) on April 24th, 2019. It proved to be insanely precise, and was thus not used in runs until Mitchriz, on May 27th, 2020, discovered a consistent setup. Mitchriz used it break LilAggy''s Any% World Record of 21:19 with a time of 21:09 on June 1st, 2020, stopping LilAggy''s nearly 1 year long reign as the WR holder. The day after, on June 2nd, he posted the tutorial linked above, which enabled other runners to be able to do the skip. On June 7th, LilAggy reclaimed the WR with a time of 21:02, and then beat his own record the day after on June 8th with the first sub 21-minute completion of the game with a time of 20:39. Monkey Skip has been a key part of the Any% speedrun since then.',3,2,'2026-09-19 06:43:12.529252');
+Monkey Skip was theorized to be possible by Marky around April 20th, 2019. However, [he did not manage to get it to work](https://streamable.com/3low9). It was first shown to be possible when [Distortion2 managed to land it during a testing livestream](https://www.twitch.tv/distortion2/clip/FaintAliveVelociraptorSpicyBoy) on April 24th, 2019. It proved to be insanely precise, and was thus not used in runs until Mitchriz, on May 27th, 2020, discovered a consistent setup. Mitchriz used it break LilAggy''s Any% World Record of 21:19 with a time of 21:09 on June 1st, 2020, stopping LilAggy''s nearly 1 year long reign as the WR holder. The day after, on June 2nd, he posted the tutorial linked above, which enabled other runners to be able to do the skip. On June 7th, LilAggy reclaimed the WR with a time of 21:02, and then beat his own record the day after on June 8th with the first sub 21-minute completion of the game with a time of 20:39. Monkey Skip has been a key part of the Any% speedrun since then.',3,2,'2026-09-19 06:43:12.529252','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(72,19,'Gourd Seed','## Gourd Seed
 
 A Gourd Seed is a Key Item that can be given to Emma to upgrade the Healing Gourd. Each Gourd Seed given increases the Healing Gourd''s number of uses by 1, up to a maximum of 10.
@@ -5852,11 +5884,11 @@ There are 9 Gourd Seeds in the game. Each one can only be acquired once, so in o
 
 It is possible to gain infinite Gourd Seeds by exploiting a glitch with the Reflections of Strength. The Offering Box, where normally up to 1 Gourd Seed can be bought from, exists during Reflections and Gauntlets. In this state, the Offering Box doesn''t have the flags for disabling items that have already been acquired or purchased, letting you purchase all of the items that it can possible sell, even if they have already been acquired.
 
-By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.',4,2,'2026-09-19 06:54:08.634985');
+By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.',4,2,'2026-09-19 06:54:08.634985','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(73,33,'Yashariku''s Sugar','## Yashariku''s Sugar
 Yashariku''s Sugar, also known as just Yash, is a Consumable Quick Item that buffs the player''s vitality damage by 25% and posture damage by 50% for 30s. If the player has the Devotion skill, the duration will be 45s instead.
 
-Only one Sugar buff can be active at a time. If a new Sugar is used while Yash is already active, it will remove the Yash''s buff and apply the new Sugar''s buff.',4,2,'2026-09-20 06:32:19.749471');
+Only one Sugar buff can be active at a time. If a new Sugar is used while Yash is already active, it will remove the Yash''s buff and apply the new Sugar''s buff.',4,2,'2026-09-20 06:32:19.749471','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(75,50,'Corrupted Monk Cheese','## Corrupted Monk Cheese
 Corrupted Monk Cheese refers to performing a stealth deathblow on Corrupted Monk (illusion) after stunning him with enough Snap Seeds and Fistfuls of Ash. It is not considered a glitch in either Speedruns or Hitless Runs.
 
@@ -5865,7 +5897,7 @@ This is the fastest and the hardest way to perform this strat, as the window in 
 [youtube]3IMBc2EcGiQ[/youtube]
 
 ## 5/6 Ash Variations
-You can make the timing window for this strat more forgiving by using more Fistfuls of Ash. Beginners will use 5 or 6 of them to make the cheese consistent for them.',3,7,'2026-09-30 17:11:04.369716');
+You can make the timing window for this strat more forgiving by using more Fistfuls of Ash. Beginners will use 5 or 6 of them to make the cheese consistent for them.',3,7,'2026-09-30 17:11:04.369716','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(76,50,'Corrupted Monk Cheese','## Corrupted Monk Cheese
 Corrupted Monk Cheese refers to performing a stealth deathblow on Corrupted Monk (illusion) after stunning her with enough Snap Seeds and Fistfuls of Ash. It is not considered a glitch in either Speedruns or Hitless Runs.
 
@@ -5874,7 +5906,7 @@ This is the fastest and the hardest way to perform this strat, as the window in 
 [youtube]3IMBc2EcGiQ[/youtube]
 
 ## 5/6 Ash Variations
-You can make the timing window for this strat more forgiving by using more Fistfuls of Ash. Beginners will use 5 or 6 of them to make the cheese consistent for them.',3,2,'2026-09-30 18:20:07.054376');
+You can make the timing window for this strat more forgiving by using more Fistfuls of Ash. Beginners will use 5 or 6 of them to make the cheese consistent for them.',3,2,'2026-09-30 18:20:07.054376','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(77,10,'LiveSplit','## LiveSplit
 LiveSplit is a timer program for speedrunners that is both easy to use and full of features.
 
@@ -6011,9 +6043,9 @@ Thanks to XeroGoesFast for authoring the original LiveSplit guide.
 Thanks to B3LYP for releasing the initial Sekiro timer plugin for LiveSplit.
 Thanks to RefinedHornet for contributions to the old Sekiro timer.
 Thanks to CapitaineToinon for contributions to the old Sekiro timer.
-Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-09-30 20:30:34.991043');
+Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-09-30 20:30:34.991043','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(78,23,'Pennek','## Pennek
-Pennek is a Sekiro Speedrunner.',2,2,'2026-09-30 21:19:48.456274');
+Pennek is a Sekiro Speedrunner.',2,2,'2026-09-30 21:19:48.456274','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(79,87,'Boss','## Boss
 A Boss is generally defined as an enemy with an on-screen Boss health that is embedded in the HUD.
 
@@ -6081,7 +6113,7 @@ There are 37 Miniboss encounters.
 ## Misc Bosses
 * Tutorial Genichiro
 * Great Serpent
-* Great Colored Carp',4,2,'2026-10-04 11:34:50.801441');
+* Great Colored Carp',4,2,'2026-10-04 11:34:50.801441','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(80,87,'Boss','## Boss
 A Boss is generally defined as an enemy with an on-screen Boss health that is embedded in the HUD.
 
@@ -6149,7 +6181,7 @@ There are 37 Miniboss encounters.
 ## Misc Bosses
 * Tutorial Genichiro
 * Great Serpent
-* Great Colored Carp',4,2,'2026-10-04 12:30:20.595727');
+* Great Colored Carp',4,2,'2026-10-04 12:30:20.595727','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(81,19,'Gourd Seed','## Gourd Seed
 
 A Gourd Seed is a Key Item that can be given to Emma to upgrade the Healing Gourd. Each Gourd Seed given increases the Healing Gourd''s number of uses by 1, up to a maximum of 10.
@@ -6180,7 +6212,7 @@ There are 9 Gourd Seeds in the game. Each one can only be acquired once, so in o
 
 It is possible to gain infinite Gourd Seeds by exploiting a glitch with the Reflections of Strength. The Offering Box, where normally up to 1 Gourd Seed can be bought from, exists during Reflections and Gauntlets. In this state, the Offering Box doesn''t have the flags for disabling items that have already been acquired or purchased, letting you purchase all of the items that it can possible sell, even if they have already been acquired.
 
-By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.',4,2,'2026-10-05 13:18:16.295024');
+By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.',4,2,'2026-10-05 13:18:16.295024','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(82,11,'Delayed Jump','## Delayed Jump
 A Delayed Jump is a jump done at the very last moment possible when going off a ledge, in a way that makes you do the jump after having already fallen off the ledge. This type of jump allows the player to gain more distance than a standard jump.
 
@@ -6188,11 +6220,11 @@ It''s possible to both do a sprinting and a walking speed delayed jump, but in m
 
 A common misconception is that all delayed jumps have a frame perfect timing window. In reality, each type of ledge will have a different timing and different window of opportunity for a success jump.
 
-## Ledges and Terrain',4,2,'2026-10-05 13:20:45.182050');
+## Ledges and Terrain',4,2,'2026-10-05 13:20:45.182050','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(83,56,'Mibu Breathing Technique','## Mibu Breathing Technique
 The Mibu Breathing Technique is a Skill that is unlocked by killing the Corrupted Monk in Ashina Depths.
 
-When the skill is unlocked, the player gains the ability to dive under water.',4,2,'2026-10-06 04:15:22.016788');
+When the skill is unlocked, the player gains the ability to dive under water.',4,2,'2026-10-06 04:15:22.016788','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(84,34,'Shura Restricted','## Shura Restricted
 Shura Restricted is generally referred to as Any% or Any% Restricted.
 
@@ -6263,19 +6295,19 @@ After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it 
 
 ### Emma
 
-### Isshin',5,2,'2026-10-06 04:22:55.826713');
+### Isshin',5,2,'2026-10-06 04:22:55.826713','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(85,77,'Mibu Balloon of Soul','## Mibu Balloon of Soul
-Mibu Balloon of Soul is a Consumable Quick Item that makes the player acquire restorative power at a higher rate for a limited amount of time.',4,2,'2026-10-06 18:11:54.970829');
+Mibu Balloon of Soul is a Consumable Quick Item that makes the player acquire restorative power at a higher rate for a limited amount of time.',4,2,'2026-10-06 18:11:54.970829','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(86,99,'Mibu Balloon of Spirit','## Mibu Balloon of Spirit
-Mibu Balloon of Spirit is a Consumable Quick Item that on use increases the rate at which Spirit Emblems are acquired for a time.',4,2,'2026-10-06 18:11:57.434581');
+Mibu Balloon of Spirit is a Consumable Quick Item that on use increases the rate at which Spirit Emblems are acquired for a time.',4,2,'2026-10-06 18:11:57.434581','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(87,80,'Heavy Coin Purse','## Heavy Coin Purse
-Heavy Coin Purse is a Consumable Quick Item that gives 500 [Sen](/wiki/sen) on use. Light Coin Purses, Heavy Coin Purses and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.',4,2,'2026-10-06 18:19:04.061345');
+Heavy Coin Purse is a Consumable Quick Item that gives 500 [Sen](/wiki/sen) on use. Light Coin Purses, Heavy Coin Purses and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.',4,2,'2026-10-06 18:19:04.061345','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(88,81,'Light Coin Purse','## Light Coin Purse
-Light Coin Purse is a Consumable Quick Item that gives 100 [Sen](/wiki/sen) on use. Light Coin Purses, Heavy Coin Purses and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.',4,2,'2026-10-06 18:19:06.306299');
+Light Coin Purse is a Consumable Quick Item that gives 100 [Sen](/wiki/sen) on use. Light Coin Purses, Heavy Coin Purses and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.',4,2,'2026-10-06 18:19:06.306299','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(89,82,'Bulging Coin Purse','## Bulging Coin Purse
-Bulging Coin Purse is a Consumable Quick Item that gives 1000 [Sen](/wiki/sen) on use. Light Coin Purses, Heavy Coin Purses and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.',4,2,'2026-10-06 18:19:08.503254');
+Bulging Coin Purse is a Consumable Quick Item that gives 1000 [Sen](/wiki/sen) on use. Light Coin Purses, Heavy Coin Purses and Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.',4,2,'2026-10-06 18:19:08.503254','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(90,66,'Gyoubu Oniwa','## Gyoubu Oniwa
-Gyoubu Oniwa is a Boss that appears in Ashina Outskirts.',4,2,'2026-10-06 21:15:08.990430');
+Gyoubu Oniwa is a Boss that appears in Ashina Outskirts.',4,2,'2026-10-06 21:15:08.990430','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(91,6,'Gyoubu Skip','## Gyoubu Skip
 Gyoubu Skip, also known as Horse Skip, is a skip with multiple variations that involves circumventing needing to fight Gyoubu Oniwa.
 
@@ -6303,7 +6335,7 @@ Gyoubu Skip is not allowed in glitchless speedruns. However, the tower jump is a
 
 ## History
 
-Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,2,'2026-10-14 10:52:16.153798');
+Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,2,'2026-10-14 10:52:16.153798','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(92,34,'Shura Restricted','## Shura Restricted
 Shura Restricted is generally referred to as Any% or Any% Restricted.
 
@@ -6376,7 +6408,7 @@ After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it 
 
 ### Emma
 
-### Isshin',5,8,'2026-10-14 10:56:41.765603');
+### Isshin',5,8,'2026-10-14 10:56:41.765603','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(93,1,'Save File Organizer','# Save File Organizer by Kahmul
 
 The Save Organizer by Kahmul is the primary tool for creating save files, also sometimes called save states.
@@ -6425,25 +6457,25 @@ If you want to download and use a save file from another player, you need to do 
 
 7. Get back to the title screen by any means necessary and repeat step 6 until all save files have been updated.
 
-',1,2,'2026-10-14 13:01:19.200917');
+',1,2,'2026-10-14 13:01:19.200917','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(94,13,'27-hit Ogre (Chinese Ogre)','# 27-hit Ogre (Chinese Ogre)
 27-hit Ogre, also known as Chinese Ogre, is a strategy for Chained Ogre that allows you to kill him in 1 hit less than the normal 28-hit fight. When Ogre pivots, he recovers posture, so by preventing him from turning you can save 1 hit on the fight.
 
 Because you have to stay in front of him, you need to do creative attack strafing to avoid getting hit, it would be pointless to try to do 27-hit ogre and then dodge his moves as that would end up both losing way more time than just circlestrafing around him, and would likely also result in him recovering enough posture to make it a 28-hit kill.
 
-There is currently no tutorial for it, but a good resource to learn it is [this Bilibili playlist](https://www.bilibili.com/video/BV1FYqUYKEn5/) by Chinese runner Asphyxiansz. A common issue for the strat is that you will have something that works for some of Ogre''s attack patterns, but won''t for others. It is not merely a matter of reacting to whatever he does, you will also need to setup your position and attack animation so that you can be in the right position for any of the follow ups. Ideally, you should have something that works against most patterns. But there will be some rare patterns that you may have to dodge on.',3,2,'2026-10-17 10:48:23.743808');
+There is currently no tutorial for it, but a good resource to learn it is [this Bilibili playlist](https://www.bilibili.com/video/BV1FYqUYKEn5/) by Chinese runner Asphyxiansz. A common issue for the strat is that you will have something that works for some of Ogre''s attack patterns, but won''t for others. It is not merely a matter of reacting to whatever he does, you will also need to setup your position and attack animation so that you can be in the right position for any of the follow ups. Ideally, you should have something that works against most patterns. But there will be some rare patterns that you may have to dodge on.',3,2,'2026-10-17 10:48:23.743808','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(95,16,'MItchriz','## Mitchriz
-Mitchriz is a speedrun content creator with a focus on Sekiro, Elden Ring and Lies of P.',2,8,'2026-10-22 06:05:59.494228');
+Mitchriz is a speedrun content creator with a focus on Sekiro, Elden Ring and Lies of P.',2,8,'2026-10-22 06:05:59.494228','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(96,79,'Red Lump','## Red Lump
-Red Lump is a Consumable Quick Item that on use makes the player nearly unstaggerable but unable to resurrect for 30s.',4,2,'2026-10-23 08:26:41.720458');
+Red Lump is a Consumable Quick Item that on use makes the player nearly unstaggerable but unable to resurrect for 30s.',4,2,'2026-10-23 08:26:41.720458','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(97,40,'Snap Seed','## Snap Seed
-A Snap Seed is a Consumable Quick Item.',4,2,'2026-10-23 08:29:43.350312');
+A Snap Seed is a Consumable Quick Item.',4,2,'2026-10-23 08:29:43.350312','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(98,44,'Shuriken Wheel','## Shuriken Wheel
 The Shuriken Wheel is a unique Upgrade Material that can be Fitted to Wolf''s Prosthetic Arm in order to unlock the Loaded Shuriken Prosthetic.
 
-The Shuriken Wheel can be picked up in Ashina Outskirts near General Naomori Kawarada.',4,2,'2026-10-23 08:41:53.051147');
+The Shuriken Wheel can be picked up in Ashina Outskirts near General Naomori Kawarada.',4,2,'2026-10-23 08:41:53.051147','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(99,140,'Test','## Test
-![image](https://drive.google.com/file/d/1ZbJVewvVdxdKV3C7fjMf0XtTDwtswcFu/view?usp=sharing)',2,2,'2026-10-24 09:24:28.019526');
+![image](https://drive.google.com/file/d/1ZbJVewvVdxdKV3C7fjMf0XtTDwtswcFu/view?usp=sharing)',2,2,'2026-10-24 09:24:28.019526','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(100,34,'Shura Restricted','## Shura Restricted
 Shura Restricted is generally referred to as Any% or Any% Restricted.
 
@@ -6518,7 +6550,7 @@ After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it 
 ### Emma
 You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
 
-### Isshin',5,2,'2026-10-24 12:10:47.608279');
+### Isshin',5,2,'2026-10-24 12:10:47.608279','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(101,17,'Sculptor''s Idol','## Sculptor''s Idol
 Sculptor''s Idols serve as checkpoints and allow the player a variety of options including to rest.
 
@@ -6637,7 +6669,7 @@ An In-use list is provided containing only the IDs that are used during regular 
 2502957 - Feeding Grounds
 2502958 - Near Pot Noble
 2502959 - Fountainhead Palace Map Default Location
-2502960 - Fountainhead Palace Map Default Location',4,2,'2026-10-24 13:11:20.245393');
+2502960 - Fountainhead Palace Map Default Location',4,2,'2026-10-24 13:11:20.245393','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(102,17,'Sculptor''s Idol','## Sculptor''s Idol
 Sculptor''s Idols serve as checkpoints and allow the player a variety of options including to rest.
 
@@ -6823,7 +6855,7 @@ This full list contains all **known** working IDs.
 2502957 - Feeding Grounds
 2502958 - Near Pot Noble
 2502959 - Fountainhead Palace Map Default Location
-2502960 - Fountainhead Palace Map Default Location',4,2,'2026-10-24 13:15:29.762336');
+2502960 - Fountainhead Palace Map Default Location',4,2,'2026-10-24 13:15:29.762336','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(103,142,'Gamefowl','## Gamefowl
 The Gamefowl is a type of enemy that appears in Hirata Estate, Ashina Outskirts and Ashina Depths. There are a total of 18 Gamefowl in the game.
 
@@ -6847,7 +6879,7 @@ There are 9 Gamefowl in Ashina Depths. 6 of them are located in the Hidden Fores
 1 can be encountered in the Hidden Forest on the hill by the giant Buddha statue.
 2 can be encountered in the Hidden Forest on the right path towards [Mist Noble](/wiki/mist-noble)
 1 can be encountered in Mibu Village ontop of the big house closest to the lit up tree.
-2 can be encountered in Mibu Village on the other side of the Mibu Lake by the waterfall.',4,2,'2026-10-24 14:53:21.557664');
+2 can be encountered in Mibu Village on the other side of the Mibu Lake by the waterfall.',4,2,'2026-10-24 14:53:21.557664','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(104,40,'Snap Seed','## Snap Seed
 A Snap Seed is a Consumable Quick Item that on use can break illusions.
 
@@ -6856,7 +6888,7 @@ A Snap Seed is a Consumable Quick Item that on use can break illusions.
 3x can be picked up in the Hidden Forest above the Headless miniboss when heading towards Mist Noble.
 ### Sunken Valley
 1x can be picked up next to the Toxic Memorial Mob.
-3x can be picked up at the Gunfort under some wooden battlements before the cave leading to [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).',4,2,'2026-10-25 13:22:43.947906');
+3x can be picked up at the Gunfort under some wooden battlements before the cave leading to [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).',4,2,'2026-10-25 13:22:43.947906','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(105,87,'Boss','## Boss
 A Boss is generally defined as an enemy with an on-screen Boss health that is embedded in the HUD.
 
@@ -6924,7 +6956,7 @@ There are 37 Miniboss encounters.
 ## Misc Bosses
 * Tutorial Genichiro
 * Great Serpent
-* Great Colored Carp',4,2,'2026-10-26 22:19:37.258885');
+* Great Colored Carp',4,2,'2026-10-26 22:19:37.258885','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(106,87,'Boss','## Boss
 A Boss is generally defined as an enemy with an on-screen Boss health that is embedded in the HUD.
 
@@ -6992,7 +7024,7 @@ There are 37 Miniboss encounters.
 ## Misc Bosses
 * Tutorial Genichiro
 * Great Serpent
-* Great Colored Carp',4,2,'2026-10-27 18:56:49.434764');
+* Great Colored Carp',4,2,'2026-10-27 18:56:49.434764','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(107,2,'Practice Tools','## Practice Tools
 Practice tools are used to practice more efficiently. Multiple different tools are available, all of which have different benefits.
 
@@ -7006,7 +7038,7 @@ Aside from Practice Tools, it is recommended that everyone use the [Save Organiz
 Practice tools are made by volunteers from the community and thus may have bugs. Some of the practice tool developers may not be updating their tools anymore. For help and questions it is best to ask in the #support channel on the [Sekiro Speedrunning Discord server](https://discord.gg/A7kWEPkKEq).
 
 ## Online Ban
-Sekiro does not have a real online mode, therefore you cannot get banned. However, if you use the Sekiro Online mod with cheats from any of the Practice Tools, you will most likely get banned.',1,2,'2026-10-27 20:01:36.901883');
+Sekiro does not have a real online mode, therefore you cannot get banned. However, if you use the Sekiro Online mod with cheats from any of the Practice Tools, you will most likely get banned.',1,2,'2026-10-27 20:01:36.901883','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(108,17,'Sculptor''s Idol','## Sculptor''s Idol
 Sculptor''s Idols serve as checkpoints and allow the player a variety of options including to rest.
 
@@ -7192,7 +7224,7 @@ This full list contains all **known** working IDs.
 2502957 - Feeding Grounds
 2502958 - Near Pot Noble
 2502959 - Fountainhead Palace Map Default Location
-2502960 - Fountainhead Palace Map Default Location',4,2,'2026-10-27 20:07:14.180443');
+2502960 - Fountainhead Palace Map Default Location',4,2,'2026-10-27 20:07:14.180443','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(109,6,'Gyoubu Skip','## Gyoubu Skip
 Gyoubu Skip, also known as Horse Skip, is a skip with multiple variations that involves circumventing needing to fight [Gyoubu Oniwa](/wiki/gyoubu-oniwa).
 
@@ -7217,12 +7249,12 @@ This has been used in Mortal Journey Gauntlet Restricted, and in any other categ
 Gyoubu Skip is not allowed in Glitchless Speedruns. However, the Tower Jump is allowed after Gyoubu has been defeated. When done in Glitchless, this is usually referred to as "Tower Jump" and can be used to skip having to open the gate. In Glitchless, you generally want to go to the gate and upgrade Attack Power at the [Sculptor''s Idol](/wiki/sculptor-s-idol) before the [Blazing Bull](/wiki/blazing-bull) fight, wherefrom opening the door is faster than Tower Jump. However, Tower Jump can be done as part of the [Attack Power 1 Bull](/wiki/attack-power-1-bull), which can be faster. It can also be used to save time in runs where the attack power upgrade is not necessary such as in NG+ Glitchless Speedruns. In other cases, Tower Jump is generally slower for Glitchless runs.
 
 ## History
-Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,14,'2026-10-27 21:13:47.942797');
+Gyoubu Skip was theorized to be possible for a while before a reliable method was developed. Eventually, the Tower Jump method was found by Distortion2.',3,14,'2026-10-27 21:13:47.942797','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(110,147,'Zee4 Akoless Centipede','## Zee4 Akoless Centipede
 Zee4 Akoless Centipede, also known as C4 Akoless Centipede, is a strategy for [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe) that skips using an [Ako''s Sugar](/wiki/ako-s-sugar) in order to save time by not needing to pick up the Ako.
 
 ## History
-Despite its name, the original strategy was not found by Zee4. Zee4 said he saw it from someone else. But he posted it on the Speedrun Discord, which is why it was named after him.',3,7,'2026-10-30 09:01:54.538851');
+Despite its name, the original strategy was not found by Zee4. Zee4 said he saw it from someone else. But he posted it on the Speedrun Discord, which is why it was named after him.',3,7,'2026-10-30 09:01:54.538851','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(111,34,'Shura Restricted','## Shura Restricted
 Shura Restricted is generally referred to as Any% or Any% Restricted.
 
@@ -7304,7 +7336,7 @@ After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it 
 ### Emma
 You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
 
-### Isshin',5,2,'2026-10-30 09:36:26.011992');
+### Isshin',5,2,'2026-10-30 09:36:26.011992','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(112,172,'Bingo','## Bingo
 Sekiro Bingo is a gameplay format where the players attempt to complete a Bingo Board, which is a grid of squares with in-game objectives. Any number of players can participate in a match of Bingo and all players in the match use the same Bingo board.
 
@@ -7316,7 +7348,7 @@ Examples of win conditions:
 
 Examples of additional rules:
 - Lock-out - Once a player has marked a square, no other player can mark that square. If no win condition has been reached when the board is fully locked-out, then the player with the most squares wins.
-- Time limit - If no win condition has been reached and the time is up, then an alternative way of determining the winner is used. Usually that would be the player with the most squares.',2,2,'2026-11-01 09:56:02.523755');
+- Time limit - If no win condition has been reached and the time is up, then an alternative way of determining the winner is used. Usually that would be the player with the most squares.',2,2,'2026-11-01 09:56:02.523755','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(113,9,'Monkey Skip','## Monkey Skip
 Monkey Skip is a skip that allows skipping the Folding Screen Monkeys boss in Senpou Temple.
 
@@ -7338,7 +7370,7 @@ Monkey Skip is most famously used in the Any% speedrun, Shura Restricted and Shu
 **Monkey Skip is not allowed in Glitchless.** It also cannot be used in categories that require you to kill the Folding Screen Monkeys (such as in All Memories Restricted). It generally sees limited use in glitched categories, outside of short any% style runs, as doing Monkey Skip makes you miss getting the Attack Power upgrade from the Memory they drop, which overall ends up being slower for Shura No Airswim and Immortal Severance No Airswim. In both No Airswim categories, the Monkeys Grapple Launch is used instead.
 
 ## History
-Monkey Skip was theorized to be possible by Marky around April 20th, 2019. However, [he did not manage to get it to work](https://streamable.com/3low9). It was first shown to be possible when [Distortion2 managed to land it during a testing livestream](https://www.twitch.tv/distortion2/clip/FaintAliveVelociraptorSpicyBoy) on April 24th, 2019. It proved to be insanely precise, and was thus not used in runs until [MItchriz](/wiki/mitchriz), on May 27th, 2020, discovered a consistent setup. Mitchriz used it break [LilAggy](/wiki/lilaggy)''s Any% World Record of [21:19](https://www.speedrun.com/sekiro/runs/z01g5wjy) with a time of [21:09](https://www.speedrun.com/sekiro/runs/z152krgy) on June 1st, 2020, stopping LilAggy''s nearly 1 year long reign as the WR holder. The day after, on June 2nd, he posted the tutorial linked above, which enabled other runners to be able to do the skip. On June 7th, LilAggy reclaimed the WR with a time of [21:02](https://www.speedrun.com/sekiro/runs/zx27l3km), and then beat his own record the day after on June 8th with the first sub 21-minute completion of the game with a time of [20:39](https://www.speedrun.com/sekiro/runs/y4wq6gdm). Monkey Skip has been a key part of the Any% speedrun since then.',3,15,'2026-11-02 13:31:59.011248');
+Monkey Skip was theorized to be possible by Marky around April 20th, 2019. However, [he did not manage to get it to work](https://streamable.com/3low9). It was first shown to be possible when [Distortion2 managed to land it during a testing livestream](https://www.twitch.tv/distortion2/clip/FaintAliveVelociraptorSpicyBoy) on April 24th, 2019. It proved to be insanely precise, and was thus not used in runs until [MItchriz](/wiki/mitchriz), on May 27th, 2020, discovered a consistent setup. Mitchriz used it break [LilAggy](/wiki/lilaggy)''s Any% World Record of [21:19](https://www.speedrun.com/sekiro/runs/z01g5wjy) with a time of [21:09](https://www.speedrun.com/sekiro/runs/z152krgy) on June 1st, 2020, stopping LilAggy''s nearly 1 year long reign as the WR holder. The day after, on June 2nd, he posted the tutorial linked above, which enabled other runners to be able to do the skip. On June 7th, LilAggy reclaimed the WR with a time of [21:02](https://www.speedrun.com/sekiro/runs/zx27l3km), and then beat his own record the day after on June 8th with the first sub 21-minute completion of the game with a time of [20:39](https://www.speedrun.com/sekiro/runs/y4wq6gdm). Monkey Skip has been a key part of the Any% speedrun since then.',3,15,'2026-11-02 13:31:59.011248','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(114,9,'Monkey Skip','## Monkey Skip
 Monkey Skip is a skip that allows skipping the Folding Screen Monkeys boss in Senpou Temple.
 
@@ -7363,7 +7395,7 @@ Monkey Skip is most famously used in the Any% speedrun, Shura Restricted and Shu
 **Monkey Skip is not allowed in Glitchless.** It also cannot be used in categories that require you to kill the Folding Screen Monkeys (such as in All Memories Restricted). It generally sees limited use in glitched categories, outside of short any% style runs, as doing Monkey Skip makes you miss getting the Attack Power upgrade from the Memory they drop, which overall ends up being slower for Shura No Airswim and Immortal Severance No Airswim. In both No Airswim categories, the Monkeys Grapple Launch is used instead.
 
 ## History
-Monkey Skip was theorized to be possible by Marky around April 20th, 2019. However, [he did not manage to get it to work](https://streamable.com/3low9). It was first shown to be possible when [Distortion2 managed to land it during a testing livestream](https://www.twitch.tv/distortion2/clip/FaintAliveVelociraptorSpicyBoy) on April 24th, 2019. It proved to be insanely precise, and was thus not used in runs until [MItchriz](/wiki/mitchriz), on May 27th, 2020, discovered a consistent setup. Mitchriz used it break [LilAggy](/wiki/lilaggy)''s Any% World Record of [21:19](https://www.speedrun.com/sekiro/runs/z01g5wjy) with a time of [21:09](https://www.speedrun.com/sekiro/runs/z152krgy) on June 1st, 2020, stopping LilAggy''s nearly 1 year long reign as the WR holder. The day after, on June 2nd, he posted the tutorial linked above, which enabled other runners to be able to do the skip. On June 7th, LilAggy reclaimed the WR with a time of [21:02](https://www.speedrun.com/sekiro/runs/zx27l3km), and then beat his own record the day after on June 8th with the first sub 21-minute completion of the game with a time of [20:39](https://www.speedrun.com/sekiro/runs/y4wq6gdm). Monkey Skip has been a key part of the Any% speedrun since then.',3,2,'2026-11-02 13:35:13.450220');
+Monkey Skip was theorized to be possible by Marky around April 20th, 2019. However, [he did not manage to get it to work](https://streamable.com/3low9). It was first shown to be possible when [Distortion2 managed to land it during a testing livestream](https://www.twitch.tv/distortion2/clip/FaintAliveVelociraptorSpicyBoy) on April 24th, 2019. It proved to be insanely precise, and was thus not used in runs until [MItchriz](/wiki/mitchriz), on May 27th, 2020, discovered a consistent setup. Mitchriz used it break [LilAggy](/wiki/lilaggy)''s Any% World Record of [21:19](https://www.speedrun.com/sekiro/runs/z01g5wjy) with a time of [21:09](https://www.speedrun.com/sekiro/runs/z152krgy) on June 1st, 2020, stopping LilAggy''s nearly 1 year long reign as the WR holder. The day after, on June 2nd, he posted the tutorial linked above, which enabled other runners to be able to do the skip. On June 7th, LilAggy reclaimed the WR with a time of [21:02](https://www.speedrun.com/sekiro/runs/zx27l3km), and then beat his own record the day after on June 8th with the first sub 21-minute completion of the game with a time of [20:39](https://www.speedrun.com/sekiro/runs/y4wq6gdm). Monkey Skip has been a key part of the Any% speedrun since then.',3,2,'2026-11-02 13:35:13.450220','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(115,10,'LiveSplit','## LiveSplit
 LiveSplit is a timer program for speedrunners that is both easy to use and full of features.
 
@@ -7500,7 +7532,7 @@ Thanks to XeroGoesFast for authoring the original LiveSplit guide.
 Thanks to B3LYP for releasing the initial Sekiro timer plugin for LiveSplit.
 Thanks to RefinedHornet for contributions to the old Sekiro timer.
 Thanks to CapitaineToinon for contributions to the old Sekiro timer.
-Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-11-02 13:48:26.281396');
+Thanks to Wasted for revolutionizing the Sekiro plugin with the SoulSplitter project.',1,2,'2026-11-02 13:48:26.281396','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(116,40,'Snap Seed','## Snap Seed
 A Snap Seed is a Consumable Quick Item that on use can break illusions.
 
@@ -7511,7 +7543,7 @@ A Snap Seed is a Consumable Quick Item that on use can break illusions.
 1x can be picked up next to the Toxic Memorial Mob.
 3x can be picked up at the Gunfort ontop of the wooden battlements before the cave leading to [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).
 ### Hirata Estate
-1x can be acquired by talking to the NPC before Lady Butterfly.',4,8,'2026-11-06 06:01:40.227750');
+1x can be acquired by talking to the NPC before Lady Butterfly.',4,8,'2026-11-06 06:01:40.227750','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(117,34,'Shura Restricted','## Shura Restricted
 Shura Restricted is generally referred to as Any% or Any% Restricted.
 
@@ -7594,8 +7626,11 @@ After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it 
 ### Emma
 You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
 
-### Isshin',5,8,'2026-11-06 06:04:51.980898');
+### Isshin',5,8,'2026-11-06 06:04:51.980898','',NULL,'edit',NULL);
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
 CREATE UNIQUE INDEX ix_page_slug_redirects_old_slug ON page_slug_redirects (old_slug);
+CREATE UNIQUE INDEX ix_uploads_filename ON uploads (filename);
+CREATE UNIQUE INDEX ix_tags_slug ON tags (slug);
+CREATE UNIQUE INDEX ix_tags_source_key ON tags (source_key);
 COMMIT;
