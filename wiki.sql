@@ -2423,6 +2423,168 @@ After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it 
 You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
 
 ### Isshin',5,8,'2026-11-06 05:42:50.687313','approved','2026-11-06 05:42:50.686962','2026-11-06 06:04:51.981387',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(53,19,'Gourd Seed','## Gourd Seed
+
+A Gourd Seed is a Key Item that can be given to Emma to upgrade the [Healing Gourd](/wiki/healing-gourd). Each Gourd Seed given increases the Healing Gourd''s number of uses by 1, up to a maximum of 10.
+
+## Acquisition
+
+There are 9 Gourd Seeds in the game. Each one can only be acquired once, so in order to upgrade the [Healing Gourd](/wiki/healing-gourd) to its maximum of 10 uses, all 9 of them need to be found. All 9 can be acquired in one New Game cycle and are not missable, except when going for Shura ending. In which case, the 9th Gourd Seed, located in Fountainhead Palace, is not obtainable. Any Gourd Seeds not collected can be collected on New Game+. On New Game+, if a Gourd Seed has already been acquired, it will be replaced with a different item.
+
+1. In Ashina Outskirts, dropped by [General Naomori Kawarada](/wiki/general-naomori-kawarada). When Invasion 2 is triggered, if Kawarada was not defeated, he will disappear and his Gourd Seed will become purchasable for 2400 Sen from the [Offering Box](/wiki/offering-box) at Dilapidated Temple.
+
+2. In Ashina Outskirts, after [Chained Ogre](/wiki/chained-ogre-outskirts), in the building above, on the left, the item pick-up will be by two soldier uniforms hanging on a wall.
+
+3. In Ashina Outskirts, after [Gyoubu Oniwa](/wiki/gyoubu-oniwa), 1 Gourd Seed can be purchased for 1000 Sen from the [Battlefield Memorial Mob](/wiki/battlefield-memorial-mob).
+
+4. In Ashina Castle, in a chest by the [Castle Antechamber Idol](/wiki/sculptor-s-idol#ashina-castle).
+
+5. At Dilapidated Temple, after Genichiro is defeated, Fujioka the Info Broker will appear and sell 1 Gourd Seed for 2000 Sen.
+
+6. In Senpou Temple, after the cricket room, the item pick-up will be in front of an immortal monk.
+
+7. In Sunken Valley, after the Serpent''s Shrine, on the way towards Gunfort, take a sidepath on the left. Continue and climb up, the item pick-up will be in a corner in a wall cavity.
+
+8. In Ashina Depths, Mibu Village, the item pick-up will be in the middle at the base of a large lit up tree.
+
+9. In Fountainhead Palace, in a chest near the [Palace Grounds Idol](/wiki/sculptor-s-idol#fountainhead-palace).
+
+
+## Gourd Seed Duplication
+
+It is possible to gain infinite Gourd Seeds by exploiting a glitch with the Reflections of Strength. The [Offering Box](/wiki/offering-box), where normally up to 1 Gourd Seed can be bought from, exists during Reflections and Gauntlets. In this state, the Offering Box doesn''t have the flags for disabling items that have already been acquired or purchased, letting you purchase all of the items that it can possible sell, even if they have already been acquired.
+
+By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.',4,2,'2026-11-13 19:54:10.023547','approved','2026-11-13 19:54:10.022355','2026-11-13 19:55:02.001180',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,'{"side":"right","width":"md","blocks":[{"type":"title","text":"Gourd Seed","subtitle":"key item","align":"center","size":"md"},{"type":"image","src":"","alt":"","caption":"","height":"sm","fit":"contain"},{"type":"text","text":"Short description of the item.","align":"left","size":"sm"}]}',NULL);
+INSERT INTO "pending_edits" VALUES(54,19,'Gourd Seed','## Gourd Seed
+
+A Gourd Seed is a Key Item that can be given to Emma to upgrade the [Healing Gourd](/wiki/healing-gourd). Each Gourd Seed given increases the Healing Gourd''s number of uses by 1, up to a maximum of 10.
+
+## Acquisition
+
+There are 9 Gourd Seeds in the game. Each one can only be acquired once, so in order to upgrade the [Healing Gourd](/wiki/healing-gourd) to its maximum of 10 uses, all 9 of them need to be found. All 9 can be acquired in one New Game cycle and are not missable, except when going for Shura ending. In which case, the 9th Gourd Seed, located in Fountainhead Palace, is not obtainable. Any Gourd Seeds not collected can be collected on New Game+. On New Game+, if a Gourd Seed has already been acquired, it will be replaced with a different item.
+
+1. In Ashina Outskirts, dropped by [General Naomori Kawarada](/wiki/general-naomori-kawarada). When Invasion 2 is triggered, if Kawarada was not defeated, he will disappear and his Gourd Seed will become purchasable for 2400 Sen from the [Offering Box](/wiki/offering-box) at Dilapidated Temple.
+
+2. In Ashina Outskirts, after [Chained Ogre](/wiki/chained-ogre-outskirts), in the building above, on the left, the item pick-up will be by two soldier uniforms hanging on a wall.
+
+3. In Ashina Outskirts, after [Gyoubu Oniwa](/wiki/gyoubu-oniwa), 1 Gourd Seed can be purchased for 1000 Sen from the [Battlefield Memorial Mob](/wiki/battlefield-memorial-mob).
+
+4. In Ashina Castle, in a chest by the [Castle Antechamber Idol](/wiki/sculptor-s-idol#ashina-castle).
+
+5. At Dilapidated Temple, after Genichiro is defeated, Fujioka the Info Broker will appear and sell 1 Gourd Seed for 2000 Sen.
+
+6. In Senpou Temple, after the cricket room, the item pick-up will be in front of an immortal monk.
+
+7. In Sunken Valley, after the Serpent''s Shrine, on the way towards Gunfort, take a sidepath on the left. Continue and climb up, the item pick-up will be in a corner in a wall cavity.
+
+8. In Ashina Depths, Mibu Village, the item pick-up will be in the middle at the base of a large lit up tree.
+
+9. In Fountainhead Palace, in a chest near the [Palace Grounds Idol](/wiki/sculptor-s-idol#fountainhead-palace).
+
+
+## Gourd Seed Duplication
+
+It is possible to gain infinite Gourd Seeds by exploiting a glitch with the Reflections of Strength. The [Offering Box](/wiki/offering-box), where normally up to 1 Gourd Seed can be bought from, exists during Reflections and Gauntlets. In this state, the Offering Box doesn''t have the flags for disabling items that have already been acquired or purchased, letting you purchase all of the items that it can possible sell, even if they have already been acquired.
+
+By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.',4,2,'2026-11-13 20:46:55.345089','approved','2026-11-13 20:46:55.344724','2026-11-13 20:47:07.662984',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,'{"side":"right","width":"sm","blocks":[{"type":"title","text":"Gourd Seed","subtitle":"key item","align":"center","size":"md"},{"type":"image","src":"","alt":"","caption":"","height":"sm","fit":"contain"},{"type":"text","text":"Seed from which healing waters continuously spring forth. Give to Emma to increase the maximum uses of the Healing Gourd.\n\nThe twisted gourd of medical waters was known throughout Ashina since long ago, but it was the extraordinary healer Dogen and his pupil Emma who discovered the self-replenishing nature of this seed.","align":"left","size":"sm"}]}',NULL);
+INSERT INTO "pending_edits" VALUES(55,40,'Snap Seed','## Snap Seed
+A Snap Seed is a Consumable Quick Item that on use can break illusions.
+
+## Acquisition
+### Ashina Depths
+
+3x can be picked up in the Hidden Forest above the [Headless](/wiki/headless-gachiin) when heading towards [Mist Noble](/wiki/mist-noble).
+
+### Sunken Valley
+
+1x can be picked up next to the [Toxic Memorial Mob](/wiki/toxic-memorial-mob).
+3x can be picked up at the Gunfort ontop of the wooden battlements before the cave leading to [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).
+
+### Hirata Estate
+1x can be acquired by talking to the NPC before Lady Butterfly.
+
+## Strategies
+Used in [Corrupted Monk Cheese](wiki/corrupted-monk-cheese).',4,2,'2026-11-13 20:54:36.547348','approved','2026-11-13 20:54:36.546985','2026-11-13 20:54:40.688563',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,'{"side":"right","width":"sm","blocks":[{"type":"title","text":"Snap Seed","subtitle":"quick item","align":"center","size":"md"},{"type":"image","src":"","alt":"","caption":"","height":"sm","fit":"contain"},{"type":"text","text":"Fumewort seeds that make a loud noise if you snap them. Useful for breaking the effect of illusion techniques.\n\nIf an illusion occurs, it is because someone created it.\nTo crush the phantoms and return to reality one must defeat the creator of the illusion. Snap seeds can be of great help in that regard.","align":"left","size":"sm"}]}',NULL);
+INSERT INTO "pending_edits" VALUES(56,80,'Heavy Coin Purse','## Heavy Coin Purse
+Heavy Coin Purse is a Consumable Quick Item that gives 500 [Sen](/wiki/sen) on use. [Light Coin Purses](/wiki/light-coin-purse), Heavy Coin Purses and [Bulging Coin Purses](/wiki/bulging-coin-purse) serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.',4,2,'2026-11-13 20:57:54.376628','approved','2026-11-13 20:57:54.375685','2026-11-13 20:57:58.281784',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,'{"side":"right","width":"md","blocks":[{"type":"title","text":"Heavy Coin Purse","subtitle":"Quick Item","align":"center","size":"md"},{"type":"image","src":"","alt":"","caption":"","height":"sm","fit":"contain"},{"type":"text","text":"A purse filled with a large amount of sen.\nIt can be used to acquire the sen inside.\n\nIts weight is very promising indeed.\n\nThe sen in this purse is not lost upon death.","align":"left","size":"sm"}]}',NULL);
+INSERT INTO "pending_edits" VALUES(57,142,'Gamefowl','## Gamefowl
+The Gamefowl, also called Chicken or Rooster, is a type of enemy that appears in Hirata Estate, Ashina Outskirts and Ashina Depths. There are a total of 18 Gamefowl in the game.
+
+## Enemy Placement
+### Hirata Estate
+A group of 5 Gamefowl can be encountered in the early part of Hirata Estate in the walled in part across from where the Axe prosthetic can be found.
+
+### Ashina Outskirts
+There are 4 Gamefowl in Ashina Outskirts. They appear in the Morning and disappear after Invasion 2.
+
+1 can be encountered before [General Naomori Kawarada](/wiki/general-naomori-kawarada).![20261024105736_1](/uploads/3ccc39992eb9afd0602751c2b1590313.webp)
+2 can be encountered behind the house, where you get the [Young Lord''s Bell Charm](/wiki/young-lord-s-bell-charm).![20261024105236_1](/uploads/203e565aca801028d2551df6db7ab600.webp)
+1 can be encountered before the [Outskirts Wall - Stairway](/wiki/sculptor-s-idol#ashina-outskirts) Idol.![20261024105904_1](/uploads/07172fd90b9a570564ef54c9d76f86dd.webp)
+
+### Ashina Depths
+There are 9 Gamefowl in Ashina Depths. 6 of them are located in the Hidden Forest and 3 are in Mibu Village.
+
+1 can be encountered in the Hidden Forest by the big tree on the left.
+1 can be encountered in the Hidden Forest on the big tree in the middle.
+1 can be encountered in the Hidden Forest high up on a platform on the right.
+1 can be encountered in the Hidden Forest on the hill by the giant Buddha statue.
+2 can be encountered in the Hidden Forest on the right path towards [Mist Noble](/wiki/mist-noble)
+1 can be encountered in Mibu Village ontop of the big house closest to the lit up tree.
+2 can be encountered in Mibu Village on the other side of the Mibu Lake by the waterfall.',4,2,'2026-11-13 21:15:11.188573','approved','2026-11-13 21:15:11.188221','2026-11-13 21:15:16.268959',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(58,18,'Canyon Skip','## Canyon Skip
+Not to be confused with Snake Skip. Canyon Skip refers to two possible skips that are performed in the canyon area of Ashina Outskirts where the Great Serpent is encountered for the first time.
+
+## Single Canyon Skip
+Also known as Baby Canyon.
+
+Video Tutorial: 
+[youtube]Q9Tzs5RVvSY[/youtube]
+
+
+## Double Canyon Skip
+Double Canyon usually refers to doing both Canyon Skips back to back, but sometimes is also used to refer to just the first Canyon Skip.
+
+The timing window for the delayed jump is generally believed to be close to frame perfect.
+
+## Practicing
+
+For practicing this and other skips, it is recommended to use the [Practice Tools](/wiki/practice-tools) created and maintained by the community.[^1]
+
+[^1]: [Practice Tools Wiki Article by Holm](/wiki/practice-tools)
+',3,1,'2026-11-13 22:28:04.569891','pending','2026-11-13 22:28:04.568294',NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(59,2,'Practice Tools','## Practice Tools
+Practice Tools are used to practice more efficiently. Multiple different tools are available, all of which have different benefits.
+
+Aside from Practice Tools, it is recommended that everyone use the [Save Organizer](https://sekirospeedrun.com/wiki/1). The Save Organizer is the most important tool, so make sure to get that up and running first.
+
+- [SekiroTool by Shilkey & Lecentz](https://github.com/borgCode/SekiroTool/releases) *(Recommended)*[^1]
+- [JohnDiSanDonato''s Practice Tool](https://github.com/veeenu/sekiro-practice-tool/releases)
+- [Cheat Engine](https://sekirospeedrun.com/wiki/4)
+
+
+## Support
+Practice tools are made by volunteers from the community. Some of the practice tool developers may not be updating their tools anymore. For help and questions it is best to ask in the #support channel on the [Sekiro Speedrunning Discord server](https://discord.gg/A7kWEPkKEq).
+
+## Online Ban
+Sekiro does not have a real online mode, therefore you cannot get banned. However, if you use the [Sekiro Online mod](https://www.nexusmods.com/sekiro/mods/577) with any of the Practice Tools, you will most likely get banned.
+
+[^1]: [SekiroTool is widely recommended on the Sekiro Speedrunning Discord server](https://discord.com/invite/A7kWEPkKEq)
+',1,1,'2026-11-13 22:33:51.576082','pending','2026-11-13 22:33:51.575720',NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
+CREATE TABLE speedrun_links (
+        id INTEGER PRIMARY KEY,
+        user_id INTEGER NOT NULL UNIQUE REFERENCES users(id),
+        src_id VARCHAR(16) NOT NULL,
+        src_name VARCHAR(80) NOT NULL,
+        src_url VARCHAR(200),
+        status VARCHAR(16) NOT NULL DEFAULT 'pending',
+        method VARCHAR(16) NOT NULL,
+        requested_at DATETIME,
+        linked_at DATETIME,
+        linked_by_id INTEGER REFERENCES users(id),
+        pbs TEXT,
+        synced_at DATETIME
+    );
+INSERT INTO "speedrun_links" VALUES(1,1,'j9pl7gox','Riyu','https://www.speedrun.com/users/Riyu','linked','moderator','2026-11-13 21:49:18.808688','2026-11-13 21:49:31.542448',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 281, "seconds": 2108, "date": "2024-05-15", "url": "https://www.speedrun.com/sekiro/runs/zgllok0m"}]','2026-11-13 21:49:31.551809');
 CREATE TABLE tags (
         id INTEGER PRIMARY KEY,
         name VARCHAR(80) NOT NULL,
@@ -2455,31 +2617,34 @@ CREATE TABLE uploads (
     );
 INSERT INTO "uploads" VALUES(1,'8cbc3810eb015b3c563c313dbb36e90e.webp','post',1,45562,1600,763,'2026-11-12 05:27:19.471681');
 INSERT INTO "uploads" VALUES(2,'aa21255053a24695e551d14468bfac66.webp','post',1,15470,300,413,'2026-11-13 02:48:59.939101');
+INSERT INTO "uploads" VALUES(3,'07172fd90b9a570564ef54c9d76f86dd.webp','post',2,195470,1600,900,'2026-11-13 21:13:39.513379');
+INSERT INTO "uploads" VALUES(4,'3ccc39992eb9afd0602751c2b1590313.webp','post',2,312968,1600,900,'2026-11-13 21:13:56.300274');
+INSERT INTO "uploads" VALUES(5,'203e565aca801028d2551df6db7ab600.webp','post',2,228806,1600,900,'2026-11-13 21:14:10.170766');
 CREATE TABLE users (
 	id INTEGER NOT NULL, 
 	username VARCHAR(80) NOT NULL, 
 	password VARCHAR(200) NOT NULL, 
 	role VARCHAR(20), 
 	profile_picture VARCHAR(500), 
-	created_at DATETIME, force_password_change BOOLEAN NOT NULL DEFAULT 0, 
+	created_at DATETIME, force_password_change BOOLEAN NOT NULL DEFAULT 0, bio TEXT, 
 	PRIMARY KEY (id), 
 	UNIQUE (username)
 );
-INSERT INTO "users" VALUES(1,'RiyuFPS','','maintainer','https://files.catbox.moe/bdbf3w.jpg','2026-02-22 11:01:06.388527',0);
-INSERT INTO "users" VALUES(2,'Holm','','maintainer','https://static-cdn.jtvnw.net/jtv_user_pictures/5bd2674e-4fd9-4974-b5f4-baccea892005-profile_image-70x70.png','2026-02-22 11:01:22.061875',0);
-INSERT INTO "users" VALUES(3,'Aluerie','','user','https://i.ibb.co/PZK8mCLW/Pfp-square-800-800.jpg','2026-09-16 19:30:23.303911',0);
-INSERT INTO "users" VALUES(4,'Logan360sg','','verified',NULL,'2026-09-16 19:34:42.226577',0);
-INSERT INTO "users" VALUES(5,'Silentsolid','','verified',NULL,'2026-09-16 19:35:05.036028',0);
-INSERT INTO "users" VALUES(6,'kierran','','user',NULL,'2026-09-16 19:37:32.265247',0);
-INSERT INTO "users" VALUES(7,'koko838','','verified','https://static-cdn.jtvnw.net/jtv_user_pictures/154ce9bf-642b-4284-853e-4ab682b5b7ed-profile_image-70x70.png','2026-09-16 19:45:50.240738',0);
-INSERT INTO "users" VALUES(8,'kellyskater','','verified','https://files.catbox.moe/e1luf4.png','2026-09-16 23:33:30.422490',0);
-INSERT INTO "users" VALUES(9,'pay_','','verified','https://static-cdn.jtvnw.net/jtv_user_pictures/e8d4e53c-2589-4d12-82ce-c78208ff674a-profile_image-70x70.png','2026-09-17 03:36:33.380742',0);
-INSERT INTO "users" VALUES(10,'Yv999','','user',NULL,'2026-09-17 16:40:09.973183',0);
-INSERT INTO "users" VALUES(11,'Typical','','user',NULL,'2026-09-18 03:22:38.313999',0);
-INSERT INTO "users" VALUES(12,'XiaoXiangYeYu','','user','https://files.catbox.moe/9w5ayl.jpeg','2026-09-18 09:19:46.471228',0);
-INSERT INTO "users" VALUES(13,'jvnjvn','','user',NULL,'2026-09-19 08:55:19.921610',0);
-INSERT INTO "users" VALUES(14,'SaraToga','','verified','https://cdn.discordapp.com/attachments/591316193126776848/1564745355583557783/neiro.png?ex=6ae2622c&is=6ae110ac&hm=04bdd832800471ed5045c7f1fac19cd0172797ca6c3fe824b49940d02fa64683','2026-10-27 20:58:06.223265',0);
-INSERT INTO "users" VALUES(15,'Insidioussss','','verified',NULL,'2026-10-30 09:16:18.196762',0);
+INSERT INTO "users" VALUES(1,'RiyuFPS','','maintainer','https://files.catbox.moe/bdbf3w.jpg','2026-02-22 11:01:06.388527',0,'Inactive Shura Glitchless Runner, Developer of the Wiki. I hope everyone has a great day lol');
+INSERT INTO "users" VALUES(2,'Holm','','maintainer','https://static-cdn.jtvnw.net/jtv_user_pictures/5bd2674e-4fd9-4974-b5f4-baccea892005-profile_image-70x70.png','2026-02-22 11:01:22.061875',0,NULL);
+INSERT INTO "users" VALUES(3,'Aluerie','','user','https://i.ibb.co/PZK8mCLW/Pfp-square-800-800.jpg','2026-09-16 19:30:23.303911',0,NULL);
+INSERT INTO "users" VALUES(4,'Logan360sg','','verified',NULL,'2026-09-16 19:34:42.226577',0,NULL);
+INSERT INTO "users" VALUES(5,'Silentsolid','','verified',NULL,'2026-09-16 19:35:05.036028',0,NULL);
+INSERT INTO "users" VALUES(6,'kierran','','user',NULL,'2026-09-16 19:37:32.265247',0,NULL);
+INSERT INTO "users" VALUES(7,'koko838','','verified','https://static-cdn.jtvnw.net/jtv_user_pictures/154ce9bf-642b-4284-853e-4ab682b5b7ed-profile_image-70x70.png','2026-09-16 19:45:50.240738',0,NULL);
+INSERT INTO "users" VALUES(8,'kellyskater','','verified','https://files.catbox.moe/e1luf4.png','2026-09-16 23:33:30.422490',0,NULL);
+INSERT INTO "users" VALUES(9,'pay_','','verified','https://static-cdn.jtvnw.net/jtv_user_pictures/e8d4e53c-2589-4d12-82ce-c78208ff674a-profile_image-70x70.png','2026-09-17 03:36:33.380742',0,NULL);
+INSERT INTO "users" VALUES(10,'Yv999','','user',NULL,'2026-09-17 16:40:09.973183',0,NULL);
+INSERT INTO "users" VALUES(11,'Typical','','user',NULL,'2026-09-18 03:22:38.313999',0,NULL);
+INSERT INTO "users" VALUES(12,'XiaoXiangYeYu','','user','https://files.catbox.moe/9w5ayl.jpeg','2026-09-18 09:19:46.471228',0,NULL);
+INSERT INTO "users" VALUES(13,'jvnjvn','','user',NULL,'2026-09-19 08:55:19.921610',0,NULL);
+INSERT INTO "users" VALUES(14,'SaraToga','','verified','https://cdn.discordapp.com/attachments/591316193126776848/1564745355583557783/neiro.png?ex=6ae2622c&is=6ae110ac&hm=04bdd832800471ed5045c7f1fac19cd0172797ca6c3fe824b49940d02fa64683','2026-10-27 20:58:06.223265',0,NULL);
+INSERT INTO "users" VALUES(15,'Insidioussss','','verified',NULL,'2026-10-30 09:16:18.196762',0,NULL);
 CREATE TABLE wiki_pages (
 	id INTEGER NOT NULL, 
 	title VARCHAR(150) NOT NULL, 
@@ -3085,15 +3250,15 @@ A Gourd Seed is a Key Item that can be given to Emma to upgrade the [Healing Gou
 
 ## Acquisition
 
-There are 9 Gourd Seeds in the game. Each one can only be acquired once, so in order to upgrade the Healing Gourd to its maximum of 10 uses, all 9 of them need to be found. All 9 can be acquired in one New Game cycle and are not missable, except when going for Shura ending. In which case, the 9th Gourd Seed, located in Fountainhead Palace, is not obtainable. Any Gourd Seeds not collected can be collected on New Game+. On New Game+, if a Gourd Seed has already been acquired, it will be replaced with a different item.
+There are 9 Gourd Seeds in the game. Each one can only be acquired once, so in order to upgrade the [Healing Gourd](/wiki/healing-gourd) to its maximum of 10 uses, all 9 of them need to be found. All 9 can be acquired in one New Game cycle and are not missable, except when going for Shura ending. In which case, the 9th Gourd Seed, located in Fountainhead Palace, is not obtainable. Any Gourd Seeds not collected can be collected on New Game+. On New Game+, if a Gourd Seed has already been acquired, it will be replaced with a different item.
 
 1. In Ashina Outskirts, dropped by [General Naomori Kawarada](/wiki/general-naomori-kawarada). When Invasion 2 is triggered, if Kawarada was not defeated, he will disappear and his Gourd Seed will become purchasable for 2400 Sen from the [Offering Box](/wiki/offering-box) at Dilapidated Temple.
 
 2. In Ashina Outskirts, after [Chained Ogre](/wiki/chained-ogre-outskirts), in the building above, on the left, the item pick-up will be by two soldier uniforms hanging on a wall.
 
-3. In Ashina Outskirts, after [Gyoubu Oniwa](/wiki/gyoubu-oniwa), 1 Gourd Seed can be purchased for 1000 Sen from the Battlefield Memorial Mob.
+3. In Ashina Outskirts, after [Gyoubu Oniwa](/wiki/gyoubu-oniwa), 1 Gourd Seed can be purchased for 1000 Sen from the [Battlefield Memorial Mob](/wiki/battlefield-memorial-mob).
 
-4. In Ashina Castle, in a chest by the Castle Antechamber Idol.
+4. In Ashina Castle, in a chest by the [Castle Antechamber Idol](/wiki/sculptor-s-idol#ashina-castle).
 
 5. At Dilapidated Temple, after Genichiro is defeated, Fujioka the Info Broker will appear and sell 1 Gourd Seed for 2000 Sen.
 
@@ -3103,13 +3268,14 @@ There are 9 Gourd Seeds in the game. Each one can only be acquired once, so in o
 
 8. In Ashina Depths, Mibu Village, the item pick-up will be in the middle at the base of a large lit up tree.
 
-9. In Fountainhead Palace, in a chest near the Palace Grounds Idol.
+9. In Fountainhead Palace, in a chest near the [Palace Grounds Idol](/wiki/sculptor-s-idol#fountainhead-palace).
+
 
 ## Gourd Seed Duplication
 
 It is possible to gain infinite Gourd Seeds by exploiting a glitch with the Reflections of Strength. The [Offering Box](/wiki/offering-box), where normally up to 1 Gourd Seed can be bought from, exists during Reflections and Gauntlets. In this state, the Offering Box doesn''t have the flags for disabling items that have already been acquired or purchased, letting you purchase all of the items that it can possible sell, even if they have already been acquired.
 
-By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.','approved',NULL,NULL,NULL,4,2,'2026-07-15 12:18:25.955263','2026-10-05 13:18:16.293813','gourd-seed',NULL,'2026-07-15 12:18:30.815810',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
+By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.','approved',NULL,NULL,NULL,4,2,'2026-07-15 12:18:25.955263','2026-11-13 20:47:07.660565','gourd-seed',NULL,'2026-07-15 12:18:30.815810',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,'{"side":"right","width":"sm","blocks":[{"type":"title","text":"Gourd Seed","subtitle":"key item","align":"center","size":"md"},{"type":"image","src":"","alt":"","caption":"","height":"sm","fit":"contain"},{"type":"text","text":"Seed from which healing waters continuously spring forth. Give to Emma to increase the maximum uses of the Healing Gourd.\n\nThe twisted gourd of medical waters was known throughout Ashina since long ago, but it was the extraordinary healer Dogen and his pupil Emma who discovered the self-replenishing nature of this seed.","align":"left","size":"sm"}]}',NULL);
 INSERT INTO "wiki_pages" VALUES(20,'Distortion2','## Distortion2
 Distortion2 is a Twitch and Youtube content creator, who is famous for pioneering Sekiro speedrunning in the early days.','approved',NULL,NULL,NULL,2,2,'2026-07-15 12:43:13.496054','2026-07-15 12:43:18.011696','distortion2',NULL,'2026-07-15 12:43:18.016216',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(21,'WormdogBS','## WormdogBS
@@ -3337,15 +3503,19 @@ A Snap Seed is a Consumable Quick Item that on use can break illusions.
 
 ## Acquisition
 ### Ashina Depths
-3x can be picked up in the Hidden Forest above the Headless miniboss when heading towards Mist Noble.
+
+3x can be picked up in the Hidden Forest above the [Headless](/wiki/headless-gachiin) when heading towards [Mist Noble](/wiki/mist-noble).
+
 ### Sunken Valley
-1x can be picked up next to the Toxic Memorial Mob.
+
+1x can be picked up next to the [Toxic Memorial Mob](/wiki/toxic-memorial-mob).
 3x can be picked up at the Gunfort ontop of the wooden battlements before the cave leading to [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).
+
 ### Hirata Estate
 1x can be acquired by talking to the NPC before Lady Butterfly.
 
 ## Strategies
-Used in [Corrupted Monk Cheese](wiki/corrupted-monk-cheese).','approved',NULL,NULL,NULL,4,2,'2026-08-06 07:55:32.515516','2026-11-06 06:01:40.227530','snap-seed',NULL,'2026-08-06 08:05:06.841190',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
+Used in [Corrupted Monk Cheese](wiki/corrupted-monk-cheese).','approved',NULL,NULL,NULL,4,2,'2026-08-06 07:55:32.515516','2026-11-13 20:54:40.687837','snap-seed',NULL,'2026-08-06 08:05:06.841190',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,'{"side":"right","width":"sm","blocks":[{"type":"title","text":"Snap Seed","subtitle":"quick item","align":"center","size":"md"},{"type":"image","src":"","alt":"","caption":"","height":"sm","fit":"contain"},{"type":"text","text":"Fumewort seeds that make a loud noise if you snap them. Useful for breaking the effect of illusion techniques.\n\nIf an illusion occurs, it is because someone created it.\nTo crush the phantoms and return to reality one must defeat the creator of the illusion. Snap seeds can be of great help in that regard.","align":"left","size":"sm"}]}',NULL);
 INSERT INTO "wiki_pages" VALUES(41,'Robert''s Firecrackers','## Robert''s Firecrackers
 Robert''s Firecrackers is a unique Upgrade Material that can be Fitted to Wolf''s Prosthetic Arm in order to unlock the Shinobi Firecrackers Prosthetic.
 
@@ -3647,8 +3817,8 @@ Red Lump is a Consumable Quick Item that on use makes the player nearly unstagge
 ### Fountainhead Palace
 1x can be picked up in the water under the bridge near the Flower Viewing Stage Idol.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:41:01.635189','2026-10-23 08:26:41.715460','red-lump','2026-09-30 18:41:01.634290','2026-09-30 18:41:15.698510',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(80,'Heavy Coin Purse','## Heavy Coin Purse
-Heavy Coin Purse is a Consumable Quick Item that gives 500 [Sen](/wiki/sen) on use. [Light Coin Purses](/wiki/light-coin-purse), Heavy Coin Purses and [Bulging Coin Purses](/wiki/bulging-coin-purse) serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:49:34.302926','2026-10-06 18:19:04.060926','heavy-coin-purse','2026-09-30 18:49:34.301706','2026-09-30 18:54:54.928941',2,NULL,'Heavy Coin Purse','## Heavy Coin Purse
-Heavy Coin Purse is a Consumable Quick Item that gives 500 Sen on use. Light Coin Purses, Heavy Coin Purses or Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.',4,'',NULL,NULL,NULL,NULL,NULL);
+Heavy Coin Purse is a Consumable Quick Item that gives 500 [Sen](/wiki/sen) on use. [Light Coin Purses](/wiki/light-coin-purse), Heavy Coin Purses and [Bulging Coin Purses](/wiki/bulging-coin-purse) serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:49:34.302926','2026-11-13 20:57:58.281085','heavy-coin-purse','2026-09-30 18:49:34.301706','2026-09-30 18:54:54.928941',2,NULL,'Heavy Coin Purse','## Heavy Coin Purse
+Heavy Coin Purse is a Consumable Quick Item that gives 500 Sen on use. Light Coin Purses, Heavy Coin Purses or Bulging Coin Purses serve as a way to store Sen so that it is not lost upon death. Many merchants sell them at a 10% markup as a way to store your Sen.',4,'',NULL,NULL,NULL,'{"side":"right","width":"md","blocks":[{"type":"title","text":"Heavy Coin Purse","subtitle":"Quick Item","align":"center","size":"md"},{"type":"image","src":"","alt":"","caption":"","height":"sm","fit":"contain"},{"type":"text","text":"A purse filled with a large amount of sen.\nIt can be used to acquire the sen inside.\n\nIts weight is very promising indeed.\n\nThe sen in this purse is not lost upon death.","align":"left","size":"sm"}]}',NULL);
 INSERT INTO "wiki_pages" VALUES(81,'Light Coin Purse','## Light Coin Purse
 Light Coin Purse is a Consumable Quick Item that gives 100 [Sen](/wiki/sen) on use. Light Coin Purses, [Heavy Coin Purses](/wiki/heavy-coin-purse) and [Bulging Coin Purse](/wiki/bulging-coin-purse) serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.','approved',NULL,NULL,NULL,4,2,'2026-09-30 18:51:37.008176','2026-10-06 18:19:06.305927','light-coin-purse','2026-09-30 18:51:37.007733','2026-09-30 18:54:51.256493',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(82,'Bulging Coin Purse','## Bulging Coin Purse
@@ -3921,9 +4091,9 @@ A group of 5 Gamefowl can be encountered in the early part of Hirata Estate in t
 ### Ashina Outskirts
 There are 4 Gamefowl in Ashina Outskirts. They appear in the Morning and disappear after Invasion 2.
 
-1 can be encountered before [General Naomori Kawarada](/wiki/general-naomori-kawarada).
-2 can be encountered behind the house, where you get the [Young Lord''s Bell Charm](/wiki/young-lord-s-bell-charm).
-1 can be encountered before the [Outskirts Wall - Stairway](/wiki/sculptor-s-idol#ashina-outskirts) Idol.
+1 can be encountered before [General Naomori Kawarada](/wiki/general-naomori-kawarada).![20261024105736_1](/uploads/3ccc39992eb9afd0602751c2b1590313.webp)
+2 can be encountered behind the house, where you get the [Young Lord''s Bell Charm](/wiki/young-lord-s-bell-charm).![20261024105236_1](/uploads/203e565aca801028d2551df6db7ab600.webp)
+1 can be encountered before the [Outskirts Wall - Stairway](/wiki/sculptor-s-idol#ashina-outskirts) Idol.![20261024105904_1](/uploads/07172fd90b9a570564ef54c9d76f86dd.webp)
 
 ### Ashina Depths
 There are 9 Gamefowl in Ashina Depths. 6 of them are located in the Hidden Forest and 3 are in Mibu Village.
@@ -3934,7 +4104,7 @@ There are 9 Gamefowl in Ashina Depths. 6 of them are located in the Hidden Fores
 1 can be encountered in the Hidden Forest on the hill by the giant Buddha statue.
 2 can be encountered in the Hidden Forest on the right path towards [Mist Noble](/wiki/mist-noble)
 1 can be encountered in Mibu Village ontop of the big house closest to the lit up tree.
-2 can be encountered in Mibu Village on the other side of the Mibu Lake by the waterfall.','approved',NULL,NULL,NULL,4,2,'2026-10-24 14:48:58.659340','2026-10-24 14:53:21.557299','gamefowl','2026-10-24 14:48:58.658931','2026-10-24 14:49:07.002915',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
+2 can be encountered in Mibu Village on the other side of the Mibu Lake by the waterfall.','approved',NULL,NULL,NULL,4,2,'2026-10-24 14:48:58.659340','2026-11-13 21:15:16.268219','gamefowl','2026-10-24 14:48:58.658931','2026-10-24 14:49:07.002915',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(143,'Shigekichi of the Red Guard','## Shigekichi of the Red Guard
 Shigekichi of the Red Guard is a Miniboss.','approved',NULL,NULL,NULL,4,2,'2026-10-27 18:56:11.052946','2026-10-27 18:56:16.352685','shigekichi-of-the-red-guard','2026-10-27 18:56:11.051971','2026-10-27 18:56:16.352334',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(144,'Dojo Skip','## Dojo Skip
@@ -7627,10 +7797,114 @@ After Monkey Skip, get the Mortal Blade by talking to the Divine Child. Once it 
 You want to use [Yashariku''s Sugar](wiki/yashariku-s-sugar) at the start of the fight. The most common ways to fight Emma are [180 Dead Angles](wiki/dead-angle) or doing a cycle of attacking her until she blocks you and then deflecting her next attack. Before doing the deathblow you can stomp on her and do an aerial deathblow to get a faster animation.
 
 ### Isshin',5,8,'2026-11-06 06:04:51.980898','',NULL,'edit',NULL);
+INSERT INTO "wiki_revisions" VALUES(118,19,'Gourd Seed','## Gourd Seed
+
+A Gourd Seed is a Key Item that can be given to Emma to upgrade the [Healing Gourd](/wiki/healing-gourd). Each Gourd Seed given increases the Healing Gourd''s number of uses by 1, up to a maximum of 10.
+
+## Acquisition
+
+There are 9 Gourd Seeds in the game. Each one can only be acquired once, so in order to upgrade the Healing Gourd to its maximum of 10 uses, all 9 of them need to be found. All 9 can be acquired in one New Game cycle and are not missable, except when going for Shura ending. In which case, the 9th Gourd Seed, located in Fountainhead Palace, is not obtainable. Any Gourd Seeds not collected can be collected on New Game+. On New Game+, if a Gourd Seed has already been acquired, it will be replaced with a different item.
+
+1. In Ashina Outskirts, dropped by [General Naomori Kawarada](/wiki/general-naomori-kawarada). When Invasion 2 is triggered, if Kawarada was not defeated, he will disappear and his Gourd Seed will become purchasable for 2400 Sen from the [Offering Box](/wiki/offering-box) at Dilapidated Temple.
+
+2. In Ashina Outskirts, after [Chained Ogre](/wiki/chained-ogre-outskirts), in the building above, on the left, the item pick-up will be by two soldier uniforms hanging on a wall.
+
+3. In Ashina Outskirts, after [Gyoubu Oniwa](/wiki/gyoubu-oniwa), 1 Gourd Seed can be purchased for 1000 Sen from the Battlefield Memorial Mob.
+
+4. In Ashina Castle, in a chest by the Castle Antechamber Idol.
+
+5. At Dilapidated Temple, after Genichiro is defeated, Fujioka the Info Broker will appear and sell 1 Gourd Seed for 2000 Sen.
+
+6. In Senpou Temple, after the cricket room, the item pick-up will be in front of an immortal monk.
+
+7. In Sunken Valley, after the Serpent''s Shrine, on the way towards Gunfort, take a sidepath on the left. Continue and climb up, the item pick-up will be in a corner in a wall cavity.
+
+8. In Ashina Depths, Mibu Village, the item pick-up will be in the middle at the base of a large lit up tree.
+
+9. In Fountainhead Palace, in a chest near the Palace Grounds Idol.
+
+## Gourd Seed Duplication
+
+It is possible to gain infinite Gourd Seeds by exploiting a glitch with the Reflections of Strength. The [Offering Box](/wiki/offering-box), where normally up to 1 Gourd Seed can be bought from, exists during Reflections and Gauntlets. In this state, the Offering Box doesn''t have the flags for disabling items that have already been acquired or purchased, letting you purchase all of the items that it can possible sell, even if they have already been acquired.
+
+By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.',4,2,'2026-11-13 19:55:01.999468','',NULL,'edit',NULL);
+INSERT INTO "wiki_revisions" VALUES(119,19,'Gourd Seed','## Gourd Seed
+
+A Gourd Seed is a Key Item that can be given to Emma to upgrade the [Healing Gourd](/wiki/healing-gourd). Each Gourd Seed given increases the Healing Gourd''s number of uses by 1, up to a maximum of 10.
+
+## Acquisition
+
+There are 9 Gourd Seeds in the game. Each one can only be acquired once, so in order to upgrade the [Healing Gourd](/wiki/healing-gourd) to its maximum of 10 uses, all 9 of them need to be found. All 9 can be acquired in one New Game cycle and are not missable, except when going for Shura ending. In which case, the 9th Gourd Seed, located in Fountainhead Palace, is not obtainable. Any Gourd Seeds not collected can be collected on New Game+. On New Game+, if a Gourd Seed has already been acquired, it will be replaced with a different item.
+
+1. In Ashina Outskirts, dropped by [General Naomori Kawarada](/wiki/general-naomori-kawarada). When Invasion 2 is triggered, if Kawarada was not defeated, he will disappear and his Gourd Seed will become purchasable for 2400 Sen from the [Offering Box](/wiki/offering-box) at Dilapidated Temple.
+
+2. In Ashina Outskirts, after [Chained Ogre](/wiki/chained-ogre-outskirts), in the building above, on the left, the item pick-up will be by two soldier uniforms hanging on a wall.
+
+3. In Ashina Outskirts, after [Gyoubu Oniwa](/wiki/gyoubu-oniwa), 1 Gourd Seed can be purchased for 1000 Sen from the [Battlefield Memorial Mob](/wiki/battlefield-memorial-mob).
+
+4. In Ashina Castle, in a chest by the [Castle Antechamber Idol](/wiki/sculptor-s-idol#ashina-castle).
+
+5. At Dilapidated Temple, after Genichiro is defeated, Fujioka the Info Broker will appear and sell 1 Gourd Seed for 2000 Sen.
+
+6. In Senpou Temple, after the cricket room, the item pick-up will be in front of an immortal monk.
+
+7. In Sunken Valley, after the Serpent''s Shrine, on the way towards Gunfort, take a sidepath on the left. Continue and climb up, the item pick-up will be in a corner in a wall cavity.
+
+8. In Ashina Depths, Mibu Village, the item pick-up will be in the middle at the base of a large lit up tree.
+
+9. In Fountainhead Palace, in a chest near the [Palace Grounds Idol](/wiki/sculptor-s-idol#fountainhead-palace).
+
+
+## Gourd Seed Duplication
+
+It is possible to gain infinite Gourd Seeds by exploiting a glitch with the Reflections of Strength. The [Offering Box](/wiki/offering-box), where normally up to 1 Gourd Seed can be bought from, exists during Reflections and Gauntlets. In this state, the Offering Box doesn''t have the flags for disabling items that have already been acquired or purchased, letting you purchase all of the items that it can possible sell, even if they have already been acquired.
+
+By entering Demon of Hatred or Sword Saint Reflection, which take place during the Invasion 2 world state, and navigating to Dilapidated Temple, you are able to purchase 1 Gourd Seed from the Offering Box for 2400 Sen. When you exit the Reflection, the Sen will be refunded, but the Gourd Seed will stay in your inventory. Note: it is not possible to upgrade the Healing Gourd above the intended 10 maximum uses.',4,2,'2026-11-13 20:47:07.661340','',NULL,'edit','{"side":"right","width":"md","blocks":[{"type":"title","text":"Gourd Seed","subtitle":"key item","align":"center","size":"md"},{"type":"image","src":"","alt":"","caption":"","height":"sm","fit":"contain"},{"type":"text","text":"Short description of the item.","align":"left","size":"sm"}]}');
+INSERT INTO "wiki_revisions" VALUES(120,40,'Snap Seed','## Snap Seed
+A Snap Seed is a Consumable Quick Item that on use can break illusions.
+
+## Acquisition
+### Ashina Depths
+3x can be picked up in the Hidden Forest above the Headless miniboss when heading towards Mist Noble.
+### Sunken Valley
+1x can be picked up next to the Toxic Memorial Mob.
+3x can be picked up at the Gunfort ontop of the wooden battlements before the cave leading to [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe).
+### Hirata Estate
+1x can be acquired by talking to the NPC before Lady Butterfly.
+
+## Strategies
+Used in [Corrupted Monk Cheese](wiki/corrupted-monk-cheese).',4,2,'2026-11-13 20:54:40.688090','',NULL,'edit',NULL);
+INSERT INTO "wiki_revisions" VALUES(121,80,'Heavy Coin Purse','## Heavy Coin Purse
+Heavy Coin Purse is a Consumable Quick Item that gives 500 [Sen](/wiki/sen) on use. [Light Coin Purses](/wiki/light-coin-purse), Heavy Coin Purses and [Bulging Coin Purses](/wiki/bulging-coin-purse) serve as a way to store Sen so that it is not lost upon death. They can be found around the map or purchased from many merchants at a 10% markup.',4,2,'2026-11-13 20:57:58.281297','',NULL,'edit',NULL);
+INSERT INTO "wiki_revisions" VALUES(122,142,'Gamefowl','## Gamefowl
+The Gamefowl, also called Chicken or Rooster, is a type of enemy that appears in Hirata Estate, Ashina Outskirts and Ashina Depths. There are a total of 18 Gamefowl in the game.
+
+## Enemy Placement
+### Hirata Estate
+A group of 5 Gamefowl can be encountered in the early part of Hirata Estate in the walled in part across from where the Axe prosthetic can be found.
+
+### Ashina Outskirts
+There are 4 Gamefowl in Ashina Outskirts. They appear in the Morning and disappear after Invasion 2.
+
+1 can be encountered before [General Naomori Kawarada](/wiki/general-naomori-kawarada).
+2 can be encountered behind the house, where you get the [Young Lord''s Bell Charm](/wiki/young-lord-s-bell-charm).
+1 can be encountered before the [Outskirts Wall - Stairway](/wiki/sculptor-s-idol#ashina-outskirts) Idol.
+
+### Ashina Depths
+There are 9 Gamefowl in Ashina Depths. 6 of them are located in the Hidden Forest and 3 are in Mibu Village.
+
+1 can be encountered in the Hidden Forest by the big tree on the left.
+1 can be encountered in the Hidden Forest on the big tree in the middle.
+1 can be encountered in the Hidden Forest high up on a platform on the right.
+1 can be encountered in the Hidden Forest on the hill by the giant Buddha statue.
+2 can be encountered in the Hidden Forest on the right path towards [Mist Noble](/wiki/mist-noble)
+1 can be encountered in Mibu Village ontop of the big house closest to the lit up tree.
+2 can be encountered in Mibu Village on the other side of the Mibu Lake by the waterfall.',4,2,'2026-11-13 21:15:16.268472','',NULL,'edit',NULL);
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
 CREATE UNIQUE INDEX ix_page_slug_redirects_old_slug ON page_slug_redirects (old_slug);
 CREATE UNIQUE INDEX ix_uploads_filename ON uploads (filename);
 CREATE UNIQUE INDEX ix_tags_slug ON tags (slug);
 CREATE UNIQUE INDEX ix_tags_source_key ON tags (source_key);
+CREATE INDEX ix_speedrun_links_src_id ON speedrun_links (src_id);
 COMMIT;
