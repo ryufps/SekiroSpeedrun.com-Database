@@ -2551,8 +2551,25 @@ The timing window for the delayed jump is generally believed to be close to fram
 For practicing this and other skips, it is recommended to use the [Practice Tools](/wiki/practice-tools) created and maintained by the community.[^1]
 
 [^1]: [Practice Tools Wiki Article by Holm](/wiki/practice-tools)
-',3,1,'2026-11-13 22:28:04.569891','pending','2026-11-13 22:28:04.568294',NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
+',3,1,'2026-11-13 22:28:04.569891','approved','2026-11-13 22:28:04.568294','2026-11-14 10:22:42.509165',1,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(59,2,'Practice Tools','## Practice Tools
+Practice Tools are used to practice more efficiently. Multiple different tools are available, all of which have different benefits.
+
+Aside from Practice Tools, it is recommended that everyone use the [Save Organizer](https://sekirospeedrun.com/wiki/1). The Save Organizer is the most important tool, so make sure to get that up and running first.
+
+- [SekiroTool by Shilkey & Lecentz](https://github.com/borgCode/SekiroTool/releases) is a feature-rich tool with a UI *(Recommended)*[^1]
+- [JohnDiSanDonato''s Practice Tool](https://github.com/veeenu/sekiro-practice-tool/releases) is a simple and beginner-friendly tool with an in-game UI.
+- [Cheat Engine](https://sekirospeedrun.com/wiki/4) gives the most customization, but lacks any real UI.
+
+
+## Support
+Practice tools are made by volunteers from the community. Some of the practice tool developers may not be updating their tools anymore. For help and questions it is best to ask in the #support channel on the [Sekiro Speedrunning Discord server](https://discord.gg/A7kWEPkKEq).
+
+## Online Ban
+Sekiro does not have a real online mode, therefore you cannot get banned. However, if you use the [Sekiro Online mod](https://www.nexusmods.com/sekiro/mods/577) with any of the Practice Tools, you will most likely get banned.
+
+[^1]: [SekiroTool is widely recommended on the Sekiro Speedrunning Discord server](https://discord.com/invite/A7kWEPkKEq)
+',1,1,'2026-11-13 22:33:51.576082','approved','2026-11-13 22:33:51.575720','2026-11-14 07:54:13.018424',2,NULL,'Practice Tools','## Practice Tools
 Practice Tools are used to practice more efficiently. Multiple different tools are available, all of which have different benefits.
 
 Aside from Practice Tools, it is recommended that everyone use the [Save Organizer](https://sekirospeedrun.com/wiki/1). The Save Organizer is the most important tool, so make sure to get that up and running first.
@@ -2569,7 +2586,7 @@ Practice tools are made by volunteers from the community. Some of the practice t
 Sekiro does not have a real online mode, therefore you cannot get banned. However, if you use the [Sekiro Online mod](https://www.nexusmods.com/sekiro/mods/577) with any of the Practice Tools, you will most likely get banned.
 
 [^1]: [SekiroTool is widely recommended on the Sekiro Speedrunning Discord server](https://discord.com/invite/A7kWEPkKEq)
-',1,1,'2026-11-13 22:33:51.576082','pending','2026-11-13 22:33:51.575720',NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
+',1,'','',NULL,NULL,NULL,NULL);
 CREATE TABLE speedrun_links (
         id INTEGER PRIMARY KEY,
         user_id INTEGER NOT NULL UNIQUE REFERENCES users(id),
@@ -2584,7 +2601,8 @@ CREATE TABLE speedrun_links (
         pbs TEXT,
         synced_at DATETIME
     );
-INSERT INTO "speedrun_links" VALUES(1,1,'j9pl7gox','Riyu','https://www.speedrun.com/users/Riyu','linked','moderator','2026-11-13 21:49:18.808688','2026-11-13 21:49:31.542448',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 281, "seconds": 2108, "date": "2024-05-15", "url": "https://www.speedrun.com/sekiro/runs/zgllok0m"}]','2026-11-13 21:49:31.551809');
+INSERT INTO "speedrun_links" VALUES(2,15,'8deek7mj','Insidioussss_','https://www.speedrun.com/users/Insidioussss_','linked','moderator','2026-11-14 10:14:05.483524','2026-11-14 10:16:15.779207',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 150, "seconds": 1923, "date": "2026-07-29", "url": "https://www.speedrun.com/sekiro/runs/ylwolqrz"}, {"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Restricted"], "platform": "PC", "place": 29, "seconds": 1291, "date": "2026-09-25", "url": "https://www.speedrun.com/sekiro/runs/ylwxx3nz"}]','2026-11-14 10:16:15.796143');
+INSERT INTO "speedrun_links" VALUES(3,1,'j9pl7gox','Riyu','https://www.speedrun.com/users/Riyu','linked','moderator','2026-11-14 10:22:31.452543','2026-11-14 10:22:49.409172',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 281, "seconds": 2108, "date": "2024-05-15", "url": "https://www.speedrun.com/sekiro/runs/zgllok0m"}]','2026-11-14 10:22:49.417260');
 CREATE TABLE tags (
         id INTEGER PRIMARY KEY,
         name VARCHAR(80) NOT NULL,
@@ -2620,6 +2638,7 @@ INSERT INTO "uploads" VALUES(2,'aa21255053a24695e551d14468bfac66.webp','post',1,
 INSERT INTO "uploads" VALUES(3,'07172fd90b9a570564ef54c9d76f86dd.webp','post',2,195470,1600,900,'2026-11-13 21:13:39.513379');
 INSERT INTO "uploads" VALUES(4,'3ccc39992eb9afd0602751c2b1590313.webp','post',2,312968,1600,900,'2026-11-13 21:13:56.300274');
 INSERT INTO "uploads" VALUES(5,'203e565aca801028d2551df6db7ab600.webp','post',2,228806,1600,900,'2026-11-13 21:14:10.170766');
+INSERT INTO "uploads" VALUES(6,'df2046c6fd1d412aa76881ecee04ffe8.webp','avatar',15,7454,256,256,'2026-11-14 10:17:44.202041');
 CREATE TABLE users (
 	id INTEGER NOT NULL, 
 	username VARCHAR(80) NOT NULL, 
@@ -2644,7 +2663,9 @@ INSERT INTO "users" VALUES(11,'Typical','','user',NULL,'2026-09-18 03:22:38.3139
 INSERT INTO "users" VALUES(12,'XiaoXiangYeYu','','user','https://files.catbox.moe/9w5ayl.jpeg','2026-09-18 09:19:46.471228',0,NULL);
 INSERT INTO "users" VALUES(13,'jvnjvn','','user',NULL,'2026-09-19 08:55:19.921610',0,NULL);
 INSERT INTO "users" VALUES(14,'SaraToga','','verified','https://cdn.discordapp.com/attachments/591316193126776848/1564745355583557783/neiro.png?ex=6ae2622c&is=6ae110ac&hm=04bdd832800471ed5045c7f1fac19cd0172797ca6c3fe824b49940d02fa64683','2026-10-27 20:58:06.223265',0,NULL);
-INSERT INTO "users" VALUES(15,'Insidioussss','','verified',NULL,'2026-10-30 09:16:18.196762',0,NULL);
+INSERT INTO "users" VALUES(15,'Insidioussss','','verified','/uploads/df2046c6fd1d412aa76881ecee04ffe8.webp','2026-10-30 09:16:18.196762',0,'An insane man, with insane plans! Primarily runs Shura Restricted and Shura Glitchless however is knowledgeable about many things Sekiro and a certified Jimmy skipper :3
+
+Pssst ask me about my Insidipede :3');
 CREATE TABLE wiki_pages (
 	id INTEGER NOT NULL, 
 	title VARCHAR(150) NOT NULL, 
@@ -2717,15 +2738,19 @@ Practice Tools are used to practice more efficiently. Multiple different tools a
 
 Aside from Practice Tools, it is recommended that everyone use the [Save Organizer](https://sekirospeedrun.com/wiki/1). The Save Organizer is the most important tool, so make sure to get that up and running first.
 
-- [SekiroTool by Shilkey & Lecentz](https://github.com/borgCode/SekiroTool/releases)
-- [JohnDiSanDonato''s Practice Tool](https://github.com/veeenu/sekiro-practice-tool/releases)
-- [Cheat Engine](https://sekirospeedrun.com/wiki/4)
+- [SekiroTool by Shilkey & Lecentz](https://github.com/borgCode/SekiroTool/releases) is a feature-rich tool with a UI *(Recommended)*[^1]
+- [JohnDiSanDonato''s Practice Tool](https://github.com/veeenu/sekiro-practice-tool/releases) is a simple and beginner-friendly tool with an in-game UI.
+- [Cheat Engine](https://sekirospeedrun.com/wiki/4) gives the most customization, but lacks any real UI.
+
 
 ## Support
 Practice tools are made by volunteers from the community. Some of the practice tool developers may not be updating their tools anymore. For help and questions it is best to ask in the #support channel on the [Sekiro Speedrunning Discord server](https://discord.gg/A7kWEPkKEq).
 
 ## Online Ban
-Sekiro does not have a real online mode, therefore you cannot get banned. However, if you use the [Sekiro Online mod](https://www.nexusmods.com/sekiro/mods/577) with any of the Practice Tools, you will most likely get banned.','approved',NULL,NULL,NULL,1,2,'2026-02-22 13:03:25.682704','2026-10-27 20:01:36.900678','practice-tools',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
+Sekiro does not have a real online mode, therefore you cannot get banned. However, if you use the [Sekiro Online mod](https://www.nexusmods.com/sekiro/mods/577) with any of the Practice Tools, you will most likely get banned.
+
+[^1]: [SekiroTool is widely recommended on the Sekiro Speedrunning Discord server](https://discord.com/invite/A7kWEPkKEq)
+','approved',NULL,NULL,NULL,1,2,'2026-02-22 13:03:25.682704','2026-11-14 07:54:13.015390','practice-tools',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(3,'Inside Ako (Mikiri) Armored Warrior','## Inside Ako (Mikiri) Armored Warrior
 
 Inside Ako Mikiri Armored Warrior, also known as Mikiri Roberto, involves using the Ako inside Armored Warrior''s arena right in front of him to buff up while simultaneously triggering his AI to start up an attack. This saves time over buffing outside, as normally you need to wait a moment for his AI to properly respond to you being there. Mikiri is used as a key part of the strategy because a Thrust attack can be baited out consistently every time with this approach.
@@ -3243,7 +3268,14 @@ Video Tutorial:
 ## Double Canyon Skip
 Double Canyon usually refers to doing both Canyon Skips back to back, but sometimes is also used to refer to just the first Canyon Skip.
 
-The timing window for the delayed jump is generally believed to be close to frame perfect.','approved',NULL,NULL,NULL,3,2,'2026-03-15 06:08:20.988320','2026-03-15 08:24:21.904992','canyon-skip',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
+The timing window for the delayed jump is generally believed to be close to frame perfect.
+
+## Practicing
+
+For practicing this and other skips, it is recommended to use the [Practice Tools](/wiki/practice-tools) created and maintained by the community.[^1]
+
+[^1]: [Practice Tools Wiki Article by Holm](/wiki/practice-tools)
+','approved',NULL,NULL,NULL,3,2,'2026-03-15 06:08:20.988320','2026-11-14 10:22:42.506395','canyon-skip',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(19,'Gourd Seed','## Gourd Seed
 
 A Gourd Seed is a Key Item that can be given to Emma to upgrade the [Healing Gourd](/wiki/healing-gourd). Each Gourd Seed given increases the Healing Gourd''s number of uses by 1, up to a maximum of 10.
@@ -7900,6 +7932,34 @@ There are 9 Gamefowl in Ashina Depths. 6 of them are located in the Hidden Fores
 2 can be encountered in the Hidden Forest on the right path towards [Mist Noble](/wiki/mist-noble)
 1 can be encountered in Mibu Village ontop of the big house closest to the lit up tree.
 2 can be encountered in Mibu Village on the other side of the Mibu Lake by the waterfall.',4,2,'2026-11-13 21:15:16.268472','',NULL,'edit',NULL);
+INSERT INTO "wiki_revisions" VALUES(123,2,'Practice Tools','## Practice Tools
+Practice Tools are used to practice more efficiently. Multiple different tools are available, all of which have different benefits.
+
+Aside from Practice Tools, it is recommended that everyone use the [Save Organizer](https://sekirospeedrun.com/wiki/1). The Save Organizer is the most important tool, so make sure to get that up and running first.
+
+- [SekiroTool by Shilkey & Lecentz](https://github.com/borgCode/SekiroTool/releases)
+- [JohnDiSanDonato''s Practice Tool](https://github.com/veeenu/sekiro-practice-tool/releases)
+- [Cheat Engine](https://sekirospeedrun.com/wiki/4)
+
+## Support
+Practice tools are made by volunteers from the community. Some of the practice tool developers may not be updating their tools anymore. For help and questions it is best to ask in the #support channel on the [Sekiro Speedrunning Discord server](https://discord.gg/A7kWEPkKEq).
+
+## Online Ban
+Sekiro does not have a real online mode, therefore you cannot get banned. However, if you use the [Sekiro Online mod](https://www.nexusmods.com/sekiro/mods/577) with any of the Practice Tools, you will most likely get banned.',1,1,'2026-11-14 07:54:13.016500','',NULL,'edit',NULL);
+INSERT INTO "wiki_revisions" VALUES(124,18,'Canyon Skip','## Canyon Skip
+Not to be confused with Snake Skip. Canyon Skip refers to two possible skips that are performed in the canyon area of Ashina Outskirts where the Great Serpent is encountered for the first time.
+
+## Single Canyon Skip
+Also known as Baby Canyon.
+
+Video Tutorial: 
+[youtube]Q9Tzs5RVvSY[/youtube]
+
+
+## Double Canyon Skip
+Double Canyon usually refers to doing both Canyon Skips back to back, but sometimes is also used to refer to just the first Canyon Skip.
+
+The timing window for the delayed jump is generally believed to be close to frame perfect.',3,1,'2026-11-14 10:22:42.507184','',NULL,'edit',NULL);
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
 CREATE UNIQUE INDEX ix_page_slug_redirects_old_slug ON page_slug_redirects (old_slug);
