@@ -2587,6 +2587,94 @@ Sekiro does not have a real online mode, therefore you cannot get banned. Howeve
 
 [^1]: [SekiroTool is widely recommended on the Sekiro Speedrunning Discord server](https://discord.com/invite/A7kWEPkKEq)
 ',1,'','',NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(60,87,'Boss','## Boss
+A Boss is generally defined as an enemy with an on-screen Boss health that is embedded in the HUD.
+
+## Memory Boss
+### List of Memory Boss Encounters
+There are 14 Memory Boss Encounters. Note: the Emma Isshin encounter in the final bossfight of the Shura Ending can''t be done on the same NG Cycle as the other 13.
+
+* [Gyoubu Oniwa](/wiki/gyoubu-oniwa)
+* [Lady Butterfly](/wiki/lady-butterfly)
+* Genichiro Ashina
+* Folding Screen Monkeys
+* [Guardian Ape](/wiki/guardian-ape)
+* Headless Ape
+* Corrupted Monk
+* True Corrupted Monk
+* Owl - Great Shinobi
+* Owl (Father)
+* [Divine Dragon](/wiki/divine-dragon)
+* Genichiro, Way of Tomoe & Isshin, the Sword Saint
+* [Demon of Hatred](/wiki/demon-of-hatred)
+* Emma, the Gentle Blade & Isshin Ashina
+
+
+## Miniboss
+A Miniboss is characterized by its smaller version of the on-screen Boss healthbar.
+
+### List of Miniboss Encounters
+There are 37 Miniboss encounters.
+* [Leader Shigenori Yamauchi](/wiki/leader-shigenori-yamauchi)
+* [General Naomori Kawarada](/wiki/general-naomori-kawarada)
+* [Chained Ogre (Outskirts)](/wiki/chained-ogre-outskirts)
+* [Blazing Bull](/wiki/blazing-bull)
+* Lone Shadow Longswordsman
+* [Snake Eyes Shirahagi](/wiki/snake-eyes-shirahagi)
+* [Mist Noble](/wiki/mist-noble)
+* Shichimen (Abandoned Dungeon)
+* [Armored Warrior](/wiki/armored-warrior)
+* Ashina Elite Jinsuke Saze
+* General Kuranosuke Matsumoto
+* [Snake Eyes Shirafuji](/wiki/snake-eyes-shirafuji)
+* [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe)
+* Seven Ashina Spears - Shikibu Toshikatsu Yamauchi
+* Okami Leader Shizu
+* [Headless (Yashariku)](/wiki/headless-yashariku)
+* Sakura Bull of the Palace
+* [General Tenzen Yamauchi](/wiki/general-tenzen-yamauchi)
+* [Headless (Ako)](/wiki/headless-ako)
+* [Headless (Ungo)](/wiki/headless-ungo)
+* Lone Shadow Masanaga the Spear-Bearer (Serpent’s Shrine)
+* [Headless (Gokan)](/wiki/headless-gokan)
+* [Shigekichi of the Red Guard](/wiki/shigekichi-of-the-red-guard)
+* Shinobi Hunter Enshin of Misen
+* Juzou the Drunkard (Hirata 1)
+* Long-arm Centipede Sen’un
+* Lone Shadow Masanaga the Spear-Bearer (Hirata 2)
+* Juzou the Drunkard (Hirata 2)
+* Ashina Elite Ujinari Mizuo
+* [Lone Shadow Vilehand](/wiki/lone-shadow-vilehand)
+* Chained Ogre (Ashina Castle)
+* Seven Ashina Spears - Shume Masaji Oniwa
+* O’Rin of the Water
+* [Headless (Gachiin)](/wiki/headless-gachiin)
+* [Tokujiro the Glutton](/wiki/tokujiro-the-glutton)
+* Shichimen (Ape’s Burrow)
+* Shichimen (Fountainhead)
+
+## Misc Bosses
+* Tutorial Genichiro
+* Great Serpent
+* Great Colored Carp',4,2,'2026-11-15 09:33:26.449798','approved','2026-11-15 09:33:26.448504','2026-11-15 09:34:01.015072',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(61,2,'Practice Tools','## Practice Tools
+Practice Tools are used to practice more efficiently. Multiple different tools are available, all of which have different benefits.
+
+Aside from Practice Tools, it is recommended that everyone use the [Save Organizer](https://sekirospeedrun.com/wiki/1). The Save Organizer is the most important tool, so make sure to get that up and running first.
+
+- [SekiroTool by Shilkey & Lecentz](https://github.com/borgCode/SekiroTool/releases) is a feature-rich tool with a UI *(Recommended)*[^1]
+- [JohnDiSanDonato''s Practice Tool](https://github.com/veeenu/sekiro-practice-tool/releases) is a simple and beginner-friendly tool with an in-game UI.
+- [Cheat Engine](https://sekirospeedrun.com/wiki/4) gives the most customization, but takes time to learn how to use.
+
+
+## Support
+Practice tools are made by volunteers from the community. Some of the practice tool developers may not be updating their tools anymore. For help and questions it is best to ask in the #support channel on the [Sekiro Speedrunning Discord server](https://discord.gg/A7kWEPkKEq).
+
+## Online Ban
+Sekiro does not have a real online mode, therefore you cannot get banned. However, if you use the [Sekiro Online mod](https://www.nexusmods.com/sekiro/mods/577) with any of the Practice Tools, you will most likely get banned.
+
+[^1]: [SekiroTool is widely recommended on the Sekiro Speedrunning Discord server](https://discord.com/invite/A7kWEPkKEq)
+',1,2,'2026-11-15 09:36:17.667537','approved','2026-11-15 09:36:17.667175','2026-11-15 09:36:27.495325',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 CREATE TABLE speedrun_links (
         id INTEGER PRIMARY KEY,
         user_id INTEGER NOT NULL UNIQUE REFERENCES users(id),
@@ -2601,8 +2689,8 @@ CREATE TABLE speedrun_links (
         pbs TEXT,
         synced_at DATETIME
     );
-INSERT INTO "speedrun_links" VALUES(2,15,'8deek7mj','Insidioussss_','https://www.speedrun.com/users/Insidioussss_','linked','moderator','2026-11-14 10:14:05.483524','2026-11-14 10:16:15.779207',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 150, "seconds": 1923, "date": "2026-07-29", "url": "https://www.speedrun.com/sekiro/runs/ylwolqrz"}, {"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Restricted"], "platform": "PC", "place": 29, "seconds": 1291, "date": "2026-09-25", "url": "https://www.speedrun.com/sekiro/runs/ylwxx3nz"}]','2026-11-14 10:16:15.796143');
-INSERT INTO "speedrun_links" VALUES(3,1,'j9pl7gox','Riyu','https://www.speedrun.com/users/Riyu','linked','moderator','2026-11-14 10:22:31.452543','2026-11-14 10:22:49.409172',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 281, "seconds": 2108, "date": "2024-05-15", "url": "https://www.speedrun.com/sekiro/runs/zgllok0m"}]','2026-11-14 10:22:49.417260');
+INSERT INTO "speedrun_links" VALUES(2,15,'8deek7mj','Insidioussss_','https://www.speedrun.com/users/Insidioussss_','linked','moderator','2026-11-14 10:14:05.483524','2026-11-14 10:16:15.779207',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 150, "seconds": 1923, "date": "2026-07-29", "url": "https://www.speedrun.com/sekiro/runs/ylwolqrz"}, {"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Restricted"], "platform": "PC", "place": 29, "seconds": 1291, "date": "2026-09-25", "url": "https://www.speedrun.com/sekiro/runs/ylwxx3nz"}]','2026-11-15 14:59:38.643827');
+INSERT INTO "speedrun_links" VALUES(3,1,'j9pl7gox','Riyu','https://www.speedrun.com/users/Riyu','linked','moderator','2026-11-14 10:22:31.452543','2026-11-14 10:22:49.409172',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 281, "seconds": 2108, "date": "2024-05-15", "url": "https://www.speedrun.com/sekiro/runs/zgllok0m"}]','2026-11-15 12:36:28.467833');
 CREATE TABLE tags (
         id INTEGER PRIMARY KEY,
         name VARCHAR(80) NOT NULL,
@@ -2740,7 +2828,7 @@ Aside from Practice Tools, it is recommended that everyone use the [Save Organiz
 
 - [SekiroTool by Shilkey & Lecentz](https://github.com/borgCode/SekiroTool/releases) is a feature-rich tool with a UI *(Recommended)*[^1]
 - [JohnDiSanDonato''s Practice Tool](https://github.com/veeenu/sekiro-practice-tool/releases) is a simple and beginner-friendly tool with an in-game UI.
-- [Cheat Engine](https://sekirospeedrun.com/wiki/4) gives the most customization, but lacks any real UI.
+- [Cheat Engine](https://sekirospeedrun.com/wiki/4) gives the most customization, but takes time to learn how to use.
 
 
 ## Support
@@ -2750,7 +2838,7 @@ Practice tools are made by volunteers from the community. Some of the practice t
 Sekiro does not have a real online mode, therefore you cannot get banned. However, if you use the [Sekiro Online mod](https://www.nexusmods.com/sekiro/mods/577) with any of the Practice Tools, you will most likely get banned.
 
 [^1]: [SekiroTool is widely recommended on the Sekiro Speedrunning Discord server](https://discord.com/invite/A7kWEPkKEq)
-','approved',NULL,NULL,NULL,1,2,'2026-02-22 13:03:25.682704','2026-11-14 07:54:13.015390','practice-tools',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
+','approved',NULL,NULL,NULL,1,2,'2026-02-22 13:03:25.682704','2026-11-15 09:36:27.493150','practice-tools',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(3,'Inside Ako (Mikiri) Armored Warrior','## Inside Ako (Mikiri) Armored Warrior
 
 Inside Ako Mikiri Armored Warrior, also known as Mikiri Roberto, involves using the Ako inside Armored Warrior''s arena right in front of him to buff up while simultaneously triggering his AI to start up an attack. This saves time over buffing outside, as normally you need to wait a moment for his AI to properly respond to you being there. Mikiri is used as a key part of the strategy because a Thrust attack can be baited out consistently every time with this approach.
@@ -3869,20 +3957,22 @@ A Boss is generally defined as an enemy with an on-screen Boss health that is em
 ## Memory Boss
 ### List of Memory Boss Encounters
 There are 14 Memory Boss Encounters. Note: the Emma Isshin encounter in the final bossfight of the Shura Ending can''t be done on the same NG Cycle as the other 13.
+
 * [Gyoubu Oniwa](/wiki/gyoubu-oniwa)
-* Lady Butterfly
+* [Lady Butterfly](/wiki/lady-butterfly)
 * Genichiro Ashina
 * Folding Screen Monkeys
 * [Guardian Ape](/wiki/guardian-ape)
 * Headless Ape
 * Corrupted Monk
 * True Corrupted Monk
-* Great Shinobi Owl
+* Owl - Great Shinobi
 * Owl (Father)
 * [Divine Dragon](/wiki/divine-dragon)
 * Genichiro, Way of Tomoe & Isshin, the Sword Saint
 * [Demon of Hatred](/wiki/demon-of-hatred)
 * Emma, the Gentle Blade & Isshin Ashina
+
 
 ## Miniboss
 A Miniboss is characterized by its smaller version of the on-screen Boss healthbar.
@@ -3930,7 +4020,7 @@ There are 37 Miniboss encounters.
 ## Misc Bosses
 * Tutorial Genichiro
 * Great Serpent
-* Great Colored Carp','approved',NULL,NULL,NULL,4,2,'2026-10-03 11:02:07.437714','2026-10-27 18:56:49.434386','boss','2026-10-03 11:02:07.435847','2026-10-04 05:54:49.361038',2,NULL,'Boss','## Boss
+* Great Colored Carp','approved',NULL,NULL,NULL,4,2,'2026-10-03 11:02:07.437714','2026-11-15 09:34:01.014339','boss','2026-10-03 11:02:07.435847','2026-10-04 05:54:49.361038',2,NULL,'Boss','## Boss
 A Boss is generally defined as an enemy with an on-screen Boss health that is embedded in the HUD.
 
 ## Memory Boss
@@ -4275,6 +4365,9 @@ INSERT INTO "wiki_pages" VALUES(180,'Crow''s Bed Memorial Mob','## Crow''s Bed M
 The Crow''s Bed Memorial Mob is a merchant that appears in Ashina Outskirts.','approved',NULL,NULL,NULL,4,2,'2026-11-01 19:32:43.344688','2026-11-01 19:32:52.278919','crow-s-bed-memorial-mob','2026-11-01 19:32:43.344269','2026-11-01 19:32:52.278571',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(181,'Spear Adept','## Spear Adept
 The Spear Adept, also known as Straw Hat Monk, is an enemy that appears in Senpou Temple, Mt. Kongo.','approved',NULL,NULL,NULL,4,2,'2026-11-02 13:26:20.585710','2026-11-02 13:26:25.249282','spear-adept','2026-11-02 13:26:20.585279','2026-11-02 13:26:25.248815',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO "wiki_pages" VALUES(182,'Lady Butterfly','## Lady Butterfly
+
+Lady Butterfly is a Boss that appears in Hirata Estate.','approved',NULL,NULL,NULL,4,2,'2026-11-15 09:32:51.157324','2026-11-15 09:33:01.717788','lady-butterfly','2026-11-15 09:32:51.153422','2026-11-15 09:33:01.715143',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 CREATE TABLE wiki_revisions (
 	id INTEGER NOT NULL, 
 	page_id INTEGER, 
@@ -7960,6 +8053,92 @@ Video Tutorial:
 Double Canyon usually refers to doing both Canyon Skips back to back, but sometimes is also used to refer to just the first Canyon Skip.
 
 The timing window for the delayed jump is generally believed to be close to frame perfect.',3,1,'2026-11-14 10:22:42.507184','',NULL,'edit',NULL);
+INSERT INTO "wiki_revisions" VALUES(125,87,'Boss','## Boss
+A Boss is generally defined as an enemy with an on-screen Boss health that is embedded in the HUD.
+
+## Memory Boss
+### List of Memory Boss Encounters
+There are 14 Memory Boss Encounters. Note: the Emma Isshin encounter in the final bossfight of the Shura Ending can''t be done on the same NG Cycle as the other 13.
+* [Gyoubu Oniwa](/wiki/gyoubu-oniwa)
+* Lady Butterfly
+* Genichiro Ashina
+* Folding Screen Monkeys
+* [Guardian Ape](/wiki/guardian-ape)
+* Headless Ape
+* Corrupted Monk
+* True Corrupted Monk
+* Great Shinobi Owl
+* Owl (Father)
+* [Divine Dragon](/wiki/divine-dragon)
+* Genichiro, Way of Tomoe & Isshin, the Sword Saint
+* [Demon of Hatred](/wiki/demon-of-hatred)
+* Emma, the Gentle Blade & Isshin Ashina
+
+## Miniboss
+A Miniboss is characterized by its smaller version of the on-screen Boss healthbar.
+
+### List of Miniboss Encounters
+There are 37 Miniboss encounters.
+* [Leader Shigenori Yamauchi](/wiki/leader-shigenori-yamauchi)
+* [General Naomori Kawarada](/wiki/general-naomori-kawarada)
+* [Chained Ogre (Outskirts)](/wiki/chained-ogre-outskirts)
+* [Blazing Bull](/wiki/blazing-bull)
+* Lone Shadow Longswordsman
+* [Snake Eyes Shirahagi](/wiki/snake-eyes-shirahagi)
+* [Mist Noble](/wiki/mist-noble)
+* Shichimen (Abandoned Dungeon)
+* [Armored Warrior](/wiki/armored-warrior)
+* Ashina Elite Jinsuke Saze
+* General Kuranosuke Matsumoto
+* [Snake Eyes Shirafuji](/wiki/snake-eyes-shirafuji)
+* [Long-arm Centipede Giraffe](/wiki/long-arm-centipede-giraffe)
+* Seven Ashina Spears - Shikibu Toshikatsu Yamauchi
+* Okami Leader Shizu
+* [Headless (Yashariku)](/wiki/headless-yashariku)
+* Sakura Bull of the Palace
+* [General Tenzen Yamauchi](/wiki/general-tenzen-yamauchi)
+* [Headless (Ako)](/wiki/headless-ako)
+* [Headless (Ungo)](/wiki/headless-ungo)
+* Lone Shadow Masanaga the Spear-Bearer (Serpent’s Shrine)
+* [Headless (Gokan)](/wiki/headless-gokan)
+* [Shigekichi of the Red Guard](/wiki/shigekichi-of-the-red-guard)
+* Shinobi Hunter Enshin of Misen
+* Juzou the Drunkard (Hirata 1)
+* Long-arm Centipede Sen’un
+* Lone Shadow Masanaga the Spear-Bearer (Hirata 2)
+* Juzou the Drunkard (Hirata 2)
+* Ashina Elite Ujinari Mizuo
+* [Lone Shadow Vilehand](/wiki/lone-shadow-vilehand)
+* Chained Ogre (Ashina Castle)
+* Seven Ashina Spears - Shume Masaji Oniwa
+* O’Rin of the Water
+* [Headless (Gachiin)](/wiki/headless-gachiin)
+* [Tokujiro the Glutton](/wiki/tokujiro-the-glutton)
+* Shichimen (Ape’s Burrow)
+* Shichimen (Fountainhead)
+
+## Misc Bosses
+* Tutorial Genichiro
+* Great Serpent
+* Great Colored Carp',4,2,'2026-11-15 09:34:01.014563','',NULL,'edit',NULL);
+INSERT INTO "wiki_revisions" VALUES(126,2,'Practice Tools','## Practice Tools
+Practice Tools are used to practice more efficiently. Multiple different tools are available, all of which have different benefits.
+
+Aside from Practice Tools, it is recommended that everyone use the [Save Organizer](https://sekirospeedrun.com/wiki/1). The Save Organizer is the most important tool, so make sure to get that up and running first.
+
+- [SekiroTool by Shilkey & Lecentz](https://github.com/borgCode/SekiroTool/releases) is a feature-rich tool with a UI *(Recommended)*[^1]
+- [JohnDiSanDonato''s Practice Tool](https://github.com/veeenu/sekiro-practice-tool/releases) is a simple and beginner-friendly tool with an in-game UI.
+- [Cheat Engine](https://sekirospeedrun.com/wiki/4) gives the most customization, but lacks any real UI.
+
+
+## Support
+Practice tools are made by volunteers from the community. Some of the practice tool developers may not be updating their tools anymore. For help and questions it is best to ask in the #support channel on the [Sekiro Speedrunning Discord server](https://discord.gg/A7kWEPkKEq).
+
+## Online Ban
+Sekiro does not have a real online mode, therefore you cannot get banned. However, if you use the [Sekiro Online mod](https://www.nexusmods.com/sekiro/mods/577) with any of the Practice Tools, you will most likely get banned.
+
+[^1]: [SekiroTool is widely recommended on the Sekiro Speedrunning Discord server](https://discord.com/invite/A7kWEPkKEq)
+',1,2,'2026-11-15 09:36:27.493854','',NULL,'edit',NULL);
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
 CREATE UNIQUE INDEX ix_page_slug_redirects_old_slug ON page_slug_redirects (old_slug);
