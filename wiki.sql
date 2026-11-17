@@ -2675,6 +2675,36 @@ Sekiro does not have a real online mode, therefore you cannot get banned. Howeve
 
 [^1]: [SekiroTool is widely recommended on the Sekiro Speedrunning Discord server](https://discord.com/invite/A7kWEPkKEq)
 ',1,2,'2026-11-15 09:36:17.667537','approved','2026-11-15 09:36:17.667175','2026-11-15 09:36:27.495325',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
+INSERT INTO "pending_edits" VALUES(62,16,'Mitchriz','## Mitchriz
+Mitchriz is a speedrun content creator with a focus on Sekiro, Elden Ring and Lies of P.',2,2,'2026-11-16 09:35:51.379196','approved','2026-11-16 09:35:51.377498','2026-11-16 09:37:14.838044',2,NULL,NULL,NULL,NULL,'',NULL,'https://static-cdn.jtvnw.net/jtv_user_pictures/6b2c8d23-e4fd-493c-b21c-b675b0523a2b-profile_image-70x70.png',NULL,'{"side":"right","width":"md","blocks":[{"type":"title","text":"Mitchriz","subtitle":"","align":"center","size":"md"},{"type":"image","src":"https://i.ytimg.com/vi/OEKafeBoxxI/maxresdefault.jpg","alt":"https://www.google.com/imgres?q=mitchriz%20sekiro%20games%20done%20quick&imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FOEKafeBoxxI%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DO","caption":"Mitchriz at GamesDoneQuick 2025","height":"sm","fit":"cover"},{"type":"rows","rows":[{"label":"Country","value":"United States","icon":""}],"label_width":"md","striped":false},{"type":"link","text":"Twitch.tv","url":"https://www.twitch.tv/mitchriz","style":"button"},{"type":"link","text":"YouTube","url":"https://www.youtube.com/c/Mitchriz","style":"button"},{"type":"link","text":"Speedrun.com","url":"https://www.speedrun.com/users/Mitchriz","style":"button"}]}',NULL);
+INSERT INTO "pending_edits" VALUES(63,3,'Inside Ako (Mikiri) Armored Warrior','## Inside Ako (Mikiri) Armored Warrior
+
+Inside Ako Mikiri Armored Warrior, also known as Mikiri Roberto, involves using the Ako inside Armored Warrior''s arena right in front of him to buff up while simultaneously triggering his AI to start up an attack. This saves time over buffing outside, as normally you need to wait a moment for his AI to properly respond to you being there. Mikiri is used as a key part of the strategy because a Thrust attack can be baited out consistently every time with this approach.
+
+There are 6 possible patterns that Armored Warrior, assuming that the Ako is used in the right spot.![roberto_ako_inside_mikiri_strat_flowchart](/uploads/f92b95db53c8b402dc934a6f75a4a634.webp){: .w-45 .img-border}Low Horizontal Swing Opener (Low Swing)
+
+[youtube]BLwCjllSccQ[/youtube]
+
+High Horizontal Swing Opener (High Swing)
+[youtube]x26PGCo3vO0[/youtube]
+
+Shove Opener
+[youtube]2jzlJzo1k88[/youtube]
+
+Overhead into High Swing Opener
+[youtube]g31ny_JvpDE[/youtube]
+
+Overhead into Low Swing Opener (no footage sorry :c)
+
+
+Overhead into Shove Opener
+[youtube]uaerk17R2yk[/youtube]
+
+
+### 7-Hit Variation
+A faster but riskier variation, where block hits (l1 into r1 on controller, or right click into left click on kbm) are used to squeeze in 7 hits instead of 6 during the Berserk start-up. By pressing block then attack Wolf will do a different attack animation. By doing the following it''s possible to squeeze in 7 as opposed to 6 hits after the mikiri: block, attack, attack, attack, attack, attack, block, attack, attack. This only works if the first attack after the Mikiri staggers Armored Warrior.
+
+This variation has the downside that it can make Armored Warrior seemingly randomly cancel his Berserk and start doing regular attacks instead, which loses a large amount of time. It is not that rare for it to happen and because you only save 1 hit worth of time by doing the 7-hit variation, it generally does not save time that consistently, but may be useful if the timesave is absolutely required.',3,1,'2026-11-17 02:44:45.926436','approved','2026-11-17 02:44:45.925181','2026-11-17 02:45:25.228925',1,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 CREATE TABLE speedrun_links (
         id INTEGER PRIMARY KEY,
         user_id INTEGER NOT NULL UNIQUE REFERENCES users(id),
@@ -2689,8 +2719,8 @@ CREATE TABLE speedrun_links (
         pbs TEXT,
         synced_at DATETIME
     );
-INSERT INTO "speedrun_links" VALUES(2,15,'8deek7mj','Insidioussss_','https://www.speedrun.com/users/Insidioussss_','linked','moderator','2026-11-14 10:14:05.483524','2026-11-14 10:16:15.779207',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 150, "seconds": 1923, "date": "2026-07-29", "url": "https://www.speedrun.com/sekiro/runs/ylwolqrz"}, {"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Restricted"], "platform": "PC", "place": 29, "seconds": 1291, "date": "2026-09-25", "url": "https://www.speedrun.com/sekiro/runs/ylwxx3nz"}]','2026-11-15 14:59:38.643827');
-INSERT INTO "speedrun_links" VALUES(3,1,'j9pl7gox','Riyu','https://www.speedrun.com/users/Riyu','linked','moderator','2026-11-14 10:22:31.452543','2026-11-14 10:22:49.409172',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 281, "seconds": 2108, "date": "2024-05-15", "url": "https://www.speedrun.com/sekiro/runs/zgllok0m"}]','2026-11-15 12:36:28.467833');
+INSERT INTO "speedrun_links" VALUES(2,15,'8deek7mj','Insidioussss_','https://www.speedrun.com/users/Insidioussss_','linked','moderator','2026-11-14 10:14:05.483524','2026-11-14 10:16:15.779207',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 150, "seconds": 1923, "date": "2026-07-29", "url": "https://www.speedrun.com/sekiro/runs/ylwolqrz"}, {"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Restricted"], "platform": "PC", "place": 29, "seconds": 1291, "date": "2026-09-25", "url": "https://www.speedrun.com/sekiro/runs/ylwxx3nz"}]','2026-11-16 22:10:29.447678');
+INSERT INTO "speedrun_links" VALUES(3,1,'j9pl7gox','Riyu','https://www.speedrun.com/users/Riyu','linked','moderator','2026-11-14 10:22:31.452543','2026-11-14 10:22:49.409172',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 281, "seconds": 2108, "date": "2024-05-15", "url": "https://www.speedrun.com/sekiro/runs/zgllok0m"}]','2026-11-17 02:43:23.184360');
 CREATE TABLE tags (
         id INTEGER PRIMARY KEY,
         name VARCHAR(80) NOT NULL,
@@ -2699,18 +2729,18 @@ CREATE TABLE tags (
         position INTEGER NOT NULL DEFAULT 0,
         source_key VARCHAR(64),
         created_at DATETIME
-    );
-INSERT INTO "tags" VALUES(1,'Shura','shura','category',1,'category:w20vw6zk','2026-11-12 05:06:36.397989');
-INSERT INTO "tags" VALUES(2,'Immortal Severance','immortal-severance','category',2,'category:vdomxnv2','2026-11-12 05:06:36.398252');
-INSERT INTO "tags" VALUES(3,'All Memories','all-memories','category',3,'category:wkpm0rwk','2026-11-12 05:06:36.398332');
-INSERT INTO "tags" VALUES(4,'All Bosses/Minibosses','all-bosses-minibosses','category',4,'category:zd3xpg8d','2026-11-12 05:06:36.398391');
-INSERT INTO "tags" VALUES(5,'All Memories & Prayer Beads','all-memories-and-prayer-beads','category',5,'category:zdnxnen2','2026-11-12 05:06:36.398449');
-INSERT INTO "tags" VALUES(6,'All Achievements','all-achievements','category',6,'category:jdz6g8r2','2026-11-12 05:06:36.398501');
-INSERT INTO "tags" VALUES(7,'Mortal Journey Gauntlet','mortal-journey-gauntlet','category',7,'category:ndx5omok','2026-11-12 05:06:36.398550');
-INSERT INTO "tags" VALUES(8,'Unrestricted','unrestricted','ruleset',1,'ruleset:unrestricted','2026-11-12 05:06:36.398599');
-INSERT INTO "tags" VALUES(9,'Restricted','restricted','ruleset',2,'ruleset:restricted','2026-11-12 05:06:36.398665');
-INSERT INTO "tags" VALUES(10,'No Airswim','no-airswim','ruleset',3,'ruleset:no-airswim','2026-11-12 05:06:36.398717');
-INSERT INTO "tags" VALUES(11,'Glitchless','glitchless','ruleset',4,'ruleset:glitchless','2026-11-12 05:06:36.398764');
+    , ruleset_keys TEXT);
+INSERT INTO "tags" VALUES(1,'Shura','shura','category',1,'category:w20vw6zk','2026-11-12 05:06:36.397989','ruleset:unrestricted,ruleset:restricted,ruleset:no-airswim,ruleset:glitchless');
+INSERT INTO "tags" VALUES(2,'Immortal Severance','immortal-severance','category',2,'category:vdomxnv2','2026-11-12 05:06:36.398252','ruleset:restricted,ruleset:no-airswim,ruleset:glitchless');
+INSERT INTO "tags" VALUES(3,'All Memories','all-memories','category',3,'category:wkpm0rwk','2026-11-12 05:06:36.398332','ruleset:unrestricted,ruleset:restricted,ruleset:glitchless');
+INSERT INTO "tags" VALUES(4,'All Bosses/Minibosses','all-bosses-minibosses','category',4,'category:zd3xpg8d','2026-11-12 05:06:36.398391','ruleset:restricted,ruleset:glitchless');
+INSERT INTO "tags" VALUES(5,'All Memories & Prayer Beads','all-memories-and-prayer-beads','category',5,'category:zdnxnen2','2026-11-12 05:06:36.398449','ruleset:unrestricted,ruleset:restricted,ruleset:glitchless');
+INSERT INTO "tags" VALUES(6,'All Achievements','all-achievements','category',6,'category:jdz6g8r2','2026-11-12 05:06:36.398501','ruleset:restricted,ruleset:glitchless');
+INSERT INTO "tags" VALUES(7,'Mortal Journey Gauntlet','mortal-journey-gauntlet','category',7,'category:ndx5omok','2026-11-12 05:06:36.398550','ruleset:restricted,ruleset:glitchless');
+INSERT INTO "tags" VALUES(8,'Unrestricted','unrestricted','ruleset',1,'ruleset:unrestricted','2026-11-12 05:06:36.398599',NULL);
+INSERT INTO "tags" VALUES(9,'Restricted','restricted','ruleset',2,'ruleset:restricted','2026-11-12 05:06:36.398665',NULL);
+INSERT INTO "tags" VALUES(10,'No Airswim','no-airswim','ruleset',3,'ruleset:no-airswim','2026-11-12 05:06:36.398717',NULL);
+INSERT INTO "tags" VALUES(11,'Glitchless','glitchless','ruleset',4,'ruleset:glitchless','2026-11-12 05:06:36.398764',NULL);
 CREATE TABLE uploads (
         id INTEGER PRIMARY KEY,
         filename VARCHAR(64) NOT NULL,
@@ -2727,6 +2757,7 @@ INSERT INTO "uploads" VALUES(3,'07172fd90b9a570564ef54c9d76f86dd.webp','post',2,
 INSERT INTO "uploads" VALUES(4,'3ccc39992eb9afd0602751c2b1590313.webp','post',2,312968,1600,900,'2026-11-13 21:13:56.300274');
 INSERT INTO "uploads" VALUES(5,'203e565aca801028d2551df6db7ab600.webp','post',2,228806,1600,900,'2026-11-13 21:14:10.170766');
 INSERT INTO "uploads" VALUES(6,'df2046c6fd1d412aa76881ecee04ffe8.webp','avatar',15,7454,256,256,'2026-11-14 10:17:44.202041');
+INSERT INTO "uploads" VALUES(7,'f92b95db53c8b402dc934a6f75a4a634.webp','post',1,18134,957,663,'2026-11-17 02:41:00.874899');
 CREATE TABLE users (
 	id INTEGER NOT NULL, 
 	username VARCHAR(80) NOT NULL, 
@@ -2843,10 +2874,8 @@ INSERT INTO "wiki_pages" VALUES(3,'Inside Ako (Mikiri) Armored Warrior','## Insi
 
 Inside Ako Mikiri Armored Warrior, also known as Mikiri Roberto, involves using the Ako inside Armored Warrior''s arena right in front of him to buff up while simultaneously triggering his AI to start up an attack. This saves time over buffing outside, as normally you need to wait a moment for his AI to properly respond to you being there. Mikiri is used as a key part of the strategy because a Thrust attack can be baited out consistently every time with this approach.
 
-There are 6 possible patterns that Armored Warrior, assuming that the Ako is used in the right spot.
-![Image Description](https://cdn.discordapp.com/attachments/552479436872613894/1476242994972852234/roberto_ako_inside_mikiri_strat_flowchart.png?ex=69a069ed&is=699f186d&hm=973a6b8e72ecd38429c5991687d1c435f538120eceb59a6008f7507c0968b778&)
+There are 6 possible patterns that Armored Warrior, assuming that the Ako is used in the right spot.![roberto_ako_inside_mikiri_strat_flowchart](/uploads/f92b95db53c8b402dc934a6f75a4a634.webp){: .w-45 .img-border}Low Horizontal Swing Opener (Low Swing)
 
-Low Horizontal Swing Opener (Low Swing)
 [youtube]BLwCjllSccQ[/youtube]
 
 High Horizontal Swing Opener (High Swing)
@@ -2868,7 +2897,7 @@ Overhead into Shove Opener
 ### 7-Hit Variation
 A faster but riskier variation, where block hits (l1 into r1 on controller, or right click into left click on kbm) are used to squeeze in 7 hits instead of 6 during the Berserk start-up. By pressing block then attack Wolf will do a different attack animation. By doing the following it''s possible to squeeze in 7 as opposed to 6 hits after the mikiri: block, attack, attack, attack, attack, attack, block, attack, attack. This only works if the first attack after the Mikiri staggers Armored Warrior.
 
-This variation has the downside that it can make Armored Warrior seemingly randomly cancel his Berserk and start doing regular attacks instead, which loses a large amount of time. It is not that rare for it to happen and because you only save 1 hit worth of time by doing the 7-hit variation, it generally does not save time that consistently, but may be useful if the timesave is absolutely required.','approved',NULL,NULL,NULL,3,2,'2026-02-24 11:56:48.776383','2026-03-11 05:14:28.356134','inside-ako-mikiri-armored-warrior',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
+This variation has the downside that it can make Armored Warrior seemingly randomly cancel his Berserk and start doing regular attacks instead, which loses a large amount of time. It is not that rare for it to happen and because you only save 1 hit worth of time by doing the 7-hit variation, it generally does not save time that consistently, but may be useful if the timesave is absolutely required.','approved',NULL,NULL,NULL,3,2,'2026-02-24 11:56:48.776383','2026-11-17 02:45:25.228186','inside-ako-mikiri-armored-warrior',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(4,'Cheat Engine','## Cheat Engine
 
 Cheat Engine, CE for short, is a tool for reading and editing game memory that gives the user a high degree of customization and freedom. Most CE users will use pre-made Cheat Tables (.ct files) that include all sorts of cheat scripts that may be useful for practicing and testing. However, experienced users will be able to use CE to create their own cheat scripts and for reverse engineering game mechanics to better understand them.
@@ -3156,7 +3185,7 @@ Video Tutorial:
 ## History
 Discovered by accident by Mommyemma77','approved',NULL,NULL,NULL,3,2,'2026-03-12 05:25:39.784618','2026-07-19 03:01:37.831834','tutorial-grapple-glitch',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(16,'Mitchriz','## Mitchriz
-Mitchriz is a speedrun content creator with a focus on Sekiro, Elden Ring and Lies of P.','approved',NULL,NULL,NULL,2,2,'2026-03-14 08:15:00.060467','2026-10-22 06:05:59.487338','mitchriz',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
+Mitchriz is a speedrun content creator with a focus on Sekiro, Elden Ring and Lies of P.','approved',NULL,NULL,NULL,2,2,'2026-03-14 08:15:00.060467','2026-11-16 09:37:14.834776','mitchriz',NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,'https://static-cdn.jtvnw.net/jtv_user_pictures/6b2c8d23-e4fd-493c-b21c-b675b0523a2b-profile_image-70x70.png',NULL,'{"side":"right","width":"md","blocks":[{"type":"title","text":"Mitchriz","subtitle":"","align":"center","size":"md"},{"type":"image","src":"https://i.ytimg.com/vi/OEKafeBoxxI/maxresdefault.jpg","alt":"https://www.google.com/imgres?q=mitchriz%20sekiro%20games%20done%20quick&imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FOEKafeBoxxI%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DO","caption":"Mitchriz at GamesDoneQuick 2025","height":"sm","fit":"cover"},{"type":"rows","rows":[{"label":"Country","value":"United States","icon":""}],"label_width":"md","striped":false},{"type":"link","text":"Twitch.tv","url":"https://www.twitch.tv/mitchriz","style":"button"},{"type":"link","text":"YouTube","url":"https://www.youtube.com/c/Mitchriz","style":"button"},{"type":"link","text":"Speedrun.com","url":"https://www.speedrun.com/users/Mitchriz","style":"button"}]}',NULL);
 INSERT INTO "wiki_pages" VALUES(17,'Sculptor''s Idol','## Sculptor''s Idol
 Sculptor''s Idols serve as checkpoints and allow the player a variety of options including to rest.
 
@@ -8139,6 +8168,38 @@ Sekiro does not have a real online mode, therefore you cannot get banned. Howeve
 
 [^1]: [SekiroTool is widely recommended on the Sekiro Speedrunning Discord server](https://discord.com/invite/A7kWEPkKEq)
 ',1,2,'2026-11-15 09:36:27.493854','',NULL,'edit',NULL);
+INSERT INTO "wiki_revisions" VALUES(127,16,'Mitchriz','## Mitchriz
+Mitchriz is a speedrun content creator with a focus on Sekiro, Elden Ring and Lies of P.',2,2,'2026-11-16 09:37:14.836016','',NULL,'edit',NULL);
+INSERT INTO "wiki_revisions" VALUES(128,3,'Inside Ako (Mikiri) Armored Warrior','## Inside Ako (Mikiri) Armored Warrior
+
+Inside Ako Mikiri Armored Warrior, also known as Mikiri Roberto, involves using the Ako inside Armored Warrior''s arena right in front of him to buff up while simultaneously triggering his AI to start up an attack. This saves time over buffing outside, as normally you need to wait a moment for his AI to properly respond to you being there. Mikiri is used as a key part of the strategy because a Thrust attack can be baited out consistently every time with this approach.
+
+There are 6 possible patterns that Armored Warrior, assuming that the Ako is used in the right spot.
+![Image Description](https://cdn.discordapp.com/attachments/552479436872613894/1476242994972852234/roberto_ako_inside_mikiri_strat_flowchart.png?ex=69a069ed&is=699f186d&hm=973a6b8e72ecd38429c5991687d1c435f538120eceb59a6008f7507c0968b778&)
+
+Low Horizontal Swing Opener (Low Swing)
+[youtube]BLwCjllSccQ[/youtube]
+
+High Horizontal Swing Opener (High Swing)
+[youtube]x26PGCo3vO0[/youtube]
+
+Shove Opener
+[youtube]2jzlJzo1k88[/youtube]
+
+Overhead into High Swing Opener
+[youtube]g31ny_JvpDE[/youtube]
+
+Overhead into Low Swing Opener (no footage sorry :c)
+
+
+Overhead into Shove Opener
+[youtube]uaerk17R2yk[/youtube]
+
+
+### 7-Hit Variation
+A faster but riskier variation, where block hits (l1 into r1 on controller, or right click into left click on kbm) are used to squeeze in 7 hits instead of 6 during the Berserk start-up. By pressing block then attack Wolf will do a different attack animation. By doing the following it''s possible to squeeze in 7 as opposed to 6 hits after the mikiri: block, attack, attack, attack, attack, attack, block, attack, attack. This only works if the first attack after the Mikiri staggers Armored Warrior.
+
+This variation has the downside that it can make Armored Warrior seemingly randomly cancel his Berserk and start doing regular attacks instead, which loses a large amount of time. It is not that rare for it to happen and because you only save 1 hit worth of time by doing the 7-hit variation, it generally does not save time that consistently, but may be useful if the timesave is absolutely required.',3,1,'2026-11-17 02:45:25.228443','',NULL,'edit',NULL);
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
 CREATE UNIQUE INDEX ix_page_slug_redirects_old_slug ON page_slug_redirects (old_slug);
