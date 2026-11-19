@@ -2707,6 +2707,178 @@ A faster but riskier variation, where block hits (l1 into r1 on controller, or r
 This variation has the downside that it can make Armored Warrior seemingly randomly cancel his Berserk and start doing regular attacks instead, which loses a large amount of time. It is not that rare for it to happen and because you only save 1 hit worth of time by doing the 7-hit variation, it generally does not save time that consistently, but may be useful if the timesave is absolutely required.',3,1,'2026-11-17 02:44:45.926436','approved','2026-11-17 02:44:45.925181','2026-11-17 02:45:25.228925',1,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "pending_edits" VALUES(64,16,'Mitchriz','## Mitchriz
 Mitchriz is a speedrun content creator with a focus on Sekiro, Elden Ring and Lies of P.',2,2,'2026-11-17 21:36:52.096516','approved','2026-11-17 21:36:52.096141','2026-11-17 21:44:46.442518',2,NULL,NULL,NULL,NULL,'',NULL,'https://static-cdn.jtvnw.net/jtv_user_pictures/6b2c8d23-e4fd-493c-b21c-b675b0523a2b-profile_image-70x70.png',NULL,'{"side":"right","width":"md","blocks":[{"type":"title","text":"Mitchriz","subtitle":"","align":"center","size":"md"},{"type":"image","src":"https://i.ytimg.com/vi/OEKafeBoxxI/maxresdefault.jpg","alt":"https://www.youtube.com/watch?v=OEKafeBoxxI","caption":"Mitchriz at GamesDoneQuick 2025","height":"sm","fit":"cover"},{"type":"rows","rows":[{"label":"Country","value":"United States","icon":""}],"label_width":"md","striped":false},{"type":"link","text":"Twitch.tv","url":"https://www.twitch.tv/mitchriz","style":"button"},{"type":"link","text":"YouTube","url":"https://www.youtube.com/c/Mitchriz","style":"button"},{"type":"link","text":"Speedrun.com","url":"https://www.speedrun.com/users/Mitchriz","style":"button"}]}',NULL);
+INSERT INTO "pending_edits" VALUES(65,183,'Dialogue Skip','## Dialogue Skip
+
+Dialogue skipping is the act of cancelling out of dialogue early with the menu button and still having it flagged as completed. Cancelling out early only works if it’s done at the right time. It is required to have **subtitles turned off in the Sound and Display settings** for this to work.
+
+The text language does not matter. Japanese voice language is recommended. Using any other voice language will lose time when picking up the Gunfort Shrine Key, which will lose time in some categories. Otherwise, there is no difference in speed.
+
+## Dialogue Mashing
+
+Recommended dialogue spamming speed is either around 3 clicks per second or 6 clicks per second. After a dialogue line is skipped, the next one can only be skipped after 0.33s (20 frames), therefore it is beneficial to have a clicks per second speed that is a multiple of 3 or thereabouts. [This site](https://cps-check.com/keyboard-cps) can be used to measure spamming speed.
+
+Some top runners will memorize the dialogue lines and listen to tell if they are pressing too early, too late or right on time, based on how much time it takes for the NPC to say certain words. This is also why some runners choose to not use Japanese, despite it potentially losing time. Because if you choose a voice language you understand, then it’s easier to memorize the lines. Even if you are not going to memorize lines, it’s a good idea to have the voice sound loud enough that you can hear what’s going on.
+
+By default you should be spamming through the lines (important). However, sometimes you need to choose an option, which may require you to stop spamming.
+
+## Dialogue Choices
+
+In some dialogue sequences there will be specific options that have to be selected. There are some strategies that can be used to save time depending on where on the list of dialogue choices the option you need is.
+
+- **If you need the top option**, you can just continue spamming because the top option will always be highlighted by default.
+
+
+- **If you need the bottom option (and the menu has 3 or less options)**, you can hold the downwards menu input to automatically select it without stopping spamming. For example, when you need to reject Tengu’s quest, you can spam through the dialogue while holding the downwards menu input, and it will automatically scroll down and select the bottom option.
+
+
+- **In all other cases**, you have to stop spamming right before you reach the choice to prevent selecting the wrong option.
+
+
+If you need the bottom option on a long list, you can press the menu upwards input to wrap around and reach the bottom option. This can''t be buffered though.
+
+## Dialogue Skip Instructions
+
+Here are the instructions for how to do various dialogue optimally. Depending on the run you are doing, the procedure may differ. Please make sure you are following the right instructions.
+
+### Kuro Tutorial
+
+#### Standard:
+
+1. Talk to Kuro.
+2. Spam until item.
+3. Cancel.
+4. Finished.
+
+#### Charmless:
+
+1. Talk to Kuro.
+2. Top option on first prompt.
+3. Buffer down input.
+4. Bottom option on second prompt.
+5. Cancel.
+6. Finished.
+
+### Tengu Post-Gyoubu
+
+#### Reject quest:
+
+1. Talk to Tengu.
+2. Buffer down input.
+3. Bottom option - Reject.
+4. Cancel.
+5. Finished.
+
+#### Accept quest:
+
+1. Talk to Tengu.
+2. Top option - Accept.
+3. Spam until Rat Description item.
+4. Cancel.
+5. Talk to Tengu.
+6. Spam until Ashina Esoteric Text item.
+7. Cancel.
+8. Finished.
+
+### Post-Genichiro
+
+ 1. Talk to Kuro.
+ 2. Buffer down input.
+ 3. Bottom option - Obey the Iron Code, protect Kuro.
+ 4. Cancel.
+ 5. Talk to Kuro.
+ 6. Insta cancel.
+ 7. Interact with Incense.
+ 8. Talk to Kuro.
+ 9. Insta cancel.
+10. Get Kuro’s Room Idol.
+11. Talk to Kuro.
+12. Insta cancel.
+13. Open window (or go upstairs for zee4 windowless).
+14. Talk to Isshin.
+15. Top Option - About Immortal Severance.
+16. (Slow down spam to avoid picking wrong option).
+17. Middle Option - Where can the Mortal Blade be found.
+18. Cancel.
+19. Finished.
+
+### First Visit to the Sculptor
+
+#### Skillbook:
+
+1. Talk to Sculptor.
+2. Insta cancel.
+3. Talk to Sculptor.
+4. Insta cancel.
+5. Finished.
+
+#### Skillbook + Prosthetics:
+
+ 1. Talk to Sculptor.
+ 2. Insta cancel.
+ 3. Walk to the side of sculptor
+ 4. Talk to Sculptor.
+ 5. Spam until Shinobi Esoteric Text.
+ 6. Cancel.
+ 7. Walk near upgrade table (to prevent Sculptor from pivoting).
+ 8. Talk to Sculptor.
+ 9. Fit Prosthetics.
+10. Finished.
+
+### Owl Invasion
+
+#### Shura:
+
+1. Talk to Owl.
+2. Top option - Obey the Iron Code, forsake Kuro.
+3. Top option again.
+4. Cancel.
+5. Finished.
+
+#### Immortal Severance (and other endings):
+
+1. Talk to Owl.
+2. Buffer down input.
+3. Bottom Option - Break the Iron Code, stay loyal to Kuro.
+4. Cancel.
+5. Finished.
+
+### Post-Owl
+
+#### Immortal Severance:
+
+ 1. Get Kuro’s Room Idol.
+ 2. Rest.
+ 3. Talk to Kuro.
+ 4. Insta cancel.
+ 5. Talk to Kuro.
+ 6. Talk until item.
+ 7. Cancel.
+ 8. Talk to Kuro.
+ 9. Talk until item.
+10. Cancel.
+11. Talk to Kuro.
+12. Insta cancel.
+13. Talk to Kuro.
+14. Talk until item.
+15. Talk to Emma.
+16. Insta cancel.
+17. Talk to Emma.
+18. Insta cancel.
+19. Talk to Emma.
+20. Insta cancel.
+21. Talk to Kuro.
+22. Insta cancel.
+23. Interact with incense.
+24. Spam cancel once screen fades out.
+25. Finished.
+
+(Alternatively for the Emma dialogue, you can insta cancel the first one, and then spam until item and cancel).
+
+### Owl in Hirata (Hidden Temple Key)
+
+1. Talk to Owl.
+2. Insta cancel.
+3. Finished.',3,2,'2026-11-18 07:48:15.863654','approved','2026-11-18 07:48:15.863282','2026-11-18 07:49:50.990371',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 CREATE TABLE speedrun_links (
         id INTEGER PRIMARY KEY,
         user_id INTEGER NOT NULL UNIQUE REFERENCES users(id),
@@ -2721,8 +2893,8 @@ CREATE TABLE speedrun_links (
         pbs TEXT,
         synced_at DATETIME
     );
-INSERT INTO "speedrun_links" VALUES(2,15,'8deek7mj','Insidioussss_','https://www.speedrun.com/users/Insidioussss_','linked','moderator','2026-11-14 10:14:05.483524','2026-11-14 10:16:15.779207',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 150, "seconds": 1923, "date": "2026-07-29", "url": "https://www.speedrun.com/sekiro/runs/ylwolqrz"}, {"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Restricted"], "platform": "PC", "place": 29, "seconds": 1291, "date": "2026-09-25", "url": "https://www.speedrun.com/sekiro/runs/ylwxx3nz"}]','2026-11-16 22:10:29.447678');
-INSERT INTO "speedrun_links" VALUES(3,1,'j9pl7gox','Riyu','https://www.speedrun.com/users/Riyu','linked','moderator','2026-11-14 10:22:31.452543','2026-11-14 10:22:49.409172',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 281, "seconds": 2108, "date": "2024-05-15", "url": "https://www.speedrun.com/sekiro/runs/zgllok0m"}]','2026-11-17 02:43:23.184360');
+INSERT INTO "speedrun_links" VALUES(2,15,'8deek7mj','Insidioussss_','https://www.speedrun.com/users/Insidioussss_','linked','moderator','2026-11-14 10:14:05.483524','2026-11-14 10:16:15.779207',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 151, "seconds": 1923, "date": "2026-07-29", "url": "https://www.speedrun.com/sekiro/runs/ylwolqrz"}, {"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Restricted"], "platform": "PC", "place": 29, "seconds": 1291, "date": "2026-09-25", "url": "https://www.speedrun.com/sekiro/runs/ylwxx3nz"}]','2026-11-18 09:00:30.584601');
+INSERT INTO "speedrun_links" VALUES(3,1,'j9pl7gox','Riyu','https://www.speedrun.com/users/Riyu','linked','moderator','2026-11-14 10:22:31.452543','2026-11-14 10:22:49.409172',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 282, "seconds": 2108, "date": "2024-05-15", "url": "https://www.speedrun.com/sekiro/runs/zgllok0m"}]','2026-11-18 11:57:58.759816');
 CREATE TABLE tags (
         id INTEGER PRIMARY KEY,
         name VARCHAR(80) NOT NULL,
@@ -4402,21 +4574,21 @@ INSERT INTO "wiki_pages" VALUES(182,'Lady Butterfly','## Lady Butterfly
 Lady Butterfly is a Boss that appears in Hirata Estate.','approved',NULL,NULL,NULL,4,2,'2026-11-15 09:32:51.157324','2026-11-15 09:33:01.717788','lady-butterfly','2026-11-15 09:32:51.153422','2026-11-15 09:33:01.715143',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 INSERT INTO "wiki_pages" VALUES(183,'Dialogue Skip','## Dialogue Skip
 
-Dialogue skipping is the act of cancelling out of dialogue early with the menu button and still having it flagged as completed. Cancelling out only works if it’s done at the right time. It is required to have **subtitles turned off in the Sound and Display settings** for this to work.
+Dialogue skipping is the act of cancelling out of dialogue early with the menu button and still having it flagged as completed. Cancelling out early only works if it’s done at the right time. It is required to have **subtitles turned off in the Sound and Display settings** for this to work.
 
 The text language does not matter. Japanese voice language is recommended. Using any other voice language will lose time when picking up the Gunfort Shrine Key, which will lose time in some categories. Otherwise, there is no difference in speed.
 
 ## Dialogue Mashing
 
-Recommended dialogue spamming speed is either around 3 clicks per second or 6 clicks per second. After a dialogue line is skipped, the next one can only be skipped after 0.33s (20 frames), therefore it is beneficial to have a clicks per second speed that is a multiple of 3. [This site](https://cps-check.com/keyboard-cps) can be used to measure spamming speed.
+Recommended dialogue spamming speed is either around 3 clicks per second or 6 clicks per second. After a dialogue line is skipped, the next one can only be skipped after 0.33s (20 frames), therefore it is beneficial to have a clicks per second speed that is a multiple of 3 or thereabouts. [This site](https://cps-check.com/keyboard-cps) can be used to measure spamming speed.
 
 Some top runners will memorize the dialogue lines and listen to tell if they are pressing too early, too late or right on time, based on how much time it takes for the NPC to say certain words. This is also why some runners choose to not use Japanese, despite it potentially losing time. Because if you choose a voice language you understand, then it’s easier to memorize the lines. Even if you are not going to memorize lines, it’s a good idea to have the voice sound loud enough that you can hear what’s going on.
 
-By default you should be spamming through the lines (important). However, sometimes you need to choose an option and in these cases, you may need to stop spamming.
+By default you should be spamming through the lines (important). However, sometimes you need to choose an option, which may require you to stop spamming.
 
 ## Dialogue Choices
 
-In some dialogue sequences there will be specific options that have to be selected. There are some strategies that can be employed to save time depending on where on the list of dialogue choices the option you need is. The document will also include when these can be applied to save time.
+In some dialogue sequences there will be specific options that have to be selected. There are some strategies that can be used to save time depending on where on the list of dialogue choices the option you need is.
 
 - **If you need the top option**, you can just continue spamming because the top option will always be highlighted by default.
 
@@ -4425,6 +4597,9 @@ In some dialogue sequences there will be specific options that have to be select
 
 
 - **In all other cases**, you have to stop spamming right before you reach the choice to prevent selecting the wrong option.
+
+
+If you need the bottom option on a long list, you can press the menu upwards input to wrap around and reach the bottom option. This can''t be buffered though.
 
 ## Dialogue Skip Instructions
 
@@ -4568,7 +4743,7 @@ Here are the instructions for how to do various dialogue optimally. Depending on
 
 1. Talk to Owl.
 2. Insta cancel.
-3. Finished.','approved',NULL,NULL,NULL,3,2,'2026-11-17 20:10:15.175030','2026-11-17 20:10:56.780979','dialogue-skip','2026-11-17 20:10:15.170814','2026-11-17 20:10:56.778903',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
+3. Finished.','approved',NULL,NULL,NULL,3,2,'2026-11-17 20:10:15.175030','2026-11-18 07:49:50.982678','dialogue-skip','2026-11-17 20:10:15.170814','2026-11-17 20:10:56.778903',2,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,NULL,NULL);
 CREATE TABLE wiki_revisions (
 	id INTEGER NOT NULL, 
 	page_id INTEGER, 
@@ -8374,6 +8549,175 @@ A faster but riskier variation, where block hits (l1 into r1 on controller, or r
 This variation has the downside that it can make Armored Warrior seemingly randomly cancel his Berserk and start doing regular attacks instead, which loses a large amount of time. It is not that rare for it to happen and because you only save 1 hit worth of time by doing the 7-hit variation, it generally does not save time that consistently, but may be useful if the timesave is absolutely required.',3,1,'2026-11-17 02:45:25.228443','',NULL,'edit',NULL);
 INSERT INTO "wiki_revisions" VALUES(129,16,'Mitchriz','## Mitchriz
 Mitchriz is a speedrun content creator with a focus on Sekiro, Elden Ring and Lies of P.',2,2,'2026-11-17 21:44:46.442023','','https://static-cdn.jtvnw.net/jtv_user_pictures/6b2c8d23-e4fd-493c-b21c-b675b0523a2b-profile_image-70x70.png','edit','{"side":"right","width":"md","blocks":[{"type":"title","text":"Mitchriz","subtitle":"","align":"center","size":"md"},{"type":"image","src":"https://i.ytimg.com/vi/OEKafeBoxxI/maxresdefault.jpg","alt":"https://www.google.com/imgres?q=mitchriz%20sekiro%20games%20done%20quick&imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FOEKafeBoxxI%2Fmaxresdefault.jpg&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DO","caption":"Mitchriz at GamesDoneQuick 2025","height":"sm","fit":"cover"},{"type":"rows","rows":[{"label":"Country","value":"United States","icon":""}],"label_width":"md","striped":false},{"type":"link","text":"Twitch.tv","url":"https://www.twitch.tv/mitchriz","style":"button"},{"type":"link","text":"YouTube","url":"https://www.youtube.com/c/Mitchriz","style":"button"},{"type":"link","text":"Speedrun.com","url":"https://www.speedrun.com/users/Mitchriz","style":"button"}]}');
+INSERT INTO "wiki_revisions" VALUES(130,183,'Dialogue Skip','## Dialogue Skip
+
+Dialogue skipping is the act of cancelling out of dialogue early with the menu button and still having it flagged as completed. Cancelling out only works if it’s done at the right time. It is required to have **subtitles turned off in the Sound and Display settings** for this to work.
+
+The text language does not matter. Japanese voice language is recommended. Using any other voice language will lose time when picking up the Gunfort Shrine Key, which will lose time in some categories. Otherwise, there is no difference in speed.
+
+## Dialogue Mashing
+
+Recommended dialogue spamming speed is either around 3 clicks per second or 6 clicks per second. After a dialogue line is skipped, the next one can only be skipped after 0.33s (20 frames), therefore it is beneficial to have a clicks per second speed that is a multiple of 3. [This site](https://cps-check.com/keyboard-cps) can be used to measure spamming speed.
+
+Some top runners will memorize the dialogue lines and listen to tell if they are pressing too early, too late or right on time, based on how much time it takes for the NPC to say certain words. This is also why some runners choose to not use Japanese, despite it potentially losing time. Because if you choose a voice language you understand, then it’s easier to memorize the lines. Even if you are not going to memorize lines, it’s a good idea to have the voice sound loud enough that you can hear what’s going on.
+
+By default you should be spamming through the lines (important). However, sometimes you need to choose an option and in these cases, you may need to stop spamming.
+
+## Dialogue Choices
+
+In some dialogue sequences there will be specific options that have to be selected. There are some strategies that can be employed to save time depending on where on the list of dialogue choices the option you need is. The document will also include when these can be applied to save time.
+
+- **If you need the top option**, you can just continue spamming because the top option will always be highlighted by default.
+
+
+- **If you need the bottom option (and the menu has 3 or less options)**, you can hold the downwards menu input to automatically select it without stopping spamming. For example, when you need to reject Tengu’s quest, you can spam through the dialogue while holding the downwards menu input, and it will automatically scroll down and select the bottom option.
+
+
+- **In all other cases**, you have to stop spamming right before you reach the choice to prevent selecting the wrong option.
+
+## Dialogue Skip Instructions
+
+Here are the instructions for how to do various dialogue optimally. Depending on the run you are doing, the procedure may differ. Please make sure you are following the right instructions.
+
+### Kuro Tutorial
+
+#### Standard:
+
+1. Talk to Kuro.
+2. Spam until item.
+3. Cancel.
+4. Finished.
+
+#### Charmless:
+
+1. Talk to Kuro.
+2. Top option on first prompt.
+3. Buffer down input.
+4. Bottom option on second prompt.
+5. Cancel.
+6. Finished.
+
+### Tengu Post-Gyoubu
+
+#### Reject quest:
+
+1. Talk to Tengu.
+2. Buffer down input.
+3. Bottom option - Reject.
+4. Cancel.
+5. Finished.
+
+#### Accept quest:
+
+1. Talk to Tengu.
+2. Top option - Accept.
+3. Spam until Rat Description item.
+4. Cancel.
+5. Talk to Tengu.
+6. Spam until Ashina Esoteric Text item.
+7. Cancel.
+8. Finished.
+
+### Post-Genichiro
+
+ 1. Talk to Kuro.
+ 2. Buffer down input.
+ 3. Bottom option - Obey the Iron Code, protect Kuro.
+ 4. Cancel.
+ 5. Talk to Kuro.
+ 6. Insta cancel.
+ 7. Interact with Incense.
+ 8. Talk to Kuro.
+ 9. Insta cancel.
+10. Get Kuro’s Room Idol.
+11. Talk to Kuro.
+12. Insta cancel.
+13. Open window (or go upstairs for zee4 windowless).
+14. Talk to Isshin.
+15. Top Option - About Immortal Severance.
+16. (Slow down spam to avoid picking wrong option).
+17. Middle Option - Where can the Mortal Blade be found.
+18. Cancel.
+19. Finished.
+
+### First Visit to the Sculptor
+
+#### Skillbook:
+
+1. Talk to Sculptor.
+2. Insta cancel.
+3. Talk to Sculptor.
+4. Insta cancel.
+5. Finished.
+
+#### Skillbook + Prosthetics:
+
+ 1. Talk to Sculptor.
+ 2. Insta cancel.
+ 3. Walk to the side of sculptor
+ 4. Talk to Sculptor.
+ 5. Spam until Shinobi Esoteric Text.
+ 6. Cancel.
+ 7. Walk near upgrade table (to prevent Sculptor from pivoting).
+ 8. Talk to Sculptor.
+ 9. Fit Prosthetics.
+10. Finished.
+
+### Owl Invasion
+
+#### Shura:
+
+1. Talk to Owl.
+2. Top option - Obey the Iron Code, forsake Kuro.
+3. Top option again.
+4. Cancel.
+5. Finished.
+
+#### Immortal Severance (and other endings):
+
+1. Talk to Owl.
+2. Buffer down input.
+3. Bottom Option - Break the Iron Code, stay loyal to Kuro.
+4. Cancel.
+5. Finished.
+
+### Post-Owl
+
+#### Immortal Severance:
+
+ 1. Get Kuro’s Room Idol.
+ 2. Rest.
+ 3. Talk to Kuro.
+ 4. Insta cancel.
+ 5. Talk to Kuro.
+ 6. Talk until item.
+ 7. Cancel.
+ 8. Talk to Kuro.
+ 9. Talk until item.
+10. Cancel.
+11. Talk to Kuro.
+12. Insta cancel.
+13. Talk to Kuro.
+14. Talk until item.
+15. Talk to Emma.
+16. Insta cancel.
+17. Talk to Emma.
+18. Insta cancel.
+19. Talk to Emma.
+20. Insta cancel.
+21. Talk to Kuro.
+22. Insta cancel.
+23. Interact with incense.
+24. Spam cancel once screen fades out.
+25. Finished.
+
+(Alternatively for the Emma dialogue, you can insta cancel the first one, and then spam until item and cancel).
+
+### Owl in Hirata (Hidden Temple Key)
+
+1. Talk to Owl.
+2. Insta cancel.
+3. Finished.',3,2,'2026-11-18 07:49:50.985121','',NULL,'edit',NULL);
 CREATE UNIQUE INDEX ix_categories_slug ON categories (slug);
 CREATE UNIQUE INDEX ix_wiki_pages_slug ON wiki_pages (slug);
 CREATE UNIQUE INDEX ix_page_slug_redirects_old_slug ON page_slug_redirects (old_slug);
