@@ -2893,8 +2893,9 @@ CREATE TABLE speedrun_links (
         pbs TEXT,
         synced_at DATETIME
     );
-INSERT INTO "speedrun_links" VALUES(2,15,'8deek7mj','Insidioussss_','https://www.speedrun.com/users/Insidioussss_','linked','moderator','2026-11-14 10:14:05.483524','2026-11-14 10:16:15.779207',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 151, "seconds": 1923, "date": "2026-07-29", "url": "https://www.speedrun.com/sekiro/runs/ylwolqrz"}, {"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Restricted"], "platform": "PC", "place": 29, "seconds": 1291, "date": "2026-09-25", "url": "https://www.speedrun.com/sekiro/runs/ylwxx3nz"}]','2026-11-18 09:00:30.584601');
-INSERT INTO "speedrun_links" VALUES(3,1,'j9pl7gox','Riyu','https://www.speedrun.com/users/Riyu','linked','moderator','2026-11-14 10:22:31.452543','2026-11-14 10:22:49.409172',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 282, "seconds": 2108, "date": "2024-05-15", "url": "https://www.speedrun.com/sekiro/runs/zgllok0m"}]','2026-11-18 11:57:58.759816');
+INSERT INTO "speedrun_links" VALUES(2,15,'8deek7mj','Insidioussss_','https://www.speedrun.com/users/Insidioussss_','linked','moderator','2026-11-14 10:14:05.483524','2026-11-14 10:16:15.779207',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 151, "seconds": 1923, "date": "2026-07-29", "url": "https://www.speedrun.com/sekiro/runs/ylwolqrz"}, {"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Restricted"], "platform": "PC", "place": 29, "seconds": 1291, "date": "2026-09-25", "url": "https://www.speedrun.com/sekiro/runs/ylwxx3nz"}]','2026-11-20 01:49:56.799369');
+INSERT INTO "speedrun_links" VALUES(3,1,'j9pl7gox','Riyu','https://www.speedrun.com/users/Riyu','linked','moderator','2026-11-14 10:22:31.452543','2026-11-14 10:22:49.409172',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 282, "seconds": 2108, "date": "2024-05-15", "url": "https://www.speedrun.com/sekiro/runs/zgllok0m"}]','2026-11-19 20:13:42.187284');
+INSERT INTO "speedrun_links" VALUES(4,8,'jn62014x','kellyskater','https://www.speedrun.com/users/kellyskater','pending','moderator','2026-11-20 02:04:38.703016',NULL,NULL,NULL,NULL);
 CREATE TABLE tags (
         id INTEGER PRIMARY KEY,
         name VARCHAR(80) NOT NULL,
@@ -2950,7 +2951,7 @@ INSERT INTO "users" VALUES(4,'Logan360sg','','verified',NULL,'2026-09-16 19:34:4
 INSERT INTO "users" VALUES(5,'Silentsolid','','verified',NULL,'2026-09-16 19:35:05.036028',0,NULL);
 INSERT INTO "users" VALUES(6,'kierran','','user',NULL,'2026-09-16 19:37:32.265247',0,NULL);
 INSERT INTO "users" VALUES(7,'koko838','','verified','https://static-cdn.jtvnw.net/jtv_user_pictures/154ce9bf-642b-4284-853e-4ab682b5b7ed-profile_image-70x70.png','2026-09-16 19:45:50.240738',0,NULL);
-INSERT INTO "users" VALUES(8,'kellyskater','','verified','https://files.catbox.moe/e1luf4.png','2026-09-16 23:33:30.422490',0,NULL);
+INSERT INTO "users" VALUES(8,'kellyskater','','verified','https://files.catbox.moe/e1luf4.png','2026-09-16 23:33:30.422490',0,'ALMOST sub19 shura restricted runner bruh');
 INSERT INTO "users" VALUES(9,'pay_','','verified','https://static-cdn.jtvnw.net/jtv_user_pictures/e8d4e53c-2589-4d12-82ce-c78208ff674a-profile_image-70x70.png','2026-09-17 03:36:33.380742',0,NULL);
 INSERT INTO "users" VALUES(10,'Yv999','','user',NULL,'2026-09-17 16:40:09.973183',0,NULL);
 INSERT INTO "users" VALUES(11,'Typical','','user',NULL,'2026-09-18 03:22:38.313999',0,NULL);
