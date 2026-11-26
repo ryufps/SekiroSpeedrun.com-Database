@@ -2894,7 +2894,7 @@ CREATE TABLE speedrun_links (
         synced_at DATETIME
     );
 INSERT INTO "speedrun_links" VALUES(2,15,'8deek7mj','Insidioussss_','https://www.speedrun.com/users/Insidioussss_','linked','moderator','2026-11-14 10:14:05.483524','2026-11-14 10:16:15.779207',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 151, "seconds": 1923, "date": "2026-07-29", "url": "https://www.speedrun.com/sekiro/runs/ylwolqrz"}, {"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Restricted"], "platform": "PC", "place": 29, "seconds": 1291, "date": "2026-09-25", "url": "https://www.speedrun.com/sekiro/runs/ylwxx3nz"}]','2026-11-22 11:22:35.084189');
-INSERT INTO "speedrun_links" VALUES(3,1,'j9pl7gox','Riyu','https://www.speedrun.com/users/Riyu','linked','moderator','2026-11-14 10:22:31.452543','2026-11-14 10:22:49.409172',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 282, "seconds": 2108, "date": "2024-05-15", "url": "https://www.speedrun.com/sekiro/runs/zgllok0m"}]','2026-11-24 20:18:47.516602');
+INSERT INTO "speedrun_links" VALUES(3,1,'j9pl7gox','Riyu','https://www.speedrun.com/users/Riyu','linked','moderator','2026-11-14 10:22:31.452543','2026-11-14 10:22:49.409172',1,'[{"category": "Shura", "category_id": "w20vw6zk", "rulesets": ["Glitchless"], "platform": "PC", "place": 282, "seconds": 2108, "date": "2024-05-15", "url": "https://www.speedrun.com/sekiro/runs/zgllok0m"}]','2026-11-25 19:54:48.715851');
 INSERT INTO "speedrun_links" VALUES(4,8,'jn62014x','kellyskater','https://www.speedrun.com/users/kellyskater','pending','moderator','2026-11-20 02:04:38.703016',NULL,NULL,NULL,NULL);
 CREATE TABLE tags (
         id INTEGER PRIMARY KEY,
@@ -2934,6 +2934,7 @@ INSERT INTO "uploads" VALUES(5,'203e565aca801028d2551df6db7ab600.webp','post',2,
 INSERT INTO "uploads" VALUES(6,'df2046c6fd1d412aa76881ecee04ffe8.webp','avatar',15,7454,256,256,'2026-11-14 10:17:44.202041');
 INSERT INTO "uploads" VALUES(7,'f92b95db53c8b402dc934a6f75a4a634.webp','post',1,18134,957,663,'2026-11-17 02:41:00.874899');
 INSERT INTO "uploads" VALUES(8,'dff66b268a0d90e527bae90f39d65f03.webp','icon',2,7614,512,512,'2026-11-17 21:38:55.588677');
+INSERT INTO "uploads" VALUES(9,'8081b1909f3765a05df2fdf688b0b7eb.webp','avatar',16,10670,256,256,'2026-11-25 21:14:32.781229');
 CREATE TABLE users (
 	id INTEGER NOT NULL, 
 	username VARCHAR(80) NOT NULL, 
@@ -2961,6 +2962,7 @@ INSERT INTO "users" VALUES(14,'SaraToga','','verified','https://cdn.discordapp.c
 INSERT INTO "users" VALUES(15,'Insidioussss','','verified','/uploads/df2046c6fd1d412aa76881ecee04ffe8.webp','2026-10-30 09:16:18.196762',0,'An insane man, with insane plans! Primarily runs Shura Restricted and Shura Glitchless however is knowledgeable about many things Sekiro and a certified Jimmy skipper :3
 
 Pssst ask me about my Insidipede :3');
+INSERT INTO "users" VALUES(16,'boat','','user','/uploads/8081b1909f3765a05df2fdf688b0b7eb.webp','2026-11-25 21:13:11.278831',0,'Sekiro enjoyer.');
 CREATE TABLE wiki_pages (
 	id INTEGER NOT NULL, 
 	title VARCHAR(150) NOT NULL, 
